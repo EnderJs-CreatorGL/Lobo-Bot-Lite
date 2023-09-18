@@ -5,6 +5,8 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const teks = `*❒═════[𝐑𝐄𝐏𝐎𝐑𝐓𝐄]═════❒*\n*┬*\n*├❧ 𝙽𝚄𝙼𝙴𝚁𝙾:* wa.me/${m.sender.split`@`[0]}\n*┴*\n*┬*\n*├❧ 𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${text}\n*┴*`;
   conn.reply('51992004117@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
   conn.reply('51992004117@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
+  conn.reply('50576390682@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
+  conn.reply('50576390682@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
   m.reply(`*[ 🚨 ] 𝙴𝚇𝙸𝚃𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙴𝙽𝚅𝙸𝙰𝙳𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝚈 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾, 𝚂𝚄 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝚂𝙴𝚁𝙰́ 𝙰𝚃𝙴𝙽𝙳𝙸𝙳𝙾 𝙻𝙾 𝙰𝙽𝚃𝙴𝚂 𝙿𝙾𝚂𝙸𝙱𝙻𝙴, 𝚂𝙸 𝙴𝚂 𝙵𝙰𝙻𝚂𝙾 𝙾 𝙱𝚁𝙾𝙼𝙰 𝚂𝙾𝙻𝙾 𝚂𝙴 𝙸𝙶𝙽𝙾𝚁𝙰𝚁𝙰*`);
 };
 handler.help = ['reporte', 'request'].map((v) => v + ' <teks>');
