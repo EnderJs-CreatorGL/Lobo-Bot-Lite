@@ -477,7 +477,7 @@ setInterval(async () => {
   const status = global.db.data.settings[conn.user.jid] || {};
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `⏳ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime} ┃ 👑 𝙷𝙰𝙲𝙷𝙴-𝙹𝙾𝚃𝙰┃ 🤖 𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃`;
+  const bio = `🕛 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime} ┃ 🌟𝙷𝙰𝙲𝙷𝙴-𝙹𝙾𝚃𝙰🌟┃  💻𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-MD💻`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
