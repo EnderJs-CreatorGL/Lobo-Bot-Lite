@@ -1,5 +1,5 @@
 {
-  "name": "Hschiko--Bot-MD",
+  "name": "Hachiko--Bot-MD",
   "version": "1.0.0",
   "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
   "main": "index.js",
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Hachejota/Hachiko-Bot-MD.",
+  "homepage": "https://github.com/HACHEJOTA/Hachiko-Bot-MD.",
   "author": {
     "name": "HACHEJOTA"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hachejota/Hachiko-Bot-MD.git"
+    "url": "git+https://github.com/HACHEJOTA/Hachiko-Bot-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/Hachejota/Hachiko-Bot-MD/issues"
+    "url": "https://github.com/HACHEJOTA/Hachiko-Bot-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
