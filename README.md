@@ -91,10 +91,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 
- ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
+ ### `—◉ 👑 DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR 👑`
 <a href="http://wa.me/51992004117" target="blank"><img src="https://img.shields.io/badge/HACHE_JOTA_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
+### `—◉ ✦CUSTOMER SUPPORT✦`
 <a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_COSTOMER_SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ## `COLABORADORES DEL BOT` 
