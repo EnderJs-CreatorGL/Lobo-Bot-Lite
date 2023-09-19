@@ -6,7 +6,7 @@ import {setupMaster, fork} from 'cluster';
 import {watchFile, unwatchFile} from 'fs';
 import cfonts from 'cfonts';
 import {createInterface} from 'readline';
-import {yargs} from 'yargs';
+import yargs from 'yargs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const {name, author} = require(join(__dirname, './package.json'));
