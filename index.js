@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando Hachiko-Bot');
+console.log('✅ㅤIniciando Hachiko-Bot-MD...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Hachiko - Bot\n MD', {
+say('Hachiko - Bot - MD\nWhatsApp Bot MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`By Hache Jota`, {
+say(`Bot creado por HACHEJOTA`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('🚨ㅤOcurrio un error inesperado:', code);
+    console.error('❎ㅤOcurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
