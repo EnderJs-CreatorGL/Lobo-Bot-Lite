@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('❎ㅤOcurrio un error inesperado:', code);
+    console.error('🚨ㅤOcurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
@@ -71,7 +71,7 @@ function start(file) {
   const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
   if (!opts['test']) {
     if (!rl.listenerCount()) {
-      rl.on('line', (line) => {
+      rl.on('line'), (line) => {
         p.emit('message', line.trim());
       });
     }
