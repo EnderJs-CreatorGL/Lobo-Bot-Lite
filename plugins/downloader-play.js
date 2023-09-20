@@ -24,7 +24,18 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 ⟣☘︎ 🔮 *𝙲𝙰𝙽𝙰𝙻:* ${yt_play[0].author.url}
 ⟣☘︎ 🔗 *𝙻𝙸𝙽𝙺:* ${yt_play[0].url}\n
 ⟣☘︎ *_Enviando ${additionalText}, aguarde un momento．．_*`.trim();
-    conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
+    //conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
+    await conn.sendMessage(m.chat, {
+text: texto1,
+contextInfo: {
+externalAdReply: {
+title: yt_play[0].title,
+body: wm,
+thumbnailUrl: yt_play[0].thumbnail, 
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true
+}}} , { quoted: m })
     if (command == 'play') {
       try {      
           await YTDL.mp3(yt_play[0].url).then(async (s) => {
