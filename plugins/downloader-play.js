@@ -16,7 +16,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = 'video 🎥';
     }
-    const texto1 = `
+    const texto1 = ` prueba
 ⟣☘︎ 📃 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
 ⟣☘︎ ⏱️ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${secondString(yt_play[0].duration.seconds)}
 ⟣☘︎ 🧿 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${`${MilesNumber(yt_play[0].views)}`}
@@ -54,7 +54,7 @@ renderLargerThumbnail: true
         })
         buff.on('end', async () => {
           let buff = Buffer.concat(bufs)
-          conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m})}}} 
+          conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m})}}}
 //conn.sendMessage(m.chat, buttonMessage, { quoted: m });
         })
       } catch {
