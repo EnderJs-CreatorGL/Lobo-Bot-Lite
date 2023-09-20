@@ -43,7 +43,8 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
         })
         buff.on('end', async () => {
           let buff = Buffer.concat(bufs)
-          conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
+          conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m}),"mediaUrl": `${yt_play[0].url}`, "sourceUrl": global.md}}} 
+conn.sendMessage(m.chat, buttonMessage, { quoted: m });
         })
       } catch {
       try {
