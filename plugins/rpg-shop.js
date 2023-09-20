@@ -8,10 +8,10 @@ const handler = async (m, {conn, command, args}) => {
     global.db.data.users[m.sender].limit += count;
     conn.reply(m.chat, `
 ┌─「 *NOTA DE PAGO* 」
-‣ *Compra nominal* : + ${count}💎 
-‣ *Gastado* : -${xpperlimit * count} XP
+‣ *𝙲𝙾𝙼𝙿𝚁𝙰 𝙽𝙾𝙼𝙸𝙽𝙰𝙻* : + ${count}💎 
+‣ *𝙶𝙰𝚂𝚃𝙾 𝚃𝙾𝚃𝙰𝙻* : -${xpperlimit * count} XP
 └──────────────`, m);
-  } else conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *XP* para comprar *${count}* Diamantes💎`, m);
+  } else conn.reply(m.chat, `❗ Lo siento, no tienes suficientes *XP* para comprar *${count}* Diamantes💎`, m);
 };
 handler.help = ['Buy', 'Buyall'];
 handler.tags = ['xp'];
