@@ -1,9 +1,10 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-if (usedPrefix == 'a' || usedPrefix == 'A') return;
-const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
-const {money, joincount} = global.db.data.users[m.sender];
-let txt = `┏━━━━━━━━━━━━━━━━━━┓
+  if (usedPrefix == 'a' || usedPrefix == 'A') return;
+  const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
+  const {money, joincount} = global.db.data.users[m.sender];
+  const {exp, limit, level, role} = global.db.data.users[m.sender];
+  let txt = `┏━━━━━━━━━━━━━━━━━━┓
 ┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
 ┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +51 992 004 117
 ┣⟣☯︎ 𝙵𝙴𝙲𝙷𝙰: ${date}
