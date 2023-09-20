@@ -412,18 +412,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⟣❥ _${usedPrefix}menuowner_
 ┗━━━━━━━━━━━━━━━━┛`;
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen4, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: m});
-};
-catch {
-    conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝙿𝙾𝚁𝚅𝙰𝙵𝙾𝚁 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙼𝙴𝙽𝚄𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙲𝙾𝙽 𝙴𝙻 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 .menucompleto*', m);
-  }
-};
+
 handler.command = /^(menu|comandos|menú|help|cmd)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
-function clockString(ms) {
-  const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
-  const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
-  const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-}
