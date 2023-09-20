@@ -3,25 +3,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
   const {money, joincount} = global.db.data.users[m.sender];
-  const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const fload = {
-    key : {
-    remoteJid: 'status@broadcast',
-    participant : '0@s.whatsapp.net' 
-    },
-    message: {
-    orderMessage: {
-    itemCount : 2023,
-    status: 1,
-    surface : 1,
-    message: `${name}` + `\n🚀 Cargando ^ω^`, 
-    orderTitle: `▮Menu ▸`,
-    sellerJid: '0@s.whatsapp.net' 
-    }
-    }
-    }
-    await conn.reply(m.chat, '*Enviando el menu . . .*', fload, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-m.react('🚀')     
   let txt = `┏━━━━━━━━━━━━━━━━━━┓
 ┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
 ┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +51 992 004 117
