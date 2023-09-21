@@ -16,26 +16,15 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = 'video 🎥';
     }
-    const texto1 = ` prueba
+    const texto1 = `
 ⟣☘︎ 📃 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${yt_play[0].title}
 ⟣☘︎ ⏱️ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${secondString(yt_play[0].duration.seconds)}
 ⟣☘︎ 🧿 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${`${MilesNumber(yt_play[0].views)}`}
 ⟣☘︎ 👤 *𝙰𝚄𝚃𝙾𝚁:* ${yt_play[0].author.name}
 ⟣☘︎ 🔮 *𝙲𝙰𝙽𝙰𝙻:* ${yt_play[0].author.url}
 ⟣☘︎ 🔗 *𝙻𝙸𝙽𝙺:* ${yt_play[0].url}\n
-⟣☘︎ *_Enviando ${additionalText}, aguarde un momento．．_*`.trim();
-    //conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
-    await conn.sendMessage(m.chat, {
-text: texto1,
-contextInfo: {
-externalAdReply: {
-title: yt_play[0].title,
-body: wm,
-thumbnailUrl: yt_play[0].thumbnail, 
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: true
-}}} , { quoted: m })
+⟣☘︎ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+    conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
       try {      
           await YTDL.mp3(yt_play[0].url).then(async (s) => {
@@ -54,8 +43,7 @@ renderLargerThumbnail: true
         })
         buff.on('end', async () => {
           let buff = Buffer.concat(bufs)
-          conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m})}}}
-//conn.sendMessage(m.chat, buttonMessage, { quoted: m });
+          conn.sendMessage(m.chat, {audio: buff, fileName: yt_play[0].title + '.mp3', mimetype: 'audio/mpeg'}, {quoted: m});
         })
       } catch {
       try {
@@ -72,7 +60,7 @@ renderLargerThumbnail: true
           const dl_url = await yt.audio[q].download();
           const ttl = await yt.title;
           const size = await yt.audio[q].fileSizeH;
-          await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, {mimetype: 'audio/mpeg'});
+          await conn.sendFile(m.chat, dl_url, ttl + '.mp3', null, m, false, {mimetype: 'audio/mpeg'}),
         } catch {
           try {
             const dataRE = await fetch(`https://api.akuari.my.id/downloader/youtube?link=${yt_play[0].url}`);
