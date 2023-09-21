@@ -1,12 +1,10 @@
-# ` 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 ` 
+# `🐺 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 🐺` 
 
 ------------------
 
 ### `—◉ 💟 GRUPO DEL BOT 💟`
 
-<a href="https://chat.whatsapp.com/BMGMxj6cU9o4S3huVByLFc" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DEL_BOT_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-> LOS NUMEROS NO SON BOTS Y EN EL GRUPO NO SE PERMITEN NUMEROS QUE SEAN BOTS
 
 ### `—◉ 🤖 BOTS OFICIALES 🤖`
 
@@ -52,7 +50,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/HACHEJOTA/Hachiko-Bot-MD.git && cd Hachiko-Bot-MD
+git clone https://github.com/Ender-GB-Isis/LOBO-BOT-MD.git && cd LOBO-BOT-MD
 ```
 
 ```bash
