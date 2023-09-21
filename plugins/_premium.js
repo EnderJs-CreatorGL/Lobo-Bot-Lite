@@ -8,7 +8,7 @@ export async function all(m) {
         user.premium = false;
         const JID = Object.keys(global.db.data.users).find((key) => global.db.data.users[key] === user);
         const usuarioJid = JID.split`@`[0];
-        const textoo = `*[❗] @${usuarioJid} 𝚃𝚄 𝚃𝙸𝙴𝙼𝙿𝙾 𝙲𝙾𝙼𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝙷𝙰 𝙴𝚇𝙿𝙸𝚁𝙰𝙳𝙾, 𝚈𝙰 𝙽𝙾 𝙴𝚁𝙴𝚂 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*`;
+        const textoo = `[❗] @${usuarioJid} 𝐒𝐞 𝐚𝐜𝐚𝐛𝐨 𝐭𝐮 𝐭𝐢𝐞𝐦𝐩𝐨, 𝐲𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐩𝐫𝐞𝐦𝐢𝐮𝐦`;
         await this.sendMessage(JID, {text: textoo, mentions: [JID]}, {quoted: ''});
       }
     }
@@ -25,6 +25,6 @@ export async function all(m) {
     user.premiumTime = 0
     user.premium = false
 
-    await m.reply(`*[❗] @${m.sender.split`@`[0]} 𝚃𝚄 𝚃𝙸𝙴𝙼𝙿𝙾 𝙲𝙾𝙼𝙾 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝙷𝙰 𝙴𝚇𝙿𝙸𝚁𝙰𝙳𝙾, 𝚈𝙰 𝙽𝙾 𝙴𝚁𝙴𝚂 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙿𝚁𝙴𝙼𝙸𝚄𝙼*`, m.sender, { mentions: [m.sender] })
+    await m.reply(`[❗] @${m.sender.split`@`[0]} 𝐒𝐞 𝐚𝐜𝐚𝐛𝐨 𝐭𝐮 𝐭𝐢𝐞𝐦𝐩𝐨, 𝐲𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐩𝐫𝐞𝐦𝐢𝐮𝐦`, m.sender, { mentions: [m.sender] })
   }
 }*/
