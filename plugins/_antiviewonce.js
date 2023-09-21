@@ -13,9 +13,9 @@ export async function before(m, {isAdmin, isBotAdmin}) {
       buffer = Buffer.concat([buffer, chunk]);
     }
     if (/video/.test(type)) {
-      return this.sendFile(m.chat, buffer, 'error.mp4', `${msg[type].caption}\n\n*𝙰𝚀𝚄𝙸 𝙽𝙾 𝚂𝙴 𝙿𝙴𝚁𝙼𝙸𝚃𝙴 𝙾𝙲𝚄𝙻𝚃𝙰𝚁 𝙽𝙰𝙳𝙰*`, m);
+      return this.sendFile(m.chat, buffer, 'error.mp4', `${msg[type].caption}\n\n𝐏𝐮𝐞𝐝𝐨 𝐯𝐞𝐫 𝐭𝐨𝐝𝐨 𝐬𝐢𝐢`, m);
     } else if (/image/.test(type)) {
-      return this.sendFile(m.chat, buffer, 'error.jpg', `${msg[type].caption}\n\n*𝙰𝚀𝚄𝙸 𝙽𝙾 𝚂𝙴 𝙿𝙴𝚁𝙼𝙸𝚃𝙴 𝙾𝙲𝚄𝙻𝚃𝙰𝚁 𝙽𝙰𝙳𝙰*`, m);
+      return this.sendFile(m.chat, buffer, 'error.jpg', `${msg[type].caption}\n\n𝐏𝐮𝐞𝐝𝐨 𝐯𝐞𝐫 𝐭𝐨𝐝𝐨 𝐬𝐢𝐢`, m);
     }
   }
 }
