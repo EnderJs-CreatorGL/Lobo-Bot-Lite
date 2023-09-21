@@ -477,7 +477,7 @@ setInterval(async () => {
   const status = global.db.data.settings[conn.user.jid] || {};
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `⏰𝗡𝗙𝗢 𝗧𝗜𝗘𝗠𝗣𝗢: ${uptime} ┃☆𝗘𝗻𝗱𝗲𝗿 𝗟𝗕☆┃ 🐺 𝗟𝗼𝗯𝗼`;
+  const bio = `⏰ 𝗜𝗡𝗙𝗢 𝗧𝗜𝗘𝗠𝗣𝗢: ${uptime} ┃☆𝗘𝗻𝗱𝗲𝗿 𝗟𝗕☆┃ 🐺 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
