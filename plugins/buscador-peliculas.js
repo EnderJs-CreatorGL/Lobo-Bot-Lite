@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import {load} from 'cheerio';
 const handler = async (m, {text, usedPrefix, command, conn}) => {
-  if (!text) throw '*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙿𝙴𝙻𝙸𝙲𝚄𝙻𝙰 𝙰 𝙱𝚄𝚂𝙲𝙰𝚁*';
+  if (!text) throw '[❗]𝐈𝐧𝐠𝐫𝐞𝐬𝐞 𝐥𝐚 𝐩𝐞𝐥𝐢 𝐚 𝐛𝐮𝐬𝐜𝐚𝐫';
   let aaaa;
   let img;
   try {
@@ -14,7 +14,7 @@ const handler = async (m, {text, usedPrefix, command, conn}) => {
     aaaa = await searchP(text);
     img = 'https://elcomercio.pe/resizer/RJM30xnujgfmaODGytH1rRVOrAA=/400x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/BJ2L67XNRRGHTFPKPDOEQ2AH5Y.jpg';
   }
-  if (aaaa == '') throw '*[❗] 𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾 𝙽𝙸𝙽𝙶𝚄𝙽𝙰 𝙿𝙴𝙻𝙸𝙲𝚄𝙻𝙰*';
+  if (aaaa == '') throw '[❗]𝐌𝐦𝐦, 𝐩𝐞𝐥𝐢 𝐧𝐨 𝐞𝐧𝐜𝐨𝐧𝐭𝐫𝐚𝐝𝐚';
   const res = await aaaa.map((v) => `*🎬 • Nombre:* ${v.title}\n*🍿 • Url:* ${v.link}`).join`\n\n───────────────\n\n`;
   const ads = '*💫 • Bloqueador de anuncios recomendado:* Block This\n*⛨ • Link:* https://block-this.com/block-this-latest.apk\n\n≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣\n\n';
   conn.sendMessage(m.chat, {image: {url: img}, caption: ads + res}, {quoted: m});
@@ -74,7 +74,7 @@ const handler = async (m, { text, usedPrefix, command, conn }) => {
   let result = await searchContent(text)
   if (command === 'pelisplus') result = await searchPelisPlus(text)
 
-  if (result.length === 0) throw '*[❗] No se encontró ningún contenido relacionado*'
+  if (result.length === 0) throw '[❗] 𝐍𝐨 𝐞𝐧𝐜𝐨𝐧𝐭𝐫𝐞 𝐧𝐢𝐧𝐠𝐮𝐧 𝐜𝐨𝐧𝐭𝐞𝐧𝐢𝐝𝐨 𝐫𝐞𝐥𝐚𝐜𝐢𝐨𝐧𝐚𝐝𝐨'
 
   let img = 'https://cinefilosoficial.com/wp-content/uploads/2021/07/cuevana.jpg'
   if (command === 'pelisplus') img = 'https://elcomercio.pe/resizer/RJM30xnujgfmaODGytH1rRVOrAA=/400x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/BJ2L67XNRRGHTFPKPDOEQ2AH5Y.jpg'
