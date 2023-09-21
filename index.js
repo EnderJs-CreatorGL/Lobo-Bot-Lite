@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando Hachiko-Bot-MD...');
+console.log('✅ㅤIniciando Lobo-Bot-MD...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Hachiko - Bot - MD\nWhatsApp Bot MD', {
+say('Lobo - Bot - MD\nWhatsApp Bot MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por HACHEJOTA`, {
+say(`Bot creado por Ender`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
