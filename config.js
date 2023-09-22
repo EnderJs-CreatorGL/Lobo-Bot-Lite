@@ -9,7 +9,9 @@ import moment from 'moment-timezone';
 
 global.owner = [
   ['50576390682', '🖥️Ender LB Owner🖥️', true],
-];['51929972576']
+  ['51929972576'],
+
+];
 
 global.suittag =['50576390682']
 global.prems =['50576390682']
