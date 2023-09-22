@@ -1,4 +1,4 @@
-uprocess.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 import './config.js';
 import './api.js';
 import {createRequire} from 'module';
@@ -26,6 +26,7 @@ const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBail
 const {CONNECTING} = ws;
 const {chain} = lodash;
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000;
+
 
 protoType();
 serialize();
