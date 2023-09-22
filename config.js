@@ -17,9 +17,9 @@ global.prems =['50576390682']
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
 global.wm = 'ⒽⒶⒸⒽⒾⓀⓄ - ⒷⓄⓉ';
-global.titulowm = '🐺 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 🐺;
+global.titulowm = '🐺 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 🐺';
 global.titulowm2 =`✦𝗟 𝗢 𝗕 𝗢 - 𝗕 𝗢 𝗧 - 𝗠 𝗗✦`
-global.igfg = '✪𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁✪  ;
+global.igfg = '✪𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁✪'  ;
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
