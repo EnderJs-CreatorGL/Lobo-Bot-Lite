@@ -73,7 +73,7 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Hachiko-termux
+> cd LOBO-termux
 > npm start
 ```
 
@@ -82,8 +82,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Hachiko-termux
-> rm -rf HachikoSession
+> cd LOBO-termux
+> rm -rf LOBOsession
 > npm start
 ```
 
