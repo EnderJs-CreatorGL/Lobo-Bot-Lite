@@ -2,7 +2,7 @@ export function before(m) {
   const user = global.db.data.users[m.sender];
   if (user.afk > -1) {
     m.reply(`
-  [⛔] 𝐘𝐚 𝐧𝐨 𝐞𝐬𝐭𝐚𝐬 𝐢𝐧𝐚𝐜𝐭𝐢𝐯𝐨 (𝙰𝙵𝙺)${user.afkReason ? ' 𝐃𝐞𝐬𝐩𝐮𝐞𝐬 𝐝𝐞 𝐞𝐬𝐭𝐚𝐫 𝐢𝐧𝐚𝐜𝐭𝐢𝐯𝐨 (𝙰𝙵𝙺) 𝐏𝐨𝐫 𝐦𝐨𝐭𝐢𝐯𝐨: ' + user.afkReason : ''}*
+  [⛔] 𝐘𝐚 𝐧𝐨 𝐞𝐬𝐭𝐚𝐬 𝐢𝐧𝐚𝐜𝐭𝐢𝐯𝐨 (𝙰𝙵𝙺)${user.afkReason ? ' 𝐃𝐞𝐬𝐩𝐮𝐞𝐬 𝐝𝐞 𝐞𝐬𝐭𝐚𝐫 𝐢𝐧𝐚𝐜𝐭𝐢𝐯𝐨 (𝙰𝙵𝙺) 𝐏𝐨𝐫 𝐦𝐨𝐭𝐢𝐯𝐨: ' + user.afkReason : ''}
   
   —◉𝐓𝐢𝐞𝐦𝐩𝐨 𝐎𝐟𝐥𝐢𝐧𝐞  (𝙰𝙵𝙺): ${(new Date - user.afk).toTimeString()}*
   `.trim());
