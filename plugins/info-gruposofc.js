@@ -1,20 +1,21 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*𝙷𝙾𝙻𝙰 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 👋🏻, 𝚃𝙴 𝙸𝙽𝚅𝙸𝚃𝙾 𝙰 𝚄𝙽𝙸𝚁𝚃𝙴 𝙰 𝙻𝙾𝚂 𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂 𝙳𝙴 𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-𝙼𝙳 𝙿𝙰𝚁𝙰 𝙲𝙾𝙽𝚅𝙸𝚅𝙸𝚁 𝙲𝙾𝙽 𝙻𝙰 𝙲𝙾𝙼𝚄𝙽𝙸𝙳𝙰𝙳 :D*
+  const text = `𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 👋🏻, 𝐓𝐞 𝐢𝐧𝐯𝐢𝐭𝐨 𝐚 𝐮𝐧𝐢𝐫𝐭𝐞 𝐚 𝐥𝐨𝐬 𝐠𝐫𝐮𝐩𝐨𝐬 𝐎𝐅𝐂 𝐝𝐞 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃 :D
 
-*➤ 𝙶𝚛𝚞𝚙𝚘𝚜 𝙾𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝙳𝚎𝚕 𝙱𝚘𝚝:*
+➤ 𝐆𝐫𝐮𝐩𝐨𝐬 𝐨𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬 𝐝𝐞𝐥 𝐋𝐨𝐛𝐨:
 
-✪ *𝙶𝚁𝚄𝙿𝙾 𝙾𝙵𝙲:* 
+✪ 𝐆𝐑𝐔𝐏𝐎 𝐎𝐅𝐂:
+ 
 ༄ ${gp1} ༆
 
-✪ *𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙷𝙰𝙲𝙷𝙸𝙺𝙾*
+✪ 𝐄𝐍𝐋𝐀𝐂𝐄𝐒 𝐋𝐎𝐁𝐎:
 ༄ ${gp2} ༄
 `.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/HACHEJOTA/Hachiko-Bot-MD`},
+    'document': {url: `https://github.com/Ender-GB-Isis777/LOBO-BOT-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝 」`,
+    'fileName': `「  𝐋𝐨𝐛𝐨-𝐁𝐨𝐭-𝐌𝐃 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
