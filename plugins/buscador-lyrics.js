@@ -3,7 +3,7 @@ import {getTracks} from '@green-code/music-track-data';
 import {googleImage} from '@bochilteam/scraper';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   const teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : '';
-  if (!teks) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾: ${usedPrefix + command} beret ojala*`;
+  if (!teks) throw `[❗] 𝐌𝐚𝐥 𝐮𝐬𝐚𝐝𝐨, 𝐮𝐬𝐨 𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐨: ${usedPrefix + command} 𝐛𝐞𝐫𝐞𝐭 𝐨𝐣𝐚𝐥𝐚`;
   try {
     const result = await getTracks(teks);
     const lyrics = await find_lyrics(`${result[0].artist} ${result[0].title}`);
@@ -24,7 +24,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     await conn.sendMessage(m.chat, {image: {url: img}, caption: textoLetra}, {quoted: m});
     await conn.sendMessage(m.chat, {audio: {url: result[0].preview}, fileName: `${result[0].artist} ${result[0].title}.mp3`, mimetype: 'audio/mp4'}, {quoted: m});
   } catch {
-    throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`;
+    throw `[❗] 𝐅𝐚𝐥𝐥𝐨, 𝐢𝐧𝐭𝐞𝐧𝐭𝐞 𝐝𝐞 𝐧𝐮𝐞𝐯𝐨`;
   }
 };
 handler.help = ['lirik', 'letra'].map((v) => v + ' <Apa>');
