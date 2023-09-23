@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import axios from 'axios';
 const handler = async (m, {conn, text, __dirname, usedPrefix, command}) => {
   if (!global.db.data.chats[m.chat].modohorny && m.isGroup) throw '[❗] 𝐄𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 +18 𝐞𝐬𝐭𝐚 𝐩𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨, 𝐚𝐜𝐭𝐢𝐯𝐚𝐫𝐥𝐨 𝐮𝐬𝐚𝐧𝐝𝐨 #enable modohorny';
-  if (!text) throw '[❗] 𝐈𝐧𝐠𝐫𝐞𝐬𝐚 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐡𝐞𝐧𝐭𝐚𝐲 𝐚 𝐛𝐮𝐬𝐜𝐚𝐫';
+  if (!text) throw '[❗] 𝐘 𝐥𝐚 𝐜𝐚𝐭𝐞𝐠𝐨𝐫𝐢𝐚 𝐡𝐞𝐧𝐭𝐚𝐲 ?';
   const searchResults = await searchHentai(text);
   let teks = searchResults.result.map((v, i) => `
 ${i+1}. *_${v.title}_*
@@ -14,7 +14,7 @@ ${i+1}. *_${v.title}_*
     randomThumbnail = searchResults.result[randomIndex].thumbnail;
   } else {
     randomThumbnail = 'https://pictures.hentai-foundry.com/e/Error-Dot/577798/Error-Dot-577798-Zero_Two.png';
-    teks = '[❗] 𝐍𝐨 𝐞𝐬𝐜𝐨𝐧𝐭𝐫𝐞 𝐫𝐞𝐬𝐮𝐥𝐚𝐭𝐨𝐬 𝐬𝐢𝐦𝐢𝐥𝐚𝐫𝐞𝐬;
+    teks = '[❗] 𝐅𝐚𝐥𝐥𝐨, 𝐦𝐚𝐥 𝐞𝐬𝐜𝐫𝐢𝐭𝐨 𝐨 𝐩𝐫𝐮𝐞𝐛𝐞 𝐨𝐭𝐫𝐚 𝐜𝐚𝐭𝐞𝐠𝐨𝐫𝐢𝐚';
   }
   conn.sendFile(m.chat, randomThumbnail, 'error.jpg', teks, m);
 };
