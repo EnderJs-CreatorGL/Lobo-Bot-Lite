@@ -10,18 +10,18 @@ const handler = async (m, {conn, args, isPrems}) => {
   const sortedP = user.map(toNumber('premiumTime')).sort(sort('premiumTime'));
   const len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedP.length);
   let infoprem = `
-*「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 」*
+「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 」
 
 —◉ Usuario: ${userr}
 ${prem ? `*◉ Tiempo restante:*\n${clockString(usuario - new Date() * 1)}` : (isPrems ? `*◉ Tiempo restante:*\n- Usted es un usuario premium por tiempo ilimitado` : '- Este es un usuario no premium ❌')}
 
-*「 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 」*${sortedP.slice(0, len).map(({jid, name, premiumTime, prem, registered}, i) => `
+「 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 」${sortedP.slice(0, len).map(({jid, name, premiumTime, prem, registered}, i) => `
 
 —◉ Usuario: ${'@' + jid.split`@`[0]}
 ${premiumTime > 0 ? `*◉ Tiempo restante:*\n${clockString(premiumTime - new Date() * 1)}` : '- Este es un usuario no premium ❌'}`).join('')}`.trim();
 
   if (sortedP.filter((user) => user.premiumTime).length === 0) {
-    infoprem = `*「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 」*\n\n—◉ Usuario: ${userr}\n${prem ? `*◉ Tiempo restante:*\n${clockString(usuario - new Date() * 1)}` : '- Usted no es un usuario premium ❌'}\n\n*「 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 」*\n\n- No hay usuarios premium ❌`.trim();
+    infoprem = `「 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 」\n\n—◉ Usuario: ${userr}\n${prem ? `*◉ Tiempo restante:*\n${clockString(usuario - new Date() * 1)}` : '- Usted no es un usuario premium ❌'}\n\n*「 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 」*\n\n- No hay usuarios premium ❌`.trim();
   }
 
   m.reply(infoprem, null, {mentions: conn.parseMention(infoprem)});
