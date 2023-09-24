@@ -103,7 +103,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## `COLABORADORES DEL BOT` 
 <a href="[https://github.com/Ender-GB-Isis777]"><img src="https://github.com/Ender-GB-Isis777.png" width="100" height="100" alt="Ender"/></a>
 <a href="[https://github.com/Jxtxn17]"><img src="https://github.com/Jxtxn17.png" width="100" height="100" alt="Jxtxn"/></a>
-/><br /><sub><b>Jxtxn</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
+
 
 ## `AGRADECIMIENTOS & CREDITOS` 
 <div><button id="boton" type="button">games-wabot-md - By BochilGaming </button></div>
