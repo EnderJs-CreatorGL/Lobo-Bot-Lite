@@ -1,5 +1,5 @@
 {
-  "name": "Lobo-Bot--MD",
+  "name": "LOBO-BOT-MD",
   "version": "1.0.0",
   "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD.",
   "author": {
-    "name": " Ender"
+    "name": "Ender"
   },
   "repository": {
     "type": "git",
