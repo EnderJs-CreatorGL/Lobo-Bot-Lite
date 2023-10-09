@@ -8,7 +8,8 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['50576390682', '🖥️Ender LB Owner🖥️', true],
+  ['50576390682', '🍭Ender LB Owner🍭', true],
+  ['50558124470', '☃️Staff☃️', true],
   ['51929972576'],
 
 ];
