@@ -10,6 +10,7 @@ import moment from 'moment-timezone';
 global.owner = [
   ['50576390682', '🍭Ender LB Owner🍭', true],
   ['5491168758497', 'support', true],
+  ['18296835082', 'Staff', true],
   ['50558124470', '☃️Staff☃️', true],
   ['51929972576', 'Staff', true],
   ['593939005387', 'Staff', true],
