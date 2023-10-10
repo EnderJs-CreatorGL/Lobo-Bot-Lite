@@ -11,7 +11,7 @@ let limit2 = 400;
 let limit_a1 = 50;
 let limit_a2 = 400;
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) throw `[❗] 𝐅𝐚𝐥𝐥𝐨, 𝐏𝐫𝐢𝐦𝐞𝐫𝐨 𝐢𝐧𝐠𝐫𝐞𝐬𝐚 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐥𝐚 𝐦𝐮𝐬𝐢𝐜𝐚 \n\n—◉ 𝐄𝐣𝐞𝐦𝐩𝐥𝐨:\n*${usedPrefix + command} 𝐍𝐞𝐤𝐨𝐳𝐢𝐥𝐥𝐚`;
+  if (!text) throw `[❗] 𝐅𝐚𝐥𝐥𝐨, 𝐏𝐫𝐢𝐦𝐞𝐫𝐨 𝐢𝐧𝐠𝐫𝐞𝐬𝐚 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞 𝐥𝐚 𝐦𝐮𝐬𝐢𝐜𝐚 \n\n—◉ 𝐄𝐣𝐞𝐦𝐩𝐥𝐨:\n${usedPrefix + command} 𝐍𝐞𝐤𝐨𝐳𝐢𝐥𝐥𝐚`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
