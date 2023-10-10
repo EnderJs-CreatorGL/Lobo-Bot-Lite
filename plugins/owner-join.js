@@ -9,13 +9,13 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
     const [_, code] = link.match(linkRegex) || [];
     if ( isPrems || isMods || isOwner || m.fromMe) {
       const res = await conn.groupAcceptInvite(code);
-      await conn.sendMessage(m.chat, {text: '🍁 𝗘𝗫𝗜𝗧𝗢 𝗛𝗔𝗖𝗛𝗜𝗞𝗢-𝗠𝗗 𝗦𝗘 𝗨𝗡𝗜𝗢 𝗔𝗟 𝗚𝗥𝗨𝗣𝗢.'}, {quoted: m})
+      await conn.sendMessage(m.chat, {text: '*[🐺]PERFECTO, LOBO-BOT-MD SE UNIO CORRECTAMENTE*.'}, {quoted: m})
       enviando = false 
     } else {
       conn.sendMessage(m.chat, {text: '[❗𝐈𝐍𝐅𝐎❗] 𝐋𝐈𝐍𝐊 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 𝐒𝐄 𝐄𝐍𝐕𝐈𝐎 𝐀 𝐋𝐎𝐒 𝐎𝐖𝐍𝐄𝐑𝐒.\n\n*—◉ Su grupo estará en evaluación y el propietario/a del Bot decidirá si agrega o no al Bot.*\n\n*—◉ Algunas de las razones por la cual su solicitud puede ser rechazada son:*\n*1.- El Bot está saturado.*\n*2.- El Bot fue eliminado del grupo recientemente.*\n*3.- El link del grupo ha sido restablecido.*\n*4.-El Bot no se agrega a grupos por decisión del propietario/a.*\n\n*—◉ El proceso de evaluación puede tomar algo de tiempo, incluso dias, tenga paciencia.*'}, {quoted: m});
       const data = global.owner.filter(([id]) => id)[0];
       const dataArray = Array.isArray(data) ? data : [data];
-      for (const entry of dataArray) await conn.sendMessage(entry + '@s.whatsapp.net', {text: '[❗] 𝐀𝐋𝐆𝐔𝐈𝐄𝐍 𝐒𝐎𝐋𝐈𝐂𝐈𝐓𝐀 𝐇𝐀𝐂𝐇𝐈𝐊𝐎-𝐁𝐎𝐓-𝐌𝐃 𝐏𝐀𝐑𝐀 𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 [❗]\n\n*—◉ ☆𝘚𝘖𝘓𝘐𝘊𝘐𝘛𝘈𝘕𝘛𝘌☆:* ' + '@' + m.sender.split('@')[0] + '\n*—◉ ☆𝘓𝘐𝘕𝘒 𝘋𝘌𝘓 𝘎𝘙𝘜𝘗𝘖☆:* ' + link, mentions: [m.sender], contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `${link}`, "sourceUrl": `${link}`}}}, {quoted: m});
+      for (const entry of dataArray) await conn.sendMessage(entry + '@s.whatsapp.net', {text: '[❗] 𝐀𝐋𝐆𝐔𝐈𝐄𝐍 𝐒𝐎𝐋𝐈𝐂𝐈𝐓𝐀 LOBO-𝐁𝐎𝐓-𝐌𝐃 𝐏𝐀𝐑𝐀 𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 [❗]\n\n*—◉ ☆𝘚𝘖𝘓𝘐𝘊𝘐𝘛𝘈𝘕𝘛𝘌☆:* ' + '@' + m.sender.split('@')[0] + '\n*—◉ ☆𝘓𝘐𝘕𝘒 𝘋𝘌𝘓 𝘎𝘙𝘜𝘗𝘖☆:* ' + link, mentions: [m.sender], contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": `${link}`, "sourceUrl": `${link}`}}}, {quoted: m});
       enviando = false 
     }
   } catch {
