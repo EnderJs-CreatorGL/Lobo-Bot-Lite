@@ -534,7 +534,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `🍭 𝗢𝗣𝗖𝗜𝗢𝗡: ${type}\n☃️ 𝗘𝗦𝗧𝗔𝗗𝗢: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}\n🐺 𝗣𝗔𝗥𝗔: ${isAll ? '𝙴𝚂𝚃𝙴 𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `[💖] 𝐎𝐏𝐂𝐈𝐎𝐍: ${type}\n[🌼] 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}\n[🌟] 𝐏𝐀𝐑𝐀: ${isAll ? '𝙴𝚂𝚃𝙴 𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}`}, {quoted: m});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
