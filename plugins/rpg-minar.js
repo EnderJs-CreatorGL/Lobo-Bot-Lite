@@ -1,8 +1,8 @@
 const handler = async (m, {conn, isPrems}) => {
   const hasil = Math.floor(Math.random() * 1000);
   const time = global.db.data.users[m.sender].lastmiming + 600000;
-  if (new Date - global.db.data.users[m.sender].lastmiming < 600000) throw `*[ ⏰ ] 𝙴𝚜𝚙𝚎𝚛𝚊 ${msToTime(time - new Date())} 𝚙𝚊𝚛𝚊 𝚟𝚘𝚕𝚟𝚎𝚛 𝚊 𝚖𝚒𝚗𝚊𝚛*`;
-  m.reply(`*[ 🍷 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${hasil} 𝚇𝙿*`);
+  if (new Date - global.db.data.users[m.sender].lastmiming < 600000) throw `[ ⏱️ ] 𝗘𝘀𝗽𝗲𝗿𝗮 ${msToTime(time - new Date())} 𝗣𝗮𝗿𝗮 𝗿𝗲𝘁𝗼𝗿𝗻𝗮𝗿 𝗮 𝗹𝗮 𝗺𝗶𝗻𝗲𝗿𝗶𝗮`;
+  m.reply(`[ 💖 ] 𝗪𝗼𝘄, 𝗚𝗿𝗮𝗻 𝗺𝗶𝗻𝗲𝗿𝗼 𝗮𝘀 𝗺𝗶𝗻𝗮𝗱𝗼 ${hasil} 𝗫𝗣 [🌟]`);
   global.db.data.users[m.sender].lastmiming = new Date * 1;
 };
 handler.help = ['minar'];
