@@ -15,11 +15,11 @@ const handler = async (m, {isPrems, conn}) => {
 
   const texto = `
 ╔══🪁═🪁═🪁══⬣
-║🛒 𝙾𝙱𝚃𝙸𝙴𝙽𝙴𝚂 𝚄𝙽 𝙲𝙾𝙵𝚁𝙴
+║🛒 𝙾𝙱𝚃𝙸𝙴𝙽𝙴𝚂 𝚃𝚄 𝙲𝙾𝙵𝚁𝙴
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
 ║➢ *${dia} Diamantes* 💎
 ║➢ *${tok} Tokens* 🪙
-║➢ *${mystic} HachikoCoins* ☃️
+║➢ *${mystic} 𝙻𝙾𝙱𝙾Coins* ☃️
 ║➢ *${expp} Exp* ❄️
 ╚═════════════════⬣`;
 
