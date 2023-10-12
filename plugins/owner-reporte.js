@@ -7,7 +7,8 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   conn.reply('51992004117@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
   conn.reply('50576390682@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
   conn.reply('50576390682@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
-  m.reply(`[ 🚨 ] 𝐄𝐱𝐢𝐭𝐨, 𝐑𝐞𝐩𝐨𝐫𝐭𝐞 𝐞𝐧𝐯𝐢𝐚𝐝𝐨 𝐚 𝐥𝐨𝐬 𝐨𝐰𝐧𝐞𝐫𝐬, 𝐫𝐞𝐯𝐢𝐬𝐚𝐫𝐞𝐦𝐨𝐬 𝐞𝐥 𝐫𝐞𝐩𝐨𝐫𝐭𝐞 𝐲 𝐭𝐞𝐧𝐝𝐫𝐚 𝐮𝐧𝐚 𝐫𝐞𝐬𝐩𝐮𝐞𝐬𝐭𝐚 𝐝𝐞 𝐬𝐞𝐫 𝐧𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨`);
+  conn.reply('593939005387@s.whatsapp.net',m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
+  m.reply(`[ 💖 ] 𝐄𝐱𝐢𝐭𝐨, 𝐑𝐞𝐩𝐨𝐫𝐭𝐞 𝐞𝐧𝐯𝐢𝐚𝐝𝐨 𝐚 𝐥𝐨𝐬 𝐨𝐰𝐧𝐞𝐫𝐬, 𝐫𝐞𝐯𝐢𝐬𝐚𝐫𝐞𝐦𝐨𝐬 𝐞𝐥 𝐫𝐞𝐩𝐨𝐫𝐭𝐞 𝐲 𝐭𝐞𝐧𝐝𝐫𝐚 𝐮𝐧𝐚 𝐫𝐞𝐬𝐩𝐮𝐞𝐬𝐭𝐚 𝐝𝐞 𝐬𝐞𝐫 𝐧𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨`);
 };
 handler.help = ['reporte', 'request'].map((v) => v + ' <teks>');
 handler.tags = ['info'];
