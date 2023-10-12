@@ -1,7 +1,6 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
   const optionsFull =`┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ ◉— ✦🅻OBO-BOT🅣-M🅳✦ —◉
-┃❗𝐎𝐖𝐍𝐄𝐑𝐒 𝐘 𝐀𝐃𝐌𝐈𝐍𝐒❗
+┃ ◉— 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 —◉
 ┃ [🔮]𝐌𝐎𝐃𝐎: ➡️𝐀𝐃𝐌𝐈𝐍𝐒⬅️
 ┃ [💖]𝐋𝐎𝐁𝐎: ➡️𝐎𝐖𝐍𝐄𝐑𝐒⬅️
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
