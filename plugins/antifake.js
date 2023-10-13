@@ -18,4 +18,4 @@ return true
 
 }
 
-export default handler;
+export default handler
