@@ -5,14 +5,14 @@ const handler = async (m, {conn}) => {
     const _uptime = process.uptime() * 1000;
     const uptime = clockString(_uptime);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const str = `╭────[ *𝐇𝐚𝐜𝐡𝐢𝐤𝐨-𝐁𝐨𝐭-𝐌𝐃* ]
+    const str = `╭────[💖 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃 💖]
 │
 │ *➤ ʜᴏʟᴀ ${taguser}*
 │
-│ *=> 🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime}
-│ *=> ✅ ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ*
-│ *=> 👑 ᴄʀᴇᴀᴅᴏʀ: ʜᴀᴄʜᴇ ᴊᴏᴛᴀ*
-│ *=> 🔗 ʀᴇᴘᴏsɪᴛᴏʀɪᴏ ᴏғᴄ:* https://github.com/HACHEJOTA/Hachiko-Bot-MD
+│ *=> 🖥️ ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime}
+│ *=> 🖱️ ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ*
+│ *=> 🍇 𝐂𝐑𝐄𝐀𝐃𝐎𝐑: 𝐄𝐍𝐃𝐄𝐑 𝐆𝐁 𝐋𝐃*
+│ *=> 🍁 ʀᴇᴘᴏsɪᴛᴏʀɪᴏ ᴏғᴄ:* https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
 ╰────────────────`.trim();
     if (m.isGroup) {
       conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": global.md`, "sourceUrl": global.md`}}}, {quoted: m});
@@ -32,5 +32,5 @@ function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [`\n│ *=> 💥 ` + d, ' Día(s)* ', `\n│ *=> 💫 ` + h, ' Hora(s)* ', `\n│ *=> 💠 ` + m, ' Minuto(s)* ', `\n│ *=> ♦ ` + s, ' Segundo(s)* '].map((v) => v.toString().padStart(2, 0)).join('');
+  return [`\n│ *=> 💖 ` + d, ' Día(s)* ', `\n│ *=> 🐺 ` + h, ' Hora(s)* ', `\n│ *=> 🔮 ` + m, ' Minuto(s)* ', `\n│ *=> 🌼 ` + s, ' Segundo(s)* '].map((v) => v.toString().padStart(2, 0)).join('');
 }
