@@ -23,22 +23,22 @@ const handler = async (m, {conn, args, participants}) => {
   const texto = `
 *< TABLA DE LOS AVENTUREROS MÁS DESTACADOS />*
     
-—◉ *TOP ${len} EXP 🌟*
-*👤 Tú posición:* ${usersExp.indexOf(m.sender) + 1} de ${usersExp.length}
+—◉ 𝗧𝗢𝗣𝗦 𝗥𝗔𝗡𝗚𝗢𝗦 ${len} 𝗘𝗫𝗣 [🍀]
+[💖]𝗧𝘂 𝗿𝗮𝗻𝗴𝗼 𝗲𝗻 𝗹𝗮 𝘁𝗮𝗯𝗹𝗮: ${usersExp.indexOf(m.sender) + 1} de ${usersExp.length}
 
 ${sortedExp.slice(0, len).map(({jid, exp}, i) => `${i + 1}. ${participants.some((p) => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} exp*`).join`\n`}
 
-—◉ *TOP ${len} DIAMANTES 💎*
-*👤 Tú posición:* ${usersLim.indexOf(m.sender) + 1} de ${usersLim.length}
+—◉ 𝗧𝗢𝗣𝗦 𝗥𝗔𝗡𝗚𝗢𝗦 ${len} 𝗗𝗜𝗔𝗠𝗔𝗡𝗧𝗘𝗦 [💎]
+[💖]𝗧𝘂 𝗿𝗮𝗻𝗴𝗼 𝗲𝗻 𝗹𝗮 𝘁𝗮𝗯𝗹𝗮: ${usersLim.indexOf(m.sender) + 1} de ${usersLim.length}
 
 ${sortedLim.slice(0, len).map(({jid, limit}, i) => `${i + 1}. ${participants.some((p) => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} diamantes*`).join`\n`}
 
-—◉ *TOP ${len} NIVEL 🎚️*
-*👤 Tú posición:* ${usersLevel.indexOf(m.sender) + 1} de ${usersLevel.length}
+—◉ 𝗧𝗢𝗣𝗦 𝗥𝗔𝗡𝗚𝗢𝗦 ${len} 𝗟𝗘𝗩𝗘𝗟 [🌿]
+[💖]𝗧𝘂 𝗿𝗮𝗻𝗴𝗼 𝗲𝗻 𝗹𝗮 𝘁𝗮𝗯𝗹𝗮: ${usersLevel.indexOf(m.sender) + 1} de ${usersLevel.length}
 
 ${sortedLevel.slice(0, len).map(({jid, level}, i) => `${i + 1}. ${participants.some((p) => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *nivel ${level}*`).join`\n`}
 
-*⚔️ ${randomAdventurePhrase} ⚔️*`.trim();
+*🔮 ${randomAdventurePhrase} 🔮*`.trim();
   conn.sendMessage(m.chat, {text: texto, mentions: conn.parseMention(texto)}, {quoted: m})
 };
 handler.help = ['top'];
