@@ -21,7 +21,7 @@ const handler = async (m, {conn, args, participants}) => {
 ];
   const randomAdventurePhrase = adventurePhrases[Math.floor(Math.random() * adventurePhrases.length)];
   const texto = `
-🌐𝐏𝐎𝐒𝐈𝐂𝐈𝐎𝐍𝐄𝐒 𝐓𝐎𝐃𝐎𝐒 𝐀 𝐏𝐎𝐑 𝐄𝐋 𝐏𝐎𝐃𝐄𝐑🌐
+🌐𝐓𝐎𝐃𝐎𝐒 𝐀 𝐏𝐎𝐑 𝐄𝐋 𝐏𝐎𝐃𝐄𝐑🌐
     
 —◉ 𝗧𝗢𝗣𝗦 𝗥𝗔𝗡𝗚𝗢𝗦 ${len} 𝗘𝗫𝗣 [🍀]
 
