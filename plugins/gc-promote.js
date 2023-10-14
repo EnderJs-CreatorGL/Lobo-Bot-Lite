@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
   } catch (e) {
   } finally {
     conn.groupParticipantsUpdate(m.chat, [user], 'promote');
-    conn.reply(m.chat, `🔮 𝙴́𝚡𝚒𝚝𝚘, 𝙰𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚊𝚍𝚖𝚒𝚗 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘.`, m);
+    conn.reply(m.chat `[🌿] 𝐀𝐇𝐎𝐑𝐀 𝐄𝐒 𝐀𝐃𝐌𝐈𝐍.`, m);
   }
 };
 handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'promote ' + v);
