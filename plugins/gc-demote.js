@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
   } catch (e) {
   } finally {
     conn.groupParticipantsUpdate(m.chat, [user], 'demote');
-    conn.reply(m.chat, ` 🛑 𝗘𝗫𝗜𝗧𝗢 𝗘𝗟 𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗬𝗔 𝗡𝗢 𝗘𝗦 𝗔𝗗𝗠𝗜𝗡 `, m);
+    conn.reply(m.chat, ` [🍂] 𝐘𝐀 𝐍𝐎 𝐄𝐒 𝐀𝐃𝐌𝐈𝐍 `, m);
   }
 };
 handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'demote ' + v);
