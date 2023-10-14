@@ -19,58 +19,58 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━━━┓
-┃ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣* —◉
+┃ ◉— 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃 —◉
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
-┣⟣☯︎ 𝙽𝚄𝙼𝙴𝚁𝙾: +51 992 004 117
+┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: 𝐄𝐍𝐃𝐄𝐑 𝐆𝐁
+┣⟣☯︎ 𝙽𝚄𝙼𝙴𝚁𝙾: +505 76390682
 ┣⟣☯︎ 𝙵𝙴𝙲𝙷𝙰: ${date}
 ┣⟣☯︎ 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ┣⟣☯︎ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 ┗━━━━━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝕄𝔼ℕ𝕌-𝔸ℕ𝕀𝕄𝔼 />*
+┃ 🎥𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔🎥
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥  _${usedPrefix}lolivid_
-┣⟣❥  _${usedPrefix}loli_
-┣⟣❥  _${usedPrefix}ppcouple_
-┣⟣❥  _${usedPrefix}neko_
-┣⟣❥  _${usedPrefix}waifu_
-┣⟣❥  _${usedPrefix}akira_
-┣⟣❥  _${usedPrefix}akiyama_
-┣⟣❥  _${usedPrefix}anna_
-┣⟣❥  _${usedPrefix}asuna_
-┣⟣❥  _${usedPrefix}ayuzawa_
-┣⟣❥  _${usedPrefix}boruto_
-┣⟣❥  _${usedPrefix}chiho_
-┣⟣❥  _${usedPrefix}chitoge_
-┣⟣❥  _${usedPrefix}deidara_
-┣⟣❥  _${usedPrefix}erza_
-┣⟣❥  _${usedPrefix}elaina_
-┣⟣❥  _${usedPrefix}eba_
-┣⟣❥  _${usedPrefix}emilia_
-┣⟣❥  _${usedPrefix}hestia_
-┣⟣❥  _${usedPrefix}hinata_
-┣⟣❥  _${usedPrefix}inori_
-┣⟣❥  _${usedPrefix}isuzu_
-┣⟣❥  _${usedPrefix}itachi_
-┣⟣❥  _${usedPrefix}itori_
-┣⟣❥  _${usedPrefix}kaga_
-┣⟣❥  _${usedPrefix}kagura_
-┣⟣❥  _${usedPrefix}kaori_
-┣⟣❥  _${usedPrefix}keneki_
-┣⟣❥  _${usedPrefix}kotori_
-┣⟣❥  _${usedPrefix}kurumi_
-┣⟣❥  _${usedPrefix}madara_
-┣⟣❥  _${usedPrefix}mikasa_
-┣⟣❥  _${usedPrefix}miku_
-┣⟣❥  _${usedPrefix}minato_
-┣⟣❥  _${usedPrefix}naruto_
-┣⟣❥  _${usedPrefix}nezuko_
-┣⟣❥  _${usedPrefix}sagiri_
-┣⟣❥  _${usedPrefix}sasuke_
-┣⟣❥  _${usedPrefix}sakura_
-┣⟣❥  _${usedPrefix}cosplay_
+┣⟣❥🔮  _${usedPrefix}lolivid_
+┣⟣❥🔮  _${usedPrefix}loli_
+┣⟣❥🔮  _${usedPrefix}ppcouple_
+┣⟣❥🔮  _${usedPrefix}neko_
+┣⟣❥🔮  _${usedPrefix}waifu_
+┣⟣❥🔮  _${usedPrefix}akira_
+┣⟣❥🔮  _${usedPrefix}akiyama_
+┣⟣❥🔮  _${usedPrefix}anna_
+┣⟣❥🔮  _${usedPrefix}asuna_
+┣⟣❥🔮  _${usedPrefix}ayuzawa_
+┣⟣❥🔮  _${usedPrefix}boruto_
+┣⟣❥🔮  _${usedPrefix}chiho_
+┣⟣❥🔮  _${usedPrefix}chitoge_
+┣⟣❥🔮  _${usedPrefix}deidara_
+┣⟣❥🔮  _${usedPrefix}erza_
+┣⟣❥🔮  _${usedPrefix}elaina_
+┣⟣❥🔮  _${usedPrefix}eba_
+┣⟣❥🔮  _${usedPrefix}emilia_
+┣⟣❥🔮  _${usedPrefix}hestia_
+┣⟣❥🔮  _${usedPrefix}hinata_
+┣⟣❥🔮  _${usedPrefix}inori_
+┣⟣❥🔮  _${usedPrefix}isuzu_
+┣⟣❥🔮  _${usedPrefix}itachi_
+┣⟣❥🔮  _${usedPrefix}itori_
+┣⟣❥🔮  _${usedPrefix}kaga_
+┣⟣❥🔮  _${usedPrefix}kagura_
+┣⟣❥🔮  _${usedPrefix}kaori_
+┣⟣❥🔮  _${usedPrefix}keneki_
+┣⟣❥🔮  _${usedPrefix}kotori_
+┣⟣❥🔮  _${usedPrefix}kurumi_
+┣⟣❥🔮  _${usedPrefix}madara_
+┣⟣❥🔮  _${usedPrefix}mikasa_
+┣⟣❥🔮  _${usedPrefix}miku_
+┣⟣❥🔮  _${usedPrefix}minato_
+┣⟣❥🔮  _${usedPrefix}naruto_
+┣⟣❥🔮  _${usedPrefix}nezuko_
+┣⟣❥🔮  _${usedPrefix}sagiri_
+┣⟣❥🔮  _${usedPrefix}sasuke_
+┣⟣❥🔮  _${usedPrefix}sakura_
+┣⟣❥🔮  _${usedPrefix}cosplay_
 ┗━━━━━━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
