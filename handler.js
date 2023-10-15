@@ -7,7 +7,7 @@ import {unwatchFile, watchFile} from 'fs';
 import fs from 'fs';
 import chalk from 'chalk';
 import mddd5 from 'md5';
-
+import lobo from 'lobocoins';
 /**
  * @type {import('@whiskeysockets/baileys')}
  */
