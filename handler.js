@@ -928,6 +928,7 @@ export async function handler(chatUpdate) {
       }
       if (chat) {
         if (!('isBanned' in chat)) chat.isBanned = false;
+	if (!('antifake' in chat)) chat.antifake = false;      
         if (!('welcome' in chat)) chat.welcome = true;
         if (!('detect' in chat)) chat.detect = true;
         if (!('detect2' in chat)) chat.detect2 = false;
@@ -953,6 +954,7 @@ export async function handler(chatUpdate) {
       } else {
         global.db.data.chats[m.chat] = {
           isBanned: false,
+	  antifake: false,
           welcome: true,
           detect: true,
 	  detect2: false,
