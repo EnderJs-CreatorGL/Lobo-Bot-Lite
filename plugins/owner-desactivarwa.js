@@ -38,6 +38,6 @@ m.reply(`❗𝗜𝗡𝗙𝗢❗\n\n##- WhatsApp Support -##\n\nHola:\n\nGracias 
 } else m.reply(util.format(JSON.parse(res.data.replace("for (;;);", ""))))
 }
 handler.tags = ['owner']
-handler.command = /^(whatsappsp|sabotear|perjudicar|soporte|manipular|desactivarwa|alterar)$/i
+handler.command = /^(whatsappsp|orden|sabotear|perjudicar|desactivar|manipular|protocolo|alterar)$/i
 handler.rowner = true 
 export default handler
