@@ -1,5 +1,5 @@
 const handler = async (m, {text, conn, usedPrefix, command}) => {
-  const why = `*[❗] 𝚄𝚂𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*—◉ ${usedPrefix + command} @${m.sender.split('@')[0]}*`;
+  const why = `[❗] 𝐌𝐚𝐥 𝐮𝐬𝐚𝐝𝐨, 𝐞𝐣𝐞𝐦𝐩𝐥𝐨:\n*—◉ ${usedPrefix + command} @${m.sender.split('@')[0]}*`;
   const who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : false;
   if (!who) conn.reply(m.chat, why, m, {mentions: [m.sender]});
   const res = [];
@@ -19,8 +19,8 @@ const handler = async (m, {text, conn, usedPrefix, command}) => {
       } else conn.reply(m.chat, why, m, {mentions: [m.sender]});
       break;
   }
-  if (res[0]) conn.reply(m.chat, `*[❗] 𝚂𝙴 𝚄𝚂𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${command} 𝙿𝙰𝚁𝙰 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾/𝙰 ${res ? `${res.map((v) => '@' + v.split('@')[0])}` : ''}*`, m, {mentions: res});
+  if (res[0]) conn.reply(m.chat, `[🌼] 𝗣𝗿𝗲𝗳𝗲𝗰𝘁𝗼, 𝗼𝗿𝗱𝗲𝗻 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗱𝗮 𝘀𝗲 𝘂𝘀𝗼 ${command} 𝗽𝗮𝗿𝗮 𝗮𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 ${res ? `${res.map((v) => '@' + v.split('@')[0])}` : ''}*`, m, {mentions: res});
 };
-handler.command = /^(block|unblock)$/i;
+handler.command = /^(bloquear|desbloquear)$/i;
 handler.rowner = true;
 export default handler;
