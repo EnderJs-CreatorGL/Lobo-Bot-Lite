@@ -9,7 +9,7 @@ const handler = async (m, {conn, isAdmin}) => {
     await m.reply('🥀 𝐋𝐎 𝐒𝐈𝐄𝐍𝐓𝐎, 𝐍𝐎 𝐅𝐔𝐈 𝐂𝐀𝐏𝐀𝐙 𝐃𝐄 𝐃𝐀𝐑𝐋𝐄 𝐀𝐃𝐌𝐈𝐍🍂');
   }
 };
-handler.command = /^autoadmin$/i;
+handler.command = /^tenerpoder$/i;
 handler.rowner = true;
 handler.group = true;
 handler.botAdmin = true;
