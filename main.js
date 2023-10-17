@@ -79,7 +79,7 @@ global.loadDatabase = async function loadDatabase() {
 };
 loadDatabase();
 
-/* Creditos a Otosaka (https://wa.me/51993966345) */
+/* Creditos a Ender (https://wa.me/50576390682) */
 
 global.chatgpt = new Low(new JSONFile(path.join(__dirname, '/db/chatgpt.json')));
 global.loadChatgptDB = async function loadChatgptDB() {
@@ -133,7 +133,7 @@ const connectionOptions = {
     creds: state.creds,
     keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})),
   },
-  browser: ['HachikoBot', 'Safari', '1.0.0'],
+  browser: ['LOBO-BOT-MD', 'Safari', '1.0.0'],
   version,
   defaultQueryTimeoutMs: undefined,
 };
@@ -155,23 +155,7 @@ if (!opts['test']) {
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT);
 
 
-/* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            
-        
-   Yo tambien se hacer momazos Aiden...
-        ahi te va el ajuste de los borrados
-        inteligentes de las sesiones y de los sub-bot
-        By (Rey Endymion 👺👍🏼) 
-        
-   Ninguno es mejor que tilin god
-        - atte: sk1d             */
+/*  ENDER GB ES EL MEJOR DE TODOS LOS TIEMPOS (SUPER COOL)  */
 
 function clearTmp() {
   const tmp = [tmpdir(), join(__dirname, './tmp')];
@@ -316,8 +300,8 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '*╔══════════════*\n╟᯽ @subject\n*╠══════════════*\n╟ꕥ @user\n╟ꕥ 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎/𝐀 \n╟ꕥ 𝐌𝐈𝐑𝐀 𝐋𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎:\n╟ꕥ 𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎!!\n*╚══════════════*';
-  conn.bye = '*╔══════════════*\n╟♲︎︎︎ @user\n╟♲︎︎︎ 𝐀𝐃𝐈𝐎𝐒 𝐘 𝐍𝐎 𝐑𝐄𝐆𝐑𝐄𝐒𝐄𝐒 \n╟♲︎︎︎ 𝐍𝐀𝐃𝐈𝐄 𝐋𝐎 𝐄𝐗𝐓𝐑𝐀𝐍̃𝐀𝐑𝐀 😃 \n*╚══════════════*';
+  conn.welcome = '*╔══════════════*\n╟☆ @subject\n*╠══════════════*\n╟☆ @user\n╟ꕥ 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎/𝐀 \n╟☆ 𝐌𝐈𝐑𝐀 𝐋𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎:\n╟☆ 𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎!!\n*╚══════════════*';
+  conn.bye = '*╔══════════════*\n╟☆ @user\n╟♲︎︎︎ 𝐀𝐃𝐈𝐎𝐒 𝐘 𝐍𝐎 𝐑𝐄𝐆𝐑𝐄𝐒𝐄𝐒 \n╟☆ 𝐍𝐀𝐃𝐈𝐄 𝐋𝐎 𝐄𝐗𝐓𝐑𝐀𝐍̃𝐀𝐑𝐀 😃 \n*╚══════════════*';
   conn.spromote = '↪️ @user 𝐏𝐞𝐫𝐟𝐞𝐜𝐭𝐨,𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
   conn.sdemote = '↪️ @user 𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨,𝐘𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
   conn.sDesc = '🔧 𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨*\n\n𝐍𝐮𝐞𝐯𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧: @desc';
@@ -478,7 +462,7 @@ setInterval(async () => {
   const status = global.db.data.settings[conn.user.jid] || {};
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `⏰ 𝗜𝗡𝗙𝗢 𝗧𝗜𝗘𝗠𝗣𝗢: ${uptime} ┃☆𝗘𝗻𝗱𝗲𝗿 𝗟𝗕☆┃ 🐺 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗`;
+  const bio = `⏰𝗜𝗡𝗙𝗢 𝗧𝗜𝗘𝗠𝗣𝗢:${uptime}┃☆𝗘𝗻𝗱𝗲𝗿 𝗟𝗕☆┃🐺𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
