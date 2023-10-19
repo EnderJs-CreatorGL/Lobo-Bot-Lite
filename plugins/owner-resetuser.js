@@ -24,9 +24,9 @@ const handler = async (m, { conn, text }) => {
             return conn.sendMessage(m.chat, {text: `*[❗] El usuario @${userNumber} no se encuentra en mi base de datos.*`, mentions: [user]}, {quoted: m});
          }
         delete global.global.db.data.users[user];
-        conn.sendMessage(m.chat, {text: `*[❗] Todos los datos del usuario @${userNumber} en la base de datos han sido eliminados.*`, mentions: [user]}, {quoted: m});
+        conn.sendMessage(m.chat, {text: `[❗] 𝐋𝐎𝐒 𝐃𝐀𝐓𝐎𝐒 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 @${userNumber} 𝐅𝐔𝐄𝐑𝐎𝐍 𝐁𝐎𝐑𝐑𝐀𝐃𝐎𝐒 𝐄𝐗𝐈𝐓𝐎𝐒𝐀𝐌𝐄𝐍𝐓𝐄.`, mentions: [user]}, {quoted: m});
 };
 handler.tags = ['owner'];
-handler.command = /(restablecerdatos|deletedatauser|resetuser)$/i;
+handler.command = /(datos(0)|deletedatauser|datos0)$/i;
 handler.rowner = true;
 export default handler;
