@@ -1,5 +1,5 @@
 let handler = async (m, { conn, participants, groupMetadata, args, usedPrefix, text, command }) => {
-  if (!text) return m.reply(`𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉 𝙏𝙀𝙓𝙏𝙊 𝙋𝙊𝙍 𝘾𝙐𝘼𝙇 𝙌𝙐𝙄𝙀𝙍𝙀 𝙎𝙊𝙇𝙄𝘾𝙄𝙏𝘼 𝙇𝘼 𝙋𝙍𝙀𝙎𝙀𝙉𝘾𝙄𝘼 𝘿𝙀𝙇 𝙇𝙊𝙎 𝘼𝘿𝙈𝙄𝙉𝙎`)
+  if (!text) return m.reply(`[❗]𝗜𝗻𝗴𝗿𝗲𝘀𝗮 𝗲𝗹 𝘁𝗲𝘅𝘁𝗼 𝗽𝗮𝗿𝗮 𝗹𝗹𝗮𝗺𝗮𝗿 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳`)
 const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/admins.jpg'
 const groupAdmins = participants.filter(p => p.admin)
 const listAdmin = groupAdmins.map((v, i) => `*» ${i + 1}. @${v.id.split('@')[0]}*`).join('\n')
@@ -10,12 +10,12 @@ let oi = `${pesan}_`
 let textoA = 
 `*⊱ ──── 《.⋅ 🐺 ⋅.》 ──── ⊰*
 ෆ ${oi}
-*⊱ ──── 《.⋅ LOBO ⋅.》 ──── ⊰*`
+*⊱ ──── 《.⋅ 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 ⋅.》 ──── ⊰*`
 
 let textoB = 
 `${listAdmin}
 
-⛔`.trim()
+`.trim()
 await conn.sendFile(m.chat, pp, 'error.jpg', textoA + textoB, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 //await conn.sendButton(m.chat, textoA, textoB, pp, [[smsConMenu(), `.menu`]], m, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
