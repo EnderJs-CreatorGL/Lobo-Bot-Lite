@@ -1,19 +1,14 @@
-let handler = async(m, { conn, command }) => {
-
-let text = `*💖 EL OWNER @${m.sender.split`@`[0]} HA SOLICITADO SU PRESENCIA EN EL STAFF, FAVOR DE DIRIGIRSE LO ANTES POSIBLE AL STAFF*
-
-*𝙎𝘁𝗮𝗳𝗳 𝗟𝗼𝗯𝗼𝗯𝗼𝘁-𝙈𝘿 🐺*`
-m.reply('*❗ ENVIANDO MENSAJE A TODOS LOS OWNERS*')
-for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
-                        let data = (await conn.onWhatsApp(jid))[0] || {}
-                        if (data.exists)
-                        conn.sendPayment(data.jid, '999999999', text, m)
-                        
-                           // conn.reply(data.jid, text, m, { mentions: [m.sender] })
-                    }
-
-}
-handler.tags = ['owner']
-handler.command = ['reunion']
-handler.rowner = true
-export default handler
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  if (!text) throw `[❗] 𝗖𝘂𝗮𝗹 𝗺𝗲𝗻𝘀𝗮𝗷𝗲 𝗲𝗻𝘃𝗶𝗼 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘁𝗮𝗰𝘁𝗮𝗿 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳\n\n𝗘𝗝𝗘𝗠𝗣𝗟𝗢: 𝚅𝙴𝙽𝙶𝙰𝙽 𝙽𝙴𝙲𝙴𝚂𝙸𝚃𝙾 𝙳𝙴 𝚂𝚄 𝙰𝚈𝚄𝙳𝙰 `;
+  if (text.length < 10) throw `[❗] 𝗺𝗲𝗻𝘀𝗮𝗷𝗲 𝗺𝗶𝗻𝗶𝗺𝗼 𝗱𝗲 10 𝗰𝗮𝗿𝗮𝗰𝘁𝗲𝗿`;
+  if (text.length > 1000) throw `[❗] 𝗺𝗲𝗻𝘀𝗮𝗷𝗲 𝗺𝗮𝘅𝗶𝗺𝗼 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘁𝗮𝗰𝘁𝗮𝗿 𝗱𝗲 1000 𝐜𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐞𝐬`;
+  const teks = `*❒═════[☆𝐑𝐄𝐏𝐎𝐑𝐓𝐄☆]═════❒*\n*┬*\n*├❧ 𝙽𝚄𝙼𝙴𝚁𝙾:* wa.me/${m.sender.split`@`[0]}\n*┴*\n*┬*\n*├❧ 𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${text}\n*┴*`;
+  conn.reply('51992004117@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
+  conn.reply('50576390682@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
+  conn.reply('527294888993@s.whatsapp.net',m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedjid: [m.sender]}});
+  m.reply(`𝗦𝗲 𝗰𝗼𝗻𝘁𝗮𝗰𝘁𝗼 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳 𝗱𝗲 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 𝗱𝗲 𝗺𝗮𝗻𝗲𝗿𝗮 𝗲𝘅𝗶𝘁𝗼𝘀𝗮[🐺]`);
+};
+handler.help = ['reporte', 'request'].map((v) => v + ' <teks>');
+handler.tags = ['info'];
+handler.command = /^(reunion|emergensia|reunionstaff)$/i;
+export default handler;
