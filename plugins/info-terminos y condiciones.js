@@ -1,71 +1,9 @@
-import { xpRange } from '../lib/levelling.js'
+/*import { xpRange } from '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 import { promises } from 'fs'
-import { join } from 'path'
-let handler = async (m, { conn, usedPrefix, command, args, usedPrefix: _p, __dirname, isOwner, text, isAdmin, isROwner }) => {
+import { join } from 'path'*/
+let handler = async (m, { conn, usedPrefix, command}) => {
   
-  
-const { levelling } = '../lib/levelling.js'
-//let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
-
-let { exp, limit, level, role } = global.db.data.users[m.sender]
-let { min, xp, max } = xpRange(level, global.multiplier)
-
-let d = new Date(new Date + 3600000)
-let locale = 'es'
-let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
-let week = d.toLocaleDateString(locale, { weekday: 'long' })
-let date = d.toLocaleDateString(locale, {
-day: 'numeric',
-month: 'long',
-year: 'numeric'
-})
-let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
-day: 'numeric',
-month: 'long',
-year: 'numeric'
-}).format(d)
-let time = d.toLocaleTimeString(locale, {
-hour: 'numeric',
-minute: 'numeric',
-second: 'numeric'
-})
-let _uptime = process.uptime() * 1000
-let _muptime
-if (process.send) {
-process.send('uptime')
-_muptime = await new Promise(resolve => {
-process.once('message', resolve)
-setTimeout(resolve, 1000)
-}) * 1000
-}
-let { money } = global.db.data.users[m.sender]
-let muptime = clockString(_muptime)
-let uptime = clockString(_uptime)
-let totalreg = Object.keys(global.db.data.users).length
-let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-let replace = {
-'%': '%',
-p: _p, uptime, muptime,
-me: conn.getName(conn.user.jid),
-
-exp: exp - min,
-maxexp: xp,
-totalexp: exp,
-xp4levelup: max - exp,
-
-level, limit, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
-readmore: readMore
-}
-text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-  
-//let name = await conn.getName(m.sender)
-let pp = './media/menus/Menu1.jpg'
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let mentionedJid = [who]
-let username = conn.getName(who)
-//let user = global.db.data.users[m.sender]
-//user.registered = false
 
 let Terminos = `*_Toda la informacion que se mencione aqui no excluye a la Propietario(Owner) del Bot, y Propietarios Acredores al uso de LOBO-BOT-MD_*
 *_No Somos responsables del desconocimiento que tenga por parte de esta informacion._* 
@@ -119,14 +57,8 @@ _- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodi
 ~ _Si te Agrada y valoras el Trabajo que he realizado, puedes ayudarme en Donar para que pueda continuar en este Proyecto_
 wa.me/50558124470
 
-*~ Muchas Gracias Por tomarte el tiempo en informate sobre Lobo-bot-MD*` 
-await conn.sendFile(m.chat, pp, 'gata.mp4', Terminos)
-/*.trim()
-conn.sendHydrated(m.chat, Terminos,  `${wm}\nEstamos de acuerdo en Hacer Colaboraciones con Personas Comprometidas, manteniendo el Respeto Puedes Contactar si ese es el caso con tacta desde el repositorio de github | 'https://github.com/Ender-GB-Isis777/LOBO-BOT-MD', '饾檪饾櫀饾櫓饾櫀饾樈饾櫎饾櫓-饾檲饾樋', null, null, [
-['饾檲饾櫄饾櫍饾櫔虂 饾櫂饾櫎饾櫌饾櫏饾櫋饾櫄饾櫓饾櫎 | 饾檨饾櫔饾櫋饾櫋 饾檲饾櫄饾櫍饾櫔 馃挮', '.allmenu'],
-['饾檲饾櫄饾櫍饾櫔 饾櫃饾櫄饾櫒饾櫏饾櫋饾櫄饾櫆饾櫀饾櫁饾櫋饾櫄 | 饾檲饾櫄饾櫍饾櫔 饾檱饾櫈饾櫒饾櫓 馃専', '/menulista'],
-['饾檲饾櫄饾櫍饾櫔 饾檵饾櫑饾櫈饾櫍饾櫂饾櫈饾櫏饾櫀饾櫋 | 饾檲饾櫀饾櫈饾櫍 饾櫌饾櫄饾櫍饾櫔 鈿?', '#menu']
-], m,)*/
+*~ Muchas Gracias Por tomarte el tiempo en informate sobre Lobo-bot-MD*`.trim()
+await conn.sendFile(m.chat, imagen1, 'gata.mp4', Terminos)
 }
 handler.customPrefix = /terminos|t茅rminos|t茅rminos, condiciones y privacidad|terminos, condiciones y privacidad|t茅rminos y condiciones y privacidad|terminosycondicionesyprivacidad|terminosycondiciones|terminos y condiciones y privacidad|terminos y condiciones|terminos y condiciones|terminos de uso|Terminos de uso|Termin贸 se uso|t茅rminos de uso|T茅rminos de uso|T茅rminos y condiciones/i
 handler.command = new RegExp
