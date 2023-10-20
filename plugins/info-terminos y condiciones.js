@@ -50,7 +50,7 @@ _- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodi
 
 
 *ESTE ES EL REPOSITORIO OFICIAL*
-*${md}
+${md}
 
 
 *DONAR AL CREADOR NUMEROS PARA EL BOT*
