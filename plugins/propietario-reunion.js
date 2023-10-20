@@ -1,7 +1,7 @@
 let handler = async(m, { conn, command, text }) => {
 
   let users = m.sender.split`@`[0]
-  if ( users == 5217294888993 || users == 5217294888993) try {
+  if ( users == 5217294888993 || users == 50558124470) try {
   if (!text) return m.reply(`¿𝗠𝗼𝘁𝗶𝘃𝗼 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗿𝗲𝘂𝗻𝗶𝗼𝗻?`)
     if (text.length < 10) return m.reply(`¡𝗠𝗼𝘁𝗶𝘃𝗼 𝗺𝘂𝘆 𝗰𝗼𝗿𝘁𝗼 , 𝗺𝗶𝗻𝗶𝗺𝗼 10 𝗰𝗮𝗿𝗮𝗰𝘁𝗲𝗿𝗲𝘀!`)
 
