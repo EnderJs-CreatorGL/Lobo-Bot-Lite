@@ -114,9 +114,9 @@ _- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodi
 *ESTE ES EL REPOSITORIO OFICIAL*
 *${md}
 
-*CUENTA OFICIAL DE ASISTENCIA - INSTAGRAM*
-~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre GataBot, Tambien puede Comunicarse en Caso de Temas de Colaboracion_
-*${ig}*
+*CUENTA OFICIAL DE ASISTENCIA - I
+~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre Lobo-bot-md, Tambien puede Comunicarse en Caso de Temas de Colaboracion_
+
 
 *DONAR AL CREADOR NUMEROS PARA EL BOT*
 ~ _Si te Agrada y valoras el Trabajo que he realizado, puedes ayudarme en Donar para que pueda continuar en este Proyecto_
