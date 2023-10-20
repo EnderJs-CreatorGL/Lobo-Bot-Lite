@@ -2,14 +2,14 @@ let handler = (m) => m;
 handler.all = async function (m) {
   
 
-  if (/^HacheJota|GB|gb|ender|Ender|ENDER$/i.test(m.text)) {
-    var hj = `𝙲𝚁𝙴𝙰𝙳𝙾𝚁 @${global.suittag} 𝚄𝙽 𝙷𝚄𝙼𝙰𝙽𝙾 𝚃𝙴 𝙰 𝙸𝙽𝚅𝙾𝙲𝙰𝙳𝙾`;
+  if (/^Endergb|GB|gb|ender|Ender|ENDER$/i.test(m.text)) {
+    var GB = `ᴏᴡɴᴇʀ  @${global.suittag} ᴛᴇ ᴀ ɪɴᴠᴏᴄᴀᴅᴏ`;
 
-    m.reply(hj, m.chat, { mentions: conn.parseMention(hj)});
+    m.reply(GB, m.chat, { mentions: conn.parseMention(GB)});
     //sem prefixo
     /*conn.reply(
       m.chat,
-      `𝙲𝚁𝙴𝙰𝙳𝙾𝚁 @${global.suittag} 𝚄𝙽 𝙷𝚄𝙼𝙰𝙽𝙾 𝚃𝙴 𝙰 𝙸𝙽𝚅𝙾𝙲𝙰𝙳𝙾`,
+      `ᴏᴡɴᴇʀ @${global.suittag} ᴛᴇ ᴀ ɪɴᴠᴏᴄᴀᴅᴏ`,
       m
     );*/ //wm, null, [['Menu', '#menu']], m) botones :V
   }
