@@ -21,6 +21,6 @@ const handler = async (m, {text, conn, usedPrefix, command}) => {
   }
   if (res[0]) conn.reply(m.chat, `[🌼] 𝗣𝗿𝗲𝗳𝗲𝗰𝘁𝗼, 𝗼𝗿𝗱𝗲𝗻 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗱𝗮 𝘀𝗲 𝘂𝘀𝗼 ${command} 𝗽𝗮𝗿𝗮 𝗮𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 ${res ? `${res.map((v) => '@' + v.split('@')[0])}` : ''}*`, m, {mentions: res});
 };
-handler.command = /^(bloquear|desbloquear)$/i;
+handler.command = /^(block|unblock)$/i;
 handler.rowner = true;
 export default handler;
