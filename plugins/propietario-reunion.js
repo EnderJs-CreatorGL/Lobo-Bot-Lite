@@ -10,10 +10,14 @@ m.reply('[💻]𝗣𝗲𝗿𝗳𝗲𝗰𝘁𝗼, 𝘀𝗲 𝗲𝘀𝘁𝗮 𝗲�
 for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
-                        conn.sendPayment(data.jid, '999999999', texto, m)
+                        conn.sendPayment(data.jid, '999999999', texto, m)}
+  } catch (e) { await conn.reply(m.chat, 'este comando no funciona', m)
+               console.log(e)
+               } else {
+    await m.reply('no puedes usar este comando')}
                         
                            // conn.reply(data.jid, text, m, { mentions: [m.sender] })
-                    }
+                    
 
 }
 handler.tags = ['owner']
