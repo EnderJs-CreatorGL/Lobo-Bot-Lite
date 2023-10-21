@@ -286,7 +286,7 @@ user.lastmiming = new Date * 1
 }
 handler.help = ['buy', 'sell'].map(v => v + ' [item] [count]')
 handler.tags = ['rpg']
-handler.command = /^(buy|sell)$/i
+handler.command = /^(tienda|recursos)$/i
 handler.disabled = false
 handler.register = true
 handler.level = 5
