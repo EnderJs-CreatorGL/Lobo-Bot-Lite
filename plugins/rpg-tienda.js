@@ -164,7 +164,6 @@ const items = {
     }
 }   
    
-let imgr = flaaa()
     const listItems = Object.fromEntries(Object.entries(items[command.toLowerCase()]).filter(([v]) => v && v in user))
     
     let text = ''
