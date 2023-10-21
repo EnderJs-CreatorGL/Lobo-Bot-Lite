@@ -8,21 +8,21 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['50576390682', '💖𝙴𝙽𝙳𝙴𝚁 𝙻𝙱 𝙾𝚆𝙽𝙴𝚁💖', true],
+  ['50576390682'],
   ['5217294888993', '🍓𝚂𝚃𝙰𝙵𝙵 𝙰𝚉𝙰𝙼𝙸🍓', true],
-  ['5491168758497', '⚕️𝚂𝚃𝙰𝙵𝙵 𝙴𝙽𝚉𝙾⚕️', true],
-  ['50558124470', '💝𝙴𝙽𝙳𝙴𝚁2 𝙻𝙱 𝙾𝚆𝙽𝙴𝚁💝', true],
+  ['5491168758497'],
+  ['50558124470', '💖𝙴𝙽𝙳𝙴𝚁 𝙻𝙱 𝙾𝚆𝙽𝙴𝚁💖', true],
   ['51929972576', '💻𝙲𝚄𝚂𝚃𝙾𝙼𝙴𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃💻', true],
-  ['593939005387', '⚕️𝚂𝚃𝙰𝙵𝙵 𝙹𝙾𝚂𝚃𝙸𝙽⚕️', true],
+  ['59393900538'],
   ['51928723029', '🖥️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝙻𝙾𝙱𝙰𝙻🖥️', true],
   ['51992004117'],
   ['584129799955'],
-  ['51941987051', '⚕️𝚂𝚃𝙰𝙵𝙵 𝙹𝙸𝙼𝙴𝙽𝙴𝚂⚕️', true],
+  ['51941987051'],
 
 ];
 
 global.suittag =['50558124470']
-global.prems =['50576390682']
+global.prems =['50558124470']
 
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
@@ -61,7 +61,7 @@ global.mysticbot = 'https://github.com/Ender-GB-Isis777/LOBO-BOT-MD';
 global.waitt = '*[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '51992004112', '50576390682';
+global.nomorown = '51992004112', '50576390682', '50558124470';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
