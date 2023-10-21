@@ -16,6 +16,6 @@ const handler = async (m) => {
 };
 handler.help = ['speedtest'];
 handler.tags = ['info'];
-handler.command = /^(speedtest?|velocidad|test?speed)$/i;
+handler.command = /^(rapides|velocidad|server)$/i;
 
 export default handler;
