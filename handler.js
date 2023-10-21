@@ -1081,7 +1081,7 @@ export async function handler(chatUpdate) {
             const data = (await conn.onWhatsApp(jid))[0] || {};
 	 
             if (data.exists) {
-              await m.reply(`*[ ⚠️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*[❗] 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid);
+              await m.reply(`*[ ❄️ 𝚁𝙴𝙿𝙾𝚁𝚃𝙴 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝙾𝙽 𝙵𝙰𝙻𝙻𝙾𝚂 ❄️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾:* ${m.sender}\n*—◉ 𝙲𝙾𝙼𝙰𝙽𝙳𝙾:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*[❗] 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙱𝙾𝚃 𝙿𝙰𝚁𝙰 𝙳𝙰𝚁𝙻𝙴 𝚄𝙽𝙰 𝚂𝙾𝙻𝚄𝙲𝙸𝙾𝙽, 𝙿𝚄𝙴𝙳𝙴 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 #reporte*`.trim(), data.jid);
             }
           }*/
           const md5c = fs.readFileSync('./plugins/' + m.plugin);
@@ -1178,11 +1178,11 @@ export async function handler(chatUpdate) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
 ╔═════════════════════════╗
- ❰ ⚠️ ❱ *¡USUARIO BANEADO!* ❰ ⚠️ ❱
+ ❰ 🌨️ ❱ ¡𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗣𝗥𝗢𝗛𝗜𝗕𝗜𝗗𝗢! ❰ 🌨️ ❱
 —◉ *Aviso ${messageNumber}/3 (Total: 3)*
 —◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
 —◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Bot para apelar la suspensión.*
-—◉ *Contacto para apelaciones:* wa.me/51992004117
+—◉ *Contacto para apelaciones:* wa.me/50558124470
 ╚═════════════════════════╝
                `.trim();
               m.reply(messageText);
@@ -1265,11 +1265,11 @@ const messageText = `
           m.exp += xp;
         }
         if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-          this.reply(m.chat, `[🥀] 𝗦𝘂𝘀 𝗱𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀 𝘀𝗲 𝗮𝗻 𝗮𝗴𝗼𝘁𝗮𝗱𝗼, 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝘂𝘀𝗮𝗻𝗱𝗼 ${usedPrefix}buy <cantidad>*`, m);
+          this.reply(m.chat, `[🕹️] 𝗦𝘂𝘀 𝗱𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀 𝘀𝗲 𝗮𝗻 𝗮𝗴𝗼𝘁𝗮𝗱𝗼, 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝘂𝘀𝗮𝗻𝗱𝗼 ${usedPrefix}buy <cantidad>`, m);
           continue; // Limit habis
         }
         if (plugin.level > _user.level) {
-          this.reply(m.chat, `[🥀] 𝗡𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝗲𝗹 𝗻𝗶𝘃𝗲𝗹 ${plugin.level} 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝘁𝘂 𝗻𝗶𝘃𝗲𝗹 𝗲𝘀 ${_user.level}*`, m);
+          this.reply(m.chat, `[🕹️] 𝗡𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝗲𝗹 𝗻𝗶𝘃𝗲𝗹 ${plugin.level} 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝘁𝘂 𝗻𝗶𝘃𝗲𝗹 𝗲𝘀 ${_user.level}`, m);
           continue; // If the level has not been reached
         }
         const extra = {
