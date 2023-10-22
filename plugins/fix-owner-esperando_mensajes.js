@@ -22,7 +22,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       }
     }
     if (filesDeleted === 0) {
-      await conn.sendMessage(m.chat, {text: '*[❗] No se encontró ningún archivo para eliminar en la carpeta HachikoSession.*'}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: '*[❗] No se encontró ningún archivo para eliminar en la carpeta LoboSession.*'}, {quoted: m});
     } else {
       await conn.sendMessage(m.chat, {text: `*[❗] Se eliminaron ${filesDeleted} archivos de sesión, excepto el archivo creds.json.*`}, {quoted: m});
     }
@@ -30,7 +30,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     console.error('Error al leer la carpeta o los archivos de sesión:', err);
     await conn.sendMessage(m.chat, {text: '*[❗] Ocurrió un error al eliminar los archivos de sesión.*'}, {quoted: m});
   }
-  await conn.sendMessage(m.chat, {text: `💖𝗣𝗲𝗿𝗳𝗲𝗰𝘁𝗼,¿𝗮𝗵𝗼𝗿𝗮 𝗺𝗲 𝗹𝗲𝗲𝘀?\n\n*[❗] Si el Bot no le responde a sus comandos por favor haga un pequeño spam*\n\n*—◉ Ejemplo:*\n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
+  await conn.sendMessage(m.chat, {text: `😃 𝗘𝘀𝘁𝗼𝘆 𝗹𝗶𝘀𝘁𝗼,¿𝗮𝗵𝗼𝗿𝗮 𝗺𝗲 𝗹𝗲𝗲𝘀?\n\n*[❗] Si el Bot no le responde a sus comandos por favor haga un pequeño spam*\n\n*—◉ Ejemplo:*\n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
 };
 handler.help = ['del_reg_in_session_owner'];
 handler.tags = ['owner'];
