@@ -8,13 +8,13 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['50558124470', '🌐𝙴𝙽𝙳𝙴𝚁 𝙲𝚁𝙴𝙰𝚃𝙾𝚁🌐', true],
-  ['5217294888993', '🖥️𝚂𝚃𝙰𝙵𝙵 𝙰𝚉𝙰𝙼𝙸🖥️', true],
+  ['50558124470', '🍭𝙴𝙽𝙳𝙴𝚁 𝙲𝚁𝙴𝙰𝚃𝙾𝚁🍭', true],
+  ['5217294888993', '🍧𝚂𝚃𝙰𝙵𝙵 𝙰𝚉𝙰𝙼𝙸🍧', true],
   ['5491168758497'],
   ['50576390682'],
-  ['51929972576', '🖥️𝚂𝚃𝙰𝙵𝙵 𝙰𝚇𝙴𝙻🖥️', true],
+  ['51929972576', '🍧𝚂𝚃𝙰𝙵𝙵 𝙰𝚇𝙴𝙻🍧', true],
   ['593939005387'],
-  ['5214437863111', '🖥️𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙷𝙹🖥️', true],
+  ['5214437863111', '🍧𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙷𝙹🍧', true],
   ['51992004117'],
   ['584129799955'],
   ['51941987051'],
@@ -38,7 +38,7 @@ global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6= fs.readFileSync('./Menu3.png');
-global.imagen7= fs.readFileSync('./src/hjbot.jpg');
+global.imagen7= fs.readFileSync('./src/lbbot.jpg');
 global.mods = [];
 
 //* *******Tiempo***************
@@ -52,7 +52,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 //****************************
 global.gp1 = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd'
-global.gp2 = 'https://chat.whatsapp.com/BcCSqRpWctb0J4cNZb02Te'
+global.gp2 = 'https://chat.whatsapp.com/BOcdxokaL8YDnWohg78z2A'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙼𝙳`;
 global.gt = '★𝗟𝗢𝗕𝗢-𝗕𝗢𝗧★';
 global.mysticbot = '★𝗟𝗢𝗕𝗢 - 𝗕𝗢𝗧★';
