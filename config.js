@@ -52,7 +52,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 //****************************
 global.gp1 = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd'
-global.gp2 = 'https://chat.whatsapp.com/BOcdxokaL8YDnWohg78z2A'
+global.gp2 = 'https://chat.whatsapp.com/HyUvVmBB59w91eugMRBRfF'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙼𝙳`;
 global.gt = '★𝗟𝗢𝗕𝗢-𝗕𝗢𝗧★';
 global.mysticbot = '★𝗟𝗢𝗕𝗢 - 𝗕𝗢𝗧★';
