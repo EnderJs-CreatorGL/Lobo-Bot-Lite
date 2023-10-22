@@ -106,7 +106,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `HachikoSession`;
+global.authFile = `LoboSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const {version} = await fetchLatestBaileysVersion();
@@ -170,7 +170,7 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./HachikoSession")
+let directorio = readdirSync("./LoboSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
@@ -201,7 +201,7 @@ console.log(chalk.bold.red(`=> Algo salio mal durante la eliminación, archivos 
 }}
 
 function purgeOldFiles() {
-const directories = ['./HachikoSession/', './jadibts/']
+const directories = ['./LoboSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -300,14 +300,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '*╔══════════════*\n╟☆ @subject\n*╠══════════════*\n╟☆ @user\n╟ꕥ 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎/𝐀 \n╟☆ 𝐌𝐈𝐑𝐀 𝐋𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎:\n╟☆ 𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎!!\n*╚══════════════*';
-  conn.bye = '*╔══════════════*\n╟☆ @user\n╟♲︎︎︎ 𝐀𝐃𝐈𝐎𝐒 𝐘 𝐍𝐎 𝐑𝐄𝐆𝐑𝐄𝐒𝐄𝐒 \n╟☆ 𝐍𝐀𝐃𝐈𝐄 𝐋𝐎 𝐄𝐗𝐓𝐑𝐀𝐍̃𝐀𝐑𝐀 😃 \n*╚══════════════*';
-  conn.spromote = '↪️ @user 𝐏𝐞𝐫𝐟𝐞𝐜𝐭𝐨,𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
-  conn.sdemote = '↪️ @user 𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨,𝐘𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
-  conn.sDesc = '🔧 𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨*\n\n𝐍𝐮𝐞𝐯𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧: @desc';
-  conn.sSubject = '🔧 𝐒𝐞 𝐜𝐚𝐦𝐛𝐢𝐨 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐧𝐨𝐦𝐛𝐫𝐞: @subject';
-  conn.sIcon = '🔧 𝐒𝐞 𝐚 𝐜𝐚𝐦𝐛𝐢𝐚𝐝𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
-  conn.sRevoke = '🔗 𝐒𝐞 𝐚 𝐫𝐞𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐢𝐝𝐨 𝐞𝐥 𝐥𝐢𝐧𝐤 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐥𝐢𝐧𝐤: @revoke';
+  conn.welcome = '*╔══════════════*\n╟☆ @subject\n*╠══════════════*\n╟☆ @user\n╟ꕥ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮 \n╟☆ 𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀:\n╟☆ 𝗘𝘅𝗰𝗲𝗹𝗲𝗻𝘁𝗲 𝗲𝘀𝘁𝗮𝗱𝗶𝗮!!\n*╚══════════════*';
+  conn.bye = '*╔══════════════*\n╟☆ @user\n╟♲︎︎︎ 𝗔𝗱𝗶𝗼𝘀 𝘆 𝗻𝗼 𝗿𝗲𝗴𝗿𝗲𝘀𝗲𝘀 \n╟☆ 𝗡𝗮𝗱𝗶𝗲 𝗹𝗼 𝗲𝘅𝘁𝗿𝗮𝗻̃𝗮𝗿𝗮 😃 \n*╚══════════════*';
+  conn.spromote = '[↪️] @user 𝐏𝐞𝐫𝐟𝐞𝐜𝐭𝐨,𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+  conn.sdemote = '[↪️] @user 𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨,𝐘𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+  conn.sDesc = '[🔧] 𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨*\n\n𝐍𝐮𝐞𝐯𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧: @desc';
+  conn.sSubject = '[🔧] 𝐒𝐞 𝐜𝐚𝐦𝐛𝐢𝐨 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐧𝐨𝐦𝐛𝐫𝐞: @subject';
+  conn.sIcon = '[🔧] 𝐒𝐞 𝐚 𝐜𝐚𝐦𝐛𝐢𝐚𝐝𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+  conn.sRevoke = '[🔗] 𝐒𝐞 𝐚 𝐫𝐞𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐢𝐝𝐨 𝐞𝐥 𝐥𝐢𝐧𝐤 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐥𝐢𝐧𝐤: @revoke';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
@@ -462,7 +462,7 @@ setInterval(async () => {
   const status = global.db.data.settings[conn.user.jid] || {};
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `⏰𝗜𝗡𝗙𝗢 𝗧𝗜𝗘𝗠𝗣𝗢:${uptime}┃☆𝗘𝗻𝗱𝗲𝗿 𝗟𝗕☆┃🐺𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗`;
+  const bio = `𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗🐺┃☆𝗘𝗻 𝗴𝗿𝘂𝗽𝗼𝘀:𝗢𝘄𝗻𝗲𝗿☆┃☆𝗜𝗻𝗳𝗼:𝗖𝗿𝗲𝗮𝗱𝗼𝗿☆┃☆(𝗟𝗗 𝗢𝗙𝗖)☆┃𝗧𝗶𝗺𝗲${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
