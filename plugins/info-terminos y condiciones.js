@@ -5,7 +5,7 @@ import { join } from 'path'*/
 let handler = async (m, { conn, usedPrefix, command}) => {
   
 
-let Terminos = `*_Toda la informacion que se mencione aqui no excluye a la Propietario(Owner) del Bot, y Propietarios Acredores al uso de LOBO-BOT-MD_*
+let Terminos = `*_Toda la informacion que se mencione aqui no excluye al Propietario(Owner) del Bot, y Propietarios Acredores al uso de LOBO-BOT-MD_*
 *_No Somos responsables del desconocimiento que tenga por parte de esta informacion._* 
 
 
