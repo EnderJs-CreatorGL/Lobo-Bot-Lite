@@ -1,20 +1,20 @@
 
 import {generateWAMessageFromContent} from '@whiskeysockets/baileys'; 
 //const { generateWAMessageFromContent } = require('whatsapp-web.js');
-import axios = from 'axios't;
+import axios = from 'axios';
  
 
 //Crea una nueva instancia del generateWAMessageFromContente y escucha los mensajes entrantes:
 
-// if (command == 'play2') {
+
 const generateWAMessageFromContent = new generateWAMessageFromContent();
 
 generateWAMessageFromContent.on('message', async message => {
    if (command == 'noticia') {
         let news = await getNews();
         if (news) {
-            message.reply(`Título: ${news.title}\nFecha: ${news.publishedAt}\nArtículo: ${news.description}\nURL: ${news.url}`);
-            conn.sendFile(m.chat, news.urlToImage, 'news.jpeg', '', m);
+            conn.reply(`Título: ${news.title}\nFecha: ${news.publishedAt}\nArtículo: ${news.description}\nURL: ${news.url}`);
+            conn.sendFile(m.chat, imagen1, 'news.jpeg', '', m);
         } else {
             message.reply('Lo siento, no pude obtener las noticias en este momento.');
         }
