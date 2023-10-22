@@ -51,9 +51,9 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 
 //****************************
-global.gp1 = 'https://chat.whatsapp.com/BMGMxj6cU9o4S3huVByLFc'
+global.gp1 = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd'
 global.gp2 = 'https://chat.whatsapp.com/BcCSqRpWctb0J4cNZb02Te'
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝`;
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙼𝙳`;
 global.gt = '★𝗟𝗢𝗕𝗢-𝗕𝗢𝗧★';
 global.mysticbot = '★𝗟𝗢𝗕𝗢 - 𝗕𝗢𝗧★';
 global.md = 'https://github.com/Ender-GB-Isis777/LOBO-BOT-MD';
