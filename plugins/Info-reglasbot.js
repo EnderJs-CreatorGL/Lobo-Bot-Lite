@@ -15,7 +15,7 @@ let Reglas = ` ⚠️𝗥𝗘𝗦𝗣𝗘𝗧𝗔 𝗟𝗔𝗦 𝗥𝗘𝗚𝗟�
 𝚂𝙸 𝚃𝙴 𝙶𝚄𝚂𝚃𝙰 𝙴𝙻 𝙱𝙾𝚃 , 𝚃𝙰𝙼𝙱𝙸𝙴𝙽 𝙿𝚄𝙴𝙳𝙴𝚂 𝙸𝚁 𝙰𝙻 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 𝚈 𝙳𝙴𝙹𝙰𝚁 𝚄𝙽𝙰 🌟
 ${md}
 `.trim()
-await conn.sendFile(m.chat, imagen1, 'gata.mp4', Terminos)
+await conn.sendFile(m.chat, imagen1, 'gata.mp4', Reglas)
 }
 handler.customPrefix = /reglas|Reglas|reglasbot, botreglas|uso, usobot|uso del bot/i
 handler.command = new RegExp
