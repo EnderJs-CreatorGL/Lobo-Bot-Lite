@@ -9,15 +9,15 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   }[(args[0] || '')];
   if (isClose === undefined) {
     throw `
-*[❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾!!*
+[🚫] 𝗨𝘀𝗼 𝗶𝗻𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗼!!
 
-*┏━━━❲ ✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾✨ ❳━━━┓* 
+*┏━━━❲ ❕𝗘𝗷𝗲𝗺𝗽𝗹𝗼❕ ❳━━━┓* 
 *┠┉↯ ${usedPrefix + command} abrir*
 *┠┉↯ ${usedPrefix + command} cerrar*
 `.trim();
   }
   await conn.groupSettingUpdate(m.chat, isClose);
-  {m.reply('*[ ✔ ] 𝙶𝚁𝚄𝙿𝙾 𝙲𝙾𝙽𝙵𝙸𝙶𝚄𝚁𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴*');}
+  {m.reply('[ 👥 ] 𝗢𝗿𝗱𝗲𝗻 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗱𝗮 𝗲𝗻 𝗲𝗹 𝗴𝗿𝘂𝗽𝗼 𝗲𝘅𝗶𝘁𝗼𝘀𝗮𝗺𝗲𝗻𝘁𝗲.');}
 };
 handler.help = ['group open / close', 'grupo abrir / cerrar'];
 handler.tags = ['group'];
