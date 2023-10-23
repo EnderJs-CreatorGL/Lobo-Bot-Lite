@@ -29,14 +29,14 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       }
     } else if (args[0]) {
       if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author);
-      else return m.reply('[🍭] 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔 𝗨𝗡𝗔 𝗜𝗠𝗔𝗚𝗘𝗡 𝗣𝗔𝗥𝗔 𝗩𝗢𝗟𝗩𝗘𝗥 𝗔 𝗦𝗧𝗜𝗖𝗞𝗘𝗥, 𝗘𝗝𝗘𝗠𝗣𝗟𝗢: ${usedPrefix}s https://telegra.ph/file/0dc687c61410765e98de2.jpg*');
+      else return m.reply('[🍓] 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔 𝗨𝗡𝗔 𝗜𝗠𝗔𝗚𝗘𝗡 𝗣𝗔𝗥𝗔 𝗩𝗢𝗟𝗩𝗘𝗥 𝗔 𝗦𝗧𝗜𝗖𝗞𝗘𝗥,𝗘𝗝𝗘𝗠𝗣𝗟𝗢: ${usedPrefix}s https://telegra.ph/file/0dc687c61410765e98de2.jpg*');
     }
   } catch (e) {
     console.error(e);
     if (!stiker) stiker = e;
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m);
-    else throw '[🍭] 𝗘𝗥𝗥𝗢𝗥, 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔 𝗨𝗡𝗔 𝗜𝗠𝗔𝗚𝗘𝗡 𝗣𝗔𝗥𝗔 𝗩𝗢𝗟𝗩𝗘𝗥 𝗔 𝗦𝗧𝗜𝗖𝗞𝗘𝗥, 𝗘𝗝𝗘𝗠𝗣𝗟𝗢';
+    else throw '[🍓] 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔 𝗨𝗡𝗔 𝗜𝗠𝗔𝗚𝗘𝗡 𝗣𝗔𝗥𝗔 𝗩𝗢𝗟𝗩𝗘𝗥 𝗔 𝗦𝗧𝗜𝗖𝗞𝗘𝗥';
   }
 };
 handler.help = ['sfull'];
