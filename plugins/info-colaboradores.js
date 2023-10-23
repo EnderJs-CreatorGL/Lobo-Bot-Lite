@@ -34,7 +34,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ┣𝗔𝘅𝗲𝗹|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Jxtxn17/Turbobot-MD
 
-┣𝗦𝗮𝗻𝘀|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Sans-r4
+┣𝗦𝗮𝗻𝘀 𝗥4|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Sans-r4
 
 ┣𝗘𝗻𝘇𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Enzovaselevich
 
