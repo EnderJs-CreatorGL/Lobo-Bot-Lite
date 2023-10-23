@@ -6,7 +6,7 @@
 
 🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚇𝙴𝙻𝙻𝙸𝚃𝙾𝙿𝙴𝚇
 
-# `🐺 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 🐺` 
+# `🐺𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗🐺` 
 <p align="center">
 <img src="https://i.ibb.co/wYRhwjt/lobo-bot.jpg" alt="LoboBot-MD" width="900"/>
 </p>
@@ -14,7 +14,7 @@
 
 
 
-### `—◉ 🤖𝗟𝗢𝗕𝗢-𝗕𝗢𝗧𝗦-𝗠𝗗 (𝗢𝗙𝗖)  🤖`
+### `—◉ 🤖𝗟𝗼𝗯𝗼-𝗯𝗼𝘁𝘀-𝗠𝗗(𝗼𝗳𝗰)🤖`
 
 <a href="https://api.whatsapp.com/send/?phone=5491130182250&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
@@ -25,27 +25,27 @@
  > NO SPAMEAR COMANDOS
 
 
-### `—◉ 🖍 LETRA DEL BOT 🖍`
+### `—◉ 🖍𝗟𝗲𝘁𝗿𝗮 𝗕𝗼𝘁🖍`
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 
-### `—◉ ⚙️ AJUSTES ⚙️`
+### `—◉ ⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/Hachiko-Bot-MD/fork)
 
   
-### `—◉ 💥 ACTIVAR EN KOYEB 💥`
+### `—◉ 💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
   
-### `—◉ 🌌 ACTIVAR EN REPLIT 🌌`
+### `—◉ 🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
 [![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
   
-### `—◉ 📜 ACTIVAR EN RENDER 📜`
+### `—◉ 📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FBrunoSobrino%2FTheMystic-Bot-MD) 
 
-### `—◉ 📍 ACTIVAR EN TERMUX 📍` 
+### `—◉ 📍𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝘁𝗲𝗿𝗺𝘂𝘅📍` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
@@ -79,7 +79,7 @@ npm update
 npm start
 ```
 
-### `—◉ ✔️ ACTIVAR EN CASO DE DETENERSE EN TERMUX ✔️`
+### `—◉ ✔️ACTIVAR EN CASO DE DETENERSE EN TERMUX✔️`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -87,7 +87,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `—◉ ❗ OBTENER OTRO CODIGO QR EN TERMUX ❗`
+### `—◉ ❗OBTENER OTRO CODIGO QR EN TERMUX❗`
 - DETENER EL BOT DANDO CLICK EN EL SIMBOLO CTROL EN TERMUX MAS LA LETRA Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A Lobo-termux $  
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -99,7 +99,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 
- ### `—◉ 🌹 DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR 🌹`
+ ### `—◉ 🌹DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR🌹`
 <a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `—◉📄✦CUSTOMER SUPPORT✦📄`
@@ -110,7 +110,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="[https://github.com/Jxtxn17]"><img src="https://github.com/Jxtxn17.png" width="100" height="100" alt="Jxtxn"/></a>
 
 
-## `🔮AGRADECIMIENTOS & CREDITOS🔮` 
+## `🪁AGRADECIMIENTOS🪁` 
 <div><button id="boton" type="button">games-wabot-md - By BochilGaming </button></div>
 <a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device"><img src="https://github.com/BochilGaming.png" width="150" height="150" alt="BochilGaming"/></a>
 <div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
