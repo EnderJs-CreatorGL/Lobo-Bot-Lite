@@ -1,10 +1,10 @@
-🌹𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙴𝙽𝙳𝙴𝚁 𝙻𝙱
+🌼𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙴𝙽𝙳𝙴𝚁 𝙻𝙱
 
-🌷𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚉𝙰𝙼𝙸
+🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚉𝙰𝙼𝙸
 
-🌷𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙷𝙰𝙲𝙷𝙴 𝙹𝙾𝚃𝙰
+🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙷𝙰𝙲𝙷𝙴 𝙹𝙾𝚃𝙰
 
-🌷𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚇𝙴𝙻𝙻𝙸𝚃𝙾𝙿𝙴𝚇
+🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚇𝙴𝙻𝙻𝙸𝚃𝙾𝙿𝙴𝚇
 
 # `🐺 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 🐺` 
 <p align="center">
@@ -14,7 +14,7 @@
 
 
 
-### `—◉ 🤖 BOTS OFICIALES 🤖`
+### `—◉ 🤖𝗟𝗢𝗕𝗢-𝗕𝗢𝗧𝗦-𝗠𝗗 (𝗢𝗙𝗖)  🤖`
 
 <a href="https://api.whatsapp.com/send/?phone=5491130182250&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
@@ -41,11 +41,11 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
   
-### `—◉ 🔰 ACTIVAR EN RENDER 🔰`
+### `—◉ 📜 ACTIVAR EN RENDER 📜`
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FBrunoSobrino%2FTheMystic-Bot-MD) 
 
-### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
+### `—◉ 📍 ACTIVAR EN TERMUX 📍` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
@@ -87,7 +87,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `—◉ 👽 OBTENER OTRO CODIGO QR EN TERMUX 👽`
+### `—◉ ❗ OBTENER OTRO CODIGO QR EN TERMUX ❗`
 - DETENER EL BOT DANDO CLICK EN EL SIMBOLO CTROL EN TERMUX MAS LA LETRA Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A Lobo-termux $  
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -99,24 +99,24 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 
- ### `—◉ 👑 DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR 👑`
+ ### `—◉ 🌹 DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR 🌹`
 <a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `—◉ ✦CUSTOMER SUPPORT✦`
+### `—◉📄✦CUSTOMER SUPPORT✦📄`
 <a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_COSTOMER_SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-## `COLABORADORES DEL BOT` 
+## `🌼COLABORADORES DEL BOT🌼` 
 <a href="[https://github.com/Ender-GB-Isis777]"><img src="https://github.com/Ender-GB-Isis777.png" width="100" height="100" alt="Ender"/></a>
 <a href="[https://github.com/Jxtxn17]"><img src="https://github.com/Jxtxn17.png" width="100" height="100" alt="Jxtxn"/></a>
 
 
-## `AGRADECIMIENTOS & CREDITOS` 
+## `🔮AGRADECIMIENTOS & CREDITOS🔮` 
 <div><button id="boton" type="button">games-wabot-md - By BochilGaming </button></div>
 <a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device"><img src="https://github.com/BochilGaming.png" width="150" height="150" alt="BochilGaming"/></a>
 <div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
 <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
 
-## `EDITOR & PROPIETARIO DEL BOT` 
+## `🌹EDITOR & PROPIETARIO DEL BOT🌹` 
 <a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png" width="250" height="250" alt="Ender"/></a>
   
 `Lobo-Bot-MD - By Ender GB`
