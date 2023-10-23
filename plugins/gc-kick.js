@@ -1,11 +1,11 @@
 const handler = async (m, {conn, participants, command, usedPrefix}) => {
-  if (!global.db.data.settings[conn.user.jid].restrict) throw '[ 🚫 ] 𝐅𝐚𝐥𝐥𝐨, 𝐧𝐨 𝐬𝐞 𝐩𝐮𝐞𝐝𝐞 𝐡𝐚𝐜𝐞𝐫 𝐥𝐚 𝐚𝐜𝐜𝐢𝐨𝐧 𝐩𝐨𝐫 𝐪𝐮𝐞 𝐞𝐬𝐭𝐚 𝐝𝐞𝐬𝐚𝐜𝐭𝐢𝐯𝐚𝐝𝐨 𝐞𝐥 𝐦𝐨𝐝𝐨 (𝚎𝚗𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝 / 𝚍𝚒𝚜𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝) 𝐬𝐨𝐥𝐨 𝐨𝐰𝐧𝐞𝐫𝐬 𝐩𝐮𝐞𝐝𝐞𝐧 𝐚𝐜𝐭𝐢𝐯𝐚𝐫𝐥𝐚';
-  const kicktext = `[⛔]𝐏𝐫𝐢𝐦𝐞𝐫𝐨 𝐞𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐚𝐥 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐨 𝐫𝐞𝐬𝐩𝐨𝐧𝐝𝐞 𝐚𝐥 𝐦𝐞𝐧𝐬𝐚𝐣𝐞\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} @${global.suittag}*`;
+  if (!global.db.data.settings[conn.user.jid].restrict) throw '[ 🚫 ] 𝗡𝗢 𝗣𝗨𝗘𝗗𝗢 𝗘𝗝𝗘𝗖𝗨𝗧𝗔𝗥 𝗟𝗔 𝗔𝗖𝗖𝗜𝗢𝗡 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗦𝗧𝗔 𝗗𝗘𝗦𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗔 𝗟𝗔 𝗢𝗣𝗖𝗜𝗢𝗡 (𝐓𝐑𝐔𝐄 𝐑𝐄𝐒𝐓𝐑𝐈𝐂𝐓 / 𝐅𝐀𝐋𝐒𝐄 𝐑𝐄𝐒𝐓𝐑𝐈𝐂𝐓) 𝗦𝗢𝗟𝗢 𝗢𝗪𝗡𝗘𝗥𝗦 𝗣𝗨𝗘𝗗𝗘𝗡 𝗔𝗖𝗧𝗜𝗩𝗔𝗥𝗟𝗔';
+  const kicktext = `[🧸]𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔𝗟 𝗠𝗘𝗡𝗦𝗔𝗝𝗘 𝗗𝗘𝗟 𝗨𝗦𝗨𝗔𝗥𝗜𝗢\n\n—◉ 𝗘𝗝𝗘𝗠𝗣𝗟𝗢:\n*${usedPrefix + command} @${global.suittag}*`;
   if (!m.mentionedJid[0] && !m.quoted) return m.reply(kicktext, m.chat, {mentions: conn.parseMention(kicktext)});
   if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return m.reply('[⛔] 𝐅𝐚𝐥𝐥𝐨, 𝐩𝐫𝐢𝐦𝐞𝐫𝐨 𝐞𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐚𝐥 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐨 𝐫𝐞𝐬𝐩𝐨𝐧𝐝𝐞 𝐚𝐥 𝐦𝐞𝐧𝐬𝐚𝐣𝐞');
   if (m.message.extendedTextMessage.contextInfo.participant !== null && m.message.extendedTextMessage.contextInfo.participant != undefined && m.message.extendedTextMessage.contextInfo.participant !== '') {
     const mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid[0] ? m.message.extendedTextMessage.contextInfo.mentionedJid[0] : m.message.extendedTextMessage.contextInfo.participant;
-    if (conn.user.jid.includes(mentioned)) return m.reply('[🚫] 𝐅𝐚𝐥𝐥𝐨, 𝐈𝐦𝐩𝐨𝐬𝐢𝐛𝐥𝐞 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐫𝐦𝐞 𝐚𝐦𝐢 𝐦𝐢𝐬𝐦𝐨, 𝐬𝐢 𝐞𝐫𝐞𝐬 𝐨𝐰𝐧𝐞𝐫 𝐮𝐬𝐚 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐥𝐞𝐚𝐯𝐞 𝐨 𝐬𝐚𝐜𝐚 𝐦𝐚𝐧𝐮𝐚𝐥𝐦𝐞𝐧𝐭𝐞');
+    if (conn.user.jid.includes(mentioned)) return m.reply('[🚫] 𝗡𝗢 𝗣𝗨𝗘𝗗𝗢 𝗘𝗟𝗜𝗠𝗜𝗡𝗔𝗥𝗠𝗘 𝗔 𝗠𝗜 𝗠𝗜𝗦𝗠𝗢, 𝗦𝗔𝗖𝗔𝗠𝗘 𝗠𝗔𝗡𝗨𝗔𝗟𝗠𝗘𝗡𝗧𝗘.');
     const responseb = await conn.groupParticipantsUpdate(m.chat, [mentioned], 'remove');
     const exitoso1 = `*@${mentioned.split('@')[0]} ғᴜᴇ ᴇʟɪᴍɪɴᴀᴅᴏ ᴇxɪᴛᴏsᴀᴍᴇɴᴛᴇ ᴅᴇʟ ɢʀᴜᴘᴏ*`;
     const error1 = `*@${mentioned.split('@')[0]} ᴇs ᴇʟ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ɢʀᴜᴘᴏ, ɴᴏ ᴘᴜᴇᴅᴏ ᴇʟɪᴍɪɴᴀʀ ᴀʟ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ɢʀᴜᴘᴏ*`;
