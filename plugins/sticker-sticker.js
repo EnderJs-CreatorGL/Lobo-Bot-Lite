@@ -36,7 +36,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     if (!stiker) stiker = e;
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m);
-    else throw '[🍓] 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔 𝗨𝗡𝗔 𝗜𝗠𝗔𝗚𝗘𝗡 𝗣𝗔𝗥𝗔 𝗩𝗢𝗟𝗩𝗘𝗥 𝗔 𝗦𝗧𝗜𝗖𝗞𝗘𝗥';
+    else throw '[🌼] 𝗛𝗢𝗟𝗔,𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔 𝗨𝗡𝗔 𝗜𝗠𝗔𝗚𝗘𝗡 𝗣𝗔𝗥𝗔 𝗩𝗢𝗟𝗩𝗘𝗥 𝗔 𝗦𝗧𝗜𝗖𝗞𝗘𝗥';
   }
 };
 handler.help = ['sfull'];
