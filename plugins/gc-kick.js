@@ -1,5 +1,5 @@
 const handler = async (m, {conn, participants, command, usedPrefix}) => {
-  if (!global.db.data.settings[conn.user.jid].restrict) throw '[ 🧾𝙸𝙽𝙵𝙾🧾 ]𝗡𝗘𝗖𝗘𝗦𝗜𝗧𝗢 𝗧𝗘𝗡𝗘𝗥 𝗔𝗖𝗧𝗜𝗩𝗢 𝗘𝗟 (.𝚃𝚁𝚄𝙴 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃) 𝗣𝗔𝗥𝗔 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗥 𝗟𝗔 𝗔𝗖𝗖𝗜𝗢́𝗡.';
+  if (!global.db.data.settings[conn.user.jid].restrict) throw '[ 📄𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽📄 ] 𝗡𝗲𝗰𝗲𝘀𝗶𝘁𝗼 𝘁𝗲𝗻𝗲𝗿 𝗮𝗰𝘁𝗶𝘃𝗼 𝗲𝗹 (.𝚃𝚁𝚄𝙴 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃) 𝗣𝗮𝗿𝗮 𝗿𝗲𝗮𝗹𝗶𝘇𝗮𝗿 𝗹𝗮 𝗮𝗰𝗰𝗶𝗼𝗻..';
   const kicktext = `[🧸]𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗔𝗟 𝗠𝗘𝗡𝗦𝗔𝗝𝗘 𝗗𝗘𝗟 𝗨𝗦𝗨𝗔𝗥𝗜𝗢\n\n—◉ 𝗘𝗝𝗘𝗠𝗣𝗟𝗢:\n*${usedPrefix + command} @${global.suittag}*`;
   if (!m.mentionedJid[0] && !m.quoted) return m.reply(kicktext, m.chat, {mentions: conn.parseMention(kicktext)});
   if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return m.reply('[⛔] 𝐅𝐚𝐥𝐥𝐨, 𝐩𝐫𝐢𝐦𝐞𝐫𝐨 𝐞𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐚𝐥 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐨 𝐫𝐞𝐬𝐩𝐨𝐧𝐝𝐞 𝐚𝐥 𝐦𝐞𝐧𝐬𝐚𝐣𝐞');
