@@ -8,25 +8,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
   const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    //await conn.reply(m.chat, '*En breve se enviara el menu. . .*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
-  async function loading() {
-var hawemod = [
-"2️⃣0️⃣ %",
-"4️⃣0️⃣ %",
-"6️⃣0️⃣ %",
-"8️⃣0️⃣ %",
-"1️⃣0️⃣0️⃣ %"
-]
-  
- //conn.reply(m.chat, `*╭──*`, m, { contextInfo:{ externalAdReply: {title: '𝐑𝐄𝐅𝐑𝐀𝐍', body: '𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-𝙼𝙳', sourceUrl: global.md, thumbnail: imagen7}}})  
-  let { key } = await conn.sendMessage(m.chat, {text: `cargando el menu`}, {quoted: m})
- for (let i = 0; i < hawemod.length; i++) {
-   await new Promise(resolve => setTimeout(resolve, 1000)); 
-   await conn.sendMessage(m.chat, {text: hawemod[i], edit: key}, {quoted: m}); 
-  }
-  await conn.sendMessage(m.chat, {text: doxeo, edit: key, mentions: conn.parseMention(doxeo)}, {quoted: m});         
- }
-loading();  
+    await conn.reply(m.chat, '*En breve se enviara el menu. . .*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('💖');
     await conn.sendMessage(m.chat, { react: { text: '💖', key: m.key } })
   let txt =`┏━━━━━━━━━━━━━━━━━━
