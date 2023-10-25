@@ -5,8 +5,9 @@ import { join } from 'path'*/
 let handler = async (m, { conn, usedPrefix, command}) => {
   
 
-let Terminos = `🖋️𝗜𝗻𝗳𝗼:
-❗seguir al pie de la letra los terminos y condiciones del bot,
+let Terminos = `
+🖋️𝗜𝗻𝗳𝗼:
+seguir al pie de la letra los terminos y condiciones del bot,
 El equipo de Staff no se hace responsable del mal uso del bot.
 
 🛡️𝗧𝗲𝗿𝗺𝗶𝗻𝗼𝘀 𝗱𝗲 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱:
@@ -16,7 +17,7 @@ _- Lo que realice con el BOT queda solo en Usted ya que en Numero(s) Oficial(es)
 
 _- Es posible que en Numero(s) Oficial(es) el Bot no este Activado las 24 Horas de los 7 dias de la Semana, eso no implica que no lo este o que Propietarios NO OFICIALES puedan Hacerlo._
 
-_- El chat anonimo del comando #start, valga la redundancia no mostrará ningun dato de los Usuarios por parte de GataBot. Eso no implica que las personas que hagan uso de esta funcion puedan dar a conocer sus datos. en Numero(s) Oficial(es)._
+_- El chat anonimo del comando #start, valga la redundancia no mostrará ningun dato de los Usuarios por parte de Lobo-Bot-MD. Eso no implica que las personas que hagan uso de esta funcion puedan dar a conocer sus datos. en Numero(s) Oficial(es)._
 
 _- Los Datos que Obtenga Lobo-bot-MD en Cuentas Oficiales de Usuarios(as), Grupos y Ajustes del Mismo puede verse Reiniciado, Modificado, y/o Retificado con el fin de que el Bot este en optimas Condiciones para su Uso. (Usuarios(as) Pueden Pedir Compensacion Por el numero wa.me/50558124470 o por el comando #Reporte. Debe de Presentar Pruebas)._
 
