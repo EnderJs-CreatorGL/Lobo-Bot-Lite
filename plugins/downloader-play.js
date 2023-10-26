@@ -20,14 +20,14 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = '𝐕𝐢𝐝𝐞𝐨 🎥';
     }
-    const texto1 = `🐺𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃🐺
-    ☘︎ 📃 𝐓𝐢𝐭𝐮𝐥𝐨: ${yt_play[0].title}
-☘︎ ⏱️ 𝐃𝐮𝐫𝐚𝐜𝐢𝐨𝐧: ${secondString(yt_play[0].duration.seconds)}
-☘︎ 🧿 𝐕𝐢𝐬𝐭𝐚𝐬: ${`${MilesNumber(yt_play[0].views)}`}
-☘︎ 👤 𝐀𝐮𝐭𝐨𝐫: ${yt_play[0].author.name}
-☘︎ 🔮 𝐂𝐚𝐧𝐚𝐥: ${yt_play[0].author.url}
-☘︎ 🔗 𝐋𝐢𝐧𝐤: ${yt_play[0].url}\n
-☘︎ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+    const texto1 = `🐺𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗🐺
+☆ 📑 𝐓𝐢𝐭𝐮𝐥𝐨: ${yt_play[0].title}
+☆ 🎼 𝐃𝐮𝐫𝐚𝐜𝐢𝐨𝐧: ${secondString(yt_play[0].duration.seconds)}
+☆ 🗓️ 𝐕𝐢𝐬𝐭𝐚𝐬: ${`${MilesNumber(yt_play[0].views)}`}
+☆ 🖋️ 𝐀𝐮𝐭𝐨𝐫: ${yt_play[0].author.name}
+☆ 🎞️ 𝐂𝐚𝐧𝐚𝐥: ${yt_play[0].author.url}
+☆ 📄 𝐋𝐢𝐧𝐤: ${yt_play[0].url}\n
+☆ _𝙴𝙽𝚅𝙸𝙰𝙽𝙳𝙾 ${additionalText}, 𝙴𝚂𝙿𝙴𝚁𝙴 𝚄𝙽𝙾𝚂 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂．．．_\n𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {    
@@ -178,14 +178,14 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     } else if (command === 'play2') {
       additionalText = '𝐕𝐢𝐝𝐞𝐨 🎥';
     }
-    const texto1 = `🐺𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃🐺
-☘︎ 📃 𝐓𝐢𝐭𝐮𝐥𝐨: ${yt_play[0].title}
-☘︎ ⏱️ 𝐃𝐮𝐫𝐚𝐜𝐢𝐨𝐧: ${secondString(yt_play[0].duration.seconds)}
-☘︎ 🧿 𝐕𝐢𝐬𝐭𝐚𝐬: ${`${MilesNumber(yt_play[0].views)}`}
-☘︎ 👤 𝐀𝐮𝐭𝐨𝐫: ${yt_play[0].author.name}
-☘︎ 🔮 𝐂𝐚𝐧𝐚𝐥: ${yt_play[0].author.url}
-☘︎ 🔗 𝐋𝐢𝐧𝐤: ${yt_play[0].url}\n
-☘︎ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
+    const texto1 = ``🐺𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗🐺
+☆ 📑 𝐓𝐢𝐭𝐮𝐥𝐨: ${yt_play[0].title}
+☆ 🎼 𝐃𝐮𝐫𝐚𝐜𝐢𝐨𝐧: ${secondString(yt_play[0].duration.seconds)}
+☆ 🗓️ 𝐕𝐢𝐬𝐭𝐚𝐬: ${`${MilesNumber(yt_play[0].views)}`}
+☆ 🖋️ 𝐀𝐮𝐭𝐨𝐫: ${yt_play[0].author.name}
+☆ 🎞️ 𝐂𝐚𝐧𝐚𝐥: ${yt_play[0].author.url}
+☆ 📄 𝐋𝐢𝐧𝐤: ${yt_play[0].url}\n
+☆ _𝙴𝙽𝚅𝙸𝙰𝙽𝙳𝙾 ${additionalText}, 𝙴𝚂𝙿𝙴𝚁𝙴 𝚄𝙽𝙾𝚂 𝚂𝙴𝙶𝚄𝙽𝙳𝙾𝚂．．．_\n𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
       try {      
