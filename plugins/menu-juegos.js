@@ -22,8 +22,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝗟𝗢𝗕𝗢𝗕𝗢𝗧-𝗠𝗗
+┃ ⏤͟͟͞͞𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗
 ┗━━━━━━━━━━━
+┣⟣☯︎ 𝙴𝙽 𝙶𝚁𝚄𝙿𝙾𝚂: 𝙾𝚆𝙽𝙴𝚁
 ┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: 𝙻𝙳 𝙻𝙾𝙱𝙾 𝙳𝙸𝙾𝚂 
 ┣⟣☯︎ 𝙽𝚄𝙼𝙴𝚁𝙾: +505 7639 0682
 ┣⟣☯︎ 𝙵𝙴𝙲𝙷𝙰: ${date}
@@ -78,10 +79,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m);
+    conn.reply(m.chat, '[❗] 𝗘𝗿𝗿𝗼𝗿, 𝗿𝗲𝗽𝗼𝗿𝘁𝗲𝗹𝗼 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳', m);
   }
 };
-handler.command = /^(menujuegos|gamemenu|juegos)$/i;
+handler.command = /^(menujuegos|game|juegos)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
