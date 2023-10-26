@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['ping']
 handler.tags = ['main']
-handler.command = ['ping', 'speed']
+handler.command = ['calculo', 'calculo']
 handler.register = true
 export default handler
 
@@ -81,7 +81,7 @@ conn.sendButton(m.chat, infobt, fgig, null, [
 }
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['info', 'ping', 'botinfo']
+handler.command = ['calculo', 'Calculo', 'CALCULO']
 handler.register = true
 
 export default handler*/
