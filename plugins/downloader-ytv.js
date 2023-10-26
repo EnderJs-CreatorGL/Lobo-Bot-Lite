@@ -68,7 +68,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   } catch {
     try {
       const mediaa = await ytMp4(youtubeLink);
-      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
+      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: `_𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
       await conn.sendMessage(m.chat, {text: '*[ ✔ ] Video descargado exitosamente.*', edit: key}, {quoted: m});
       enviando = false
     } catch {
