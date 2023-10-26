@@ -29,10 +29,10 @@ const handler = async (m, { conn, command, text }) => {
   const getRandomMessage = (messages) => messages[Math.floor(Math.random() * messages.length)];
   const loveMessage = isHighLove ? getRandomMessage(loveMessages) : getRandomMessage(notSoHighLoveMessages);
   const response =
-    `━━━━━━━⬣ 𝗟𝗢𝗩𝗘 ⬣━━━━━━━\n` +
-    `*❥ En el universo del amor, ${text} y @${m.sender.split('@')[0]} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
-    `*❥ ${loveMessage}*\n` +
-    `━━━━━━━⬣ 𝗟𝗢𝗩𝗘 ⬣━━━━━━━`    
+    `━━━━━━━⬣ ☆𝗟𝗢𝗩𝗘☆ ⬣━━━━━━━\n` +
+    `*❥ ✦En el universo del amor, ${text} y @${m.sender.split('@')[0]} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
+    `*❥ ✦${loveMessage}*\n` +
+    `━━━━━━━⬣ ☆𝗟𝗢𝗩𝗘☆ ⬣━━━━━━━`    
   
   async function loading() {
 var hawemod = [
@@ -42,7 +42,7 @@ var hawemod = [
 "《 ██████████▒▒》80%",
 "《 ████████████》100%"
 ]
-   let { key } = await conn.sendMessage(m.chat, {text: `*💞 ¡Calculando Porcentaje! 💞*`, mentions: conn.parseMention(response)}, {quoted: m})
+   let { key } = await conn.sendMessage(m.chat, {text: `💘 ¡☆𝗘𝗺𝗽𝗲𝘇𝗮𝗻𝗱𝗼 𝗲𝗹 𝗰𝗮𝗹𝗰𝘂𝗹𝗼 𝗱𝗲 𝗮𝗺𝗼𝗿☆! 💘`, mentions: conn.parseMention(response)}, {quoted: m})
  for (let i = 0; i < hawemod.length; i++) {
    await new Promise(resolve => setTimeout(resolve, 1000)); 
    await conn.sendMessage(m.chat, {text: hawemod[i], edit: key, mentions: conn.parseMention(response)}, {quoted: m}); 
