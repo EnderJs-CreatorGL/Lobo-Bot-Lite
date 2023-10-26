@@ -20,7 +20,7 @@ out = await ffmpeg(media, [
 ], 'mp3', 'mp4')
 
 }
-await conn.sendFile(m.chat, out, 'error.mp4', '𝗘𝘅𝗶𝘁𝗼 𝘃𝗶𝗱𝗲𝗼 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝗱𝗼🎥', fkontak, m, 0, { thumbnail: out })
+await conn.sendFile(m.chat, out, 'error.mp4', '𝗘𝘅𝗶𝘁𝗼 𝘃𝗶𝗱𝗲𝗼 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝗱𝗼🎥', m, 0, { thumbnail: out })
 
 }
 handler.help = ['tovideo']
