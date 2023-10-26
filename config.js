@@ -28,10 +28,10 @@ global.prems =['50558124470']
 
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
-global.wm = '𝐿𝑂𝐵𝑂 - 𝐵𝑂𝑇';
-global.titulowm = '🐺 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 🐺';
-global.titulowm2 =`✦𝗟 𝗢 𝗕 𝗢 - 𝗕 𝗢 𝗧 - 𝗠 𝗗✦`
-global.igfg = '✪𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁✪'  ;
+global.wm = '𝐿𝑂𝐵𝑂 - 𝐵𝑂𝑇 - 𝑀𝐷';
+global.titulowm = '🐺 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗 🐺';
+global.titulowm2 =`✦𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗠 𝗗✦`
+global.igfg = '✪𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗠𝗱✪'  ;
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -54,9 +54,9 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 //****************************
 global.gp1 = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd'
-global.gp2 = 'https://chat.whatsapp.com/HyUvVmBB59w91eugMRBRfF'
+global.gp2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙼𝙳`;
-global.gt = '★𝗟𝗢𝗕𝗢-𝗕𝗢𝗧★';
+global.gt = '★𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗★';
 global.mysticbot = '★𝗟𝗢𝗕𝗢 - 𝗕𝗢𝗧★';
 global.md = 'https://github.com/Ender-GB-Isis777/LOBO-BOT-MD';
 global.mysticbot = 'https://github.com/Ender-GB-Isis777/LOBO-BOT-MD';
