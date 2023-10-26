@@ -27,7 +27,6 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `[❗] 𝐄𝐥 𝐜�
     m.reply(cap);
     global.videoListXXX.push(vids_);
   } catch {
-    throw ;
   }
 };
 handler.help = ['xnxxsearch'].map((v) => v + ' <query>');
