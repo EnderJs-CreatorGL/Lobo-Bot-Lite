@@ -75,9 +75,9 @@ const handler = async (m, { conn, usedPrefix }) => {
   };
   conn.sendMessage(m.chat, Message, { quoted: m });
 };
-handler.help = ["infobot", "Loboinfo"];
+handler.help = ["infobot", "speedtest"];
 handler.tags = ["info", "tools"];
-handler.command = /^(Infobot|Loboinfo|infobot)$/i;
+handler.command = /^(Infobot|speedtest|infobot)$/i;
 export default handler;
 
 function clockString(ms) {
