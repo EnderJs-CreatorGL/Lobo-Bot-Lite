@@ -8,12 +8,12 @@ let handler = async (m, { conn }) => {
          exec(`neofetch --stdout`, (error, stdout, stderr) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
-          m.reply(`💖 𝑷𝑰𝑵𝑮  ${latensi.toFixed(4)}`);
+          m.reply(`💗 𝗠𝗶 𝗩𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱  ${latensi.toFixed(4)}`);
             });
 }
 handler.help = ['ping']
 handler.tags = ['main']
-handler.command = ['calculo', 'calculo']
+handler.command = ['Ping', 'Ping', 'velocidad']
 handler.register = true
 export default handler
 
