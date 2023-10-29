@@ -35,15 +35,15 @@
   
 ### `—◉ 💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Ender-GB-Isis777/LOBO-BOT-MD&branch=master&name=LOBOBOT)
   
 ### `—◉ 🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github/Ender-GB-Isis777/LOBO-BOT-MD)](https://repl.it/github/Ender-GB-Isis777/LOBO-BOT-MD) 
   
 ### `—◉ 📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FBrunoSobrino%2FTheMystic-Bot-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnder-GB-Isis777%2FLOBO-BOT-MD) 
 
 ### `—◉ 📍𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝘁𝗲𝗿𝗺𝘂𝘅📍` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -93,7 +93,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
 > cd LOBO-termux
-> rm -rf LOBOsession
+> rm -rf Lobosession
 > npm start
 ```
 
@@ -119,4 +119,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## `🌹EDITOR & PROPIETARIO DEL BOT🌹` 
 <a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png" width="250" height="250" alt="Ender"/></a>
   
-`Lobo-Bot-MD - By Ender GB`
+`𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯 -  𝐄𝐧𝐝𝐞𝐫 𝐋𝐃`
