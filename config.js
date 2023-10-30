@@ -26,9 +26,9 @@ global.owner = [
 global.suittag =['50558124470']
 global.prems =['50558124470']
 
-global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
-global.author = '🌹𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯\n🌹𝕰𝖓𝖉𝖊𝖗 𝕷𝕯';
-global.wm = '𝐿𝑂𝐵𝑂 - 𝐵𝑂𝑇 - 𝑀𝐷';
+global.packname = '🌼𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃\n🌼𝙾𝚆𝙽𝙴𝚁';
+global.author = '🌹𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗\n🌹𝗘𝗻𝗱𝗲𝗿 𝗟𝗗';
+global.wm = '𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗠𝗗';
 global.titulowm = '🐺 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗 🐺';
 global.titulowm2 =`✦𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗠 𝗗✦`
 global.igfg = '✪𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗠𝗱✪'  ;
