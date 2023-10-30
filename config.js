@@ -27,7 +27,7 @@ global.suittag =['50558124470']
 global.prems =['50558124470']
 
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
-global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
+global.author = '🌹𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯\n🌹𝕰𝖓𝖉𝖊𝖗 𝕷𝕯';
 global.wm = '𝐿𝑂𝐵𝑂 - 𝐵𝑂𝑇 - 𝑀𝐷';
 global.titulowm = '🐺 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗 🐺';
 global.titulowm2 =`✦𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗠 𝗗✦`
@@ -63,7 +63,7 @@ global.mysticbot = 'https://github.com/Ender-GB-Isis777/LOBO-BOT-MD';
 global.waitt = '*[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '51992004112', '50576390682', '50558124470';
+global.nomorown = '50576390682', '50558124470';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
