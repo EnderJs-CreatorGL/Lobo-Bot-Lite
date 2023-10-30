@@ -25,12 +25,12 @@ global.igfg = '🤖 𝗔𝗹𝗰𝗮 𝗕𝗼𝘁 -𝗠𝗗'  ;
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
+global.imagen2 = fs.readFileSync('./src/avatar_contact.png');
+global.imagen3 = fs.readFileSync('./src/avatar_contact.png');
 global.imagen4 = fs.readFileSync('./10 sin título_20231029211450.png');
-global.imagen5 = fs.readFileSync('./src/+18.jpg');
+global.imagen5 = fs.readFileSync('./src/+avatar_contact.png');
 global.imagen6= fs.readFileSync('./10 sin título_20231029211450');
-global.imagen7= fs.readFileSync('./src/hjbot.jpg');
+global.imagen7= fs.readFileSync('./src/avatar_contact.png');
 global.mods = [];
 
 //* *******Tiempo***************
