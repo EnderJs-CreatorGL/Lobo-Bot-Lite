@@ -22,7 +22,6 @@ const handler = async (m, { conn, usedPrefix }) => {
   const neww = performance.now();
   const speed = neww - old;
   const info = `
-  ☆𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃-𝙼𝙳☆
      
    〘 𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯 〙 ═
 ╠⟣☆[🖥️] *𝙾𝚆𝙽𝙴𝚁:* 𝗘𝗻𝗱𝗲𝗿 𝗟𝗗
