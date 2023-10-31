@@ -114,6 +114,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="[https://github.com/Jxtxn17]"><img src="https://github.com/Jxtxn17.png" width="100" height="100" alt="Jxtxn"/></a>
 <td align="center"><a 
   href="https://github.com/Aleixon127271"><img src="https://github.com/Aleixon127271.png?size=100" width="100px;" alt=""/><br /><sub><b>Aleixon</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
+    <td align="center"><a   
+<td align="center"><a 
+  href="https://github.com/AZamiJs/curiosityBot-MD"><img src="https://github.com/AZamiJs/curiosityBot-MD.png?size=100" width="100px;" alt=""/><br /><sub><b>AZamiJs</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
     <td align="center"><a 
 
 
