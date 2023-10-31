@@ -23,10 +23,12 @@ say(`Bot creado por Ender`, {
   gradient: ['red', 'magenta']});
 
 let isRunning = false;
+
 /**
 * Start a js file
 * @param {String} file `path/to/file`
 */
+
 function start(file) {
   if (isRunning) return;
   isRunning = true;

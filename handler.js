@@ -52,7 +52,7 @@ export async function handler(chatUpdate) {
 
       const chatgptUser = global.chatgpt.data.users[m.sender];
       if (typeof chatgptUser !== 'object') {
-        global.chatgpt.data.users[m.sender] = [];
+       global.chatgpt.data.users[m.sender] = [];
       }
 
       /* ------------------------------------------------*/

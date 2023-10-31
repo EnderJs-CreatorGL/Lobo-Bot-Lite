@@ -30,7 +30,7 @@ function pipeEmit(event, event2, prefix = '') {
   const old = event.emit;
   event.emit = function(event, ...args) {
     old.emit(event, ...args);
-    event2.emit(prefix + event, ...args);
+     event2.emit(prefix + event, ...args);
   };
   return {
     unpipeEmit() {

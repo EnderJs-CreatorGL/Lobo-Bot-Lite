@@ -75,7 +75,7 @@ global.loadDatabase = async function loadDatabase() {
     settings: {},
     ...(global.db.data || {}),
   };
-  global.db.chain = chain(global.db.data);
+   global.db.chain = chain(global.db.data);
 };
 loadDatabase();
 

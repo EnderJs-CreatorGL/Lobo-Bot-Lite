@@ -15,6 +15,7 @@ for (const folder of folders) {
     files.push(path.resolve(path.join(folder, file)));
   }
 }
+
 for (const file of files) {
   if (file == __filename) continue;
   console.error('Checking', file);
@@ -26,4 +27,5 @@ for (const file of files) {
   if (error) assert.ok(error.length < 1, file + '\n\n' + error);
   assert.ok(file);
   console.log('Done', file);
+
 }
