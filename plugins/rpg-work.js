@@ -4,8 +4,8 @@ const handler = async (m, {conn, isPrems}) => {
   enviando = true
   const hasil = Math.floor(Math.random() * 5000);
   const time = global.db.data.users[m.sender].lastwork + 600000;
-  if (new Date - global.db.data.users[m.sender].lastwork < 600000) throw `🌆 ¡𝗗𝗲𝘀𝗰𝗮𝗻𝘀𝗮 𝘂𝗻 𝗽𝗼𝗰𝗼 𝗮𝘃𝗲𝗻𝘁𝘂𝗿𝗲𝗿𝗼! 🌌\n\n—◉ 𝗿𝗲𝗴𝗿𝗲𝘀𝗮 𝗲𝗻  ${msToTime(time - new Date())} ⏳*`;
-  conn.sendMessage(m.chat, {text: `🏔️ 𝗦𝗮𝗹𝗲𝘀 𝗮 𝘂𝗻𝗮 𝗮𝘃𝗲𝗻𝘁𝘂𝗿𝗮:\n\n🪁 *${pickRandom(global.work)}*\n\n¡𝗚𝗮𝗻𝗮𝘀𝘁𝗲 ${hasil} 𝗘𝗫𝗣 𝗽𝗼𝗿 𝘁𝘂 𝘃𝗮𝗹𝗲𝗻𝘁𝗶𝗮!`}, {quoted: m});
+  if (new Date - global.db.data.users[m.sender].lastwork < 600000) throw `🌃¡𝗗𝗲𝘀𝗰𝗮𝗻𝘀𝗮 𝘂𝗻 𝗽𝗼𝗰𝗼 𝗮𝘃𝗲𝗻𝘁𝘂𝗿𝗲𝗿𝗼!\n\n—◉ 𝗿𝗲𝗴𝗿𝗲𝘀𝗮 𝗲𝗻  ${msToTime(time - new Date())} ⏳`;
+  conn.sendMessage(m.chat, {text: `🏃 𝗦𝗮𝗹𝗲𝘀 𝗮 𝘂𝗻𝗮 𝗮𝘃𝗲𝗻𝘁𝘂𝗿𝗮 𝗮 𝗹𝗮𝗱𝗼 𝗱𝗲 𝗟𝗼𝗯𝗼:\n\n🪁 *${pickRandom(global.work)}*\n\n¡𝗚𝗮𝗻𝗮𝘀𝘁𝗲 ${hasil} 𝗘𝗫𝗣 𝗽𝗼𝗿 𝘁𝘂 𝘃𝗮𝗹𝗲𝗻𝘁𝗶𝗮\n 𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯!`}, {quoted: m});
   global.db.data.users[m.sender].exp += hasil;
   global.db.data.users[m.sender].lastwork = new Date() * 1;
   enviando = false
