@@ -13,7 +13,7 @@ const handler = async (m, {conn}) => {
 Δ ☆𝗘𝗫𝗣𝗘𝗥𝗧𝗢 : *${user.exp - min}/${xp}*
 └──────────────
 
-Te falta *${max - user.exp}* de *XP* para subir de nivel
+𝚃𝚎 𝚑𝚊𝚌𝚎 𝚏𝚊𝚕𝚝𝚊 *${max - user.exp}* 𝙳𝚎 𝚎𝚡𝚙𝚎𝚛𝚝𝚘 𝚙𝚊𝚛𝚊 𝚎𝚕 𝚗𝚒𝚟𝚎𝚕 𝚜𝚒𝚐𝚞𝚒𝚎𝚗𝚝𝚎.
 `.trim();
   }
   const before = user.level * 1;
@@ -26,7 +26,7 @@ Te falta *${max - user.exp}* de *XP* para subir de nivel
 Δ ☆𝗔𝗖𝗧𝗨𝗔𝗟 𝗟𝗘𝗩𝗘𝗟 : *${user.level}*
 └──────────────
 
-*_Cuanto más interactúes con los bots, mayor será tu nivel_*
+𝙼𝚒𝚎𝚗𝚝𝚛𝚊𝚜 𝚖𝚊𝚜 𝚞𝚜𝚎𝚜 𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯 𝚝𝚞 𝚗𝚒𝚟𝚎𝚕 𝚜𝚞𝚋𝚒𝚛𝚊 𝚖𝚊𝚜 𝚛𝚊𝚙𝚒𝚍𝚊𝚖𝚎𝚗𝚝𝚎.
 `.trim();
     try {
       const img = await levelup(teks, user.level);
