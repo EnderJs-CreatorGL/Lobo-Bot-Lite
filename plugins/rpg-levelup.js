@@ -7,10 +7,10 @@ const handler = async (m, {conn}) => {
   if (!canLevelUp(user.level, user.exp, global.multiplier)) {
     const {min, xp, max} = xpRange(user.level, global.multiplier);
     throw `
-┌───⊷ 𝗡𝗜𝗩𝗘𝗟
-▢ 🔮𝗡𝗢𝗠𝗕𝗥𝗘 : *${name}*
-▢ 🔮𝗡𝗜𝗩𝗘𝗟 : *${user.level}*
-▢ 🔮𝗘𝗫𝗣𝗘𝗥𝗧𝗢 : *${user.exp - min}/${xp}*
+┌───⊷ 𝗡𝗶𝘃𝗲𝗹/𝗟𝗲𝘃𝗲𝗹 [√]
+Δ ☆𝗡𝗢𝗠𝗕𝗥𝗘 : *${name}*
+Δ ☆𝗡𝗜𝗩𝗘𝗟 : *${user.level}*
+Δ ☆𝗘𝗫𝗣𝗘𝗥𝗧𝗢 : *${user.exp - min}/${xp}*
 └──────────────
 
 Te falta *${max - user.exp}* de *XP* para subir de nivel
@@ -21,9 +21,9 @@ Te falta *${max - user.exp}* de *XP* para subir de nivel
   if (before !== user.level) {
     const teks = `🎊 Bien hecho ${conn.getName(m.sender)}    Nivel:`;
     const str = `
-┌─⊷ ✦𝐍𝐈𝐕𝐄𝐋 𝐔𝐏✦
-▢ 🔮𝗔𝗡𝗧𝗘𝗥𝗜𝗢𝗥 𝗟𝗘𝗩𝗘𝗟 : *${before}*
-▢ 🔮𝗔𝗖𝗧𝗨𝗔𝗟 𝗟𝗘𝗩𝗘𝗟 : *${user.level}*
+┌─⊷𝗡𝗶𝘃𝗲𝗹 𝘂𝗽 [√]
+Δ ☆𝗔𝗡𝗧𝗘𝗥𝗜𝗢𝗥 𝗟𝗘𝗩𝗘𝗟 : *${before}*
+Δ ☆𝗔𝗖𝗧𝗨𝗔𝗟 𝗟𝗘𝗩𝗘𝗟 : *${user.level}*
 └──────────────
 
 *_Cuanto más interactúes con los bots, mayor será tu nivel_*
