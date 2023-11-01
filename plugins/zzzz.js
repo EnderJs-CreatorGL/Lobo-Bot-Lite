@@ -1,5 +1,7 @@
 var handler = async (m, { conn }) => {
 
+if (!text) throw `Prueba de tag`
+
 conn.reply(m.chat, `prueba`)
 }
 
