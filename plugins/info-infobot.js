@@ -32,7 +32,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 [🍬] 𝗧𝗶𝗺𝗲:${uptime}
 [🍧] 𝗨𝘀𝗲𝗿𝘀:${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜
 [🍨] 𝗔𝘂𝘁𝗼𝗯𝗶𝗼:${autoread ? "𝑶𝒏√" : "𝑶𝒇𝒇√"}
-[🍥] 𝗥𝗲𝘀𝘁𝗿𝗶𝗰𝘁:${restrict ? "𝑶𝒏√" : "*𝑶𝒇𝒇√"} 
+[🍥] 𝗥𝗲𝘀𝘁𝗿𝗶𝗰𝘁:${restrict ? "𝑶𝒏√" : "𝑶𝒇𝒇√"} 
 [🍰] 𝗣𝗰𝗼𝗻𝗹𝘆:${pconly ? "𝑶𝒏√" : "𝑶𝒇𝒇√"}
 [🎂] 𝗚𝗰𝗼𝗻𝗹𝘆:${gconly ? "𝑶𝒏√" : "𝑶𝒇𝒇√"}
 [🥧] 𝗠𝗼𝗱𝗼:${self ? "𝑷𝒓𝒊𝒗𝒂𝒕𝒆√" : "𝑷𝒖𝒃𝒍𝒊𝒄√"}
@@ -40,7 +40,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 [🍦] 𝗦𝘂𝗯 𝗯𝗼𝘁𝘀:${modejadibot ? "𝑶𝒏√" : "𝑶𝒇𝒇√"}
 [🥠] 𝗔𝗻𝘁𝗶𝗰𝗮𝗹𝗹:${antiCall ? "𝑶𝒏√" : "𝑶𝒇𝒇√"}
 [🍿] 𝗣𝗶𝗻𝗴:${speed} ms
-   〘 𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯 〙 ═
+   〘 𝑮𝒍𝒐𝒃𝒂𝒍 𝑰𝒏𝒇𝒐 〙 ═
 `.trim();
   const doc = [
     "pdf",
