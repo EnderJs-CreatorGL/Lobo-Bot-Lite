@@ -14,19 +14,19 @@ global.owner = [
   ['50576390682'],
   ['51929972576', '🍧𝚂𝚃𝙰𝙵𝙵 𝙰𝚇𝙴𝙻🍧', true],
   ['5214437863111', '🍧𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙷𝙹🍧', true],
-  ['584129799955'],
-  ['573106040746'],
+  ['584129799955'], ['573106040746'], ['51941987051'],
+
   ];
 
 global.suittag =['50558124470']
 global.prems =['50558124470']
 
-global.packname = '🌼𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃\n🌼𝙾𝚆𝙽𝙴𝚁';
-global.author = '☆𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗☆\n☆𝗘𝗻𝗱𝗲𝗿☆ ';
+global.packname = '🌼𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃\n🌼𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾\n🌼𝚂𝙾𝙳𝙸𝙰𝙲𝙰𝙻\n🌼𝙶𝚕𝚘𝚋𝚊𝚕 𝚂𝚃𝙰𝙵𝙵';
+global.author = '☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯☆\n☆𝕰𝖓𝖉𝖊𝖗 𝕷𝕯☆\n☆𝕬𝖗𝖎𝖊𝖘☆\n☆𝕺𝖜𝖓𝖊𝖗𝖘☆ ';
 global.wm = '𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗠𝗗';
-global.titulowm = '🐺 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗 🐺';
-global.titulowm2 =`✦𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗠 𝗗✦`
-global.igfg = '✪𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗠𝗗✪'  ;
+global.titulowm = ' 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗 ';
+global.titulowm2 =`∇𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗠 𝗗Δ`
+global.igfg = '𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗠𝗗'  ;
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -73,8 +73,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
+global.botdate = `☆ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
+global.bottime = `☆𝕿 𝕴 𝕸 𝕰 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
