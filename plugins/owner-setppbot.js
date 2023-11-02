@@ -19,7 +19,7 @@ function _0x31ac(_0x16c31d, _0x391554) {
     throw _0x2359c0(0x1bf)+(_0x33d1e6+_0x480711)+'*';
   }
 }; handler['command']=/^setppbot$/i, handler[_0x34771d(0x1c0)]=!![]; export default handler; function _0x14c2() {
-  const _0x1897e4=['AUTO', 'user', '8CJixwu', 'getHeight', 'getBufferAsync', 'w:profile:picture', '[🔮]\x20𝗦𝗲\x20𝗰𝗮𝗺𝗯𝗶𝗼\x20𝗰𝗼𝗻\x20𝗲𝘅𝗶𝘁𝗼\x20𝗹𝗮\x20𝗙𝗼𝘁𝗼\x20𝗗𝗲\x20𝗣𝗲𝗿𝗳𝗶𝗹\x20𝗗𝗲𝗹\x20𝗕𝗼𝘁\x20𝙳𝙴𝙻\x20𝗘𝘅𝗶𝘁𝗼*', 'picture', 'read', '1419731ZjYevm', 'MIME_JPEG', '82272azbcaw', '350agtQLJ', '279gQMikZ', 'mimetype', '188728rlRvtO', 'msg', 'jid', 'image', '1705364hxGRFM', '14905ZvBfug', '2578255zmHnCy', 'getWidth', 'reply', '1780230pdlTpE', 'download', 'quoted', 'query', '2810ZHRQDi', 'resize', '*[❗𝐈𝐍𝐅𝐎❗]\x20𝙽𝙾\x20𝚂𝙴\x20𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾\x20𝙻𝙰\x20𝙸𝙼𝙰𝙶𝙴𝙽,\x20𝙿𝙾𝚁\x20𝙵𝙰𝚅𝙾𝚁\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴\x20𝙰\x20𝚄𝙽𝙰\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝚄𝚂𝙰𝙽𝙳𝙾\x20𝙴𝙻\x20𝙲𝙾𝙼𝙰𝙽𝙳𝙾\x20', 'rowner']; _0x14c2=function() {
+  const _0x1897e4=['AUTO', 'user', '8CJixwu', 'getHeight', 'getBufferAsync', 'w:profile:picture', '[🔮]\x20𝗦𝗲\x20𝗰𝗮𝗺𝗯𝗶𝗼\x20𝗰𝗼𝗻\x20𝗲𝘅𝗶𝘁𝗼\x20𝗹𝗮\x20𝗙𝗼𝘁𝗼\x20𝗗𝗲\x20𝗣𝗲𝗿𝗳𝗶𝗹\x20𝗗𝗲𝗹\x20𝗕𝗼𝘁\x20𝗠𝗗\x20𝗘𝘅𝗶𝘁𝗼', 'picture', 'read', '1419731ZjYevm', 'MIME_JPEG', '82272azbcaw', '350agtQLJ', '279gQMikZ', 'mimetype', '188728rlRvtO', 'msg', 'jid', 'image', '1705364hxGRFM', '14905ZvBfug', '2578255zmHnCy', 'getWidth', 'reply', '1780230pdlTpE', 'download', 'quoted', 'query', '2810ZHRQDi', 'resize', '*[❗𝐈𝐍𝐅𝐎❗]\x20𝙽𝙾\x20𝚂𝙴\x20𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾\x20𝙻𝙰\x20𝙸𝙼𝙰𝙶𝙴𝙽,\x20𝙿𝙾𝚁\x20𝙵𝙰𝚅𝙾𝚁\x20𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴\x20𝙰\x20𝚄𝙽𝙰\x20𝙸𝙼𝙰𝙶𝙴𝙽\x20𝚄𝚂𝙰𝙽𝙳𝙾\x20𝙴𝙻\x20𝙲𝙾𝙼𝙰𝙽𝙳𝙾\x20', 'rowner']; _0x14c2=function() {
     return _0x1897e4;
   }; return _0x14c2();
 }
@@ -32,8 +32,8 @@ if (/image/.test(mime)) {
 let img = await q.download()
 if (!img) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾 𝙻𝙰 𝙸𝙼𝙰𝙶𝙴𝙽, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚄𝚂𝙰𝙽𝙳𝙾 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*`
 await conn.updateProfilePicture(bot, img)
-conn.reply(m.chat, '[🔮] 𝐏𝐄𝐑𝐅𝐄𝐂𝐓𝐎, 𝐅𝐎𝐓𝐎 𝐂𝐀𝐌𝐁𝐈𝐀𝐃𝐀 𝐂𝐎𝐍 𝐄𝐗𝐈𝐓𝐎', m)
-} else throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾 𝙻𝙰 𝙸𝙼𝙰𝙶𝙴𝙽, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚄𝚂𝙰𝙽𝙳𝙾 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*`}
+conn.reply(m.chat, '[🔮] 𝘌𝘹𝘪𝘵𝘰 𝘤𝘢𝘮𝘣𝘪𝘰 𝘳𝘦𝘢𝘭𝘪𝘻𝘢𝘥𝘰', m)
+} else throw `*[❗] 𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾 𝙻𝙰 𝙸𝙼𝙰𝙶𝙴𝙽, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚄𝚂𝙰𝙽𝙳𝙾 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*`}
 handler.command = /^cambiarft$/i
 handler.rowner = true
 export default handler*/
