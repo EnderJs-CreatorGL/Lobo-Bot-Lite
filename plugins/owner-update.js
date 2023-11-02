@@ -18,6 +18,6 @@ const handler = async (m, {conn, text}) => {
 
 handler.help = ['update'];
 handler.tags = ['owner'];
-handler.command = /^update|actualizar$/i;
+handler.command = /^update|repo1$/i;
 handler.rowner = true;
 export default handler;
