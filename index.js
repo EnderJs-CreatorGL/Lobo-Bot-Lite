@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando Lobo-Bot-MD...');
+console.log('💖 Perfecto jecutando a Lobo-Bot-MD...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,28 +13,26 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Lobo - Bot - MD\nWhatsApp Bot MD', {
+say('Lobo-Bot-MD Whatsapp Bot multidevice', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por Ender`, {
+say(`Propietario Global Ender LD`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
 
 let isRunning = false;
-
 /**
 * Start a js file
 * @param {String} file `path/to/file`
 */
-
 function start(file) {
   if (isRunning) return;
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  say('Ajuste la pantalla para escanear el codigo QR', {
+  say('Ajusta la pantalla para escanear el QR de Lobo-Bot-MD', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']});
@@ -58,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('❎ㅤOcurrio un error inesperado:', code);
+    console.error('ㅤ⛔ fallo Ocurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
