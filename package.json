@@ -1,5 +1,5 @@
 {
-  "name": "LOBO-BOT--MD",
+  "name": "Lobo-Bot-Lite",
   "version": "1.0.0",
   "description": "Lobo-Bot-Lite",
   "main": "index.js",
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD.",
+  "homepage": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.",
   "author": {
     "name": "Ender"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ender-GB-Isis777/LOBO-BOT-MD.git"
+    "url": "git+https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.git"
   },
   "bugs": {
-    "url": "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD/issues"
+    "url": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependependencies": {
