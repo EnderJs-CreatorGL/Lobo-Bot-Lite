@@ -1,4 +1,4 @@
-console.log('🌹Exito jecutando a Lobo-Bot-MD');
+console.log('🌹ㅤejecutando Lobo-Bot-MD...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Lobo-Bot-MD Whatsapp Bot By Lobo-Multidevice', {
+say('Lobo - Bot \nMD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`☆Propietario Global Ender LD☆`, {
+say(`propietario Global Ender`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -32,7 +32,7 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  say('Ajusta la pantalla para escanear el QR de Lobo-Bot-MD', {
+  say('Ajusta la pantalla para escanear el QR de Lobo', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']});
@@ -42,7 +42,6 @@ function start(file) {
     args: args.slice(1)});
   const p = fork();
   p.on('message', (data) => {
-    console.log('[RECEIVED]', data);
     switch (data) {
       case 'reset':
         p.process.kill();
@@ -56,7 +55,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('🥀 Fallo error inesperado:', code);
+    console.error('❗ㅤfallo Ocurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
