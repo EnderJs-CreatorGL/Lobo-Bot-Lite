@@ -235,7 +235,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) loadDatabase();
   if (update.qr != 0 && update.qr != undefined) {
-    console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
+    console.log(chalk.yellow('🌹ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'));
   }
   if (connection == 'open') {
     console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'));
@@ -465,7 +465,7 @@ setInterval(async () => {
   const status = global.db.data.settings[conn.user.jid] || {};
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗🐺┃☆𝗘𝗻 𝗴𝗿𝘂𝗽𝗼𝘀:𝗢𝘄𝗻𝗲𝗿☆┃☆𝗜𝗻𝗳𝗼:𝗖𝗿𝗲𝗮𝗱𝗼𝗿☆┃☆(𝗟𝗗 𝗢𝗙𝗖)☆┃𝗧𝗶𝗺𝗲${uptime}`;
+  const bio = `𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊┃☆𝗜𝗻𝗳𝗼:𝗖𝗿𝗲𝗮𝗱𝗼𝗿☆┃𝗧𝗶𝗺𝗲${uptime}\n𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗷𝗮𝘃𝗮𝘀𝗰𝗿𝗶𝗽`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
