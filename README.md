@@ -6,7 +6,7 @@
 
 >🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚇𝙴𝙻 
 
-## `🐺𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯🐺` 
+## `🐺𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊🐺` 
 <p align="center">
 <img src="https://i.ibb.co/wYRhwjt/lobo-bot.jpg" alt="LoboBot-MD" width="900"/>
 </p>
@@ -122,11 +122,5 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 
-## `🪁AGRADECIMIENTOS🪁` 
-<div><button id="boton" type="button">games-wabot-md - By BochilGaming </button></div>
-<a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device"><img src="https://github.com/BochilGaming.png" width="150" height="150" alt="BochilGaming"/></a>
-<div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
-
   
-`𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯 -  𝐄𝐧𝐝𝐞𝐫 𝐋𝐃`
+`𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊 -  𝐄𝐧𝐝𝐞𝐫 𝐋𝐃`
