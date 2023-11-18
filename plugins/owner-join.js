@@ -9,7 +9,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
     const [_, code] = link.match(linkRegex) || [];
     if ( isPrems || isMods || isOwner || m.fromMe) {
       const res = await conn.groupAcceptInvite(code);
-      await conn.sendMessage(m.chat, {text: '*[🐺]PERFECTO, LOBO-BOT-MD SE UNIO CORRECTAMENTE*.'}, {quoted: m})
+      await conn.sendMessage(m.chat, {text: '*[🐺]PERFECTO, SE UNIO CORRECTAMENTE*.'}, {quoted: m})
       enviando = false 
     } else {
       conn.sendMessage(m.chat, {text: '[🪁] 𝗟𝗶𝗻𝗸 𝗱𝗲𝗹 𝗴𝗿𝘂𝗽𝗼 𝘀𝗲 𝗲𝗻𝘃𝗶𝗼 𝗮 𝗹𝗼𝘀 𝗼𝘄𝗻𝗲𝗿𝘀(𝗦𝘁𝗮𝗳𝗳).\n\n*—◉ Su grupo estará en evaluación y el propietario/a del Bot decidirá si agrega o no al Bot.*\n\n*—◉ Algunas de las razones por la cual su solicitud puede ser rechazada son:*\n*1.- El Bot está saturado.*\n*2.- El Bot fue eliminado del grupo recientemente.*\n*3.- El link del grupo ha sido restablecido.*\n*4.-El Bot no se agrega a grupos por decisión del propietario/a.*\n\n*—◉ El proceso de evaluación puede tomar algo de tiempo, incluso dias, tenga paciencia.*'}, {quoted: m});
