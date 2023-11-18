@@ -1,4 +1,4 @@
->🌼𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙸𝚗𝚌𝚘𝚛𝚛𝚎𝚐𝚒𝚋𝚕𝚎
+>🌼𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 
 
 >🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚉𝙰𝙼𝙸
 
@@ -30,20 +30,20 @@
 
 
 ### `—◉ ⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/Hachiko-Bot-MD/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/fork)
 
   
 ### `—◉ 💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Ender-GB-Isis777/LOBO-BOT-MD&branch=master&name=LOBOBOT)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
   
 ### `—◉ 🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/Ender-GB-Isis777/LOBO-BOT-MD)](https://repl.it/github/Ender-GB-Isis777/LOBO-BOT-MD) 
+[![Run on Repl.it](https://repl.it/badge/github/Ender-GB-Isis777/Lobo-Bot-Lite)](https://repl.it/github/Ender-GB-Isis777/Lobo-Bot-Lite) 
   
 ### `—◉ 📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnder-GB-Isis777%2FLOBO-BOT-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnder-GB-Isis777%2FLobo-Bot-Lite) 
 
 ### `—◉ 📍𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝘁𝗲𝗿𝗺𝘂𝘅📍` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -60,7 +60,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/Ender-GB-Isis777/LOBO-BOT-MD.git && cd LOBO-BOT-MD
+git clone https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.git && cd Lobo-Bot-Lite
 ```
 
 ```bash
