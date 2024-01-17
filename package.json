@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/BrunoSobrino/Lobo-Bot-Lite",
+  "homepage": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
   "author": {
-    "name": "BrunoSobrino"
+    "name": "Ender-GB"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
+    "url": "git+https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.git"
   },
   "bugs": {
-    "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
+    "url": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
