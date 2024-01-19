@@ -119,6 +119,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   href="https://github.com/AzamiJs/CuriosityBot-MD"><img src="https://github.com/AzamiJs/CuriosityBot-MD.png?size=100" width="100px;" alt=""/><br /><sub><b>AzamiJs</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
     <td align="center"><a 
 
+href="https://github.com/diegojadibot/SakuraBotLite-MD"><img src="https://github.com/diegojadibot/SakuraBotLite-MD.png?size=100" width="100px;" alt=""/><br /><sub><b>diegojadibot</b></sub></a><br /><sub><i>Colaborador</i></sub></td>
+    <td align="center"><a 
+
+
 
 
 
