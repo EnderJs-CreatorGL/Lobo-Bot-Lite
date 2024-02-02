@@ -136,7 +136,7 @@ const connectionOptions = {
     creds: state.creds,
     keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})),
   },
-  browser: ['LOBO-BOT-MD', 'Safari', '1.0.0'],
+  browser: ['Lobito-MD', 'Safari', '1.0.0'],
   version,
   defaultQueryTimeoutMs: undefined,
 };
