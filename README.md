@@ -121,8 +121,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   href="https://github.com/AzamiJs/CuriosityBot-MD"><img src="https://github.com/AzamiJs/CuriosityBot-MD.png?size=100" width="100px;" alt=""/><br /><sub><b>AzamiJs</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
     <td align="center"><a 
 
-
-
-
-  
+##COLABORADORES
+<a href="https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Ender-GB-Isis777/Lobo-Bot-Lite" /> 
+</a>
+ 
 `𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊 -  𝐄𝐧𝐝𝐞𝐫 𝐋𝐃`
