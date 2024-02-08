@@ -110,18 +110,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   
 
 ## `🌼COLABORADORES DEL BOT🌼` 
-<a href="[https://github.com/Ender-GB-Isis777]"><img src="https://github.com/Ender-GB-Isis777.png" width="100" height="100" alt="Ender"/></a>
-<a href="[https://github.com/Jxtxn17]"><img src="https://github.com/Jxtxn17.png" width="100" height="100" alt="Jxtxn"/></a>
-<td align="center"><a 
-<a href="[https://github.com/diegojadibot]"><img src="https://github.com/diegojadibot.png" width="100" height="100" alt="Jxtxn"/></a>
-<td align="center"><a 
-  href="https://github.com/Aleixon127271"><img src="https://github.com/Aleixon127271.png?size=100" width="100px;" alt=""/><br /><sub><b>Aleixon</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
-    <td align="center"><a   
-<td align="center"><a 
-  href="https://github.com/AzamiJs/CuriosityBot-MD"><img src="https://github.com/AzamiJs/CuriosityBot-MD.png?size=100" width="100px;" alt=""/><br /><sub><b>AzamiJs</b></sub></a><br /><sub><i>Desarollador Oficial</i></sub></td>
-    <td align="center"><a 
-
-##COLABORADORES
 <a href="https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=Ender-GB-Isis777/Lobo-Bot-Lite" /> 
 </a>
