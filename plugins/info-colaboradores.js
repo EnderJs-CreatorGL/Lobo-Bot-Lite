@@ -30,6 +30,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ┣𝗘𝗻𝗱𝗲𝗿|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/Ender-GB-Isis777/LOBO-BOT-MD
 
+┣𝗗𝗶𝗲𝗴𝗼|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/diegojadibot/SakuraBotLite-MD
+
+
 ┣𝗔𝘇𝗮𝗺𝗶|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/AZamijs/Curiositybot-MD
 
 ┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/HACHEJOTA/Hachiko-bot-MD
@@ -44,6 +47,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ┣┅⟣✦𝗡𝘂𝗺𝗲𝗿𝗼𝘀 
 ┣𝗘𝗻𝗱𝗲𝗿:+505 5812 4470
+┣𝗗𝗶𝗲𝗴𝗼:+57 301 3114854
 ┣𝗔𝘇𝗮𝗺𝗶:+52 729 488 8993
 ┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮:+52 443 786 3111
 ┣𝗔𝘅𝗲𝗹:+51 929 972 576
