@@ -7,6 +7,8 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
+global.confirmCode = ""
+
 global.owner = [
   ['50558124470', '🍭𝙴𝙽𝙳𝙴𝚁 𝙻𝙱 𝙲𝚁𝙴𝙰𝚃𝙾𝚁🍭', true],
   ['527294888993', '🍧𝚂𝚃𝙰𝙵𝙵 𝙰𝚉𝙰𝙼𝙸🍧', true],
