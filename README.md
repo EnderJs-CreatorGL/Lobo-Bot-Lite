@@ -1,14 +1,14 @@
->🌼𝗖𝗿𝗲𝗮𝗱𝗼𝗿: Tallycleark Ender
+>⚕️𝗖𝗿𝗲𝗮𝗱𝗼𝗿: Tallycleark Ender
 
->🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚉𝙰𝙼𝙸
+>⚕️𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚉𝙰𝙼𝙸
 
->🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙳𝙸𝙴𝙶𝙾𝙹𝙰𝙳𝙸𝙱𝙾𝚃
+>⚕️𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙳𝙸𝙴𝙶𝙾𝙹𝙰𝙳𝙸𝙱𝙾𝚃
 
->🌼𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚇𝙴𝙻 
+>⚕️𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚇𝙴𝙻 
 
 ## `🐺𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊🐺` 
 <p align="center">
-<img src="https://i.ibb.co/wYRhwjt/lobo-bot.jpg" alt="LoboBot-MD" width="900"/>
+<img src="https://i.ibb.co/wYRhwjt/lobo-bot.jpg" alt="Lobo-Bot-Lite" width="900"/>
 </p>
 ------------------
 
@@ -114,4 +114,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <img src="https://contrib.rocks/image?repo=Ender-GB-Isis777/Lobo-Bot-Lite" /> 
 </a>
  
-`𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊 -  𝐄𝐧𝐝𝐞𝐫 𝐋𝐃`
+`𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊 -  𝐄𝐧𝐝𝐞𝐫`
