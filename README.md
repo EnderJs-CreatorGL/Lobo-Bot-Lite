@@ -1,3 +1,7 @@
+🌹Hola Este es el repositorio OFICIAl de Lobo, Si copias este repositorio debes dejar al owner creador(Ender)🌹
+
+
+
 >⚕️𝗖𝗿𝗲𝗮𝗱𝗼𝗿: Tallycleark Ender
 
 >⚕️𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: 𝙰𝚉𝙰𝙼𝙸
