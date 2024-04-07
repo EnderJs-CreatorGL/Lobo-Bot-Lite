@@ -1001,9 +1001,9 @@ export async function handler(chatUpdate) {
           restrict: false,
           antiCall: false,
           antiPrivate: false,
-	    modejadibot: true,
+	   modejadibot: true,
           antispam: false,
-	    audios_bot: true,
+	   audios_bot: true,
         };
       }
     } catch (e) {
@@ -1185,7 +1185,7 @@ const messageText = `
 ${user.bannedReason ? `\n*Motivo:* 
 ${user.bannedReason}` : '*Motivo:* Sin Especificar'}
 _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Propietario Del Bot Y Apelar La Suspención._
-*Intenta Quitar El Baneo Aqui:* Wa.me/573012482694
+*Intenta Quitar El Baneo Aqui:* Wa.me/50558124470
 ╰━━━━━━━✦✗✦━━━━━━━━╯
                `.trim();
               m.reply(messageText);
