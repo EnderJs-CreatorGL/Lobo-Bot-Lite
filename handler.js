@@ -1001,9 +1001,9 @@ export async function handler(chatUpdate) {
           restrict: false,
           antiCall: false,
           antiPrivate: false,
-	       modejadibot: true,
+	    modejadibot: true,
           antispam: false,
-	       audios_bot: true,
+	    audios_bot: true,
         };
       }
     } catch (e) {
@@ -1179,13 +1179,14 @@ export async function handler(chatUpdate) {
             if (user.bannedMessageCount < 3) {
               const messageNumber = user.bannedMessageCount + 1;
 const messageText = `
-╔═════════════════════════╗
- ❰ 🌨️ ❱ ¡𝗨𝗦𝗨𝗔𝗥𝗜𝗢 𝗣𝗥𝗢𝗛𝗜𝗕𝗜𝗗𝗢! ❰ 🌨️ ❱
-—◉ *Aviso ${messageNumber}/3 (Total: 3)*
-—◉ ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : '*Motivo:* Sin especificar'}
-—◉ *Si consideras que esto es un error y cuentas con pruebas, puedes comunicarte con el propietario del Bot para apelar la suspensión.*
-—◉ *Contacto para apelaciones:* wa.me/50558124470
-╚═════════════════════════╝
+╭━━━━━━━✦✗✦━━━━━━━━╮
+ 🚫 *Usuario Baneado* 🚫
+*Aviso*  ${messageNumber}/Total: 3)
+${user.bannedReason ? `\n*Motivo:* 
+${user.bannedReason}` : '*Motivo:* Sin Especificar'}
+_Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Propietario Del Bot Y Apelar La Suspención._
+*Intenta Quitar El Baneo Aqui:* Wa.me/573012482694
+╰━━━━━━━✦✗✦━━━━━━━━╯
                `.trim();
               m.reply(messageText);
               user.bannedMessageCount++;
