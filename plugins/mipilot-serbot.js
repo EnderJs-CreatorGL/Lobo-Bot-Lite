@@ -2,6 +2,23 @@
 
 ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠
 
+      #     BY: QUE TE IMPOORTA
+
+
+
+
+
+
+              #SKID NO FUNKA.
+
+
+
+
+     
+
+
+
+          SER SUBBOT  GAY
 
 ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠ -- ⚠ PROHIBIDO EDITAR ⚠
 
