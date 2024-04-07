@@ -217,7 +217,7 @@ rl.close()
 
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(`🚩 Cargando...\n`);
+conn.logger.info(`🛰️ Cargando...\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -231,23 +231,12 @@ if (!opts['test']) {
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT);
 
 
-/* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            
+/* Tallyclerk
         
-   Yo tambien se hacer momazos Aiden...
-        ahi te va el ajuste de los borrados
-        inteligentes de las sesiones y de los sub-bot
-        By (Rey Endymion 👺👍🏼) 
+   Staff autorizado para editar
         
-   Ninguno es mejor que tilin god
-        - atte: sk1d             */
+   Dios no esta muerto
+        - atte: Tally             */
 
 function clearTmp() {
   const tmp = [join(__dirname, './tmp')];
@@ -289,7 +278,7 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
 } catch (err) {
-console.log(chalk.bold.red(`🚩 Algo salio mal durante la eliminación, archivos no eliminados`))
+console.log(chalk.bold.red(`❗ Algo salio mal durante la eliminación, archivos no eliminados`))
 }}
 
 function purgeOldFiles() {
@@ -325,7 +314,7 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-    console.log(chalk.yellow('🚩 Escanea el código QR.'));
+    console.log(chalk.yellow('✔️ Escanea para ejecutarLobo QR .'));
  }}
   if (connection == 'open') {
     console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))
@@ -393,13 +382,13 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '*╔══════════════*\n╟☆ @subject\n*╠══════════════*\n╟☆ @user\n╟ꕥ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮 \n╟☆ 𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀:\n╟☆ 𝗘𝘅𝗰𝗲𝗹𝗲𝗻𝘁𝗲 𝗲𝘀𝘁𝗮𝗱𝗶𝗮!!\n*╚══════════════*';
-  conn.bye = '*╔══════════════*\n╟☆ @user\n╟♲︎︎︎ 𝗔𝗱𝗶𝗼𝘀 𝘆 𝗻𝗼 𝗿𝗲𝗴𝗿𝗲𝘀𝗲𝘀 \n╟☆ 𝗡𝗮𝗱𝗶𝗲 𝗹𝗼 𝗲𝘅𝘁𝗿𝗮𝗻̃𝗮𝗿𝗮 😃 \n*╚══════════════*';
-  conn.spromote = '[↪️] @user 𝐏𝐞𝐫𝐟𝐞𝐜𝐭𝐨,𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
-  conn.sdemote = '[↪️] @user 𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨,𝐘𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
-  conn.sDesc = '[🔧] 𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨*\n\n𝐍𝐮𝐞𝐯𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧: @desc';
-  conn.sSubject = '[🔧] 𝐒𝐞 𝐜𝐚𝐦𝐛𝐢𝐨 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐧𝐨𝐦𝐛𝐫𝐞: @subject';
-  conn.sIcon = '[🔧] 𝐒𝐞 𝐚 𝐜𝐚𝐦𝐛𝐢𝐚𝐝𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+  conn.welcome = '*╔══════════════*\n╟☆ @subject\n*╠══════════════*\n╟☆ @user\n╟☆ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮 \n╟☆ 𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀:\n╟☆ ¡𝗘𝘅𝗰𝗲𝗹𝗲𝗻𝘁𝗲 𝗲𝘀𝘁𝗮𝗱𝗶𝗮!\n*╚══════════════*';
+  conn.bye = '*╔══════════════*\n╟☆ @user\n╟♲︎︎︎ 𝗔 𝗱𝗶𝗼𝘀 𝘆 𝗻𝗼 𝗿𝗲𝗴𝗿𝗲𝘀𝗲𝘀 \n╟☆ 𝗡𝗮𝗱𝗶𝗲 𝗹𝗼 𝗲𝘅𝘁𝗿𝗮𝗻̃𝗮𝗿𝗮 😃 \n*╚══════════════*';
+  conn.spromote = '[🌹] @user 𝐏𝐞𝐫𝐟𝐞𝐜𝐭𝐨,𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+  conn.sdemote = '[🥀] @user 𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨,𝐘𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+  conn.sDesc = '[⚙️] 𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨*\n\n𝐍𝐮𝐞𝐯𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧: @desc';
+  conn.sSubject = '[⚙️] 𝐒𝐞 𝐜𝐚𝐦𝐛𝐢𝐨 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐧𝐨𝐦𝐛𝐫𝐞: @subject';
+  conn.sIcon = '[⚙️] 𝐒𝐞 𝐚 𝐜𝐚𝐦𝐛𝐢𝐚𝐝𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
   conn.sRevoke = '[🔗] 𝐒𝐞 𝐚 𝐫𝐞𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐢𝐝𝐨 𝐞𝐥 𝐥𝐢𝐧𝐤 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐥𝐢𝐧𝐤: @revoke';
 
   conn.handler = handler.handler.bind(global.conn);
