@@ -1,4 +1,4 @@
-async function handler(m, {usedPrefix, command}) {
+/*async function handler(m, {usedPrefix, command}) {
   command = command.toLowerCase();
   this.anonymous = this.anonymous ? this.anonymous : {};
   switch (command) {
@@ -50,4 +50,4 @@ handler.help = ['start', 'leave', 'next'];
 handler.tags = ['anonymous'];
 handler.command = ['start', 'leave', 'next'];
 handler.private = true;
-export default handler;
+export default handler;*/
