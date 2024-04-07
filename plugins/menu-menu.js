@@ -12,9 +12,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 //m.react('🐺');
     await conn.sendMessage(m.chat, { react: { text: '💖', key: m.key } })
   let txt =`┏━━━━━━━━━━━━━━━━━━
-┣┅⟣✦ 𝗛𝗼𝗹𝗮👋, 𝗦𝗼𝘆 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗
+┣┅⟣✦ 𝗛𝗼𝗹𝗮👋,𝗦𝗼𝘆 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲
 ┣┅⟣✦ 𝗘𝗻 𝗴𝗿𝘂𝗽𝗼𝘀: 𝙾𝚆𝙽𝙴𝚁  
-┣┅⟣✦ 𝗢𝘄𝗻𝗲𝗿: 𝙴𝙽𝙳𝙴𝚁 𝙻𝙳
+┣┅⟣✦ 𝗢𝘄𝗻𝗲𝗿: 𝙴𝙽𝙳𝙴𝚁 𝚃𝚊𝚕𝚕𝚢
 ┣┅⟣✦ 𝗡𝘂𝗺𝗲𝗿𝗼:+505 5812 4470
 ┣┅⟣✦ 𝗙𝗲𝗰𝗵𝗮: ${date}
 ┣┅⟣✦ 𝗟𝗶𝗻𝗱𝗼 𝗱𝗶𝗮 𝗽𝗮𝗿𝗮 𝘁𝗶
@@ -410,7 +410,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙊𝙒𝙉𝙀𝙍-𝗦𝗧𝗔𝗙𝗙
 ┗━━━━━━━━━━
-┣📘 𝐦𝐞𝐧𝐮𝐨𝐰𝐧𝐞𝐫
+┣📘 𝐨𝐰𝐧𝐞𝐫𝐦𝐞𝐧𝐮
 ┗━━━━━━━━━━━━━━━━┛`;
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '☆ 𝗟𝗢𝗕𝗢 - 𝗕𝗢𝗧 - 𝗠𝗗 ☆', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('🐺');
