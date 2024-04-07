@@ -210,7 +210,7 @@ bbts()
 }
 handler.help = ['botclone']
 handler.tags = ['serbot']
-handler.command = ['code', 'codigo', 'sercode', 'serbot--code']
+handler.command = ['code', 'codigo', 'sercode']
 handler.rowner = false
 
 export default handler
