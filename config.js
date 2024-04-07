@@ -33,7 +33,9 @@ global.packname = '🌼𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃\n🌼𝙿�
 global.author = '☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯☆\n☆𝕰𝖓𝖉𝖊𝖗 𝕷𝕯☆\n☆𝕬𝖗𝖎𝖊𝖘☆\n☆𝕺𝖜𝖓𝖊𝖗𝖘☆ ';
 global.wm = '𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗟𝗶𝘁𝗲';
 global.titulowm = ' 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲 ';
-global.titulowm2 =`∇𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗟 𝗜 𝗧 𝗘Δ`
+global.titulowm2 = `∇𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗟 𝗜 𝗧 𝗘Δ`
+global.vs =  '1.0.0'
+global.vsJB = '0.1.2'
 global.igfg = '𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗟𝗶𝘁𝗲'  ;
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
