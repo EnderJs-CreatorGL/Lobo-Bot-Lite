@@ -25,7 +25,7 @@
 ------------------
 
 
-
+### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 ### `—◉ ❗𝗟𝗼𝗯𝗼-𝗟𝗶𝘁𝗲-𝗢𝗙𝗖(𝗘𝗹 𝗻𝘂𝗺𝗲𝗿𝗼 𝗽𝘂𝗲𝗱𝗲 𝗲𝘀𝘁𝗮𝗿 𝗰𝗮𝗺𝗯𝗶𝗮𝗻𝗱𝗼 𝘀𝗲𝗴𝘂𝗻 𝘀𝗲 𝘃𝗮𝗹𝗹𝗮 𝗮 𝘀𝗼𝗽𝗼𝗿𝘁𝗲)❗`
 
 <a href="https://api.whatsapp.com/send/?phone=573218138672&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
