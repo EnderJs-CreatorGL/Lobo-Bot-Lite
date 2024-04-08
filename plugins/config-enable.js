@@ -44,7 +44,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ┣☆ ඬ⃟📼.𝗳𝗮𝗹𝘀𝗲 𝘀𝗶𝗺𝘀𝗶𝗺𝗶:(ᴏᴡɴᴇʀs)
 ┣☆ ඬ⃟⚙️.𝘁𝗿𝘂𝗲 𝗮𝘂𝗱𝗶𝗼𝘀_𝗯𝗼𝘁:(ᴏᴡɴᴇʀs)
 ┣☆ ඬ⃟⚙️.𝗳𝗮𝗹𝘀𝗲 𝗮𝘂𝗱𝗶𝗼𝘀_𝗯𝗼𝘁:(ᴏᴡɴᴇʀs)
- ☆> ( 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃 1.5) <☆`.trim();
+ ☆> ( 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓 1.5) <☆`.trim();
 
   const isEnable = /true|enable|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
@@ -328,7 +328,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `       ☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯☆\n[💖] 𝗢𝗣𝗖𝗜𝗢̃𝗡: ${type}✔️\n[🌟] 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🧸] 𝐏𝐀𝐑𝐀: ${isAll ? '𝑳𝒐𝒃𝒐-𝒃𝒐𝒕-𝒎𝒅✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `       ☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕸𝕯☆\n[💖] 𝗢𝗣𝗖𝗜𝗢̃𝗡: ${type}✔️\n[🌟] 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🧸] 𝐏𝐀𝐑𝐀: ${isAll ? '𝑳𝒐𝒃𝒐-𝒃𝒐𝒕✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
