@@ -119,6 +119,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ### `—◉📄✦CUSTOMER SUPPORT✦📄`
 <a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_COSTOMER_SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
+## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 🧸" width="42" height="42"> Creator 🧸
+
+* <a href="https://wa.me/573012482597"><img alt="Creator 🧸" src="https://img.shields.io/badge/Diego - Creator🧸-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 ## `🌹EDITOR & PROPIETARIO DEL BOT🌹` 
 <a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png" width="250" height="250" alt="Ender"/></a>
