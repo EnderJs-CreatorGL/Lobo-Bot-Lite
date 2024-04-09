@@ -1,3 +1,5 @@
+//Creditos https://github.com/diegojadibot/SakuraBotLite-MD
+
 import fetch from 'node-fetch';
 
 const handler = async (m, { conn, args }) => {
@@ -11,7 +13,7 @@ const handler = async (m, { conn, args }) => {
         const response = await fetch(apiUrl);
         const responseData = await response.json();
 
-        m.react(rwait);
+        //m.react(rwait);
 
         if (responseData.status && responseData.result.length > 0) {
             for (const media of responseData.result) {
