@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `LoboSession`;
+global.authFile = `LoboBotSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -209,7 +209,7 @@ rl.close()
         setTimeout(async () => {
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-            //console.log(chalk.yellow('😄 Introduce el código de emparejamiento en WhatsApp.'));
+            console.log(chalk.yellow('😄 Introduce el código de emparejamiento en WhatsApp.'));
             console.log(chalk.black(chalk.bgGreen(`🚩 CÓDIGO DE VINCULACIÓN 🚩`)), chalk.black(chalk.white(codigo)))
         }, 3000)
 }}
@@ -251,13 +251,13 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./LoboSession")
+let directorio = readdirSync("./LoboBotSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./LoboSession/${files}`)
+unlinkSync(`./LoboBotSession/${files}`)
 })
 } 
 
@@ -282,7 +282,7 @@ console.log(chalk.bold.red(`❗ Algo salio mal durante la eliminación, archivos
 }}
 
 function purgeOldFiles() {
-const directories = ['./LoboSession/', './jadibts/']
+const directories = ['./LoboBotSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -314,7 +314,7 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-    console.log(chalk.yellow('✔️ Escanea para ejecutarLobo QR .'));
+    console.log(chalk.yellow('✔️ Escanea este codigo QR.'));
  }}
   if (connection == 'open') {
     console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))
