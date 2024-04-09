@@ -112,7 +112,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png" width="250" height="250" alt="Ender"/></a>
   
 
-## `🌼COLABORADORES DEL BOT🌼` 
+## `🌼COLABORADORES🌼` 
 <a href="https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=Ender-GB-Isis777/Lobo-Bot-Lite" /> 
 </a>
