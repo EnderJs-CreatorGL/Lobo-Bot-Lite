@@ -1,11 +1,7 @@
 🌹Hola Este es el repositorio OFICIAl de Lobo, Si copias este repositorio debes dejar al owner creador(Ender)
 
-🌐√Oficial Repositorio de Lobo-Bot-Lite MD§
+🌐√Oficial Repositorio de Lobo-Bot-Lite MD
 
-
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Girhub OFC📍
-
-* <a href="https://wa.me/51939041500?text=!menu"><img alt="Bot Oficial 📍" src="https://img.shields.io/badge/Bot - Oficial📍-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 >⚕️𝗖𝗿𝗲𝗮𝗱𝗼𝗿: Tallycleark Ender(LB)
 
