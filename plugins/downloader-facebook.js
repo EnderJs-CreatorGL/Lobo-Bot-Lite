@@ -1,3 +1,5 @@
+//Creditos: https://github.com/diegojadibot/SakuraBotLite-MD
+
 import { facebookdl, facebookdlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 if (!args[0]) throw `⚠️ _Ingrese Un Enlace De Facebook_\n\n*Ejemplo:*\n*${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`
