@@ -1,6 +1,6 @@
 {
   "name": "Lobo-Bot-Lite",
-  "version": 1.0.2",
+  "version": "1.0.2",
   "description": "Lobo-Bot-Lite",
   "main": "index.js",
   "type": "module",
