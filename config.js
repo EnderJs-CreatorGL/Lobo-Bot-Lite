@@ -11,7 +11,7 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-['50558124470', '👑 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 👑', true],
+['50558124470', '👑 Ender Tally 👑', true],
 ['573012482597', '𝙳𝙸𝙴𝙶𝙾 🚩', true]]
   
 global.suittag = ['50558124470']
