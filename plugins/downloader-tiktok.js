@@ -1,3 +1,5 @@
+//Actualizado Por: https://github.com/diegojadibot/SakuraBotLite-MD
+
 import fg from 'api-dylux'
 import { tiktokdl } from '@bochilteam/scraper'
 
