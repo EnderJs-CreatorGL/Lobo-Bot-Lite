@@ -121,9 +121,7 @@ const MethodMobile = process.argv.includes("mobile")
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
 const question = (texto) => new Promise((resolver) => rl.question(texto, resolver))
 
-/*Codigo compartible para ser bot mediante 8 digitos, gracias a: GataNina-Li.
-
-Codigo actualizado a lobo-bot-lite para funcionamiento sin escanear el qr por: diegojadibot*/
+//Creditos a GataNina-Li
 
 let opcion
 if (methodCodeQR) {
