@@ -11,7 +11,7 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-]
+['573012482597', '𝙳𝙸𝙴𝙶𝙾 🚩', true]]
   
 global.suittag = ['50558124470']
 global.prems = ['50558124470']
