@@ -18,7 +18,7 @@ return null
 }
 return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
 if (conflictedFiles.length > 0) {
-const errorMessage = `🚩 *El bot se ha actualizado desde el servidor y estra conflicto  con el comando update.*\n\nArchivos En Conflicto:\n\n${conflictedFiles.join('\n')}`
+const errorMessage = `🚩 *El bot se ha actualizado desde el servidor y entra conflicto  con el comando update.*\n\nArchivos En Conflicto:\n\n${conflictedFiles.join('\n')}`
 await conn.reply(m.chat, errorMessage,)
 }
 }
