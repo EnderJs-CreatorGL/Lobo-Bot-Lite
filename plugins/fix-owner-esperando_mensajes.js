@@ -11,7 +11,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const sessionPath = './LoboBotSession/';
   try {
     if (!existsSync(sessionPath)) {
-      return await conn.sendMessage(m.chat, {text: '*[❗] La carpeta LoboSession no existe o está vacía.*'}, {quoted: m});
+      return await conn.sendMessage(m.chat, {text: '*[❗] La carpeta LoboBotSession no existe o está vacía.*'}, {quoted: m});
     }
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
