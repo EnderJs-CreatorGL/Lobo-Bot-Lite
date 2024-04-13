@@ -10,18 +10,18 @@ const handler = async (m, {conn, args, isPrems}) => {
   const sortedP = user.map(toNumber('premiumTime')).sort(sort('premiumTime'));
   const len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 10)) : Math.min(10, sortedP.length);
   let infoprem = `   𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙼𝙳\n
-「 💖𝗟𝗜𝗦𝗧𝗔 𝗩𝗜𝗣/𝗣𝗥𝗘𝗠𝗜𝗨𝗠💖 」
+「 💖𝗟𝗜𝗦𝗧𝗔 𝗩𝗜𝗣/𝗣𝗥𝗘𝗠𝗜𝗨𝗠 」
 
 —◉🧸 𝚄𝚂𝙴𝚁/𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${userr}
 ${prem ? `◉ 𝚃𝙸𝙴𝙼𝙿𝙾 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴:\n${clockString(usuario - new Date() * 1)}` : (isPrems ? `◉🍷 𝚃𝙸𝙴𝙼𝙿𝙾 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴:\n ✦𝙴𝚁𝙴𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚅𝙸𝙿 𝙸𝙻𝙸𝙼𝙸𝚃𝙰𝙳𝙾🌹` : '-𝙴𝚂𝚃𝙴 𝙴𝚂 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙽𝙾 𝚅𝙸𝙿 ❌')}
 
-「 💖𝗟𝗜𝗦𝗧𝗔 𝗩𝗜𝗣/𝗣𝗥𝗘𝗠𝗜𝗨𝗠💖 」${sortedP.slice(0, len).map(({jid, name, premiumTime, prem, registered}, i) => `
+「 💖𝗟𝗜𝗦𝗧𝗔 𝗩𝗜𝗣/𝗣𝗥𝗘𝗠𝗜𝗨𝗠 」${sortedP.slice(0, len).map(({jid, name, premiumTime, prem, registered}, i) => `
 
 —◉🧸𝚄𝚂𝙴𝚁/𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${'@' + jid.split`@`[0]}
 ${premiumTime > 0 ? `◉🍷 𝚃𝙸𝙴𝙼𝙿𝙾 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴:\n${clockString(premiumTime - new Date() * 1)}` : '- 𝙴𝚂𝚃𝙴 𝙴𝚂 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙽𝙾 𝚅𝙸𝙿 ❌'}`).join('')}`.trim();
 
   if (sortedP.filter((user) => user.premiumTime).length === 0) {
-    infoprem = `「 🌹𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 𝗨𝗦𝗘𝗥🌹 」\n\n—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${userr}\n${prem ? `◉🍷 𝚃𝙸𝙴𝙼𝙿𝙾 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴:\n${clockString(usuario - new Date() * 1)}` : '- 𝚄𝚂𝚃𝙴𝙳 𝙽𝙾 𝙴𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚅𝙸𝙿 ❌'}\n\n「 💖𝗟𝗜𝗦𝗧𝗔 𝗩𝗜𝗣/𝗣𝗥𝗘𝗠𝗜𝗨𝗠💖 」\n\n- 𝙽𝙾 𝙷𝙰𝚈 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚅𝙸𝙿 ❌`.trim();
+    infoprem = `「 🌹𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 𝗨𝗦𝗘𝗥🌹 」\n\n—◉ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: ${userr}\n${prem ? `◉🍷 𝚃𝙸𝙴𝙼𝙿𝙾 𝚁𝙴𝚂𝚃𝙰𝙽𝚃𝙴:\n${clockString(usuario - new Date() * 1)}` : '- 𝚄𝚂𝚃𝙴𝙳 𝙽𝙾 𝙴𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝚅𝙸𝙿 ❌'}\n\n「 💖𝗟𝗜𝗦𝗧𝗔 𝗩𝗜𝗣/𝗣𝗥𝗘𝗠𝗜𝗨𝗠 」\n\n- 𝙽𝙾 𝙷𝙰𝚈 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚅𝙸𝙿 ❌`.trim();
   }
 
   m.reply(infoprem, null, {mentions: conn.parseMention(infoprem)});
@@ -61,7 +61,7 @@ let usuario = global.db.data.users[m.sender].premiumTime
 let user = Object.entries(global.db.data.users).filter(user => user[1].premiumTime).map(([key, value]) => {
 return { ...value, jid: key }})
 let premTime = global.db.data.users[m.sender].premiumTime
-let prem = global.db.dat🧿 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙼𝙳 🔮a.users[m.sender].premium
+let prem = global.db.dat🧿 ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🔮a.users[m.sender].premium
 let userr = await '@' + m.sender.split`@`[0]
 let waktu = clockString(`${premTime - new Date() * 1} `)
 let sortedP = user.map(toNumber('premiumTime')).sort(sort('premiumTime'))
