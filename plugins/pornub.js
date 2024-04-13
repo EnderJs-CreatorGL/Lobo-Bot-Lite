@@ -7,15 +7,14 @@ let name = conn.getName(who)
 
 const pp = './storage/logos/Menu2.jpg'
 
-let di = `> Texto: ${text} 🏴\n\n*${name} quiere yaoi 💋*`
+let di = `- Name: ${name} *es un ${[`10%`, `20%`, `30%`, `40%`, `50%`, `60%`, `70%`, `80%`, `90%`, `100%`].getRandom()} de pajero*\n\n> Text: ${[`Jajja Pornub💋`, `Muy Pajero 💋`, `Pajerooo 💋`, `Parese Gay Pajeandote 💋`, `Un pornub jaj 💋`, `Se pajea 💋`].getRandom()}                                        `
 
 conn.sendMessage(m.chat, {text: di, mentions: [m.sender]}, {quoted: fkontak2})
 
-//conn.reply(m.chat, `*❌️ Ocurrió un fallo*`)
+//conn.reply(m.chat, `*❌️ Error, Intente Mas Tarde*`, m, fake, )
 
 }
 handler.help = ['di']
 handler.tags = ['decir']
-handler.command = /^(decir|di)$/i
-//handler.register = true
+handler.command = /^(pornub|porn)$/i
 export default handler
