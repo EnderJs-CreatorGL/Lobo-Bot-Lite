@@ -19,7 +19,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━━━┓
-┃ ◉— 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃 —◉
+┃ ◉— ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ —◉
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: 𝐄𝐍𝐃𝐄𝐑 𝐆𝐁
 ┣⟣☯︎ 𝙽𝚄𝙼𝙴𝚁𝙾: +505 76390682
