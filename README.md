@@ -113,7 +113,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 #### `𝙴𝙻 𝙴𝚀𝚄𝙸𝙿𝙾 𝙳𝙴 𝚂𝚃𝙰𝙵𝙵 𝙽𝙾 𝚂𝙴 𝚁𝙴𝚂𝙿𝙾𝙽𝚂𝙰𝙱𝙸𝙻𝙸𝚂𝙰 𝙿𝙾𝚁 𝙴𝙻 𝙼𝙰𝙻 𝚄𝚂𝙾 𝙳𝙴 𝙴𝚂𝚃𝙴 𝙱𝙾𝚃 (𝙻𝚘𝚋𝚘-𝙱𝚘𝚝-𝙻𝚒𝚝𝚎) 𝙿𝙾𝚁 𝙿𝙰𝚁𝚃𝙴 𝙳𝙴 𝙻𝙾𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚀𝚄𝙴 𝙻𝙾 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝚄𝙴𝙽 𝚈 𝙻𝙾 𝚄𝚂𝙴𝙽 𝙳𝙴 𝙼𝙰𝙽𝙴𝚁𝙰 𝙸𝙽𝚁𝚁𝙴𝚂𝙿𝙾𝙽𝙰𝙰𝙱𝙻𝙴..., 𝙽𝙾 𝙾𝙱𝚂𝚃𝙰𝙽𝚃𝙴 𝚂𝙸 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙿𝚁𝙾𝙱𝙻𝙴𝙼𝙰 𝙳𝙴 𝙴𝙹𝙴𝙲𝚄𝚃𝙰𝚁 𝙰𝙻 𝙱𝙾𝚃, 𝙿𝙾𝙽𝙶𝙰𝙽𝚂𝙴 𝙴𝙽 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙲𝙾𝙽 𝚂𝚂𝚄𝙿𝙾𝚁𝚃 ...𝙰𝚃𝚃: 𝗦𝘁𝗮𝗳𝗳 𝗮𝘂𝘁𝗼𝗿𝗶𝘇𝗮𝗱𝗼.`
 
 
-* <a href="https://wa.me/50558124470"><img alt="Creator 🥳" src="https://img.shields.io/badge/Ender- Creator🥳-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/50558124470"><img alt="Creator 🥳" src="https://img.shields.io/badge/Ender - Creator🥳-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
 
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=50576390682&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
