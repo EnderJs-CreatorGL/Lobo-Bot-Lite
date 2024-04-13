@@ -5,8 +5,8 @@ var handler = async (m, { conn, text }) => {
 try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
-if (messager.includes('Already up to date.')) messager = '🚩 *NO HAY NADA QUE ACTUALIZAR.*'
-if (messager.includes('Updating')) messager = '🚩 *LOBO ACTUALIZADO CORRECTAMENTE.*\n\n' + stdout.toString()
+if (messager.includes('Already up to date.')) messager = '🌐𝐌𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐞 𝐝𝐞 𝐦𝐚𝐧𝐞𝐫𝐚 𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐚 𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞'
+if (messager.includes('Updating')) messager = '🌐𝐌𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐞 𝐝𝐞 𝐦𝐚𝐧𝐞𝐫𝐚 𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐚 𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞.\n\n' + stdout.toString()
 conn.reply(m.chat, messager,)
 } catch { 
 try {
@@ -18,7 +18,7 @@ return null
 }
 return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
 if (conflictedFiles.length > 0) {
-const errorMessage = `🚩 *El bot se ha actualizado desde el servidor y entra conflicto  con el comando update.*\n\nArchivos En Conflicto:\n\n${conflictedFiles.join('\n')}`
+const errorMessage = `📍𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞 𝐬𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐨 𝐝𝐞𝐬𝐝𝐞 𝐞𝐥 𝐬𝐞𝐫𝐯𝐢𝐝𝐨𝐫/𝐇𝐨𝐬𝐭 𝐘 𝐚 𝐞𝐧𝐭𝐫𝐚𝐝𝐨 𝐞𝐧 𝐜𝐨𝐧𝐟𝐥𝐢𝐜𝐭𝐨.*\n\n𝐀𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐍𝐮𝐥𝐥:\n\n${conflictedFiles.join('\n')}`
 await conn.reply(m.chat, errorMessage,)
 }
 }
