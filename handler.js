@@ -1511,7 +1511,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await this.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗘𝗻𝗱𝗲𝗿 𝗚𝗕👑;;;\nFN:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nORG:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nTITLE:\nitem1.TEL;waid=50576390682+505 7639 0682\nitem1.X-ABLabel:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗘𝗻𝗱𝗲𝗿 𝗚𝗕👑;;;\nFN:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nORG:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nTITLE:\nitem1.TEL;waid=50558124470+505 5812 4470\nitem1.X-ABLabel:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑\nEND:VCARD`;
         await this.sendMessage(nk.from, {contacts: {displayName: '𝗘𝗻𝗱𝗲𝗿 𝗚𝗕 👑', contacts: [{vcard}]}}, {quoted: callmsg});
         await this.updateBlockStatus(nk.from, 'block');
       }
@@ -1555,11 +1555,11 @@ global.dfail = (type, m, conn) => {
     private: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑼𝑺𝑨 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑨𝑳 𝑪𝑯𝑨𝑻 𝑷𝑹𝑰𝑽𝑨𝑻𝑬 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
     admin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑳𝑶𝑺𝑰𝑬𝑵𝑻𝑶 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑨𝑫𝑴𝑰𝑵𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
     botAdmin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑷𝑨𝑹𝑨 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑹 𝑳𝑨 𝑨𝑪𝑪𝑰𝑶𝑵 𝑫𝑬𝑩𝑶 𝑻𝑬𝑵𝑬𝑹 𝑷𝑶𝑫𝑬𝑹 𝑬𝑵 𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
-    unreg: '[ 🪁𝗡𝗼 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼🪁 ]\n\n*—𝑉𝑒𝑟𝑖𝑓𝑖𝑐𝑎𝑡𝑒 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒 𝑢𝑠𝑎𝑟 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒*\n*➣#reg nombre.edad*',
+    unreg: '[ 🪁𝗡𝗼 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼🪁 ]\n\n*—𝑉𝑒𝑟𝑖𝑓𝑖𝑐𝑎𝑡𝑒 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒 𝑢𝑠𝑎𝑟 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒*\n*ᴇᴊᴇᴍᴘʟᴏ*\n➣#reg nombre.edad*',
     restrict: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑹𝑬𝑺𝑻𝑹𝑰𝑵𝑮𝑰𝑫𝑶 𝑷𝑶𝑹 𝑳𝑶𝑺 𝑶𝑾𝑵𝑬𝑹𝑺 𝒀 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: ' 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄', thumbnail: imagen1, sourceUrl: global.md}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '📍𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄📍', thumbnail: imagen1, sourceUrl: global.md}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
