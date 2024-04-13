@@ -6,6 +6,7 @@ import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
+import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.botnumber = ""
 global.confirmCode = ""
@@ -31,6 +32,7 @@ global.vsJB = '0.1.2'
 global.igfg = '💖𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗟𝗶𝘁𝗲💖'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
 
+global.lenguajeSK = es //idioma de lobobot
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
