@@ -7,15 +7,15 @@ let name = conn.getName(who)
 
 const pp = './storage/logos/Menu2.jpg'
 
-let di = `> Mensaje: ${text} 🚩\n\n*${name} quiere yaoi 🦙*`
+let di = `> Texto: ${text} 🏴\n\n*${name} quiere yaoi 💋*`
 
 conn.sendMessage(m.chat, {text: di, mentions: [m.sender]}, {quoted: fkontak2})
 
 //conn.reply(m.chat, `*❌️ Ocurrió un fallo*`)
 
 }
-handler.help = ['decir']
-handler.tags = ['penelope']
-handler.command = /^(decir|emogis|di)$/i
+handler.help = ['di']
+handler.tags = ['decir']
+handler.command = /^(decir|di)$/i
 //handler.register = true
 export default handler
