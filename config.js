@@ -6,6 +6,7 @@ import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
+import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.botnumber = ""
 global.confirmCode = ""
@@ -20,6 +21,8 @@ global.owner = [
   
 global.suittag = ['50558124470']
 global.prems = ['50558124470']
+
+global.lenguajeLB = es //idioma de lobobot
 
 global.packname = '𝙇𝙤𝙗𝙤-𝘽𝙤𝙩-𝙇𝙞𝙩𝙚 🐈🌻';
 global.author = '☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊☆\n☆𝕰𝖓𝖉𝖊𝖗 𝕷𝕯☆\n☆𝕬𝖗𝖎𝖊𝖘☆\n☆𝕺𝖜𝖓𝖊𝖗𝖘☆ ';
