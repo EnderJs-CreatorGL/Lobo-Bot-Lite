@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   let txt = '';
   for (const [jid, chat] of Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats)) txt += `\n—◉ ${await conn.getName(jid)}\n➤ ${jid} [${chat?.metadata?.read_only ? '𝙽𝙾 𝙿𝙰𝚁𝚃𝙸𝙲𝙸𝙿𝙰𝙽𝚃𝙴𝚂' : '𝙿𝙰𝚁𝚃𝙸𝙲𝙸𝙿𝙰𝙽𝚃𝙴'}]\n\n`;
-  m.reply(`𝐆𝐑𝐔𝐏𝐎𝐒 𝐃𝐎𝐍𝐃𝐄 𝐄𝐒𝐓𝐀 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓-𝐌𝐃:
+  m.reply(`🪁ɢʀᴜᴘᴏs ᴅᴏɴᴅᴇ ᴇsᴛᴀ ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🪁:
 ${txt}
 `.trim());
 };
