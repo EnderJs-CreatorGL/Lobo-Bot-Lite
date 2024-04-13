@@ -20,10 +20,10 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +1
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━━━┓
-┃ ◉— 𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 —◉
+┃ ◉— ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ —◉
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣⟣☯︎ Cʀᴇᴀᴅᴏʀ: 𝙴𝙽𝙳𝙴𝚁 𝙻𝙳
-┣⟣☯︎ Nᴜᴍᴇʀᴏ: +505 76390682
+┣⟣☯︎ Nᴜᴍᴇʀᴏ: +505 58124470
 ┣⟣☯︎ Fᴇᴄʜᴀ: ${date}
 ┣⟣☯︎ Aᴄᴛɪᴠᴏ: ${uptime}
 ┣⟣☯︎ Rᴇɢɪsᴛʀᴀᴅᴏs: ${rtotalreg}
