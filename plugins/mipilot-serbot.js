@@ -73,7 +73,7 @@ function _0x16a5() {
         'child_process',
         'from',
         'PiJVz',
-        '🚀\x20*JadiBot\x20-\x20Lobo-Bot-Lite*\x0a\x0aEscanea\x20este\x20QR\x20para\x20convertirte\x20en\x20un\x20bot\x20temporal\x0a\x0a1.\x20Haga\x20clic\x20en\x20los\x20tres\x20puntos\x20en\x20la\x20esquina\x20superior\x20derecha.\x0a2.\x20Toca\x20Dispositivos\x20vinculados.\x0a3.\x20Vincular\x20un\x20dispositivo.\x0a4.\x20Escanea\x20este\x20QR.\x0a\x0aQR\x20Caduca\x20en\x2020\x20segundos.',
+        (lenguajeLB['smsIniJadi']()),
         'YJGCe',
         'NjNmYmJjYzA1YmFiY2MzZGU4MGRlICBpbmZvLWJvdC5qcwo',
         'XsNqp',
@@ -176,7 +176,7 @@ function _0x16a5() {
         'VeNPW',
         'BJVpb',
         'connectionUpdate',
-        '🚀\x20*JadiBot\x20-\x20Curiosity*\x0a\x0aInicia\x20sesión\x20con\x20este\x20código\x20para\x20convertirte\x20en\x20un\x20bot\x20temporal\x0a\x0a1.\x20Haga\x20click\x20en\x20los\x20tres\x20puntos\x20en\x20la\x20esquina\x20superior\x20derecha.\x0a2.\x20Toca\x20Dispositivos\x20vinculados.\x0a3.\x20Vincular\x20un\x20dispositivo.\x0a4.\x20Vincular\x20con\x20número\x20de\x20teléfono.\x0a5.\x20Pegar\x20el\x20código\x20a\x20continuación.',
+        (lenguajeLB['smsIniJadi2']()),
         'iXDOZ',
         'close',
         'EABAy',
@@ -347,7 +347,7 @@ function _0x16a5() {
     };
     return _0x16a5();
 }
-let check1 = 'NjBhZGVmZWI4N2M2', check2 = _0x29b9f7(0x156), check3 = _0x29b9f7(0xcd), check4 = 'm8tZG9uYXIuanMK', check5 = 'NzZjM2ZmMzU2MTEyMzM3OTczOWU5ZmFmMDZjYzUzO', check6 = _0x29b9f7(0x11d), check8 = _0x29b9f7(0x141), crm1 = _0x29b9f7(0x68), crm2 = _0x29b9f7(0xaf), crm3 = _0x29b9f7(0x17c), crm4 = _0x29b9f7(0x123), drm1 = _0x29b9f7(0x8b), drm2 = _0x29b9f7(0x182), rtx = _0x29b9f7(0x13f), rtx2 = _0x29b9f7(0x72);
+let check1 = 'NjBhZGVmZWI4N2M2', check2 = _0x29b9f7(0x156), check3 = _0x29b9f7(0xcd), check4 = 'm8tZG9uYXIuanMK', check5 = 'NzZjM2ZmMzU2MTEyMzM3OTczOWU5ZmFmMDZjYzUzO', check6 = _0x29b9f7(0x11d), check8 = _0x29b9f7(0x141), crm1 = _0x29b9f7(0x68), crm2 = _0x29b9f7(0xaf), crm3 = _0x29b9f7(0x17c), crm4 = _0x29b9f7(0x123), drm1 = _0x54c6f6(0x181), drm2 = 'cmFCb3RMaXRlLU1EKiDwn6e/', rtx = _0x29b9f7(0x13f), rtx2 = _0x29b9f7(0x72);
 if (global['conns'] instanceof Array)
     console[_0x29b9f7(0x170)]();
 else
