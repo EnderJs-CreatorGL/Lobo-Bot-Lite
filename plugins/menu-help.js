@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━
-┣┅⟣✦ 𝗛𝗼𝗹𝗮👋,𝗦𝗼𝘆 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗
+┣┅⟣✦ 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲
 ┣┅⟣✦ 𝗠𝗲𝗻𝘂 𝗮𝘆𝘂𝗱𝗮/𝗛𝗲𝗹𝗽
 ┗━━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━
@@ -31,7 +31,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ━━━━━━━━━━━━━━━━━━━
 ┣ 𝗠𝗲𝗻𝘂𝘀 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲𝘀 𝘆 𝗮𝘆𝘂𝗱𝗮 
 ┏━━━━━━━━━━━━━━━━━━
-┣┅⟣☆ 📔.𝗠𝗲𝗻𝘂𝗼𝘄𝗻𝗲𝗿
+┣┅⟣☆ 📔.𝗢𝘄𝗻𝗲𝗿𝗺𝗲𝗻𝘂
 ┣┅⟣☆ 🎨.𝗠𝗲𝗻𝘂𝗷𝘂𝗲𝗴𝗼𝘀
 ┣┅⟣☆ 🔞.𝗟𝗮𝗯𝗶𝗯𝗹𝗶𝗮
 ┣┅⟣☆ 🗒️.𝗠𝗲𝗻𝘂
