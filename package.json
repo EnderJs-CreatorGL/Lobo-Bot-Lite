@@ -16,7 +16,7 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.",
+  "homepage": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
   "author": {
     "name": "Ender"
   },
