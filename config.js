@@ -31,7 +31,7 @@ global.titulowm = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹 ';
 global.titulowm2 = `🌹𝙻 𝙾 𝙱 𝙾 - 𝙱 𝙾 𝚃 - 𝙻 𝙸 𝚃 𝙴🌹`
 global.igfg = '🌹ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🌹'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
-global.vs = 'V3';
+global.vs = 'V2';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
