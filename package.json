@@ -1,7 +1,7 @@
 {
-  "name": "Lobo-Bot-Lite",
+  "name": "Lobo-Bot-Lite📍",
   "version": "1.0.2",
-  "description": "Lobo-Bot-Lite",
+  "description": "Lobo-Bot-Lite📍",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
   "author": {
-    "name": "Ender-GB"
+    "name": "Tallyclerk"
   },
   "repository": {
     "type": "git",
