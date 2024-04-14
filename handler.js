@@ -1532,12 +1532,12 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
         if (!msg) return 
 	//if (!msg.isGroup) return console.log('sexoooo3')    
 	const antideleteMessage = `
-┏━━━━━━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━━━━━
+┏━━━━━━━━━⬣📌  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 📌 ⬣━━━━━━━━━
 *■ Usuario:* @${participant.split`@`[0]}
 *■ Hora:* ${time}
 *■ Fecha:* ${date}
 *■ Enviando el mensaje eliminado...*
-┗━━━━━━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━━━━━━`.trim();
+┗━━━━━━━━━⬣  ☆𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀☆ ⬣━━━━━━━━━`.trim();
         await this.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
         this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
@@ -1555,11 +1555,11 @@ global.dfail = (type, m, conn) => {
     private: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑼𝑺𝑨 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑨𝑳 𝑪𝑯𝑨𝑻 𝑷𝑹𝑰𝑽𝑨𝑻𝑬 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
     admin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑳𝑶𝑺𝑰𝑬𝑵𝑻𝑶 𝑬𝑺𝑻𝑬 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺 𝑷𝑨𝑹𝑨 𝑨𝑫𝑴𝑰𝑵𝑺 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
     botAdmin: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑷𝑨𝑹𝑨 𝑬𝑱𝑬𝑪𝑼𝑻𝑨𝑹 𝑳𝑨 𝑨𝑪𝑪𝑰𝑶𝑵 𝑫𝑬𝑩𝑶 𝑻𝑬𝑵𝑬𝑹 𝑷𝑶𝑫𝑬𝑹 𝑬𝑵 𝑬𝑳 𝑮𝑹𝑼𝑷𝑶',
-    unreg: '[ 🪁𝗡𝗼 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼🪁 ]\n\n*—𝑉𝑒𝑟𝑖𝑓𝑖𝑐𝑎𝑡𝑒 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒 𝑢𝑠𝑎𝑟 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒*\n*ᴇᴊᴇᴍᴘʟᴏ*\n➣#reg nombre.edad*',
+    unreg: '[ 🪁𝗡𝗼 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼🪁 ]\n\n*—𝑉𝑒𝑟𝑖𝑓𝑖𝑐𝑎𝑡𝑒 𝑎𝑛𝑡𝑒𝑠 𝑑𝑒 𝑢𝑠𝑎𝑟 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒*\n*ᴇᴊᴇᴍᴘʟᴏ*\n➣#reg nombre.edad',
     restrict: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑹𝑬𝑺𝑻𝑹𝑰𝑵𝑮𝑰𝑫𝑶 𝑷𝑶𝑹 𝑳𝑶𝑺 𝑶𝑾𝑵𝑬𝑹𝑺 𝒀 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '📍𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄📍', thumbnail: imagen1, sourceUrl: global.md}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '📍ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ📍', thumbnail: imagen1, sourceUrl: global.md}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
