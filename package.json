@@ -1,7 +1,7 @@
 {
-  "name": "Lobo-Bot-Lite📍",
-  "version": "1.0.2",
-  "description": "Lobo-Bot-Lite📍",
+  "name": "Lobo-Bot-Lite",
+  "version": "1.0.7",
+  "description": "Un Bot De WhatsApp",
   "main": "index.js",
   "type": "module",
   "directories": {
