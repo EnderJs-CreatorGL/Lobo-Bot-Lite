@@ -12,7 +12,7 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-['50558124470', 'ᴏᴡɴᴇʀ🐺', true],
+['50558124470', 'ᴏᴡɴᴇʀ🥳', true],
 ['573012482597', '𝙳𝙸𝙴𝙶𝙾🐈', true],
 ['593939005387'],
 ['51941987051'],
@@ -26,10 +26,10 @@ global.lenguajeLB = es //idioma de lobobot
 
 global.packname = '𝙇𝙤𝙗𝙤-𝘽𝙤𝙩-𝙇𝙞𝙩𝙚 🐈🌻';
 global.author = '☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊☆\n☆𝕰𝖓𝖉𝖊𝖗 𝕷𝕯☆\n☆𝕬𝖗𝖎𝖊𝖘☆\n☆𝕺𝖜𝖓𝖊𝖗𝖘☆ ';
-global.wm = '💖𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗟𝗶𝘁𝗲💖';
-global.titulowm = '💖𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲💖 ';
-global.titulowm2 = `💖𝗟 𝗼 𝗯 𝗼 - 𝗕 𝗼 𝘁 - 𝗟 𝗜 𝗧 𝗘💖`
-global.igfg = '💖𝗟𝗼𝗯𝗼 - 𝗕𝗼𝘁 - 𝗟𝗶𝘁𝗲💖'  ;
+global.wm = '🌹ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🌹';
+global.titulowm = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹 ';
+global.titulowm2 = `🌹𝙻 𝙾 𝙱 𝙾 - 𝙱 𝙾 𝚃 - 𝙻 𝙸 𝚃 𝙴🌹`
+global.igfg = '🌹ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🌹'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
 global.vs = 'V3';
 
@@ -55,8 +55,8 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.gp1 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.gp2 = 'https://chat.whatsapp.com/Li46EUQhA5tJqXEENfKPJd'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝚒𝚝𝚎`;
-global.gt = '💖𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲💖';
-global.mysticbot = '💖𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲💖';
+global.gt = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹';
+global.mysticbot = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹';
 global.md = 'https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite';
 global.mysticbot = 'https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite';
 global.waitt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
