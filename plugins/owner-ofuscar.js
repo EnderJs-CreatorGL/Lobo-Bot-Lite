@@ -8,5 +8,5 @@ function obfuscateCode(code) {
 let obfuscatedCode = await obfuscateCode(text);
 conn.sendMessage(m.chat, {text: obfuscatedCode}, {quoted: m});
 }
-handler.command = /^(codigox|jsox)$/i
+handler.command = /^(codigox||ofuscar|jsox)$/i
 export default handler
