@@ -186,7 +186,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
     //let img = await (await fetch('https://tinyurl.com/2y223gks')).buffer()  
 
-await conn.reply(m.chat, '*Cargando El Menu 🚩*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.md, thumbnail: imagen2 }}})
+await conn.reply(m.chat, '*Cargando El Menu 🚩*', m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 Hola!!', body: saludo, sourceUrl: global.md, thumbnail: imagen4 }}})
 
 
 await conn.sendMessage(m.chat, { react: { text: '🐺', key: m.key } })
