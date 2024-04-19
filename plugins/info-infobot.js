@@ -51,7 +51,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/Ender-GB-Isis777/LOBO-BOT-MD` },
+    document: { url: `https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite` },
     mimetype: `application/${document}`,
     fileName: `[𝕷𝖔𝖇𝖔-𝕸𝕯]`,
     fileLength: 99999999999999,
@@ -60,13 +60,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD",
+        mediaUrl: "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
         mediaType: 2,
         previewType: "pdf",
-        title: "ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ",
+        title: "📍𝐿𝑜𝑏𝑜 𝑇𝑢 𝑎𝑚𝑖𝑔𝑜 𝐿𝑖𝑡𝑒📍",
         body: wm,
         thumbnail: imagen1,
-        sourceUrl: "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD",
+        sourceUrl: "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
       },
     },
     caption: info,
