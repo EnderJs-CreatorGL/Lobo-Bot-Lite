@@ -1,13 +1,13 @@
 import moment from 'moment-timezone';
 import fetch from 'node-fetch';
 const handler = async (m, { conn, args }) => {
-   const res = await fetch('https://api.github.com/repos/Ender-GB-Isis777/LOBO-BOT-MD');
+   const res = await fetch('https://api.github.com/repos/Ender-GB-Isis777/Lobo-Bot-Lite');
    const json = await res.json();
    let txt = ` ◉ 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐭𝐞𝐫𝐦𝐮𝐱 ◉
     ➪ cd && termux-setup-storage
     ➪ apt-get update -y && apt-get upgrade -y
     ➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
-    ➪ git clone https://github.com/Ender-GB-Isis777/LOBO-BOT-MD.git && cd LOBO-BOT-MD
+    ➪ git clone https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.git && cd Lobo-Bot-Lite
     ➪ yarn install
     ➪︎︎︎ npm install
     ➪ npm update
