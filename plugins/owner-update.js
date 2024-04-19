@@ -18,7 +18,7 @@ return null
 }
 return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
 if (conflictedFiles.length > 0) {
-const errorMessage = `📍𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞 𝐬𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐨 𝐝𝐞𝐬𝐝𝐞 𝐞𝐥 𝐬𝐞𝐫𝐯𝐢𝐝𝐨𝐫/𝐇𝐨𝐬𝐭 𝐘 𝐚 𝐞𝐧𝐭𝐫𝐚𝐝𝐨 𝐞𝐧 𝐜𝐨𝐧𝐟𝐥𝐢𝐜𝐭𝐨.*\n\n𝐀𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐍𝐮𝐥𝐥:\n\n${conflictedFiles.join('\n')}`
+const errorMessage = `📍𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞 𝐬𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐨 𝐝𝐞𝐬𝐝𝐞 𝐞𝐥 𝐬𝐞𝐫𝐯𝐢𝐝𝐨𝐫/𝐇𝐨𝐬𝐭 𝐘 𝐚 𝐞𝐧𝐭𝐫𝐚𝐝𝐨 𝐞𝐧 𝐜𝐨𝐧𝐟𝐥𝐢𝐜𝐭𝐨.\n\n𝐀𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐍𝐮𝐥𝐥:\n\n${conflictedFiles.join('\n')}`
 await conn.reply(m.chat, errorMessage,)
 }
 }
