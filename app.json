@@ -1,10 +1,10 @@
 {
-  "name": "LoboBot-MD",
+  "name": "Lobo-Bot-Lite",
   "website": "https://github.com/Ender-GB-Isis777",
   "description": "Super WhatsApp bot",
-  "repository": "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD",
+  "repository": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
   "logo": "WaBot",
-  "success_url": "https://github.com/Ender-GB-Isis777/LOBO-BOT-MD",
+  "success_url": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
   "keywords": [ 
     "nodejs", 
     "heroku", 
