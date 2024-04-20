@@ -5,15 +5,18 @@ const handler = async (m, {conn, usedPrefix}) => {
 
 ➤ 𝐆𝐫𝐮𝐩𝐨𝐬 𝐨𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬 𝐝𝐞𝐥 𝐋𝐨𝐛𝐨:
 
-🌹 ɢʀᴜᴘᴏ ᴏғᴄ:
+🌹 𝗚𝗿𝘂𝗽𝗼 𝗟𝗼𝗯𝗼𝗕𝗼𝘁
  
 ༄ ${gp1} ༆
 
-🌹 ᴄᴀɴᴀʟ ᴏғᴄ:
+🌹 𝗖𝗮𝗻𝗮𝗹 𝗟𝗼𝗯𝗼𝗕𝗼𝘁
 ༄ ${gp2} ༄
+
+🌹 𝗖𝗮𝗻𝗮𝗹 𝗖𝗼𝗺𝘂𝗻𝗶𝘁𝘆 𝗕𝗼𝘁𝘀
+༄ ${channel2} ༄
 `.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/Ender-GB-Isis777/LOBO-BOT-MD`},
+    'document': {url: `https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite`},
     'mimetype': `application/${document}`,
     'fileName': `「 ᴡʜᴀᴛsᴘᴘ-ʙᴏᴛ 」`,
     'fileLength': 99999999999999,
