@@ -30,7 +30,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ☘️┣𝗘𝗻𝗱𝗲𝗿|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite
 
-☘️┣𝗗𝗶𝗲𝗴𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/diegojadibot/SakuraBotLite-MD
+☘️┣𝗗𝗶𝗲𝗴𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Diego-SK-177/SakuraBotLite-MD
 
 ☘️┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/HACHEJOTA/Hachiko-bot-MD
 
