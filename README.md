@@ -3,7 +3,7 @@
 
 ## `🐺𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊🐺` 
 <p align="center">
-<img src="https://i.ibb.co/wYRhwjt/lobo-bot.jpg" alt="Lobo-Bot-Lite" width="900"/>
+<img src="https://telegra.ph/file/b779934250bddcd1cf47a.jpg" alt="Lobo-Bot-Lite" width="900"/>
 </p>
 
 > 🔮𝗖𝗿𝗲𝗮𝗱𝗼𝗿: Tallycleark Ender(LB)
