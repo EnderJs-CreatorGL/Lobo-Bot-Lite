@@ -1559,7 +1559,7 @@ global.dfail = (type, m, conn) => {
     restrict: '[🌹𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌹] 𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑹𝑬𝑺𝑻𝑹𝑰𝑵𝑮𝑰𝑫𝑶 𝑷𝑶𝑹 𝑳𝑶𝑺 𝑶𝑾𝑵𝑬𝑹𝑺 𝒀 𝑺𝑻𝑨𝑭𝑭 𝑫𝑬 𝑳𝑶𝑩𝑶-𝑩𝑶𝑻-𝐋𝐈𝐓𝐄',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '📍ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ📍', thumbnail: imagen1, sourceUrl: global.md}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: saludo, thumbnail: imagen1, sourceUrl: global.channel2}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
