@@ -1,7 +1,7 @@
 > Versión Actual: 1.2.0 🔮
 > Nuestra nueva versión se le ha agregado nueva funcion para vincularse a tu whatsapp, esos son: 1) un codigo atravez de qr, 2) un texto de 8 digitos. 🧿
 
-## `🐺𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊🐺` 
+## `🥳𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🥳` 
 <p align="center">
 <img src="https://telegra.ph/file/b779934250bddcd1cf47a.jpg" alt="Lobo-Bot-Lite" width="900"/>
 </p>
