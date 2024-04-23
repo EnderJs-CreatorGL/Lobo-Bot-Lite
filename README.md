@@ -45,7 +45,7 @@
 |||||||||||||||||||||||||||||||||| 
 ### `🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/Ender-GB-Isis777/Lobo-Bot-Lite)](https://repl.it/github/Ender-GB-Isis777/Lobo-Bot-Lite) 
+[![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite) 
 ||||||||||||||||||||||||||||||||||  
 ### `📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
@@ -66,7 +66,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.git && cd Lobo-Bot-Lite
+git clone https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.git && cd Lobo-Bot-Lite
 ```
 
 ```bash
@@ -121,11 +121,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=50576390682&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
 ## `🌹EDITOR & PROPIETARIO DEL BOT🌹` 
-<a href="https://github.com/Ender-GB-Isis777"><img src="https://github.com/Ender-GB-Isis777.png" width="250" height="250" alt="Ender"/></a>
+<a href="https://github.com/EnderJs-CreatorGL"><img src="https://github.com/EnderJs-CreatorGL.png" width="250" height="250" alt="Ender"/></a>
   
 
 ## `🌼COLABORADORES🌼` 
-<a href="https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/graphs/contributors">
+<a href="https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=Ender-GB-Isis777/Lobo-Bot-Lite" /> 
 </a>
  
