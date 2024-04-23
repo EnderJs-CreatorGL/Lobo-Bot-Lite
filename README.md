@@ -36,12 +36,12 @@
 
 ||||||||||||||||||||||||||||||||||
 ### `⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
 
 |||||||||||||||||||||||||||||||||
 ### `💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
 |||||||||||||||||||||||||||||||||| 
 ### `🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
@@ -49,7 +49,7 @@
 ||||||||||||||||||||||||||||||||||  
 ### `📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnder-GB-Isis777%2FLobo-Bot-Lite) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnderJs-CreatorGL%2FLobo-Bot-Lite) 
 |||||||||||||||||||||||||||||||||
 ### `📍𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝘁𝗲𝗿𝗺𝘂𝘅📍` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -105,7 +105,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `📄✦ CUSTOMER SUPPORT ✦📄`
-<a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_COSTOMER_SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/50576390682" target="blank"><img src="https://img.shields.io/badge/ENDER_GL_COSTOMER_SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 #### `❗¡𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔!/¡𝗪𝗔𝗥𝗡𝗜𝗡𝗚!❗`
 
@@ -126,7 +126,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## `🌼COLABORADORES🌼` 
 <a href="https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Ender-GB-Isis777/Lobo-Bot-Lite" /> 
+<img src="https://contrib.rocks/image?repo=EnderJs-CreatorGL/Lobo-Bot-Lite" /> 
 </a>
  
 `𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊 -  𝐄𝐧𝐝𝐞𝐫`
