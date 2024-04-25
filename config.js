@@ -13,7 +13,7 @@ global.confirmCode = ""
 
 global.owner = [
 ['50558124470', 'ʙʏ ᴇɴᴅᴇʀ ᴛᴀʟʟʏ🥳', true],
-['573012482597', 'Dɪᴇɢᴏ-Sᴋ-177 🍄', true],
+['573012482597', 'Dɪᴇɢᴏ-Yʟ-177 🍄', true],
 ['593939005387'],
 ['51941987051'],
 ['51941987051'],
@@ -42,6 +42,10 @@ global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6= fs.readFileSync('./Menu3.png');
 global.imagen7= fs.readFileSync('./src/hjbot.jpg');
 global.mods = [];
+
+//Solo desarrollador y propietario
+global.isdev = [["50558124470', 'ʙʏ ᴇɴᴅᴇʀ ᴛᴀʟʟʏ🥳", 1],
+["573012482597", 'Dɪᴇɢᴏ-Yʟ-177 🍄', 1]]
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
