@@ -44,7 +44,7 @@ global.imagen7= fs.readFileSync('./src/hjbot.jpg');
 global.mods = [];
 
 //Solo desarrollador y propietario
-global.isdev = [["50558124470', 'ʙʏ ᴇɴᴅᴇʀ ᴛᴀʟʟʏ🥳", 1],
+//global.isdev = [["50558124470', 'ʙʏ ᴇɴᴅᴇʀ ᴛᴀʟʟʏ🥳", 1],
 ["573012482597", 'Dɪᴇɢᴏ-Yʟ-177 🍄', 1]]
 
 //* *******Tiempo***************
