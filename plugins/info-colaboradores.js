@@ -22,19 +22,18 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━
-┣┅⟣✦ 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁⚕️
-┣┅⟣✦ 𝗖𝗼𝗹𝗮𝗯𝗼𝗿𝗮𝗱𝗼𝗿𝗲𝘀(𝗦𝘁𝗮𝗳𝗳)⚕️
+┣┅⟣✦ 𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆⚕️
+┣┅⟣✦ 𝑪𝒐𝒍𝒃𝒐𝒓𝒂𝒅𝒐𝒓𝒆𝒔(𝗦𝘁𝗮𝗳𝗳)⚕️
 ┗━━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━
 ✨┣┅⟣✦𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯🌹
 
-☘️┣𝗘𝗻𝗱𝗲𝗿|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite
+☘️┣𝗘𝗻𝗱𝗲𝗿|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite
 
 ☘️┣𝗗𝗶𝗲𝗴𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Diego-SK-177/SakuraBotLite-MD
 
 ☘️┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/HACHEJOTA/Hachiko-bot-MD
 
-☘️┣𝗔𝘅𝗲𝗹|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Jxtxn17/Turbobot-MD
 
 ☘️┣𝗘𝗻𝘇𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Enzovaselevich
 
@@ -44,7 +43,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 🌱┣𝗘𝗻𝗱𝗲𝗿:+505 5812 4470
 🌱┣𝗗𝗶𝗲𝗴𝗼:+57 301 2482597
 🌱┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮:+52 443 786 3111
-🌱┣𝗔𝘅𝗲𝗹:+51 929 972 576
 🌱┣𝗘𝗻𝘇𝗼:+54 9 11 6875-8497
 🌱┣𝗘𝗱𝗲𝗿:+57 310 6040746
 ┗━━━━━━━━━━━━━━━━━━┛
