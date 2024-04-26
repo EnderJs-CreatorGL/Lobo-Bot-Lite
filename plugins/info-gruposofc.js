@@ -16,7 +16,7 @@ const handler = async (m, {conn, usedPrefix}) => {
 ༄ ${channel2} ༄
 `.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite`},
+    'document': {url: `https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite`},
     'mimetype': `application/${document}`,
     'fileName': `「 ᴡʜᴀᴛsᴘᴘ-ʙᴏᴛ 」`,
     'fileLength': 99999999999999,
