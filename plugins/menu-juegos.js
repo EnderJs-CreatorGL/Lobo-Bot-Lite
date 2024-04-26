@@ -22,10 +22,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━┓
-┃ ⏤͟͟͞͞𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗
+┃ ⏤͟͟͞͞𝘓𝘰𝘣𝘰-𝘉𝘰𝘵-𝘓𝘪𝘵𝘦
 ┗━━━━━━━━━━━
 ┣⟣☯︎ 𝙴𝙽 𝙶𝚁𝚄𝙿𝙾𝚂: 𝙾𝚆𝙽𝙴𝚁
-┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: 𝙻𝙳 𝙻𝙾𝙱𝙾 𝙳𝙸𝙾𝚂 
+┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: ᴛᴀʟʟʏᴄʟᴇʀᴋ
 ┣⟣☯︎ 𝙽𝚄𝙼𝙴𝚁𝙾: +505 7639 0682
 ┣⟣☯︎ 𝙵𝙴𝙲𝙷𝙰: ${date}
 ┣⟣☯︎ 𝚃𝙸𝙴𝙼𝙿𝙾 ${uptime}
