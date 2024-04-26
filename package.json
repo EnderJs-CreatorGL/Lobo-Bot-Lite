@@ -1,7 +1,7 @@
 {
   "name": "Lobo-Bot-Lite",
   "version": "1.0.0",
-  "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
+  "description": "Subs. al canal EnderGL - TEAM",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite",
+  "homepage": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite",
   "author": {
     "name": "Ender"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite.git"
+    "url": "git+https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.git"
   },
   "bugs": {
-    "url": "https://github.com/Ender-GB-Isis777/Lobo-Bot-Lite/issues"
+    "url": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
