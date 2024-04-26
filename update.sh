@@ -1,8 +1,8 @@
-# Código desarrollado por @gata_dios 
+# Código desarrollado por @Ender
   # * Al bifurcar este repositorio, dejen los créditos a todos los creadores de cada código por favor. ♥
 #!/data/data/com.termux/files/usr/bin/bash 
 BOT_DIR="Lobo-Bot-Lite'  
-BOT_REPO="https://github.com/Ender-GB-Isis777/$BOT_DIR"
+BOT_REPO="https://github.com/EnderJs-CreatorGL/$BOT_DIR"
 DB_FILE="database.json"
 
 GREEN='\033[32m'
