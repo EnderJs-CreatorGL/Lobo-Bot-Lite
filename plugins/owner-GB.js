@@ -2,7 +2,7 @@ let handler = (m) => m;
 handler.all = async function (m) {
   
 
-  if (/^Endergb|GB|gb|ender|Ender|ENDER$/i.test(m.text)) {
+  if (/^Endergl|GL|gb|ender|Ender|ENDER$/i.test(m.text)) {
     var GB = `ᴏᴡɴᴇʀ  @${global.suittag} ᴛᴇ ᴀ ɪɴᴠᴏᴄᴀᴅᴏ`;
 
     m.reply(GB, m.chat, { mentions: conn.parseMention(GB)});
