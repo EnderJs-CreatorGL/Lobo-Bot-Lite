@@ -24,7 +24,7 @@ const handler = async (m, { conn, text }) => {
             return conn.sendMessage(m.chat, {text: `[🧸] ᴇʟ ᴜsᴇʀ @${userNumber} ɴᴏ ᴇsᴛᴀ ᴇɴ ʟᴀ ᴅᴀᴛᴀ ʙᴀsᴇ`, mentions: [user]}, {quoted: m});
          }
         delete global.global.db.data.users[user];
-        conn.sendMessage(m.chat, {text: `[🌹] ᴘᴇʀғᴇᴄᴛᴏ @${userNumber} ᴅᴇ ʟᴀ ᴅᴀᴛᴀ ʙᴀsᴇ ᴅᴇ ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ`, mentions: [user]}, {quoted: m});
+        conn.sendMessage(m.chat, {text: `[🌹] ᴘᴇʀғᴇᴄᴛᴏ ᴇʟɪᴍɪɴᴇ ʟᴏs ᴅᴀᴛᴏs ᴅᴇʟ ᴜsᴜᴀʀɪᴏ @${userNumber} ᴅᴇ ʟᴀ ᴅᴀᴛᴀ ʙᴀsᴇ ᴅᴇ ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ`, mentions: [user]}, {quoted: m});
 };
 handler.tags = ['owner'];
 handler.command = /(data0|deletedatauser|datos0)$/i;
