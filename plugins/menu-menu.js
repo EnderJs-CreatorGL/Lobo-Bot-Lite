@@ -8,16 +8,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
     let fkon = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-    await conn.reply(m.chat, '𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗺𝗲𝗻𝘂📍. . .', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🌟 𝗕𝘂𝗲𝗻𝗼𝘀 𝗱𝗶𝗮𝘀!!', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
+    await conn.reply(m.chat, '𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗺𝗲𝗻𝘂 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲📍. . .', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '🌟 𝗕𝘂𝗲𝗻𝗼𝘀 𝗱𝗶𝗮𝘀!!', body: 'bienvenido', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('🐺');
     await conn.sendMessage(m.chat, { react: { text: '💖', key: m.key } })
   let txt =`┏━━━━━━━━━━━━━━━━━━
-┣┅⟣𝘘𝘶𝘦𝘵𝘢𝘭 𝘚𝘰𝘺 𝘓𝘰𝘣𝘰-𝘉𝘰𝘵-𝘓𝘪𝘵𝘦
-┣┅⟣𝘎𝘳𝘶𝘱𝘰𝘴: 𝙾𝚆𝙽𝙴𝚁  
-┣┅⟣𝘊𝘳𝘦𝘢𝘥𝘰𝘳: ᴛᴀʟʟʏᴄʟᴇʀᴋ
-┣┅⟣𝘕𝘶𝘮𝘦𝘳𝘰:+505 5812 4470
-┣┅⟣𝘍𝘦𝘤𝘩𝘢: ${date}
-┣┅⟣𝘗𝘢𝘴𝘢 𝘉𝘶𝘦𝘯 𝘥𝘪𝘢
+┣┅⟣𝘘𝘶𝘦𝘵𝘢𝘭 𝘚𝘰𝘺 𝘓𝘰𝘣𝘰-𝘉𝘰𝘵-𝘓𝘪𝘵𝘦√
+┣┅⟣𝘎𝘳𝘶𝘱𝘰𝘴: 𝙾𝚆𝙽𝙴𝚁√  
+┣┅⟣𝘊𝘳𝘦𝘢𝘥𝘰𝘳: ᴛᴀʟʟʏᴄʟᴇʀᴋ√
+┣┅⟣𝘕𝘶𝘮𝘦𝘳𝘰:+505 5812 4470√
+┣┅⟣𝘍𝘦𝘤𝘩𝘢: ${date}√
+┣┅⟣𝘗𝘢𝘴𝘢 𝘉𝘶𝘦𝘯 𝘥𝘪𝘢√
 ┗━━━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
