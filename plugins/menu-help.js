@@ -22,8 +22,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━
-┣┅⟣✦ 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲
-┣┅⟣✦ 𝗠𝗲𝗻𝘂 𝗮𝘆𝘂𝗱𝗮/𝗛𝗲𝗹𝗽
+┣┅⟣𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒
+┣┅⟣𝐻𝑒𝑙𝑝 𝑀𝑒𝑛𝑢
 ┗━━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━
 ┣❕𝗦𝗶 𝗱𝗲𝘀𝗽𝘂𝗲𝘀 𝗱𝗲 𝗹𝗲𝗲𝗿 𝗲𝘀𝘁𝗼 𝘀𝗶𝗴𝘂𝗲𝘀 
