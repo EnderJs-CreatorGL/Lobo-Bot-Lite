@@ -26,14 +26,14 @@ _- NO somos responsable si Hay alteraciones de este Bot no siendo Numero(s) Ofic
 _- La funcion Sub Bot Garantiza la seguridad de sus Datos aplicada a Cuentas Oficiales._
 
 
-🍷𝗚𝗶𝘁𝗵𝘂𝗯 𝗱𝗲 𝗟𝗼𝗯𝗼-𝗯𝗼𝘁-𝗠𝗱
+🍷𝐺𝑖𝑡ℎ𝑢𝑏 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒
 ${md}
 
 🪁𝗦𝗶 𝘁𝗲 𝗮 𝗴𝘂𝘀𝘁𝗮𝗱𝗼 𝗲𝗹 𝗯𝗼𝘁, 𝗽𝘂𝗲𝗱𝗲𝘀 𝗱𝗼𝗻𝗮𝗿:
 ~ _Si te Agrada y valoras el Trabajo que he realizado, puedes ayudarme en Donar Numeros para que pueda continuar en este Proyecto_
 wa.me/50558124470
 
-🧸𝗧𝗲 𝗮𝘀 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗱𝗼 𝘀𝗼𝗯𝗿𝗲 𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗠𝗗`.trim()
+🧸𝑇𝑒 𝑖𝑛𝑓𝑜𝑟𝑚𝑎𝑠𝑡𝑒 𝑠𝑜𝑏𝑟𝑒 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒`.trim()
 await conn.sendFile(m.chat, imagen1, 'gata.mp4', Terminos)
 }
 handler.customPrefix = /terminos|t茅rminos|t茅rminos, condiciones y privacidad|terminos, condiciones y privacidad|t茅rminos y condiciones y privacidad|terminosycondicionesyprivacidad|terminosycondiciones|terminos y condiciones y privacidad|terminos y condiciones|terminos y condiciones|terminos de uso|Terminos de uso|Termin贸 se uso|t茅rminos de uso|T茅rminos de uso|T茅rminos y condiciones/i
