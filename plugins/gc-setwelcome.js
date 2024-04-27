@@ -1,8 +1,8 @@
 const handler = async (m, {conn, text, isROwner, isOwner}) => {
   if (text) {
     global.db.data.chats[m.chat].sWelcome = text;
-    m.reply('[🎭] 𝗠𝗲𝗻𝘀𝗮𝗷𝗲 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗱𝗼 𝗲𝘅𝗶𝘁𝗼');
-  } else throw `[🪁] 𝗜𝗻𝗴𝗿𝗲𝘀𝗮 𝗲𝗹 𝗺𝗲𝗻𝘀𝗮𝗷𝗲 𝗱𝗲 𝗯𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗼, 𝘂𝘀𝗲:\n*- @user (mención)*\n*- @group (nombre de grupo)*\n*- @desc (description de grupo)*`;
+    m.reply('[🎭] 𝑀𝑒𝑛𝑠𝑎𝑗𝑒 𝑝𝑢𝑒𝑠𝑡𝑜 𝑝𝑒𝑟𝑓𝑒𝑐𝑡𝑎𝑚𝑒𝑛𝑡𝑒');
+  } else throw `[🪁] 𝐸𝑠𝑐𝑟𝑖𝑏𝑒 𝑒𝑙 𝑚𝑒𝑛𝑠𝑎𝑗𝑒 𝑝𝑟𝑖𝑚𝑒𝑟𝑜, 𝑢𝑠𝑒:\n*- @user (mención)*\n*- @group (nombre de grupo)*\n*- @desc (description de grupo)*`;
 };
 handler.help = ['setwelcome <text>'];
 handler.tags = ['group'];
