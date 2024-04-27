@@ -1,6 +1,6 @@
 
 const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
-  if (!args[0]) return m.reply(`[🌹] ʙᴜsᴄᴀ ᴇʟ ᴘʀᴇғɪᴊᴏ ᴅᴇ sᴜ ᴘᴀɪs: ${usedPrefix + command} 52*`);
+  if (!args[0]) return m.reply(`[🌹] ʙᴜsᴄᴀ ᴇʟ ᴘʀᴇғɪᴊᴏ ᴅᴇ sᴜ ᴘᴀɪs:ᴇᴊᴇᴍᴘʟᴏ: ${usedPrefix + command} 52`);
   if (isNaN(args[0])) return m.reply(`[🌹] ɪɴɢʀᴇsᴀ ᴇʟ ᴘʀᴇғɪᴊᴏ ᴅᴇʟ ᴘᴀɪs:ᴇᴊᴇᴍᴘʟᴏ: ${usedPrefix + command} 52`);
   const lol = args[0].replace(/[+]/g, '');
   const ps = participants.map((u) => u.id).filter((v) => v !== conn.user.jid && v.startsWith(lol || lol));
