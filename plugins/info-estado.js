@@ -9,10 +9,10 @@ const handler = async (m, {conn}) => {
 │
 │ *➤ ʜᴏʟᴀ ${taguser}*
 │
-│ *=> 🖥️ ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime} ✓
-│ *=> 🖱️ ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ* ✓
-│ *=> 🌹 𝐶𝑟𝑒𝑎𝑑𝑜𝑟: ᴛᴀʟʟʏᴄʟᴇʀᴋ ᴇɴᴅᴇʀ * ✓
-│ *=> 🍁 ʀᴇᴘᴏsɪᴛᴏʀɪᴏ ᴏғᴄ:* https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite
+│ => 🍁 𝑇𝑖𝑒𝑚𝑝𝑜 𝑑𝑒 𝐸𝑗𝑒𝑐𝑢𝑐𝑖𝑜𝑛: ${uptime} ✓
+│ => 🪁 𝑈𝑠𝑜 𝑃𝑢𝑏𝑙𝑖𝑐 ✓
+│ => 🌹 𝐶𝑟𝑒𝑎𝑑𝑜𝑟: ᴛᴀʟʟʏᴄʟᴇʀᴋ ᴇɴᴅᴇʀ  ✓
+│ => 📍 ʀᴇᴘᴏsɪᴛᴏʀɪᴏ ᴏғᴄ: https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite
 ╰────────────────`.trim();
     if (m.isGroup) {
       conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": global.md`, "sourceUrl": global.md`}}}, {quoted: m});
