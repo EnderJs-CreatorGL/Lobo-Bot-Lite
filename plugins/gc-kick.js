@@ -7,7 +7,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
 
     const groupInfo = await conn.groupMetadata(m.chat);
     const ownerGroup = groupInfo.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
-    const ownerBot = global.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
+    const ownerBot = global.owner + '@s.whatsapp.net';
 
 
     if (user === conn.user.jid) {
@@ -15,11 +15,11 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
     }
 
     if (user === ownerGroup) {
-        return conn.reply(m.chat, '[🚫] 𝗡𝗢 𝗟𝗢 𝗣𝗨𝗘𝗗𝗢 𝗘𝗟𝗜𝗠𝗜𝗡𝗔𝗥.', m);
+        return conn.reply(m.chat, '[🚫] 𝗡𝗢 𝗣𝗨𝗘𝗗𝗢 𝗘𝗟𝗜𝗠𝗜𝗡𝗔𝗥 𝗔𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢.', m);
     }
 
     if (user === ownerBot) {
-        return conn.reply(m.chat, '☄️ No Lo Puedo Eliminar', m);
+        return conn.reply(m.chat, '[🚫] 𝗡𝗢 𝗣𝗨𝗘𝗗𝗢 𝗘𝗟𝗜𝗠𝗜𝗡𝗔𝗥 𝗔 𝗠𝗜 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', m);
     }
 
     await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
