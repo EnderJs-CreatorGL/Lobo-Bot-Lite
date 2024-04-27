@@ -27,12 +27,12 @@ switch (command) {
 
 case 'fantasmas': 
 if(total == 0) return conn.reply(m.chat, `[🪁] 𝑁𝑜 𝑠𝑒 𝑒𝑛𝑐𝑢𝑒𝑛𝑡𝑟𝑎𝑛 𝐹𝑎𝑛𝑡𝑎𝑠𝑚𝑎𝑠 𝑒𝑛 𝑒𝑙 𝑔𝑟𝑢𝑝𝑜.`, m, ) 
-m.reply(`[ 🌹 𝐴𝑛𝑎𝑙𝑖𝑠𝑎𝑛𝑑𝑜 𝐹𝑢𝑙𝑙 🌹 ]\n\n[🎭𝐹𝑎𝑛𝑡𝑎𝑠𝑚𝑎𝑠 🎭]\n${sider.map(v => '@' + v.replace(/@.+/, '')).join('\n')}\n\n*📝 NOTA:*\nEsto no es al 100% acertado, el bot inicia el conteo de mensajes a partir de que se active en este número`, null, { mentions: sider }) 
+m.reply(`[ 🌹 𝐴𝑛𝑎𝑙𝑖𝑠𝑎𝑛𝑑𝑜 𝐹𝑢𝑙𝑙 🌹 ]\n\n[🎭𝐹𝑎𝑛𝑡𝑎𝑠𝑚𝑎𝑠 🎭]\n${sider.map(v => '@' + v.replace(/@.+/, '')).join('\n')}\n\nᴀɴᴀʟɪsɪs ᴄᴏᴍᴘʟᴇᴛᴀᴅᴏ ᴀʟ 100%`, null, { mentions: sider }) 
 break
 
 case 'kickfantasmas':  
 if(total == 0) return conn.reply(m.chat, `🎌 *Este grupo es activo no tiene fantasmas*`, m, ) 
-await m.reply(`🚩 *Eliminación de inactivos*\n\n⚠️ *Lista de fantasmas*\n${sider.map(v => '@' + v.replace(/@.+/, '')).join('\n')}\n\n❗ _El bot eliminara a los usuarios de la lista mencionada cada 10 segundos_`, null, { mentions: sider }) 
+await m.reply(`📍 *Eliminación de inactivos*\n\n🎭 *Lista de fantasmas*\n${sider.map(v => '@' + v.replace(/@.+/, '')).join('\n')}\n\n[🌹]ɪɴɪᴄɪᴀɴᴅᴏ ᴇʟɪᴍɪɴᴀᴄɪᴏɴ ᴄᴀᴅᴀ 10 sᴇɢᴜɴᴅᴏs`, null, { mentions: sider }) 
 await delay(1 * 10000)
 let chat = global.db.data.chats[m.chat]
 chat.welcome = false
