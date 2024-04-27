@@ -1,7 +1,7 @@
 /* Creditos a https://github.com/FG98F */
 
 const handler = async (m, {conn, usedPrefix, command}) => {
-  if (!m.quoted) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰𝙻 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙰 𝚀𝚄𝙴 𝚂𝙴𝙰 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾*`;
+  if (!m.quoted) throw `[📍] 𝗠𝗲𝗻𝘀𝗮𝗷𝗲 𝗮 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗿.`;
   try {
     const delet = m.message.extendedTextMessage.contextInfo.participant;
     const bang = m.message.extendedTextMessage.contextInfo.stanzaId;
@@ -22,7 +22,7 @@ export default handler;
 if (!m.quoted) throw false
 let { chat, fromMe, isBaileys } = m.quoted
 if (!fromMe) throw false
-if (!isBaileys) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝙽𝙾 𝙵𝚄𝙴 𝙴𝙽𝚅𝙸𝙰𝙳𝙾 𝙿𝙾𝚁 𝙼𝙸, 𝙽𝙾 𝙻𝙾 𝙿𝚄𝙴𝙳𝙾 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁*'
+if (!isBaileys) throw '[🧸] 𝗡𝗼 𝗽𝘂𝗱𝗲 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗿𝗹𝗼.'
 conn.sendMessage(chat, { delete: m.quoted.vM.key })
 }
 handler.help = ['del', 'delete']
