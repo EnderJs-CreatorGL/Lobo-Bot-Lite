@@ -5,8 +5,8 @@ var handler = async (m, { conn, text }) => {
 try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
-if (messager.includes('Already up to date.')) messager = '🌐𝐌𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐞 𝐝𝐞 𝐦𝐚𝐧𝐞𝐫𝐚 𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐚 𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞'
-if (messager.includes('Updating')) messager = '🌐𝐌𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐞 𝐝𝐞 𝐦𝐚𝐧𝐞𝐫𝐚 𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐚 𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞.\n\n' + stdout.toString()
+if (messager.includes('Already up to date.')) messager = '[🌐] 𝐸𝑗𝑒𝑐𝑢𝑐𝑖𝑜𝑛 𝑟𝑒𝑎𝑙𝑖𝑧𝑎𝑑𝑎,𝑎𝑐𝑡𝑢𝑎𝑙𝑖𝑧𝑎𝑐𝑖𝑜𝑛 𝐹𝑖𝑛𝑎𝑙𝑖𝑧𝑎𝑑𝑎 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒'
+if (messager.includes('Updating')) messager = '[🌐] 𝐸𝑗𝑒𝑐𝑢𝑐𝑖𝑜𝑛 𝑟𝑒𝑎𝑙𝑖𝑧𝑎𝑑𝑎,𝑎𝑐𝑡𝑢𝑎𝑙𝑖𝑧𝑎𝑧𝑖𝑜𝑛 𝐹𝑖𝑛𝑎𝑙𝑖𝑧𝑎𝑑𝑎 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒.\n\n' + stdout.toString()
 conn.reply(m.chat, messager,)
 } catch { 
 try {
