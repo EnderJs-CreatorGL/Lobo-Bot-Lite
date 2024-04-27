@@ -7,7 +7,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
 
     const groupInfo = await conn.groupMetadata(m.chat);
     const ownerGroup = groupInfo.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
-    const ownerBot = global.owner[0][0] + '@s.whatsapp.net';
+    const ownerBot = global.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
 
     if (user === conn.user.jid) {
         return conn.reply(m.chat, '🛑 No puedo eliminar el bot del grupo', m);
