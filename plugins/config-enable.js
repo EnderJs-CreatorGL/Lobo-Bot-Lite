@@ -46,7 +46,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ┣☆ ඬ⃟⚙️.𝗳𝗮𝗹𝘀𝗲 𝗮𝘂𝗱𝗶𝗼𝘀_𝗯𝗼𝘁:(ᴏᴡɴᴇʀs)
  ☆> ( 𝐋𝐎𝐁𝐎-𝐁𝐎𝐓 1.5) <☆`.trim();
 
-  const isEnable = /true|enable|(turn)?on|1/i.test(command);
+              const isEnable = /true|enable|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
   const user = global.db.data.users[m.sender];
   const bot = global.db.data.settings[conn.user.jid] || {};
@@ -91,7 +91,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'simsimi':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
@@ -162,7 +162,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'modohorny':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
@@ -171,7 +171,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'modoadmin':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
@@ -180,7 +180,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'autosticker':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
@@ -189,7 +189,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'audios':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
@@ -198,7 +198,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'restrict':
       isAll = true;
-      if (!isOwner) {
+      if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
         throw false;
       }
@@ -206,12 +206,20 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'audios_bot':
       isAll = true;
-      if (!isOwner) {
+      if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
         throw false;
       }
       bot.audios_bot = isEnable;      
       break;
+    case 'modoia':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.modoia = isEnable;      
+      break;      
     case 'nyimak':
       isAll = true;
       if (!isROwner) {
@@ -222,12 +230,12 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'autoread':
       isAll = true;
-      if (!isROwner) {
+      if (!(isROwner || isOwner)) {
         global.dfail('rowner', m, conn);
         throw false;
       }
       bot.autoread2 = isEnable;
-      global.opts['autoread'] = isEnable;
+      //global.opts['autoread'] = isEnable;
       break;
     case 'pconly':
     case 'privateonly':
@@ -258,16 +266,16 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'anticall':
       isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
         throw false;
       }
       bot.antiCall = isEnable;
       break;
     case 'antiprivado':
       isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
         throw false;
       }
       bot.antiPrivate = isEnable;
@@ -282,24 +290,40 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'antispam':
       isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
         throw false;
       }
       bot.antispam = isEnable;
       break;
     case 'antitoxic':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
       }
       chat.antiToxic = isEnable;
       break;
+      case 'game': case 'juegos': case 'fun': case 'ruleta':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.game = isEnable          
+break;
+case 'reaction': case 'reaccion': case 'emojis': case 'antiemojis': case 'reacciones': case 'reaciones':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.reaction = isEnable          
+break;
     case 'antitraba':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
@@ -308,8 +332,8 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'antiarabes':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
+        if (!(isAdmin || isROwner || isOwner)) {
+          global.dfail('admin', m, conn); 
           throw false;
         }
       }
@@ -317,7 +341,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       break;
     case 'antiarabes2':
       if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
+        if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
           throw false;
         }
@@ -328,9 +352,9 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `       ☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊☆\n[💖] 𝗢𝗣𝗖𝗜𝗢̃𝗡: ${type}✔️\n[🌟] 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🌹] 𝐏𝐀𝐑𝐀: ${isAll ? '𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
+     conn.sendMessage(m.chat, {text: `   ☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊☆\n[💖] 𝗢𝗣𝗖𝗜𝗢̃𝗡: ${type}✔️\n[🌟] 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🌹] 𝐏𝐀𝐑𝐀: ${isAll ? '𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
-handler.command = /^((true|false)|(tru|fals)e|(turn)?[01])$/i;
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i;
 export default handler;
