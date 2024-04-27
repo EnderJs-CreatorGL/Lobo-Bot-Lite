@@ -3,9 +3,9 @@ handler.all = async function (m) {
   
 
   if (/^Endergl|GL|gb|ender|Ender|ENDER$/i.test(m.text)) {
-    var GB = `ᴏᴡɴᴇʀ  @${global.suittag} ᴛᴇ ᴀ ɪɴᴠᴏᴄᴀᴅᴏ`;
+    var GL = `ᴏᴡɴᴇʀ  @${global.suittag} ᴛᴇ ᴀ ɪɴᴠᴏᴄᴀᴅᴏ`;
 
-    m.reply(GB, m.chat, { mentions: conn.parseMention(GB)});
+    m.reply(GL, m.chat, { mentions: conn.parseMention(GL)});
     //sem prefixo
     /*conn.reply(
       m.chat,
