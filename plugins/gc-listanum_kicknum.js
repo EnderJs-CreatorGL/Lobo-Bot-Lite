@@ -1,16 +1,16 @@
 
 const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
   if (!args[0]) return m.reply(`[🌹] ʙᴜsᴄᴀ ᴇʟ ᴘʀᴇғɪᴊᴏ ᴅᴇ sᴜ ᴘᴀɪs: ${usedPrefix + command} 52*`);
-  if (isNaN(args[0])) return m.reply(`[🌹] ɪɴɢʀᴇsᴀ ᴇʟ ᴘʀᴇғɪᴊᴏ ᴅᴇʟ ᴘᴀɪs: ${usedPrefix + command} 52*`);
+  if (isNaN(args[0])) return m.reply(`[🌹] ɪɴɢʀᴇsᴀ ᴇʟ ᴘʀᴇғɪᴊᴏ ᴅᴇʟ ᴘᴀɪs:ᴇᴊᴇᴍᴘʟᴏ: ${usedPrefix + command} 52`);
   const lol = args[0].replace(/[+]/g, '');
   const ps = participants.map((u) => u.id).filter((v) => v !== conn.user.jid && v.startsWith(lol || lol));
   const bot = global.db.data.settings[conn.user.jid] || {};
-  if (ps == '') return m.reply(`[🌹] ɴᴏ sᴇ ᴇɴᴄᴏɴᴛʀᴏ ɴᴀᴅɪᴇ ᴄᴏɴ ᴛᴀʟ ɴᴜᴍᴇʀᴏ +${lol}*`);
+  if (ps == '') return m.reply(`[🌹] ɴᴏ sᴇ ᴇɴᴄᴏɴᴛʀᴏ ɴᴀᴅɪᴇ ᴄᴏɴ ᴛᴀʟ ɴᴜᴍᴇʀᴏ +${lol}`);
   const numeros = ps.map((v)=> '⭔ @' + v.replace(/@.+/, ''));
   const delay = (time) => new Promise((res)=>setTimeout(res, time));
   switch (command) {
     case 'listanum':
-      conn.reply(m.chat, `*𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙽𝚄𝙼𝙴𝚁𝙾𝚂 𝙲𝙾𝙽 𝙴𝙻 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 +${lol} 𝚀𝚄𝙴 𝙴𝚂𝚃𝙰𝙽 𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾:*\n\n` + numeros.join`\n`, m, {mentions: ps});
+      conn.reply(m.chat, `ʟɪsᴛᴀ +${lol} ǫᴜᴇ ᴇsᴛᴀɴ ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ:\n\n` + numeros.join`\n`, m, {mentions: ps});
       break;
     case 'kicknum':
       if (!bot.restrict) return m.reply('[🌹] ᴀᴄᴛɪᴠᴀ ᴇʟ ʀᴇsᴛʀɪɴɢɪʀ ᴘʀɪᴍᴇʀᴏ');
