@@ -45,6 +45,6 @@ m.reply(`[🌹] ᴇᴊᴇᴄᴜᴛᴇ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ ᴘᴇʀғᴇ�
 }
 handler.help = ['broadcastgroup', 'bcgc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
-handler.command = /^(broadcast|bc)(group|grup|gc)$/i
+handler.command = /^(ownermsg|mensajeowner|)$/i
 handler.rowner = true
 export default handler*/
