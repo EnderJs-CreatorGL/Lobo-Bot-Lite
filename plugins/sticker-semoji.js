@@ -10,7 +10,7 @@ const handler = async (m, {usedPrefix, conn, args, text, command}) => {
     emoji = '😎';
     tipe = defaultType;
   }
-  const err = `*[❗] 𝙴𝙻 𝚄𝚂𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂*
+  const err = `[🌹] 𝑀𝑎𝑙 𝑢𝑠𝑎𝑑𝑜 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:
 *◉ ${usedPrefix + command} <tipo> <emoji>*
 
 *—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*
@@ -30,7 +30,7 @@ const handler = async (m, {usedPrefix, conn, args, text, command}) => {
 *◉ pi = pixel*
 *◉ sa = samsung*
 
-*—◉ 𝚂𝙾𝙻𝙾 𝚄𝚂𝙰𝚁 𝚄𝙽 𝙴𝙼𝙾𝙹𝙸 𝚈 𝚁𝙴𝚂𝙿𝙴𝚃𝙴 𝙻𝙾𝚂 𝙴𝚂𝙿𝙰𝙲𝙸𝙾𝚂*`;
+* 𝚂𝙾𝙻𝙾 𝚄𝚂𝙰𝚁 𝚄𝙽 𝙴𝙼𝙾𝙹𝙸 𝚈 𝚁𝙴𝚂𝙿𝙴𝚃𝙴 𝙻𝙾𝚂 𝙴𝚂𝙿𝙰𝙲𝙸𝙾𝚂*`;
   if (!emoji) throw err;
   if (tipe == 'mo') tipe = 'mozilla';
   if (tipe == 'op') tipe = 'openmoji';
@@ -63,7 +63,7 @@ const handler = async (m, {usedPrefix, conn, args, text, command}) => {
     // if (tipe == 'pi' && json || tipe == 'pixel' && json ) stiker = await conn.sendFile(m.chat, stikerPI, null, { asSticker: true }, m)
     m.reply(stiker);
   } catch {
-    throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝙸𝙽𝚃𝙴𝙽𝚃𝙰 𝙽𝚄𝙴𝚅𝙰𝙼𝙴𝙽𝚃𝙴*`;
+    throw `[🌹] 𝐸𝑟𝑟𝑜𝑟 𝑁𝑢𝑙𝑙`;
   }
 };
 handler.help = ['emoji <tipo> <emoji>'];
