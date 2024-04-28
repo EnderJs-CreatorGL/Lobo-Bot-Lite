@@ -20,9 +20,9 @@
     "whatsappbot",
     "oficial",
     "whatsapp-md",
-    "themysticbot",
-    "themystic-bot",
-    "themystic-bot-md"],
+    "Lobo-Bot-Lite",
+    "Lobo-Bot-Lite",
+    "Lobo-Bot-Lite"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
