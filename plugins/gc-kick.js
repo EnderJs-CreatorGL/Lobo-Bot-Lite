@@ -7,7 +7,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
 
     const groupInfo = await conn.groupMetadata(m.chat);
     const ownerGroup = groupInfo.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
-    const ownerBot = global.owner + '@s.whatsapp.net';
+    const ownerBot = global.owner[i][0];
 
 
     if (user === conn.user.jid) {
