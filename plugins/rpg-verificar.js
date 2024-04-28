@@ -26,13 +26,8 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
 ┃🖋️ ✦𝗡𝘂𝗺𝗲𝗿𝗼 𝗱𝗲 𝘀𝗲𝗿𝗶𝗲:
 ┃${sn}
 ┣┅ ━━━━━━━━━━━━ ┅ ━
-┣┅ 🌹✦𝗬𝗮 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼🥳
-┣┅ 🌹✦𝗟𝗼𝗯𝗼-𝗯𝗼𝘁-𝗟𝗶𝘁𝗲🐺
-┃    
-┣┅ 📄☆𝗗𝗮𝘁𝗼☆:...
-┃
-┣┅ 🍷☆¡𝗘𝗹 𝗻𝘂𝗺𝗲𝗿𝗼 𝗱𝗲 𝗿𝗲𝘀𝗴𝗶𝘀𝘁𝗿𝗼 𝘀𝗲𝗿𝘃𝗶𝗿𝗮 𝗽𝗮𝗿𝗮 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗿   
-┃ 𝘁𝘂 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗼 𝗱𝗲𝗹 𝗯𝗼𝘁.
+┣┅ 🌹𝗬𝗮 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼🥳
+┣┅ 🌹𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽𝗕𝗼𝘁𝗟𝗶𝘁𝗲
 ┗┅ ━━━━━━━━━━━━ ┅ ━`;
   // let author = global.author
   await conn.sendFile(m.chat, pp, 'mystic.jpg', caption);
