@@ -5,7 +5,7 @@ const handler = async (m, {
   usedPrefix,
   command,
 }) => {
-  const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/navidad.json`)).data;
+  const res = (await axios.get(`https://raw.githubusercontent.com/EnderJs-CreatorGL/Lobo-Bot-Lite/master/src/JSON/navidad.json`)).data;
   const mystic = await res[Math.floor(res.length * Math.random())];
   conn.sendMessage(m.chat, {
     image: {
@@ -15,7 +15,7 @@ const handler = async (m, {
   }, {
     quoted: m,
   });
-  // conn.sendButton(m.chat, `_Navidad 🧑‍🎄_`, author, mystic, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)
+  // conn.sendButton(m.chat, `_Navidad 🧑‍🎄_`, author, Lobo, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `${usedPrefix + command}`]], m)
 };
 handler.help = ['navidad'];
 handler.tags = ['internet'];
