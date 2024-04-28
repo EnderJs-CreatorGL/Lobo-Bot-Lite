@@ -3,7 +3,7 @@ import MessageType from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
 import fs from 'fs';
 const handler = async (m, {conn, text, args}) => {
-  if (!args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝙾 𝙳𝙴 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴 𝚂𝙴𝚁 #emojimix <emoji 1>&<emoji 2>*\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*#emojimix 🤨&😣*';
+  if (!args[0]) throw '[🌹] 𝐸𝑟𝑟𝑜𝑟, 𝑈𝑠𝑜 𝑐𝑜𝑟𝑟𝑒𝑐𝑡𝑜 𝑒𝑠 : #emojimix <emoji 1>&<emoji 2>*\n𝐸𝑗𝑒𝑚𝑛𝑝𝑙𝑜:\n*#emojimix 🤨&😣*';
   const [emoji1, emoji2] = text.split`&`;
   const anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`);
   for (const res of anu.results) {
