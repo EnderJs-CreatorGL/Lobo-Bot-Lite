@@ -4,7 +4,7 @@ import MessageType from '@whiskeysockets/baileys';
 const handler = async (m, {conn, text}) => {
   try {
     const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender;
-    if (!who) throw "*[❗] Por favor, etiqueta o menciona a un participante del grupo.*";
+    if (!who) throw "[🌹] 𝑀𝑒𝑛𝑐𝑖𝑜𝑛𝑎 𝑜 𝑒𝑡𝑖𝑞𝑢𝑒𝑡𝑎 𝑎𝑙 𝑢𝑠𝑢𝑎𝑟𝑖𝑜.";
     const res = await fetch('https://nekos.life/api/kiss');
     const json = await res.json();
     const {url} = json;
