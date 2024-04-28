@@ -7,12 +7,12 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     } else { 
       who = m.chat;
     }
-      const textquien = `*[❗] 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰 𝙾 𝙼𝙴𝙽𝙲𝙸𝙾𝙽𝙰 𝙰 𝙰𝙻𝙶𝚄𝙸𝙴𝙽*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n◉ ${usedPrefix + command} @${global.suittag}`;
+      const textquien = `[🌹] 𝐸𝑡𝑖𝑞𝑢𝑒𝑡𝑎 𝑜 𝑚𝑒𝑛𝑐𝑖𝑜𝑛𝑎 𝑎𝑙 𝑢𝑠𝑢𝑎𝑟𝑖𝑜\n\n𝐸𝑗𝑒𝑚𝑝𝑙𝑜:\n◉ ${usedPrefix + command} @${global.suittag}`;
     if (who === m.chat && m.isGroup || !who && m.isGroup) return m.reply(textquien, m.chat, {mentions: conn.parseMention(textquien)});
   try {
     let name;
     if (who === m.chat) {
-      name = "𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝";
+      name = "Lobo-Bot-Lite";
     } else {
       name = conn.getName(who);
     }
@@ -23,7 +23,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     let stiker = await sticker(null, url, `${name2} le dio una bofetada a ${name}`, null);
     conn.sendFile(m.chat, stiker, null, {asSticker: true}, m, true, {contextInfo: {forwardingScore: 200, isForwarded: true}}, {quoted: m});
   } catch {
-    throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝚁𝙽𝚃𝙰𝚁𝙻𝙾*`;
+    throw `[🌹] 𝐸𝑟𝑟𝑜𝑟 𝑖𝑛𝑡𝑒𝑛𝑡𝑎𝑟 𝑑𝑒 𝑛𝑢𝑒𝑣𝑜.`;
   };
 };
 handler.help = ["slap"];
