@@ -22,7 +22,7 @@
     "whatsapp-md",
     "lobo-bot-lite",
     "lobo-bot-lite",
-    "bobo-bot-lite"],
+    "lobo-bot-lite"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
