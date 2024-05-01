@@ -418,6 +418,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 };
 handler.help = ['menu'];
 handler.tags = ['menu'];
-handler.command = /^(menu|menú|COMANDOS|comandos)$/i;
+handler.command = /^(allmenu|menucompleto|menúcompleto|allmenú|comando|herramientas|comandos)$/i;
 handler.register = true
 export default handler;
