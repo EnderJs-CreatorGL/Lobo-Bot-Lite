@@ -54,7 +54,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣🎪  𝐏𝐢𝐬𝐭𝐚
 ┣🎪  𝐀𝐤𝐢𝐧𝐚𝐭𝐨𝐫
 ┣🎪  𝐖𝐨𝐫𝐝𝐟𝐢𝐧𝐝
-┗━━━━━━━━━━━━━━━━┛`;
+┗━━━━━━━━━━━━━━━━┛`
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '•𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻•', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('🐺');
   } catch {
