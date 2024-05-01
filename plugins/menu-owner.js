@@ -15,8 +15,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃⏤͟͟͞͞Lᴏʙᴏ - Bᴏᴛ - Lɪᴛᴇ
 ┗━━━━━━━━━━━━
 ┣⟣☯︎ 𝐸𝑛 𝐺𝑟𝑢𝑝𝑜𝑠: 𝙾𝚆𝙽𝙴𝚁
-┣⟣☯︎ 𝐶𝑟𝑒𝑎𝑑𝑜𝑟: 𝙻𝙳 𝙻𝙾𝙱𝙾 𝙳𝙸𝙾𝚂
-┣⟣☯︎ 𝑁𝑢𝑚𝑒𝑒𝑜: +505 7639 0682
+┣⟣☯︎ 𝐶𝑟𝑒𝑎𝑑𝑜𝑟: ᴛᴀʟʟʏᴄʟᴇʀᴋ
+┣⟣☯︎ 𝑁𝑢𝑚𝑒𝑒𝑜: +505 5812 4470
 ┣⟣☯︎ 𝐹𝑒𝑐ℎ𝑎: ${date}
 ┣⟣☯︎ 𝐴𝑐𝑡𝑖𝑣𝑖𝑑𝑎𝑑: ${uptime}
 ┣⟣☯︎ 𝑈𝑠𝑢𝑎𝑟𝑖𝑜𝑠: ${rtotalreg}
@@ -104,8 +104,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '[⛔] 𝗙𝗮𝗹𝗹𝗼, 𝗘𝗹 𝗺𝗲𝗻𝘂 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿 𝗽𝗼𝗿 𝗳𝗮𝘃𝗼𝗿 𝗿𝗲𝗽𝗼𝗿𝘁𝗮𝗹𝗼 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳.', m);
   }
 };
-handler.help = ['menu'];
-handler.tags = ['menu'];
+handler.help = ['menuowner'];
+handler.tags = ['menuowner'];
 handler.command = /^(ownermenu|Menuowner|OWnermenu|menuowner)$/i;
 handler.register = true
 export default handler;
