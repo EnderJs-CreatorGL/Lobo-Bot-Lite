@@ -353,7 +353,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-     conn.sendMessage(m.chat, {text: `   •𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒•\n[💖] 𝑂𝑝𝑐𝑖𝑜𝑛: ${type}✔️\n[🌟] 𝐸𝑠𝑡𝑎𝑑𝑜: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🌹] 𝑃𝑎𝑟𝑎: ${isAll ? '𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
+     conn.sendMessage(m.chat, {text: `   •𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒•\n[🍁] 𝑂𝑝𝑐𝑖𝑜𝑛: ${type}✔️\n[🌻] 𝐸𝑠𝑡𝑎𝑑𝑜: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🌹] 𝑃𝑎𝑟𝑎: ${isAll ? '𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
