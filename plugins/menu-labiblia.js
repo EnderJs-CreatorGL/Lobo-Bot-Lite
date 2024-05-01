@@ -1,3 +1,5 @@
+/*Eliminados*/
+
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `[‼️]𝗖𝗼𝗺𝗮𝗻𝗱𝗼 𝗽𝗿𝗼𝗵𝗶𝗯𝗶𝗱𝗼, 𝗣𝗿𝗶𝗺𝗲𝗿𝗼 𝗮𝗰𝘁𝗶𝘃𝗲 𝗲𝗹 𝘂𝘀𝗼 𝗱𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 ᴇᴊᴍᴘʟᴏ: ${usedPrefix}enable modohorny*`; 
