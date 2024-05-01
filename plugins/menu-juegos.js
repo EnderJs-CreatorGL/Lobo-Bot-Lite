@@ -66,6 +66,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 };
 handler.help = ['menuowner'];
 handler.tags = ['menuowner'];
-handler.command = /^(ownermenu|Menuowner|OWnermenu|menuowner)$/i;
+handler.command = /^(Menujuegos|menujuegos|juegosmenu|juegos)$/i;
 handler.register = true
 export default handler;
