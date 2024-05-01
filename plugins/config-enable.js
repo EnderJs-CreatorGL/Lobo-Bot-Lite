@@ -353,7 +353,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-     await conn.reply(m.chat, `╭╼ ${wm}╺╮
+     await conn.reply(m.chat, `╭╼〔 ${wm} 〕─ׅ⊱
 ┃֪࣪☁️ 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
 ┃֪࣪–––––––☆–––––––
 ┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
