@@ -362,7 +362,7 @@ break;
 ╰━━━⊰ ✰ ${author} ⊱━━━━დ`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: '', previewType: 0, thumbnail: imagen4, sourceUrl: [channel, gp1, md, yt].getRandom()}}})} 
+body: '', previewType: 0, thumbnail: imagen4, sourceUrl: [gp2, gp1, md, yt].getRandom()}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
