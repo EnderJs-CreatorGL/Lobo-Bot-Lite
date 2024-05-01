@@ -353,8 +353,16 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-     conn.sendMessage(m.chat, {text: `   •𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒•\n[🍁] 𝑂𝑝𝑐𝑖𝑜𝑛: ${type}✔️\n[🌻] 𝐸𝑠𝑡𝑎𝑑𝑜: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🌹] 𝑃𝑎𝑟𝑎: ${isAll ? '𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
-};
+     await conn.reply(m.chat, `╭┄〔 *${wm}* 〕┄⊱
+┆☁️ 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
+┆——————«•»——————
+┆🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙾𝙽' : '𝙾𝙵𝙵'}
+┆——————«•»——————
+┆⚡️ 𝙿𝙰𝚁𝙰: ${isAll ? '𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝙸𝚃𝙴' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰━━━⊰ ✰ ${author} ⊱━━━━დ`, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: `${wm}`,
+body: '', previewType: 0, thumbnail: imagen4, sourceUrl: [channel, channel2, md, yt].getRandom()}}})} 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i;
