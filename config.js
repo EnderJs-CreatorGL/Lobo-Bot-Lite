@@ -24,7 +24,7 @@ global.prems = ['50558124470']
 
 global.lenguajeLB = es //idioma de lobobot
 
-global.packname = '𝙇𝙤𝙗𝙤-𝘽𝙤𝙩-𝙇𝙞𝙩𝙚 🐈🌻';
+global.packname = '•𝙇𝙤𝙗𝙤-𝘽𝙤𝙩-𝙇𝙞𝙩𝙚🐈🌻•';
 global.author = '☆𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒☆\n☆𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒☆\n☆𝐴𝑟𝑖𝑒𝑠☆\n☆𝑂𝑤𝑛𝑒𝑟𝑠☆ ';
 global.wm = '🌹ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🌹';
 global.titulowm = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹 ';
