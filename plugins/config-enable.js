@@ -353,16 +353,16 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-     await conn.reply(m.chat, `╭╼〔 ${wm} 〕
-┃֪࣪🍁 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
+     await conn.reply(m.chat, `╭╼〔 ${packname} 〕
+┃֪࣪☁️ 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
 ┃֪࣪–––––––☆–––––––
-┃֪࣪🌻 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
+┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
 ┃֪࣪–––––––☆–––––––
-┃֪࣪🌹 𝙿𝙰𝚁𝙰: ${isAll ? '𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝙸𝚃𝙴' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━⊰ ${packname} ⊱━━━━╯`, m, {
+┃֪࣪⚡️ 𝙿𝙰𝚁𝙰: ${isAll ? '𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝙸𝚃𝙴' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰━━━⊰ ${saludo} ⊱━━━━╯`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: '', previewType: 0, thumbnail: imagen4, sourceUrl: [gp2, gp1, md].getRandom()}}})} 
+body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: channel}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
