@@ -1,6 +1,6 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
   const optionsFull =`
-
+☆> ( 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒 1.2) <☆
 ┣☆ ඬ⃟🌹.𝗧𝗿𝘂𝗲 𝘄𝗲𝗹𝗰𝗼𝗺𝗲:(ᴀᴅᴍɪɴs)
 ┣☆ ඬ⃟🌹.𝗙𝗮𝗹𝘀𝗲 𝘄𝗲𝗹𝗰𝗼𝗺𝗲:(ᴀᴅᴍɪɴs)
 ┣☆ ඬ⃟🌐.𝘁𝗿𝘂𝗲 𝗽𝘂𝗯𝗹𝗶𝗰:(ᴏᴡɴᴇʀs)
