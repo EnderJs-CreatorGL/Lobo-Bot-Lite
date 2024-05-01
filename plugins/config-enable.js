@@ -359,7 +359,7 @@ break;
 ┆🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙾𝙽' : '𝙾𝙵𝙵'}
 ┆——————«•»——————
 ┆⚡️ 𝙿𝙰𝚁𝙰: ${isAll ? '𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝙸𝚃𝙴' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━⊰ ✰ ${author} ⊱━━━━დ`, m, {
+╰━━━⊰ ✰ ${vs} ⊱━━━━დ`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
 body: '', previewType: 0, thumbnail: imagen4, sourceUrl: [gp2, gp1, md].getRandom()}}})} 
