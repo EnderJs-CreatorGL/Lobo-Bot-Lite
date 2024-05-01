@@ -69,19 +69,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣[☆🗒  𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐫𝐯𝐢𝐝𝐞𝐨 𝚃𝚎𝚡𝚝𝚘 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚙𝚊𝚕𝚊𝚋𝚛𝚊 𝚌𝚕𝚊𝚟𝚎.
 ┣[☆🗒  𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐫𝐚𝐮𝐝𝐢𝐨 𝚃𝚎𝚡𝚝𝚘 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚙𝚊𝚕𝚊𝚋𝚛𝚊 𝚌𝚕𝚊𝚟𝚎.
 ┣[☆🗒  𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐫𝐢𝐦𝐠 𝚃𝚎𝚡𝚝𝚘 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚙𝚊𝚕𝚊𝚋𝚛𝚊 𝚌𝚕𝚊𝚟𝚎.
-┣[☆🗒  𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐫𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝚃𝚎𝚡𝚝𝚘 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚙𝚊𝚕𝚊𝚋𝚛𝚊 𝚌𝚕𝚊𝚟𝚎.\nʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ`.trim();
-    if (m.isGroup) {
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
-    } else {
-      const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-      conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
-    }
-    // conn.sendButton(m.chat, str, wm, pp, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m, { mentions: [m.sender] })
+┣[☆🗒  𝐄𝐥𝐢𝐦𝐢𝐧𝐚𝐫𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝚃𝚎𝚡𝚝𝚘 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚙𝚊𝚕𝚊𝚋𝚛𝚊 𝚌𝚕𝚊𝚟𝚎.\nʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ`   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '•𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻•', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+ // m.react('🐺');
+  } catch {
+    conn.reply(m.chat, '[⛔] 𝗙𝗮𝗹𝗹𝗼, 𝗘𝗹 𝗺𝗲𝗻𝘂 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿 𝗽𝗼𝗿 𝗳𝗮𝘃𝗼𝗿 𝗿𝗲𝗽𝗼𝗿𝘁𝗮𝗹𝗼 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳.', m);
   }
 };
 handler.help = ['cajafuerte'];
-handler.tags = ['owner'];
-handler.command = /^(cajafuerte)$/i;
-handler.rowner = true;
-handler.fail = null;
+handler.tags = ['cajafuerte'];
+handler.command = /^(cajafuerte|cajasowner|ownercaja)$/i;
+handler.register = true
 export default handler;
