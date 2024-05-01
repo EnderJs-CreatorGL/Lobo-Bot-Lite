@@ -353,7 +353,7 @@ break;
       chat.antiArab2 = isEnable;
       break;
     default:
-      if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
+      if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
       throw false;
   }
      await conn.reply(m.chat, `╭╼〔 ${packname} 〕
