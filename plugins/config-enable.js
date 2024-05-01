@@ -1,4 +1,7 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
+
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+
   const optionsFull =`
 ☆> ( 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒 1.2) <☆
 ┣☆ ඬ⃟🌹.𝗧𝗿𝘂𝗲 𝘄𝗲𝗹𝗰𝗼𝗺𝗲:(ᴀᴅᴍɪɴs)
@@ -354,12 +357,12 @@ break;
       throw false;
   }
      await conn.reply(m.chat, `╭╼〔 ${packname} 〕
-┃֪࣪🍁 •𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
+┃֪࣪🍁 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
 ┃֪࣪–––––––☆–––––––
-┃֪࣪🌳 •𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝑂𝑛' : '𝑂𝑓𝑓'}
+┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
 ┃֪࣪–––––––☆–––––––
-┃֪࣪🌻 •𝙿𝙰𝚁𝙰: ${isAll ? '𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒' : isUser ? '' : '𝐸𝑠𝑡𝑒 𝐶ℎ𝑎𝑡'} 
-╰━━━⊰ ${saludo} ⊱━━━━╯`, m, {
+┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝙸𝚃𝙴' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰━━━⊰ ${saludo} ⊱━━━━╯`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
 body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: gp2}}})} 
