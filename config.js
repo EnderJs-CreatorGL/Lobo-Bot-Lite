@@ -26,10 +26,10 @@ global.lenguajeLB = es //idioma de lobobot
 
 global.packname = '•𝙇𝙤𝙗𝙤-𝘽𝙤𝙩-𝙇𝙞𝙩𝙚🐈🌻•';
 global.author = '☆𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒☆\n☆𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒☆\n☆𝐴𝑟𝑖𝑒𝑠☆\n☆𝑂𝑤𝑛𝑒𝑟𝑠☆ ';
-global.wm = '🌹ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🌹';
-global.titulowm = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹 ';
-global.titulowm2 = `🌹𝙻 𝙾 𝙱 𝙾 - 𝙱 𝙾 𝚃 - 𝙻 𝙸 𝚃 𝙴🌹`
-global.igfg = '🌹ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🌹'  ;
+global.wm = '•ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🐈🌻•';
+global.titulowm = '•ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🐈🌻• ';
+global.titulowm2 = `•𝙻 𝙾 𝙱 𝙾 - 𝙱 𝙾 𝚃 - 𝙻 𝙸 𝚃 𝙴🐈🌻•`
+global.igfg = '•ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🐈🌻•'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
 global.vs = 'V2';
 
@@ -59,8 +59,8 @@ global.gp1 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.gp2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.channel2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝚒𝚝𝚎`;
-global.gt = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹';
-global.Lobo = '🌹ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🌹';
+global.gt = '•ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🐈🌻';
+global.Lobo = '•ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🐈🌻•';
 global.md = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.Lobo = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.waitt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
