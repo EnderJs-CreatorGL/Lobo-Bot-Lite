@@ -40,7 +40,9 @@ PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FF00]&center=falso&vCenter=falso&lines=⚙️ CONFIGURACIÓN." height="150px"></a> 
 
 <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[6E00FF]&center=falso&vCenter=falso&lines=✨️ CLONAR+REPOSITORIO." height="150px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[6E00FF]&center=falso&vCenter=falso&lines=✨️ CLONAR+REPOSITORIO." height="150px"></a>
+
+CLONAR EL REPOSITORIO AQUI 
 [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
 
 |||||||||||||||||||||||||||||||||
