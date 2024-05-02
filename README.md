@@ -16,7 +16,7 @@
 > ☄️𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀: Dɪᴇɢᴏ(YB)
 
 <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒++;𝐵𝑖𝑒𝑛 𝑣𝑒𝑛𝑖𝑑𝑜+𝑎" height="50px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐵𝑖𝑒𝑛 𝑣𝑒𝑛𝑖𝑑𝑜++;𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒+𝑂𝐹𝐶" height="50px"></a> 
 </p>
 
 
