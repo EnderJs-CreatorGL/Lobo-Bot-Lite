@@ -70,7 +70,7 @@
 |||||||||||||||||||||||||||||||||| 
 
 ### ### <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Render++;Activar+en+Render" height="50px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Repli++;Activar+en+Repli" height="50px"></a> 
 </p>
 
 
@@ -78,7 +78,10 @@
 
 ||||||||||||||||||||||||||||||||||  
 
-### `📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
+### ### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Render++;Activar+en+Render" height="50px"></a> 
+</p>
+
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnderJs-CreatorGL%2FLobo-Bot-Lite) 
 |||||||||||||||||||||||||||||||||
