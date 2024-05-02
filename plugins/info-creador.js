@@ -7,12 +7,10 @@ let biografia = await conn.fetchStatus('50558124470' +'@s.whatsapp.net').catch(_
 let biografiaBot = await conn.fetchStatus('50576390682' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let bio = biografia.status?.toString() || 'Sin Biografía'
 let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
-let bioown = biografiaOwn.status?.toString() || 'Sin Biografía'
-let biografiaOwn = await conn.fetchStatus('573012482597' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `${await conn.getName('50558124470'+'@s.whatsapp.net')}`, `💖 Creador`, saludo, 'enderjosueasevedotorrez@gmail.com', `🇳🇮 Nicaragua`, `https://www.youtube.com/@EnderOwner`, bio], [`${numeronw}`, ${await conn.getName('573012482597'+'@s.whatsapp.net')}`, `🍧 Owner`, saludo, 'theyotsubanakano@gmail.com', '🇨🇴 Colombia', `https://www.youtube.com/@Yotsuba.nakano01`, bioowner],
+     [`${nomorown}`, `${await conn.getName('50558124470'+'@s.whatsapp.net')}`, `💖 Creador`, saludo, 'enderjosueasevedotorrez@gmail.com', `🇳🇮 Nicaragua`, `https://www.youtube.com/@EnderOwner`, bio], [`${numeronw}`, ${await conn.getName('573012482597'+'@s.whatsapp.net')}`, `🍧 Owner`, saludo, 'theyotsubanakano@gmail.com', '🇨🇴 Colombia', `https://www.youtube.com/@Yotsuba.nakano01`, 'l'amore è meraviglioso 💜💚'],
 [`${conn.user.jid.split('@')[0]}`, `𝗘𝘀 𝗨𝗻 𝗕𝗼𝘁 🍁`, `${await conn.getName(conn.user.jid)}`, `📵 No Hacer Spam`, 'thelobolite@gmail.com', `🇳🇮 Nicaragua`, `https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite`, biobot]
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
