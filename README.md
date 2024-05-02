@@ -19,9 +19,9 @@
 </p>
 
 
-<a href="https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite"><img title="Stars" src="https://img.shields.io/github/stars/EnderJs-CretorGL/Lobo-Bot-Lite?color=ff4500&style=flat-square" /></a>
+<a href="https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite"><img title="Stars" src="https://img.shields.io/github/stars/EnderJs-CreatorGL/Lobo-Bot-Lite?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/EnderJs-CreatorGL/Lobo-Bot-Lite?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/EnderJs-CretorGL/Lobo-Bot-Lite?label=watchers&color=ff4500&style=flat-square" /></a> <br>
+<a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/EnderJs-CreatorGL/Lobo-Bot-Lite?label=watchers&color=ff4500&style=flat-square" /></a> <br>
 
 > 🔮𝗖𝗿𝗲𝗮𝗱𝗼𝗿: Tallycleark Ender(LB)
 
