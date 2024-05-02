@@ -369,5 +369,5 @@ body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: channel2}}})}
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
-handler.command = /^((verdadero|fals|e)true|(tru|false)e|(turn)?o(n|ff)|[01])$/i;
+handler.command = /^((verdadero|Falsefalse)true|(tru|false)e|(turn)?o(n|ff)|[01])$/i;
 export default handler;
