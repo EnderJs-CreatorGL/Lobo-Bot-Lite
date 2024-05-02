@@ -2,8 +2,7 @@
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Repositorio+GitHub++;Whatsapp+Bot+Lite" height="50px"></a> 
 </p>
 
-><img title="Watching" src="https://img.shields.io/github/EnderJs-CretorGL/Lobo-Bot-Lite?label=&color=ff4500&style=flat-square" /></a> <br>
-
+>href="https://github.com/zhwzein/Killua-Zoldyck"><img title="Watching" src="https://img.shields.io/github/EnderJs-CreatorGl/Lobo-Bot-Lite?label=&color=ff4500&style=flat-square" /></a> <br>
 
 
 > Versión Actual: 1.2.0 🔮
