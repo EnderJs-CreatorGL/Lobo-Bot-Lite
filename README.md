@@ -2,7 +2,7 @@
 > Nuestra nueva versión se le ha agregado nueva funcion de ser subbot #serbot, le enviará un codigo qr no tienes otro celular para escanear?, tranquilo/a tenemos #serbot --code te permite activarte como subbot mediante un texto 8 digitos. ⭐️
 
 <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒++;𝐵𝑦 𝐸𝑛𝑑𝑒𝑟𝐺𝐿+𝑂𝐹𝐶" height="50px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒++;𝐵𝑦+𝐸𝑛𝑑𝑒𝑟𝐺𝐿+𝑂𝐹𝐶" height="50px"></a> 
 </p>
 
 ## `🥳𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🥳` 
@@ -35,14 +35,10 @@
  > NO SPAMEAR COMANDOS
 
 ###   <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Letra Bot++;Letra Bot" height="50px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Letra+Bot++;Letra+Bot" height="50px"></a> 
 </p>
  
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
-
- <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Owner+OFC+;Ender" height="50px"></a> 
-</p>
 
 ### <p align="center"> 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Keyoke++;Activar+en+Keyoke" height="50px"></a> 
