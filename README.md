@@ -139,7 +139,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 <a href="http://wa.me/50558124470" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `📄✦ CUSTOMER SUPPORT ✦📄`
+### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Customer+Support+Global++;Contactar+en+casos+Emergentes" height="50px"></a> 
+</p>
+
+
 <a href="http://wa.me/50558124470" target="blank"><img src="https://img.shields.io/badge/ENDER_GL_COSTOMER_SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 #### `❗¡𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔!/¡𝗪𝗔𝗥𝗡𝗜𝗡𝗚!❗`
