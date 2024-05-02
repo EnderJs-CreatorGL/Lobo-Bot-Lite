@@ -32,8 +32,8 @@
  > NO SPAMEAR COMANDOS
 
 <p align="center"> 
-<a  src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[FF9000]&center=falso&vCenter=falso&lines=✨️ Letras+Del+Bot." height="150px"></a> 
-</p>
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[FF9000]&center=falso&vCenter=falso&lines=✨️ Letras+Del+Bot." height="150px"></a> 
+
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 ||||||||||||||||||||||||||||||||||
