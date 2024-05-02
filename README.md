@@ -107,8 +107,12 @@ npm update
 ```bash
 npm start
 ```
-•••••••••••••••••••••••••••••••••••••
-### `✔️ACTIVAR EN CASO DE DETENERSE EN TERMUX✔️`
+
+
+### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+caso+de+detenerse+termux++;Activar+en+caso+de+detenerse+termux" height="50px"></a> 
+</p>
+
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
