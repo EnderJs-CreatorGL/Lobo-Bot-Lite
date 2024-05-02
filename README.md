@@ -132,7 +132,11 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
- ### `🌹DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR🌹`
+### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=¿Dudas+Sobre+Lobo-Lite?++;Contactame+en+Whatsapp🌹" height="50px"></a> 
+</p>
+
+
 <a href="http://wa.me/50558124470" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ### `📄✦ CUSTOMER SUPPORT ✦📄`
