@@ -12,8 +12,8 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-['50558124470', 'ʙʏ ᴇɴᴅᴇʀ ᴛᴀʟʟʏ🥳', true],
-['573012482597', 'ʙʏ ᴅɪᴇɢᴏ.ᴏғᴄ ☄️', true],
+['50558124470', '👑 𝙋𝙧𝙤𝙥𝙞𝙚𝙩𝙖𝙧𝙞𝙤 💖', true],
+['573012482597', '𝙊𝙬𝙣𝙚𝙧 🎋', true],
 ['51929972576'],
 ['5492613274602'],
 ['593939005387'],
@@ -24,12 +24,12 @@ global.prems = ['50558124470']
 
 global.lenguajeLB = es //idioma de lobobot
 
-global.packname = '•𝙇𝙤𝙗𝙤-𝘽𝙤𝙩-𝙇𝙞𝙩𝙚🐈🌻•';
-global.author = '☆𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒☆\n☆𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒☆\n☆𝐴𝑟𝑖𝑒𝑠☆\n☆𝑂𝑤𝑛𝑒𝑟𝑠☆ ';
-global.wm = '•ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🐈🌻•';
-global.titulowm = '•ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🐈🌻• ';
-global.titulowm2 = `•𝙻 𝙾 𝙱 𝙾 - 𝙱 𝙾 𝚃 - 𝙻 𝙸 𝚃 𝙴🐈🌻•`
-global.igfg = '•ʟᴏʙᴏ - ʙᴏᴛ - ʟɪᴛᴇ🐈🌻•'  ;
+global.packname = '𝗟𝗼𝗯𝗼-𝗕𝗼𝘁-𝗟𝗶𝘁𝗲 💫🌻';
+global.author = '𝖤𝗇𝖽𝖾𝗋 𝖦𝖫 👑';
+global.wm = '𝗟𝗼𝗯𝗼 𝗕𝗼𝘁 𝗟𝗶𝘁𝗲 💫';
+global.titulowm = '𝖤𝗇𝖽𝖾𝗋𝖦𝖫 🪷';
+global.titulowm2 = `𝐋𝐨𝐛𝐨 𝐁𝐨𝐭 𝐋𝐢𝐭𝐞 🌹`
+global.igfg = '𝙻𝙾𝙱𝙾 𝙱𝙾𝚃 𝙻𝙸𝚃𝙴 💖'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
 global.vs = 'V2';
 
@@ -58,9 +58,9 @@ global.saludo = "" + hour;
 global.gp1 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.gp2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.channel2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝚒𝚝𝚎`;
-global.gt = '•ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🐈🌻';
-global.Lobo = '•ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ🐈🌻•';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ L̶o̶b̶o̶`;
+global.gt = '𝖫𝗈𝖻𝗈-𝖡𝗈𝗍-𝖫𝗂𝗍𝖾 🌳';
+global.Lobo = 'L͎o͎b͎o͎-B͎o͎t͎-L͎i͎t͎e͎ ⛈️';
 global.md = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.Lobo = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.waitt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
@@ -83,7 +83,7 @@ global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
 global.botdate = `☆ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
-global.bottime = `☆𝕿 𝕴 𝕸 𝕰 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
+global.bottime = `[🗒️] 🅳︎🅰︎🆃︎🅴︎: ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
