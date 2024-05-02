@@ -39,7 +39,7 @@
 
  > NO SPAMEAR COMANDOS
 
-### `  <p align="center"> 
+###   <p align="center"> 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Letra Bot++;Letra Bot" height="50px"></a> 
 </p>
  
