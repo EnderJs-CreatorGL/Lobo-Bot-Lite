@@ -18,9 +18,6 @@
 <img src="https://telegra.ph/file/b779934250bddcd1cf47a.jpg" alt="Lobo-Bot-Lite" width="900"/>
 </p>
 
-<p align="center">
-<img src="https://telegra.ph/file/04b7a17f4f7aaa302b2d8.jpg" alt="Lobo-Bot-Lite" width="900"/>
-</p>
 
 <a href="https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite"><img title="Stars" src="https://img.shields.io/github/stars/EnderJs-CretorGL/Lobo-Bot-Lite?color=ff4500&style=flat-square" /></a>
 <a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/EnderJs-CreatorGL/Lobo-Bot-Lite?color=ff4500&style=flat-square" /></a>
