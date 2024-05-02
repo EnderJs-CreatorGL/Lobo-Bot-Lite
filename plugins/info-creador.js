@@ -10,7 +10,7 @@ let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `${await conn.getName('50558124470'+'@s.whatsapp.net')}`, `💖 Creador`, saludo, 'enderjosueasevedotorrez@gmail.com', `🇳🇮 Nicaragua`, `https://www.youtube.com/@EnderOwner`, bio], [`${conn.user.jid.split('@')[0]}`, `𝗘𝘀 𝗨𝗻 𝗕𝗼𝘁 🍁`, `${await conn.getName(conn.user.jid)}`, `📵 No Hacer Spam`, 'thelobolite@gmail.com', `🇳🇮 Nicaragua`, `https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite`, biobot]
+     [`${nomorown}`, `${await conn.getName('50558124470'+'@s.whatsapp.net')}`, `💖 Creador`, saludo, 'enderjosueasevedotorrez@gmail.com', `🇳🇮 Nicaragua`, `https://www.youtube.com/@EnderOwner`, bio], [`${conn.user.jid.split('@')[0]}`, `𝗘𝘀 𝗨𝗻 𝗕𝗼𝘁 🍁`, `${await conn.getName(conn.user.jid)}`, `📵 No Hacer Spam`, 'thelobolite@gmail.com', `🇳🇮 Nicaragua`, `https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite`, biobot], [`${conn.user.jid.split('@')[0]}`, `𝗢𝘄𝗻𝗲𝗿 𝗢𝗳𝗰`, `${await conn.getName(conn.user.jid)}`, `🏷 Owner Estrella`, 'theyotsubanakano@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/Yotsuba-Nakano-MD`, bio]
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
