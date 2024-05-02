@@ -32,7 +32,7 @@
  > NO SPAMEAR COMANDOS
 
 <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[000000]&center=falso&vCenter=falso&lines=✨♥️++;Letras Del Bot." height="150px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[000000]&center=falso&vCenter=falso&lines=✨️ Letras Del Bot." height="150px"></a> 
 </p>
 
 ### `🖍𝗟𝗲𝘁𝗿𝗮 𝗕𝗼𝘁🖍`
