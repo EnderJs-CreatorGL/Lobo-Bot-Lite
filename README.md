@@ -25,9 +25,6 @@
 </p>
 
 
-------------------
-
-
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
@@ -43,45 +40,32 @@
  
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
-
-
-### <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Configuracion++;Configuracion+𝑂𝐹𝐶" height="50px"></a> 
-</p>
-
-
  <p align="center"> 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Owner+OFC+;Ender" height="50px"></a> 
 </p>
-
-
 
 ### <p align="center"> 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Keyoke++;Activar+en+Keyoke" height="50px"></a> 
 </p>
 
-
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
-
-
 
 ### <p align="center"> 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Repli++;Activar+en+Repli" height="50px"></a> 
 </p>
 
-
 [![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL/Lobo-Bot-Lite)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite)  
-
 
 ### <p align="center"> 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Render++;Activar+en+Render" height="50px"></a> 
 </p>
 
-
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnderJs-CreatorGL%2FLobo-Bot-Lite) 
 
+ ### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Termux++;Activar+en+Termux" height="50px"></a> 
+</p>
 
-### `📍𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝘁𝗲𝗿𝗺𝘂𝘅📍` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
