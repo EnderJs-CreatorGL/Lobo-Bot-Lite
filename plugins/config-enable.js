@@ -362,12 +362,12 @@ break;
 ┃֪࣪🌴 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
 ┃֪࣪–––––––☆–––––––
 ┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝙸𝚃𝙴' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━⊰ ${saludo} ⊱━━━━╯`, m, {
+╰━━━⊰ ${saludo} ⊱━━━━╯`, m,{
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: channel2}}})} 
+body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: [gp2, gp1, md].getRandom()}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
-handler.command = /^((verdadero|Falsefalse)true|(tru|false)e|(turn)?o(n|ff)|[01])$/i;
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i;
 export default handler;
