@@ -159,6 +159,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=50576390682&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
+### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Propietario+Global+OFC++;Ender+Tallyclerk+OFC" height="50px"></a> 
+</p>
+
 ## `🌹EDITOR & PROPIETARIO DEL BOT🌹` 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="https://github.com/EnderJs-CreatorGL.png" width="250" height="250" alt="Ender"/></a>
   
