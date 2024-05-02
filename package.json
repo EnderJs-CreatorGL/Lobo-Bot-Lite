@@ -1,7 +1,7 @@
 {
   "name": "Lobo-Bot-Lite",
-  "version": "1.0.0",
-  "description": "Subs. al canal EnderGL - TEAM",
+  "version": "1.0.2",
+  "description": "Bot Oficisl Tecnica",
   "main": "index.js",
   "type": "module",
   "directories": {
