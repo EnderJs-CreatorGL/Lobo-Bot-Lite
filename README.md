@@ -36,8 +36,9 @@
 
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
-||||||||||||||||||||||||||||||||||
-### `⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
+<p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FF00]&center=falso&vCenter=falso&lines=⚙️ Configuración." height="150px"></a> 
+
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
 
 |||||||||||||||||||||||||||||||||
