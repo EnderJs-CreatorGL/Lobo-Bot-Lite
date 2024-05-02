@@ -39,12 +39,21 @@
 
  > NO SPAMEAR COMANDOS
 
-### `🖍𝗟𝗲𝘁𝗿𝗮 𝗕𝗼𝘁🖍`
+### `  <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Letra Bot++;𝐿Letra Bot" height="50px"></a> 
+</p>
+ `
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 ||||||||||||||||||||||||||||||||||
-### `⚙️𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
+### `⚙️<p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Configuracion++;Configuracion+𝑂𝐹𝐶" height="50px"></a> 
+</p>
+⚙️`
+- <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Clonar Repo++;Clonar Repo+𝑂𝐹𝐶" height="50px"></a> 
+</p>
+ [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
 
 |||||||||||||||||||||||||||||||||
 ### `💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
