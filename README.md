@@ -119,8 +119,12 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd Lobo-termux
 > npm start
 ```
-••••••••••••••••••••••••••••••••••••
-### `❗OBTENER OTRO CODIGO QR EN TERMUX❗`
+
+### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Solicitar+otro+codigox+termux++;solicitar+otro+codigo+termux" height="50px"></a> 
+</p>
+
+
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
