@@ -52,7 +52,7 @@ CLONAR EL REPOSITORIO AQUI
 |||||||||||||||||||||||||||||||||| 
 ### `🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github.com/EnderJs-CreatorGL)](https://repl.it/github.com/EnderJs-CreatorGL/Lobo-Bot-Lite) 
+[![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite) 
 
 ### `📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
