@@ -6,9 +6,9 @@ let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/2
 let biografia = await conn.fetchStatus('50558124470' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let biografiaBot = await conn.fetchStatus('50576390682' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let bio = biografia.status?.toString() || 'Sin Biografía'
-let bioowner = biowner.status?.toString() || 'Sin Biografía'
-let biowner = await conn.fetchStatus('573012482597' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
+let bioown = biografiaOwn.status?.toString() || 'Sin Biografía'
+let biografiaOwn = await conn.fetchStatus('573012482597' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
