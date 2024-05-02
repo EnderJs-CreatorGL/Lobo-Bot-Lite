@@ -45,6 +45,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 };
 handler.help = ['menu'];
 handler.tags = ['menu'];
-handler.command = /^(allmenu|menucompleto|menúcompleto|allmenú|comando|herramientas|comandos)$/i;
+handler.command = /^(precomando|menu|asistencia|comando|help|ayuda)$/i;
 handler.register = true
 export default handler;
