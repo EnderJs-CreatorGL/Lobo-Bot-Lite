@@ -1,4 +1,4 @@
-> Versión Actual: 1.0.2 🔮
+> Versión Actual: V2 🔮
 > Nuestra nueva versión se le ha agregado nueva funcion de ser subbot #serbot, le enviará un codigo qr no tienes otro celular para escanear?, tranquilo/a tenemos #serbot --code te permite activarte como subbot mediante un texto 8 digitos. ⭐️
 ## `🥳𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🥳` 
 <p align="center">
