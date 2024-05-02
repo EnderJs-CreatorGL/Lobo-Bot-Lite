@@ -362,10 +362,10 @@ break;
 ┃֪࣪🌴 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
 ┃֪࣪–––––––☆–––––––
 ┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝙻𝙾𝙱𝙾-𝙱𝙾𝚃-𝙻𝙸𝚃𝙴' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━⊰ ${saludo} ⊱━━━━╯`, fkontak, {
+╰━━━⊰ ${saludo} ⊱━━━━╯`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: gp2}}})} 
+body: saludo, previewType: 0, thumbnail: imagen4, sourceUrl: channel2}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
