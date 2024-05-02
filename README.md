@@ -54,9 +54,9 @@
 
 
  <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Clonar Repo++;Clonar Repo+𝑂𝐹𝐶" height="50px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Owner+OFC+;Ender" height="50px"></a> 
 </p>
- [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
+
 
 |||||||||||||||||||||||||||||||||
 ### <p align="center"> 
