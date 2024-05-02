@@ -59,8 +59,9 @@
 
 
 |||||||||||||||||||||||||||||||||
+
 ### <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar en Keyoke++;Activar+en+Keyoke" height="50px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Keyoke++;Activar+en+Keyoke" height="50px"></a> 
 </p>
 
 
@@ -68,7 +69,10 @@
 
 |||||||||||||||||||||||||||||||||| 
 
-### `🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
+### ### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar+en+Render++;Activar+en+Render" height="50px"></a> 
+</p>
+
 
 [![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL/Lobo-Bot-Lite)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite)  
 
