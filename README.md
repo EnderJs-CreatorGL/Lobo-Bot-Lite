@@ -32,14 +32,16 @@
  > NO SPAMEAR COMANDOS
 
 <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[FF9000]&center=falso&vCenter=falso&lines=✨️ Letras+Del+Bot." height="150px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[FF9000]&center=falso&vCenter=falso&lines=✨️ LETRAS+DEL+BOT." height="150px"></a> 
 
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 <p align="center"> 
-<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FF00]&center=falso&vCenter=falso&lines=⚙️ Configuración." height="150px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FF00]&center=falso&vCenter=falso&lines=⚙️ CONFIGURACIÓN." height="150px"></a> 
 
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
+<p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[0000FF]&center=falso&vCenter=falso&lines=✨️ CLONAR+REPOSITORIO." height="150px"></a> 
+ [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
 
 |||||||||||||||||||||||||||||||||
 ### `💥𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗞𝗼𝘆𝗲𝗯💥`
