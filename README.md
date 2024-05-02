@@ -1,3 +1,12 @@
+### <p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Repositorio+GitHub++;Whatsapp+Bot+Lite" height="50px"></a> 
+</p>
+
+
+
+
+
+
 > Versión Actual: 1.2.0 🔮
 > Nuestra nueva versión se le ha agregado nueva funcion de ser subbot #serbot, le enviará un codigo qr no tienes otro celular para escanear?, tranquilo/a tenemos #serbot --code te permite activarte como subbot mediante un texto 8 digitos. ⭐️
 
