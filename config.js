@@ -55,8 +55,8 @@ var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'L
 global.saludo = "" + hour;
 
 //****************************
-global.gp1 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
-global.gp2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
+global.gp1 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ'
+global.gp2 = 'https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV'
 global.channel2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ L̶o̶b̶o̶`;
 global.gt = '𝖫𝗈𝖻𝗈-𝖡𝗈𝗍-𝖫𝗂𝗍𝖾 🌳';
