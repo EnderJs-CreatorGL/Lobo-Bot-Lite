@@ -59,17 +59,20 @@
  [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
 
 |||||||||||||||||||||||||||||||||
-### `<p align="center"> 
+### <p align="center"> 
 <a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Activar en Keyoke++;Activar en Keyoke" height="50px"></a> 
 </p>
-`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
+
+###`[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)`
+
 |||||||||||||||||||||||||||||||||| 
+
 ### `🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
 [![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite) 
 ||||||||||||||||||||||||||||||||||  
+
 ### `📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnderJs-CreatorGL%2FLobo-Bot-Lite) 
