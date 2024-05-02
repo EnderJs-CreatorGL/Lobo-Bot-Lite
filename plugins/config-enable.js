@@ -365,7 +365,7 @@ break;
 ╰━━━⊰ ${saludo} ⊱━━━━╯`, m,{
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: saludo, previewType: 0, thumbnail: imagen1, sourceUrl: [gp1, gp1, md].getRandom()}}})} 
+body: saludo, previewType: 0, thumbnail:, sourceUrl: [gp1, gp1, md].getRandom()}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
