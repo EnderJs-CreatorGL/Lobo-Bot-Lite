@@ -1,5 +1,10 @@
 > Versión Actual: 1.2.0 🔮
 > Nuestra nueva versión se le ha agregado nueva funcion de ser subbot #serbot, le enviará un codigo qr no tienes otro celular para escanear?, tranquilo/a tenemos #serbot --code te permite activarte como subbot mediante un texto 8 digitos. ⭐️
+
+<p align="center"> 
+<a href="https://github.com/EnderJs-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=19&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒++;𝐵𝑦 𝐸𝑛𝑑𝑒𝑟𝐺𝐿+𝑂𝐹𝐶" height="50px"></a> 
+</p>
+
 ## `🥳𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🥳` 
 <p align="center">
 <img src="https://telegra.ph/file/b779934250bddcd1cf47a.jpg" alt="Lobo-Bot-Lite" width="900"/>
