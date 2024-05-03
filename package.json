@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-MD.",
+  "homepage": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.",
   "author": {
     "name": "Ender"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnderJs-CreatorGL/Lobo-Bot-MD.git"
+    "url": "git+https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.git"
   },
   "bugs": {
-    "url": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-MD/issues"
+    "url": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
