@@ -316,7 +316,7 @@ if (opcion == '1' || methodCodeQR) {
  }}
   if (connection == 'open') {
     console.log(chalk.yellow('🇳🇮 Nicaragua, Bot Activo'))
-conn.fakeReply('573012482597@s.whatsapp.net', '👋 𝗛𝗼𝗹𝗮 𝗘𝗻𝗱𝗲𝗿, 𝗦𝗼𝘆 𝗟𝗼𝗯𝗼, 𝗥𝗲𝗰𝗶𝗲𝗻𝘁𝗲𝗺𝗲𝗻𝘁𝗲 𝗠𝗲 𝗛𝗲 𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼 𝗔𝗹 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 💫', '0@s.whatsapp.net', '🇳🇮 Nicaragua', '0@s.whatsapp.net')
+conn.fakeReply('50558124470@s.whatsapp.net', '👋 𝗛𝗼𝗹𝗮 𝗘𝗻𝗱𝗲𝗿, 𝗦𝗼𝘆 𝗟𝗼𝗯𝗼, 𝗥𝗲𝗰𝗶𝗲𝗻𝘁𝗲𝗺𝗲𝗻𝘁𝗲 𝗠𝗲 𝗛𝗲 𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼 𝗔𝗹 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 💫', '0@s.whatsapp.net', '🇳🇮 Nicaragua', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
