@@ -44,11 +44,9 @@ CLONAR EL REPOSITORIO AQUI
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
 
 <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Replit+🧸" height="90px"></a> 
-</p>`
+</p>
 
-
-
-[![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite) 
+[![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL/Lobo-Bot-Lite)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite) 
 
 <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Render+🍁" height="90px"></a> 
 </p>
