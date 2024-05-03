@@ -113,13 +113,12 @@ if (!/^[1-2]$/.test(opcion)) {
 console.log('Por favor, seleccione solo 1 o 2.\n')
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
-
-console.info = () => {} 
+ 
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['SakuraBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['SakuraBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
+browser: opcion == '1' ? ['Lobo-Bot-Lite', 'Safari', '20.0.4'] : methodCodeQR ? ['Lobo-Bot-Lite', 'Safari', '2.0.4'] : ['Ubuntu', 'Chrome', '20.0.0'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -357,7 +356,7 @@ global.reloadHandler = async function(restatConn) {
   return true;
 };
 
-const pluginFolder = global.__dirname(join(__dirname, './comandos/index'));
+const pluginFolder = global.__dirname(join(__dirname, './plugins/index'));
 const pluginFilter = (filename) => /\.js$/.test(filename);
 global.plugins = {};
 async function filesInit() {
