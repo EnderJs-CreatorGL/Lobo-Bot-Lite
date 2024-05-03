@@ -316,7 +316,7 @@ if (opcion == '1' || methodCodeQR) {
  }}
   if (connection == 'open') {
     console.log(chalk.yellow('𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅'))
-wait.conn.fakeReply('573012482597@s.whatsapp.net', '🌀', '0@s.whatsapp.net', '🇳🇮 Soy Lobo\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+conn.fakeReply('573012482597@s.whatsapp.net', '🌀', '0@s.whatsapp.net', '🇳🇮 Soy Lobo\nRecientemente Me E Conectado', '0@s.whatsapp.net')
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (connection === 'close') {
