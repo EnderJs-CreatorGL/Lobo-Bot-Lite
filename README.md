@@ -56,7 +56,7 @@ CLONAR EL REPOSITORIO AQUI
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnderJs-CreatorGL%2FLobo-Bot-Lite) 
 
 <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Termux+🌴" height="90px"></a> 
-</p>` 
+</p>
 
 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -111,7 +111,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
- ### `🌹DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR🌹`
+ <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Dudas+sobre+𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒+🐈🌻+contacta+al+Owner" height="90px"></a> 
+</p>
+
 <a href="http://wa.me/50558124470" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines= Soporte+al+cliente+💻" height="90px"></a> 
