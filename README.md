@@ -1,4 +1,4 @@
-<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Repositorio+GitHub+OFC+✨" height="50px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=•Repositorio+GitHub+OFC+🌹" height="50px"></a> 
 </p> 
 
 > Versión Actual: V2 🔮
