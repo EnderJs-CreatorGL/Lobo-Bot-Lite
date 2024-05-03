@@ -20,7 +20,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
       const respuestaAPI = data.data;
       conn.reply(m.chat, respuestaAPI, m);
     } else {
-      throw 'res.result';
+      throw 'Hola';
 
 /*fetch(`https://aemt.me/bard?text=${text}`)
 var res = await apii.json()
