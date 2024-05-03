@@ -1,7 +1,7 @@
 {
-  "name": "Lobo-Bot-Lite",
+  "name": "Lobo-Bot-MD",
   "version": "V2",
-  "description": "Subs. al canal EnderGL - TEAM",
+  "description": "Subs. al canal de EnderJs - TEAM",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -9,25 +9,23 @@
     "src": "src",
     "plugins": "plugins"
   },
-      "scripts": {
-        "start": "node index.js",
-    "qr": "node index.js qr",
-    "code": "node index.js code",
+  "scripts": {
+    "start": "node index.js",
     "test": "node test.js",
-    "test2": "nodemon index.js", 
+    "test2": "nodemon index.js",
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite",
+  "homepage": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-MD.",
   "author": {
     "name": "Ender"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.git"
+    "url": "git+https://github.com/EnderJs-CreatorGL/Lobo-Bot-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/issues"
+    "url": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
@@ -82,7 +80,7 @@
     "readline": "^1.3.0",
     "similarity": "^1.2.1",
     "socket.io": "^4.4.1",
-    "sanzy-spotifydl": "*",
+    "spotifydl-x": "*",
     "syntax-error": "^1.4.0",
     "terminal-image": "^2.0.0",
     "url-regex-safe": "^3.0.0",
