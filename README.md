@@ -111,7 +111,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
- <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Dudas+sobre+𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒+🐈🌻+contacta+al+Owner" height="90px"></a> 
+ <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Dudas+sobre+𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒+🐈🌻+" height="90px"></a> 
 </p>
 
 <a href="http://wa.me/50558124470" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -140,5 +140,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=EnderJs-CreatorGL/Lobo-Bot-Lite" /> 
 </a>
+
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  By+Ender+tallyclerk+OFC+🐈🌻" height="90px"></a> 
+</p>
+
+
 
 `𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊 -  𝐄𝐧𝐝𝐞𝐫`
