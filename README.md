@@ -43,15 +43,22 @@ CLONAR EL REPOSITORIO AQUI
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
 
-### `🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Replit+🧸" height="90px"></a> 
+</p>`
+
+
 
 [![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite) 
 
-### `📜𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗻𝗱𝗲𝗿📜`
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Render+🍁" height="90px"></a> 
+</p>
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FEnderJs-CreatorGL%2FLobo-Bot-Lite) 
-|||||||||||||||||||||||||||||||||
-### `📍𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝘁𝗲𝗿𝗺𝘂𝘅📍` 
+
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Termux+🌴" height="90px"></a> 
+</p>` 
+
+
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
@@ -84,16 +91,19 @@ npm update
 ```bash
 npm start
 ```
-•••••••••••••••••••••••••••••••••••••
-### `✔️ACTIVAR EN CASO DE DETENERSE EN TERMUX✔️`
+
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  En+caso+de+detenerse+en+Termux+🌴" height="90px"></a> 
+</p>
+
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
 > cd Lobo-termux
 > npm start
 ```
-••••••••••••••••••••••••••••••••••••
-### `❗OBTENER OTRO CODIGO QR EN TERMUX❗`
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines= Obtener+otro+codigo+Termux+🌴" height="90px"></a> 
+</p>
+
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -104,7 +114,9 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
  ### `🌹DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR🌹`
 <a href="http://wa.me/50558124470" target="blank"><img src="https://img.shields.io/badge/ENDER_GB_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-### `📄✦ CUSTOMER SUPPORT ✦📄`
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines= Soporte+al+cliente+💻" height="90px"></a> 
+</p>
+
 <a href="http://wa.me/50558124470" target="blank"><img src="https://img.shields.io/badge/ENDER_GL_COSTOMER_SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 #### `❗¡𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔!/¡𝗪𝗔𝗥𝗡𝗜𝗡𝗚!❗`
@@ -115,8 +127,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 🥳" width="42" height="42"> Creator 🥳
 
 * <a href="https://wa.me/50558124470"><img alt="Creator 🥳" src="https://img.shields.io/badge/Ender - Creator🥳-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=50576390682&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 📍
 
