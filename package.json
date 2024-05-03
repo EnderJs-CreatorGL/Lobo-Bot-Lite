@@ -1,5 +1,5 @@
 {
-  "name": "Lobo-Bot-MD",
+  "name": "Lobo-Bot-Lite",
   "version": "V2",
   "description": "Subs. al canal de EnderJs - TEAM",
   "main": "index.js",
@@ -80,7 +80,7 @@
     "readline": "^1.3.0",
     "similarity": "^1.2.1",
     "socket.io": "^4.4.1",
-    "spotifydl-x": "*",
+    "sanzy-spotifydl": "*",
     "syntax-error": "^1.4.0",
     "terminal-image": "^2.0.0",
     "url-regex-safe": "^3.0.0",
