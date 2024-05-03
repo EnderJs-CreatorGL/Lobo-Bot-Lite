@@ -1,4 +1,4 @@
-<a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Repositorio+GitHub+OFC+🐈🌻" height="90px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Repositorio+GitHub+OFC+🐈🌻" height="90px"></a> 
 </p>
 
 > Versión Actual: V2 🔮
@@ -27,21 +27,22 @@
 ☆𝗦𝗜 𝗡𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗘𝗦 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗘𝗦𝗧𝗔 𝗘𝗡 𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗬 𝗘𝗡 𝗘𝗦𝗘 𝗖𝗔𝗦𝗢 𝗛𝗔𝗕𝗟𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗦𝗧𝗔𝗙𝗙☆
 
 
-<a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines= Letras+de+𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻" height="90px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines= Letras+de+𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻" height="90px"></a> 
 </p>
 
 PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
 <a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines= Clona+el+Repositorio+✨" height="90px"></a> 
 </p>
+
 CLONAR EL REPOSITORIO AQUI 
 [Aqui](https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/fork)
 
-<a href="https://github.com/Jxtxn17/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Koyeb+📍" height="90px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Activar+en+Koyeb+📍" height="90px"></a> 
 </p>
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite&branch=master&name=Lobo-Bot)
-|||||||||||||||||||||||||||||||||| 
+
 ### `🌌𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝗥𝗲𝗽𝗹𝗶𝘁🌌`
 
 [![Run on Repl.it](https://repl.it/badge/github/EnderJs-CreatorGL)](https://repl.it/github/EnderJs-CreatorGL/Lobo-Bot-Lite) 
