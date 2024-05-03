@@ -7,7 +7,7 @@ if (!text) throw `🔮 _*INGRESE UN TEXTO*_`
 try {
 
 //await m.reply(wait)
-var apii = await fetch(`https://vihangayt.me/tools/bard?q=${encodeURIComponent(text)}`)
+var apii = await fetch(`https://aemt.me/bard?text=${text}`)`)
 var res = await apii.json()
 await m.reply(res.result)
 
