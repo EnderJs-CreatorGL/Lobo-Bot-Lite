@@ -1,5 +1,6 @@
-<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Repositorio+GitHub+OFC+✨" height="90px"></a> 
+<a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Repositorio+GitHub+OFC+✨" height="100px"></a> 
 </p> 
+
 > Versión Actual: V2 🔮
 > Nuestra nueva versión se le ha agregado nueva funcion de ser subbot #serbot, le enviará un codigo qr no tienes otro celular para escanear?, tranquilo/a tenemos #serbot --code te permite activarte como subbot mediante un texto 8 digitos. ⭐️
 
