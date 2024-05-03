@@ -1,6 +1,6 @@
 const handler = async (m, {conn, text, command}) => {
   const id = text ? text : m.chat;
-  await conn.reply(id, '𝗟𝗢𝗕𝗢-𝗕𝗢𝗧-𝗠𝗗 𝗦𝗘 𝗗𝗘𝗦𝗣𝗜𝗗𝗘 𝗔𝗦𝗧𝗔 𝗟𝗨𝗘𝗚𝗢 Ｏ(≧∇≦)Ｏ 👋');
+  await conn.reply(id, '•𝐹𝑢𝑒 𝑢𝑛 𝑔𝑢𝑠𝑡𝑜 𝑒𝑠𝑡𝑎𝑟 𝑎𝑞𝑢𝑖, 𝐴𝑠𝑡𝑎 𝑝𝑟𝑜𝑛𝑡𝑜🐈🌻•');
   await conn.groupLeave(id);
 };
 handler.command = /^(abandonar|autokick|grupoban)$/i;
