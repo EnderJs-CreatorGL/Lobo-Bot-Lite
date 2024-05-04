@@ -20,6 +20,6 @@ conn.reply(m.chat, `*${name} No Ecuentra El Amor*`, m, fake, )
 }
 handler.help = ['di']
 handler.tags = ['decir']
-handler.command = /^(decir|di)$/i
-//handler.register = true
+handler.command = /^(decir|di|buscar-novio|buscar-novia|buscarnovio|buscarnovia)$/i
+handler.register = true
 export default handler
