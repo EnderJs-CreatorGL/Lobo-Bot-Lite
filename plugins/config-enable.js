@@ -328,8 +328,16 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `       ☆𝕷𝖔𝖇𝖔-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊☆\n[💖] 𝗢𝗣𝗖𝗜𝗢̃𝗡: ${type}✔️\n[🌟] 𝐄𝐒𝐓𝐀𝐃𝐎: ${isEnable ? '𝑶𝒏✔️' : '𝑶𝒇𝒇✔️'}\n[🌹] 𝐏𝐀𝐑𝐀: ${isAll ? '𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆✔️' : isUser ? '' : '𝑬𝒔𝒕𝒆 𝒄𝒉𝒂𝒕✔️'}`}, {quoted: m});
-};
+  await conn.reply(m.chat, `╭╼〔 ${wm} 〕
+┃֪࣪🍁 *Opción* : ${type} 
+┃֪࣪–––––––☆–––––––
+┃֪࣪🌳 *Estado* : ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
+┃֪࣪–––––––☆–––––––
+┃֪࣪🌻 *Para* : ${isAll ? '𝚈𝙾𝚃𝚂𝚄𝙱𝙰-𝙽𝙰𝙺𝙰𝙽𝙾-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰━━━⊰ ${saludo} ⊱━━━━╯`, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: `${wm}`,
+body: team, previewType: 0, thumbnail: imagen6, sourceUrl: md}}})} 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
 handler.command = /^((true|false)|(tru|fals)e|(turn)?[01])$/i;
