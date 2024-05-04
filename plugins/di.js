@@ -11,9 +11,11 @@ const pp = './storage/logos/Menu2.jpg'
 
 conn.reply(m.chat, `> Nota: ${text} ☁️\n\n*${name} Busca Novio/a 🌼*`, m, fake, )
 
+conn.reply(m.chat, `*Buscando el amor para: ${name}*`, m, fake, )
+
 conn.reply(m.chat, `*${name} No Ecuentra El Amor 🏷*`, m, fake, )
 
-conn.reply(m.chat, `*Buscando el amor para: ${name}*`, m, fake, )
+//conn.reply(m.chat, `*Buscando el amor para: ${name}*`, m, fake, )
 
 }
 handler.help = ['di']
