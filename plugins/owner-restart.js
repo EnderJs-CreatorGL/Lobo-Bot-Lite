@@ -13,7 +13,7 @@ await conn.sendMessage(m.chat, {text: `[🌼]𝐸𝑥𝑖𝑡𝑜/𝑆𝑢𝑐�
 }
 handler.help = ['restart']
 handler.tags = ['owner']
-handler.command = ['data000', 'datanula', 'dt'] 
+handler.command = ['data000', 'datanula', 'dt', 'restart', 'reinciar'] 
 handler.rowner = true
 export default handler
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
