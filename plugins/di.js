@@ -9,9 +9,9 @@ const pp = './storage/logos/Menu2.jpg'
 
 let di = `> Texto: ${text} 🏴\n\n*${name} quiere yaoi 💋*`
 
-conn.sendMessage(m.chat, {text: di, mentions: [m.sender]}, {quoted: m, fake})
+conn.sendMessage(m.chat, {text: di, mentions: [m.sender]}, {quoted: fkontak2})
 
-//conn.reply(m.chat, `*❌️ Ocurrió un fallo*`)
+conn.reply(m.chat, `*❌️ Ocurrió un fallo*`, m, fake, )
 
 }
 handler.help = ['di']
