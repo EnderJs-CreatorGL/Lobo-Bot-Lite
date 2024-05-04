@@ -7,7 +7,7 @@ const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
 if (messager.includes('Already up to date.')) messager = '[🌐] 𝐸𝑗𝑒𝑐𝑢𝑐𝑖𝑜𝑛 𝑟𝑒𝑎𝑙𝑖𝑧𝑎𝑑𝑎,𝑎𝑐𝑡𝑢𝑎𝑙𝑖𝑧𝑎𝑐𝑖𝑜𝑛 𝐹𝑖𝑛𝑎𝑙𝑖𝑧𝑎𝑑𝑎 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒'
 if (messager.includes('Updating')) messager = '[🌐] 𝐸𝑗𝑒𝑐𝑢𝑐𝑖𝑜𝑛 𝑟𝑒𝑎𝑙𝑖𝑧𝑎𝑑𝑎,𝑎𝑐𝑡𝑢𝑎𝑙𝑖𝑧𝑎𝑧𝑖𝑜𝑛 𝐹𝑖𝑛𝑎𝑙𝑖𝑧𝑎𝑑𝑎 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒.\n\n' + stdout.toString()
-conn.reply(m.chat, messager,)
+conn.reply(m.chat, messager, m, fake,)
 } catch { 
 try {
 const status = execSync('git status --porcelain')
@@ -19,7 +19,7 @@ return null
 return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
 if (conflictedFiles.length > 0) {
 const errorMessage = `📍𝐋𝐨𝐛𝐨-𝐋𝐢𝐭𝐞 𝐬𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐨 𝐝𝐞𝐬𝐝𝐞 𝐞𝐥 𝐬𝐞𝐫𝐯𝐢𝐝𝐨𝐫/𝐇𝐨𝐬𝐭 𝐘 𝐚 𝐞𝐧𝐭𝐫𝐚𝐝𝐨 𝐞𝐧 𝐜𝐨𝐧𝐟𝐥𝐢𝐜𝐭𝐨.\n\n𝐀𝐫𝐜𝐡𝐢𝐯𝐨𝐬 𝐍𝐮𝐥𝐥:\n\n${conflictedFiles.join('\n')}`
-await conn.reply(m.chat, errorMessage,)
+await conn.reply(m.chat, errorMessage, m, fake,)
 }
 }
 } catch (error) {
@@ -28,7 +28,7 @@ let errorMessage2 = '🔵 *Api Caida*'
 if (error.message) {
 errorMessage2 += '\n*- Mensaje de error:* ' + error.message;
 }
-await conn.reply(m.chat, errorMessage2,)
+await conn.reply(m.chat, errorMessage2, m, fake,)
 }
 }
 
