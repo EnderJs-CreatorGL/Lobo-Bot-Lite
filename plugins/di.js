@@ -7,9 +7,9 @@ let name = conn.getName(who)
 
 const pp = './storage/logos/Menu2.jpg'
 
-let di = `> Texto: ${text} 🏴\n\n*${name} quiere yaoi 💋*`
+//let di = `> Texto: ${text} 🏴\n\n*${name} quiere yaoi 💋*`
 
-conn.sendMessage(m.chat, {text: di}, m, fake,)
+conn.sendMessage(m.chat, `> Texto: ${text} 🏴\n\n*${name} quiere yaoi 💋*`, m, fake, )
 
 //conn.reply(m.chat, `*❌️ Ocurrió un fallo*`, m, fake, )
 
