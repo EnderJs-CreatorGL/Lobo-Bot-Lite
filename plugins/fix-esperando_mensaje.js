@@ -24,13 +24,13 @@ const handler = async (m, { conn, usedPrefix }) => {
     if (filesDeleted === 0) {
       await conn.sendMessage(m.chat, {text: '*[❗] No se encontró ningún archivo que incluya la ID del chat*'}, {quoted: m});
     } else {
-      await conn.sendMessage(m.chat, {text: `*[❗] Se eliminaron ${filesDeleted} archivos de sesión*`}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: `[🌹] 𝐹𝐼𝑙𝑒𝑠 𝑒𝑙𝑖𝑚𝑖𝑛𝑑𝑎𝑠 ${filesDeleted} 𝑑𝑒 𝑠𝑒𝑠𝑠𝑖𝑜𝑛.`}, {quoted: m});
     }
   } catch (err) {
     console.error('Error al leer la carpeta o los archivos de sesión:', err);
-    await conn.sendMessage(m.chat, {text: '*[❗] Ocurrió un error al eliminar los archivos de sesión*'}, {quoted: m});
+    await conn.sendMessage(m.chat, {text: '[🌹]𝐸𝑟𝑟𝑜𝑟 𝑎𝑙 𝑒𝑙𝑖𝑚𝑖𝑛𝑎𝑟 𝑙𝑎 𝑠𝑒𝑠𝑠𝑖𝑜𝑛'}, {quoted: m});
   }
-  await conn.sendMessage(m.chat, {text: `𝗛𝗼𝗹𝗮👋, 𝗔𝗵𝗼𝗿𝗮 𝗲𝘀𝘁𝗼𝘆 𝗹𝗶𝘀𝘁𝗼\n\n*[❗] Si el Bot no le responde a sus comandos por favor haga un pequeño spam*\n\n*—◉ Ejemplo:*\n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
+  await conn.sendMessage(m.chat, {text: `[📍] 𝐿𝑖𝑠𝑡𝑜 𝑎ℎ𝑜𝑟𝑎 𝑚𝑒 𝑙𝑒𝑒𝑠.\n\n\n𝑠𝑖 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻 𝑁𝑜 𝑟𝑒𝑠𝑝𝑜𝑛𝑑𝑒 ℎ𝑎𝑔𝑎 𝑢𝑛 𝑠𝑝𝑎𝑚\n*—◉ Ejemplo:*\n${usedPrefix}s\n${usedPrefix}s\n${usedPrefix}s`}, {quoted: m});
 };
 handler.help = ['fixmsgespera'];
 handler.tags = ['fix'];
