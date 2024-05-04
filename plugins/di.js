@@ -9,7 +9,7 @@ const pp = './storage/logos/Menu2.jpg'
 
 let di = `> Texto: ${text} 🏴\n\n*${name} quiere yaoi 💋*`
 
-conn.sendMessage(m.chat, di, m, fake,)
+conn.sendMessage(m.chat, {text: di, m, fake,})
 
 //conn.reply(m.chat, `*❌️ Ocurrió un fallo*`, m, fake, )
 
