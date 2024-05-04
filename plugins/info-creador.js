@@ -11,8 +11,8 @@ let name = await conn.getName(who)
 //lete botsito = 50558124470
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `${await conn.getName('50558124470'+'@s.whatsapp.net')}`, `💖 Creador`, saludo, 'enderjosueasevedotorrez@gmail.com', `🇳🇮 Nicaragua`, `https://www.youtube.com/@EnderOwner`, bio],
-[`${conn.user.jid.split('@')[0]}`, `𝗘𝘀 𝗨𝗻 𝗕𝗼𝘁 🍁`, `${await conn.getName(conn.user.jid)}`, `📵 No Hacer Spam`, 'theLobobot@gmail.com', `🇳🇮 Nicaragua`, `https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite`, biobot]
+     [`${nomorown}`, `${await conn.getName('50558124470'+'@s.whatsapp.net')}`, `💖 𝐶𝑟𝑒𝑎𝑑𝑜𝑟`, saludo, 'enderjosueasevedotorrez@gmail.com', `🇳🇮 Nicaragua`, `https://www.youtube.com/@EnderOwner`, bio],
+[`${conn.user.jid.split('@')[0]}`, `𝐸𝑠 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒 🍁`, `${await conn.getName(conn.user.jid)}`, `📵 No Hacer Spam`, 'theLobobot@gmail.com', `🇳🇮 Nicaragua`, `https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite`, biobot]
 ], m)
   m.reply(`🌹Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creador, no hagas spam!!`)
   } 
