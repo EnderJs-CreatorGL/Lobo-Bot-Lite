@@ -13,7 +13,7 @@ conn.reply(m.chat, `> Nota: ${text} ☁️\n\n*${name} Busca Novio/a 🌼*`, m, 
 
 conn.reply(m.chat, `*${name} No Ecuentra El Amor 🏷*`, m, fake, )
 
-conn.reply(m.chat, `*Pronto se remitirá el menu* ☄️`, m, fake, )
+conn.reply(m.chat, `*Pronto se remitirá el menu del bot* ☄️`, m, fake, )
 
 }
 handler.help = ['di']
