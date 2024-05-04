@@ -337,7 +337,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ╰━━━⊰ ${saludo} ⊱━━━━╯`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: `${wm}`,
-body: team, previewType: 0, thumbnail: imagen6, sourceUrl: md}}})} 
+body: saludo, previewType: 0, thumbnail: imagen6, sourceUrl: md}}})} 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
 handler.command = /^((true|false)|(tru|fals)e|(turn)?[01])$/i;
