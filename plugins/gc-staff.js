@@ -10,7 +10,7 @@ let oi = `${pesan}_`
 let textoA = 
 `⊱ ──── 《.⋅🌟 sᴛᴀғғ ɢʟᴏʙᴀʟ 🌟 ⋅.》 ──── ⊰
 ➡️ ${oi}
-⊱ ──── 《.⋅ 📍ʟᴏʙᴏ-ʙᴏᴛ-ʟɪᴛᴇ📍 ⋅.》`
+⊱ ──── 《.⋅ 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻 ⋅.》`
 
 let textoB = 
 `${listAdmin}
@@ -21,4 +21,5 @@ await conn.sendFile(m.chat, pp, 'error.jpg', textoA + textoB, m, false, { mentio
 }
 handler.command = /^(staff|Staffs|STAFF)$/i
 handler.group = true
+handler.admin = true
 export default handler
