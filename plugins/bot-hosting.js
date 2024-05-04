@@ -39,7 +39,7 @@ https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
 • https://www.facebook.com/elrebelde21
 • wa.me/527294888993
 • wa.me/5492964650915`
-await conn.sendMessage(m.chat, { text: txt,
+await conn.sendMessage(m.chat, m, fake, { text: txt,
 contextInfo:{
 forwardingScore: 9999999,
 isForwarded: false, 
