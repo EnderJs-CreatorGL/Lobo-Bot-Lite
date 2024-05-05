@@ -6,10 +6,10 @@ let media = './Menu2.jpg'
 
  let menu = `👋 _¿Hola, ${nombre} como estas?_ 
 
-use .menu2 / .allmenu
-  _(Para ver el menú completo)_`
+!allmenu
+_(Para ver el menú completo)_`
 
-await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, m, )} 
+await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, m, fake, )} 
  handler.tags = ['main'] 
  handler.command = /^menu$/i 
  handler.exp = 35 
