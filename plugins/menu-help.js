@@ -38,7 +38,7 @@ let menu = `📱 Hola, ${user}
 !reglas
 *(Para ver las reglas del bot)*`
 
-await conn.reply(m.chat, menu, m, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hello! ' + nombre, body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
+await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hello! ' + nombre, body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch {
 conn.reply(m.chat, `*Ocurrió un fallo*`, m, fake, )
