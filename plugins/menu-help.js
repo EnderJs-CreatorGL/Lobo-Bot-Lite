@@ -28,9 +28,7 @@ let a = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'id': '3B6
 const ftrol = { key : { remoteJid: 'status@broadcast', participant : '0@s.whatsapp.net' }, message: { orderMessage: { itemCount : 2023, status: 1, surface : 1, message: `${nombre}!`, orderTitle: `▮Menu ▸`, sellerJid: '0@s.whatsapp.net' }}}
 const fload = { key : { message: `Lobo Bot ⌨️` + `\nEnderJs`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }}
 
-await conn.sendMessage(m.chat, { react: { text: '🛑', key: m.key } })
-
-let menu = `📱 Hola, ${user}
+let menu = `📱 Hola, ${nombre}
 
 !allmenu
 *(Para ver el menú completo)*
@@ -38,7 +36,7 @@ let menu = `📱 Hola, ${user}
 !reglas
 *(Para ver las reglas del bot)*`
 
-await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hello! ' + nombre, body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
+await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hello! ' + nombre, body: wm, sourceUrl: md, thumbnail: imagen6 }}})
 
 } catch {
 conn.reply(m.chat, `*Ocurrió un fallo*`, m, fake, )
