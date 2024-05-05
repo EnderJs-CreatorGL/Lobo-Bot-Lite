@@ -9,7 +9,7 @@ let media = './Menu2.jpg'
 use .menu2 / .allmenu
   _(Para ver el menú completo)_`
 
-await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, fkontak, m, fake)} 
+await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, m, )} 
  handler.tags = ['main'] 
  handler.command = /^menu$/i 
  handler.exp = 35 
