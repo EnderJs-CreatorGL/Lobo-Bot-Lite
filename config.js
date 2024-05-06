@@ -27,10 +27,10 @@ global.lenguajeLB = es //idioma de lobobot
 
 global.packname = '𝐋𝐨𝐛𝐨 𝐁𝐨𝐭 𝐋𝐢𝐭𝐞 🐈🌻';
 global.author = '𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘 🎭';
-global.wm = '𝐋𝐨𝐛𝐨-𝐁𝐨𝐭-𝐋𝐢𝐭𝐞 🐈🌻';
-global.titulowm = '𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒 🐈🌻';
-global.titulowm2 = `𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘🎭`
-global.igfg = '𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘🎭'  ;
+global.wm = '𝐋𝐨𝐛𝐨-𝐁𝐨𝐭-𝐋𝐢𝐭𝐞';
+global.titulowm = '𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒';
+global.titulowm2 = `𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘`
+global.igfg = '𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
 global.vs = 'V2';
 
