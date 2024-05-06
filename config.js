@@ -57,7 +57,7 @@ global.saludo = "" + hour;
 
 //****************************
 global.gp1 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
-global.gp2 = 'https://chat.whatsapp.com/IysTswrBVYo2yTVyGzYRNx'
+global.gp2 = 'https://chat.whatsapp.com/KrN4WR14z282sQPpRPdqLu'
 global.channel2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ L̶o̶b̶o̶`;
 global.gt = '𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻';
