@@ -30,15 +30,15 @@ const fload = { key : { message: `Lobo Bot ⌨️` + `\nEnderJs`, thumbnail: awa
 
 await conn.sendMessage(m.chat, { react: { text: '🏷', key: m.key } })
 
-let menu = `❤️ !Hola¡ ${user}
+let menu = `❤️ !𝐶𝑜𝑚𝑜 𝑒𝑠𝑡𝑎𝑠¡ ${user}
 
-!allmenu
-*(Para ver el menú completo)*
+𝑈𝑡𝑖𝑙𝑖𝑧𝑎 𝐴𝑙𝑙𝑚𝑒𝑛𝑢 𝑝𝑎𝑟𝑎 𝑣𝑒𝑟 𝑒𝑙 𝑚𝑒𝑛𝑢 𝑑𝑒 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻
+(𝑈𝑡𝑖𝑙𝑖𝑧𝑎 𝑂𝑤𝑛𝑒𝑟 𝑝𝑎𝑟𝑎 𝑣𝑒𝑟 𝑎𝑙 𝐶𝑟𝑒𝑎𝑑𝑜𝑟)
 
 !reglas
 *(Para ver las reglas del bot)*`
 
-await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋🏻 ¡Hello! ' + user, body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
+await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '🥳 ¡Hello! ' + user, body: wm, sourceUrl: md, thumbnail: await (await fetch(pp)).buffer() }}})
 
 } catch {
 conn.reply(m.chat, `*🛑 Ocurrió un fallo*`, m, fake, )
