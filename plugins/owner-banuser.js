@@ -8,6 +8,6 @@ const handler = async (m, {conn, participants, usedPrefix, command}) => {
   users[who].banned = true;
   m.reply('[🌼] 𝐏𝐞𝐫𝐟𝐞𝐜𝐭𝐨,𝒆𝒍 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝒇𝒖𝒆 𝐛𝐚𝐧𝐞𝐚𝐝𝐨 𝐜𝐨𝐧 𝐞𝐱𝐢𝐭𝐨, 𝐞𝐥 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐧𝐨 𝐩𝐨𝐝𝐫𝐚 𝐮𝐬𝐚𝐫 𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻');
 };
-handler.command = /^prohibiruser|banuser$/i;
+handler.command = /^prohibiruser|puser$/i;
 handler.rowner = true;
 export default handler;
