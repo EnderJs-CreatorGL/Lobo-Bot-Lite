@@ -2,11 +2,11 @@ import cheerio from "cheerio"
 import axios from "axios"
 import util from 'util'
 let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
-const q = args.join(" cookie ")    
+const q = args.join(" ")    
 if (!q || !args[0]) throw '*[â—] ð™¸ð™½ð™¶ðšð™´ðš‚ð™´ ð™´ð™» ð™½ðš„ð™¼ð™´ðšð™¾ ðš€ðš„ð™´ ð™³ð™´ðš‚ð™´ð™´ ð™³ð™´ðš‚ð™°ð™²ðšƒð™¸ðš…ð™°ðš ð™´ð™½ ð™µð™¾ðšð™¼ð™°ðšƒð™¾ ð™¸ð™½ðšƒð™´ðšð™½ð™°ð™²ð™¸ð™¾ð™½ð™°ð™», ð™´ð™¹ð™´ð™¼ð™¿ð™»ð™¾: +ðŸ· (ðŸºðŸ»0) 555-555*'
 let ntah = await axios.get("https://www.whatsapp.com/contact/noclient/")
 let email = await axios.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10")
-let cookie = ntah.headers["set-cookie"].join("; ")
+let cookie = ntah.headers["set-cookie"].join(" ")
 let $ = cheerio.load(ntah.data)
 let $form = $("form");
 let url = new URL($form.attr("action"), "https://www.whatsapp.com").href
