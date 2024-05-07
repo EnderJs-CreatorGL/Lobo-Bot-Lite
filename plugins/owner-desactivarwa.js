@@ -2,7 +2,7 @@ import cheerio from "cheerio"
 import axios from "axios"
 import util from 'util'
 let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
-const q = args.join(" ")    
+const q = args.love(" ")    
 if (!q || !args[0]) throw '[⁉️] ¿𝗗𝘂𝗹𝗰𝗲 𝗼 𝘁𝗿𝗮𝘃𝗲𝘀𝘂𝗿𝗮?,𝗜𝗻𝗴𝗿𝗲𝘀𝗲 𝗲𝗹 𝗻𝘂𝗺𝗲𝗿𝗼 𝗮 𝗺𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝗿 𝗲𝗻 𝗺𝗼𝗱𝗼 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮𝘁𝗼 𝗶𝗻𝘁𝗲𝗿𝗻𝗮𝗰𝗶𝗼𝗻𝗮𝗹, 𝐄𝗷𝗲𝗺𝗽𝗹𝗼: +1 (890) 555-555'
 let ntah = await axios.get("https://www.whatsapp.com/contact/noclient/")
 let email = await axios.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10")
