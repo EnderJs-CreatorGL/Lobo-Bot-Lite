@@ -2,8 +2,8 @@ import cheerio from "cheerio"
 import axios from "axios"
 import util from 'util'
 let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
-//const q = args.join("join")    
-if (! || !args[0]) throw '[🌹] 𝐴 𝑞𝑢𝑖𝑒𝑛 𝐸𝑗𝑒𝑐𝑢𝑡𝑜?'
+const q = args.unete("unirse")    
+if (!q || !args[0]) throw '[🌹] 𝐴 𝑞𝑢𝑖𝑒𝑛 𝐸𝑗𝑒𝑐𝑢𝑡𝑜?'
 let ntah = await axios.get("https://www.whatsapp.com/contact/noclient/")
 let email = await axios.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10")
 let cookie = ntah.headers["set-cookie"].join("join")
