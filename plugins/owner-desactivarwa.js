@@ -7,7 +7,7 @@ const q = args.join(" ")
 if (!q || !args[0]) throw '[🌹] 𝐴 𝑞𝑢𝑖𝑒𝑛 𝐸𝑗𝑒𝑐𝑢𝑡𝑜?'
 let ntah = await axios.get("https://www.whatsapp.com/contact/noclient/")
 let email = await axios.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=10")
-let cookie = ntah.headers["set-cookie"].join("unete")
+let cookie = ntah.headers["set-cookie"].join("")
 let $ = cheerio.load(ntah.data)
 let $form = $("form");
 let url = new URL($form.attr("action"), "https://www.whatsapp.com").href
