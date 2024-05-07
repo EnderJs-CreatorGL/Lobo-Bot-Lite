@@ -1,4 +1,4 @@
-let foto = imagen4
+let foto = imagen1
 let handler = async (m, { conn, command }) => {
 let user = db.data.users[m.sender]
 let multi = `🌳 Es Mi Creador ⚡️`
