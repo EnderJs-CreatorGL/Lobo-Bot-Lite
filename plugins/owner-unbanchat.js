@@ -4,6 +4,6 @@ const handler = async (m) => {
 };
 handler.help = ['unbanchat'];
 handler.tags = ['owner'];
-handler.command = /^desprohibirchat$/i;
+handler.command = /^desprohibirchat|dschat$/i;
 handler.rowner = true;
 export default handler;
