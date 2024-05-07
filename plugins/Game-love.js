@@ -30,7 +30,7 @@ const handler = async (m, { conn, command, text }) => {
   const loveMessage = isHighLove ? getRandomMessage(loveMessages) : getRandomMessage(notSoHighLoveMessages);
   const response =
     `━━━━━━━⬣ ☆𝗟𝗢𝗩𝗘☆ ⬣━━━━━━━\n` +
-    `*❥ ✦𝑺𝒆𝒈𝒖𝒏 𝒚𝒐 𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆🐈🌻, ${text} y @${m.sender.split('@')[0]} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
+    `*❥𝑺𝒆𝒈𝒖𝒏 𝒚𝒐 𝑳𝒐𝒃𝒐-𝑩𝒐𝒕-𝑳𝒊𝒕𝒆🐈🌻, ${text} y @${m.sender.split('@')[0]} ${loveDescription} del ${lovePercentage}% de un 100%*\n\n` +
     `*❥ ✦${loveMessage}*\n` +
     `━━━━━━━⬣ ☆𝗟𝗢𝗩𝗘☆ ⬣━━━━━━━`    
   
