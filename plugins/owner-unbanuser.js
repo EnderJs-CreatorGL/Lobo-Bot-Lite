@@ -10,6 +10,6 @@ const handler = async (m, {conn, text}) => {
 };
 handler.help = ['unbanuser'];
 handler.tags = ['owner'];
-handler.command = /^desprohibiruser|unbanuser$/i;
+handler.command = /^desprohibiruser|duser$/i;
 handler.rowner = true;
 export default handler;
