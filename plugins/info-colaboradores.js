@@ -30,10 +30,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ☘️┣𝗘𝗻𝗱𝗲𝗿|𝗚𝗶𝘁𝗵𝘂𝗯:https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite
 
-☘️┣𝗗𝗶𝗲𝗴𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Diego-SK-177/SakuraBotLite-MD
-
 ☘️┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/HACHEJOTA/Hachiko-bot-MD
-
 
 ☘️┣𝗘𝗻𝘇𝗼|𝗚𝗶𝘁𝗵𝘂𝗯: https://github.com/Enzovaselevich
 
@@ -41,7 +38,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ✨┣┅⟣✦𝗡𝘂𝗺𝗲𝗿𝗼𝘀🌹
 🌱┣𝗘𝗻𝗱𝗲𝗿:+505 5812 4470
-🌱┣𝗗𝗶𝗲𝗴𝗼:+57 301 2482597
 🌱┣𝗛𝗮𝗰𝗵𝗲𝗷𝗼𝘁𝗮:+52 443 786 3111
 🌱┣𝗘𝗻𝘇𝗼:+54 9 11 6875-8497
 🌱┣𝗘𝗱𝗲𝗿:+57 310 6040746
