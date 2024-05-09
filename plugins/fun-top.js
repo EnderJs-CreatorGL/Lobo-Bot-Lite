@@ -17,7 +17,6 @@ function handler(m, {groupMetadata, command, conn, text, usedPrefix}) {
   const k = Math.floor(Math.random() * 70);
   const x = `${pickRandom(['🤓', '😅', '😂', '😳', '😎', '🥵', '😱', '🤑', '🙄', '💩', '🍑', '🤨', '🥴', '🔥', '👇🏻', '😔', '👀', '🌚'])}`;
   const l = Math.floor(Math.random() * x.length);
-  const vn = `https://hansxd.nasihosting.com/sound/sound${k}.mp3`;
   const top = `*${x} Top 10 ${text} ${x}*
     
 *1. ${user(a)}*
