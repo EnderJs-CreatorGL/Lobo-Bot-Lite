@@ -1456,7 +1456,7 @@ export async function participantsUpdate({id, participants, action}) {
               return;
             }
 
-    this.sendMessage(id, { text: tex, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": '乂 A D I O S 乂', "body": '${wm}', "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": md}}})
+    this.sendMessage(id, { tex: tex, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": '乂 A D I O S 乂', "body": '${wm}', "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": md}}})
 
             this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": '乂 ＷＥＬＣＯＭＥ 乂', "body": '${wm}', "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": md}}})
           }
