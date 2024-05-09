@@ -22,20 +22,20 @@ const handler = async (m, {conn, args, participants}) => {
   const randomAdventurePhrase = adventurePhrases[Math.floor(Math.random() * adventurePhrases.length)];
   const texto = `
 🌐𝑇𝑜𝑑𝑜𝑠 𝐴 𝑃𝑜𝑟 𝑒𝑙 𝑃𝑜𝑑𝑒𝑟🌐
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
-—◉ 𝕿𝖔𝖕𝖘 𝕽𝖆𝖓𝖌𝖔𝖘 (𝐓𝐔) ${len}𝕰𝖝𝖕𝖊𝖗𝖙𝖔 [🌧️]
+~~~~~~~~~~~~~~~~~~~~~~~~~~  
+—◉ 𝕿𝖔𝖕𝖘 𝕽𝖆𝖓𝖌𝖔𝖘 (𝐓𝐔) ${len} 𝕰𝖝𝖕𝖊𝖗𝖙𝖔 [🌧️]
 
 🌹𝑻𝒖 𝑹𝒂𝒏𝒈𝒐 𝒆𝒏 𝒍𝒂 𝑻𝒂𝒃𝒍𝒂:✨ ${usersExp.indexOf(m.sender) + 1} de ${usersExp.length}
 
 ${sortedExp.slice(0, len).map(({jid, exp}, i) => `${i + 1}. ${participants.some((p) => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${exp} exp*`).join`\n`}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-—◉ 𝕿𝖔𝖕𝖘 𝕽𝖆𝖓𝖌𝖔𝖘 (𝐓𝐔) ${len}𝕯𝕴𝖆𝖒𝖆𝖓𝖙𝖊𝖘 [☃️]
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+—◉ 𝕿𝖔𝖕𝖘 𝕽𝖆𝖓𝖌𝖔𝖘 (𝐓𝐔) ${len} 𝕯𝕴𝖆𝖒𝖆𝖓𝖙𝖊𝖘 [☃️]
 
 🌹𝑻𝒖 𝑹𝒂𝒏𝒈𝒐 𝒆𝒏 𝒍𝒂 𝑻𝒂𝒃𝒍𝒂:✨ ${usersLim.indexOf(m.sender) + 1} de ${usersLim.length}
 
 ${sortedLim.slice(0, len).map(({jid, limit}, i) => `${i + 1}. ${participants.some((p) => jid === p.jid) ? `(${conn.getName(jid)}) wa.me/` : '@'}${jid.split`@`[0]} *${limit} diamantes*`).join`\n`}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-—◉ 𝕿𝖔𝖕𝖘 𝕽𝖓𝖌𝖔𝖘 (𝐓𝐔) ${len}𝕹𝖎𝖛𝖊𝖑 [☔]
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+—◉ 𝕿𝖔𝖕𝖘 𝕽𝖓𝖌𝖔𝖘 (𝐓𝐔) ${len} 𝕹𝖎𝖛𝖊𝖑 [☔]
 
 🌹𝑻𝒖 𝑹𝒂𝒏𝒈𝒐 𝒆𝒏 𝒍𝒂 𝑻𝒂𝒃𝒍𝒂:✨ ${usersLevel.indexOf(m.sender) + 1} de ${usersLevel.length}
 
