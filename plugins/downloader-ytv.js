@@ -5,7 +5,7 @@ import ytdl from 'ytdl-core';
 import axios from 'axios';
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw '*[❗] Uso incorrecto del comando, ingrese un enlace / link de YouTube.*';
+  if (!args[0]) throw '*[🌹] Uso incorrecto del comando, ingrese un enlace / link de YouTube.*';
   let enviando;
   if (enviando) return  
       enviando = true    
@@ -22,15 +22,15 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
             youtubeLink = matchingItem.urls[index];
           } else {
             enviando = false  
-            throw `*[❗] No se encontro un enlace para ese numero, por favor ingrese un numero entre el 1 y el ${matchingItem.urls.length}*`;
+            throw `*[🌹] No se encontro un enlace para ese numero, por favor ingrese un numero entre el 1 y el ${matchingItem.urls.length}*`;
           }
         } else {
           enviando = false  
-          throw `*[❗] Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+          throw `*[🌹] Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
         }
       } else {
         enviando = false  
-        throw `*[❗] Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
+        throw `*[🌹] Para poder hacer uso del comando de esta forma (${usedPrefix + command} <numero>), por favor realiza la busqueda de videos con el comando ${usedPrefix}playlist <texto>*`;
       }
     }
   }
@@ -83,8 +83,8 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
         await conn.sendMessage(m.chat, {text: '*[ ✔ ] Video descargado exitosamente.*', edit: key}, {quoted: m});
         enviando = false
       } catch {
-        await conn.sendMessage(m.chat, {text: `*[ ❌ ] El video no pudo ser descargado ni enviado, vuelva a intentarlo.*`, edit: key}, {quoted: m});
-        throw '*[❗] Error, no fue posible descargar el video.*';
+        await conn.sendMessage(m.chat, {text: `*[ 🌹 ] El video no pudo ser descargado ni enviado, vuelva a intentarlo.*`, edit: key}, {quoted: m});
+        throw '*[🌹] Error, no fue posible descargar el video.*';
       }
     }
   }
