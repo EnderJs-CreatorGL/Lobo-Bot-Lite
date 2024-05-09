@@ -30,7 +30,6 @@ function handler(m, {groupMetadata, command, conn, participants}) {
     m.reply(top, null, {mentions: [a, b, c, d, e, f, g, h, i, j]});
 
   if (command == 'topotakus') {
-    const vn = './media/otaku.mp3';
     const top = `*🌸 TOP 10 OTAKUS DEL GRUPO 🌸*
     
 *_1.- ${user(a)}_*
