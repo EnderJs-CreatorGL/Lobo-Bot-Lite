@@ -15,7 +15,6 @@ function handler(m, {groupMetadata, command, conn, participants}) {
   const j = ps.getRandom();
 
   if (command == 'topgays') {
-    const vn = './media/gay2.mp3';
     const top = `*🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈*
     
 *_1.- ${user(a)}_*
@@ -29,9 +28,6 @@ function handler(m, {groupMetadata, command, conn, participants}) {
 *_9.- ${user(i)}_*
 *_10.- ${user(j)}_*`;
     m.reply(top, null, {mentions: [a, b, c, d, e, f, g, h, i, j]});
-    conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
-    // conn.sendFile(m.chat, vn, 'error.mp3', null, m, true, { type: 'audioMessage', ptt: true })
-  }
 
   if (command == 'topotakus') {
     const vn = './media/otaku.mp3';
