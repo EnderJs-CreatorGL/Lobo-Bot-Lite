@@ -48,10 +48,7 @@ function handler(m, {groupMetadata, command, conn, participants}) {
 *_9.- ${user(i)}_*
 *_10.- ${user(j)}_*`;
     m.reply(top, null, {mentions: [a, b, c, d, e, f, g, h, i, j]});
-    conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
-    // conn.sendFile(m.chat, vn, 'otaku.mp3', null, m, true, { type: 'audioMessage', ptt: true })
-  }
-}
+    
 handler.help = handler.command = ['topgays', 'topotakus'];
 handler.tags = ['games'];
 handler.group = true;
