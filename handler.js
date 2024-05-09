@@ -1455,7 +1455,7 @@ export async function participantsUpdate({id, participants, action}) {
               return;
             }
 
-            this.sendFile(id, apii.data, 'pp.jpg', text, null, false, {mentions: [user]});
+            this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": 'W E L C O M E', "body": `${wm}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": md}}})
           }
         }
       }
