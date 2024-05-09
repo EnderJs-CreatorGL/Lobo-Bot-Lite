@@ -36,6 +36,3 @@ handler.tags = ['fun'];
 handler.group = true;
 handler.limit = 2;
 export default handler;
-function pickRandom(list) {
-  return list[Math.floor(Math.random() * list.length)];
-}
