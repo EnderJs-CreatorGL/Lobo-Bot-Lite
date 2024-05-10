@@ -1,6 +1,6 @@
 const handler = async (m, { conn, command, text }) => {
   const bibliaporcentaje = Math.floor(Math.random() * 100);
-  const isHighbiblia = bibliapercentaje >= 50;
+  const isHighbiblia = bibliapercentage >= 50;
   const bibliaMessages = [
 "Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa"
 ,
