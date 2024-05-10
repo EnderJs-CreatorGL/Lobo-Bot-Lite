@@ -1,9 +1,9 @@
 const handler = async (m, { conn, command, text }) => {
   const bibliaporcentaje = Math.floor(Math.random() * 100);
   const isHighLove = bibliaporcentaje >= 50;
-  const bibliaMessages = ["Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa".
-     ];
-  const notSoHighbibliaMessages = [
+  const bibliaMessages = ["Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa".;
+  ];
+  const notSoHighbibliaMessages = ["Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa.";
     
   ];
   const getRandomMessage = (messages) => messages[Math.floor(Math.random() * messages.length)];
