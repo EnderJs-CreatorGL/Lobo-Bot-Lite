@@ -3,8 +3,9 @@ const handler = async (m, { conn, command, text }) => {
   const isHighbiblia = bibliaporcentaje >= 50;
   const bibliaMessages = ["Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa",
 
-  ];
+"Juan 11:25 y 26, Yo soy la resureeccion y la vida, el que cree en mi aun que este muerto vivira, y todo aquel que vive y creen en mi, No morira eternamente",
 
+  ];
   const notSoHighbibliaMessages = ["Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa",
 
 ];
