@@ -18,7 +18,7 @@ const handler = async (m, { conn, command, text }) => {
   const response =
     `━━━━━━━⬣ 𝑹𝒆𝒚𝒏𝒂 𝒗𝒂𝒍𝒆𝒓𝒂 ⬣━━━━━━━\n` +
     `𝑩𝒆𝒏𝒅𝒊𝒄𝒊𝒐𝒏𝒆𝒔, ${text}  @${m.sender.split('@')[0]} ${bibliaDescription}
-numero favorito ${bibliaPercentage}%\n\n` +
+numero favorito ${bibliaPercentage}% de 100\n\n` +
     `*❥ ✦${bibliaMessage}*\n` +
     `━━━━━━━⬣ 𝑺𝒂𝒏𝒕𝒂 𝑩𝒊𝒃𝒍𝒊𝒂 ⬣━━━━━━━`    
 
