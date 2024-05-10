@@ -1,16 +1,17 @@
 const handler = async (m, { conn, command, text }) => {
   const bibliaporcentaje = Math.floor(Math.random() * 100);
   const isHighbiblia = bibliaporcentaje >= 50;
-  const bibliaMessages = ["Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa",
+  const bibliaMessages = [
+"Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa",
 
 "Juan 11:25 y 26, Yo soy la resureeccion y la vida, el que cree en mi aun que este muerto vivira, y todo aquel que vive y creen en mi, No morira eternamente",
 
   ];
-  const notSoHighbibliaMessages = ["Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa",
+  const notSoHighbibliaMessages = [
+"Isaias 41:10, No tengas miedo por que yo estoy con tigo, No te desalientes por que yo soy tu Dios, Te dare fuerzas y te ayudare te sostendre con mi mano derecha victoriosa",
 
 ];
   const bibliaDescription = isHighLove ? "Esta es la palabra de Dios";
-
 
   const getRandomMessage = (messages) => messages[Math.floor(Math.random() * messages.length)];
   const bibliaMessage = isHighbiblia ? getRandomMessage(bibliaMessages) : getRandomMessage(notSoHighbibliaMessages);
@@ -38,7 +39,7 @@ var hawemod = [
  }
 loading()    
 };
-handler.help = ['biblia'];
-handler.tags = ['grupos'];
+handler.help = ['santabiblia'];
+handler.tags = ['santabiblia'];
 handler.command = /^(santabiblia|versiculo)$/i;
 export default handler;
