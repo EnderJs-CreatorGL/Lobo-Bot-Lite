@@ -19,20 +19,20 @@ const handler = async (m, { conn, command, text }) => {
   const getRandomMessage = (messages) => messages[Math.floor(Math.random() * messages.length)];
   const bibliaMessage = isHighbiblia ? getRandomMessage(bibliaMessages) : getRandomMessage(notSoHighbibliaMessages);
   const response =
-    `━━━━━━━⬣ 𝑹𝒆𝒚𝒏𝒂 𝒗𝒂𝒍𝒆𝒓𝒂 ⬣━━━━━━━\n` +
-    `🌹 𝑩𝒆𝒏𝒅𝒊𝒄𝒊𝒐𝒏𝒆𝒔, ${text}  @${m.sender.split('@')[0]} ${bibliaDescription}
+    `━━━━━━━⬣ 𝐑𝐞𝐲𝐧𝐚 𝐕𝐚𝐥𝐞𝐫𝐚 ⬣━━━━━━━\n` +
+    `🌹 𝐁𝐞𝐧𝐝𝐢𝐜𝐢𝐨𝐧𝐞𝐬, ${text}  @${m.sender.split('@')[0]} ${bibliaDescription}
 animo ${bibliaPercentage}% de 100%\n\n` +
     `*❥ ${bibliaMessage}*\n` +
-    `━━━━━━━⬣ 𝑺𝒂𝒏𝒕𝒂 𝑩𝒊𝒃𝒍𝒊𝒂 ⬣━━━━━━━`    
+    `━━━━━━━⬣ 𝐒𝐚𝐧𝐭𝐚 𝐁𝐢𝐛𝐥𝐢𝐚 ⬣━━━━━━━`    
 
   async function loading() {
 var hawemod = [
-" ████30%",
-" ███████50%",
+" ████40%",
+" ███████60%",
 " ██████████80%",
 " ███████████100%"
 ]
-   let { key } = await conn.sendMessage(m.chat, {text: `🌏 𝑬𝒏𝒗𝒊𝒂𝒏𝒅𝒐 𝒗𝒆𝒓𝒔𝒊𝒄𝒖𝒍𝒐`, mentions: conn.parseMention(response)}, {quoted: m})
+   let { key } = await conn.sendMessage(m.chat, {text: `🌏 𝐄𝐧𝐯𝐢𝐚𝐧𝐝𝐨 𝐄𝐥 𝐕𝐞𝐫𝐬𝐢𝐜𝐮𝐥𝐨`, mentions: conn.parseMention(response)}, {quoted: m})
  for (let i = 0; i < hawemod.length; i++) {
    await new Promise(resolve => setTimeout(resolve, 1000)); 
    await conn.sendMessage(m.chat, {text: hawemod[i], edit: key, mentions: conn.parseMention(response)}, {quoted: m}); 
