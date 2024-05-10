@@ -33,6 +33,6 @@ var hawemod = [
 loading()    
 };
 handler.help = ['biblia'];
-handler.tags = ['santa'];
+handler.tags = ['grupos'];
 handler.command = /^(santabiblia|versiculo)$/i;
 export default handler;
