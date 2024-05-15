@@ -1,33 +1,33 @@
 {
-  "name": "Lobo-Bot-Lite",
-  "version": "V2",
-  "description": "Subs. al canal de EnderJs - TEAM",
-  "main": "index.js",
-  "type": "module",
-  "directories": {
-    "lib": "lib",
-    "src": "src",
-    "plugins": "plugins"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "test": "node test.js",
-    "test2": "nodemon index.js",
-    "eslint": "eslint .",
-    "eslintfix": "eslint --fix ."
-  },
-  "homepage": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.",
-  "author": {
-    "name": "Ender"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.git"
-  },
-  "bugs": {
-    "url": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/issues"
-  
-      },
+"name": "Lobo-Bot-Lite",
+"version": "V2",
+"description": "Subs. al canal de EnderJs - TEAM",
+"main": "index.js",
+"type": "module",
+"directories": {
+"lib": "lib",
+"src": "src",
+"plugins": "plugins"
+},
+"scripts": {
+"start": "node index.js",
+"test": "node test.js",
+"test2": "nodemon index.js",
+"eslint": "eslint .",
+"eslintfix": "eslint --fix ."
+},
+"homepage":
+"https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.",
+"author": {
+"name": "Ender"
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite.git"
+},
+"bugs": {
+"url": "https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite/issues"  
+ },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.7.2",
@@ -90,7 +90,6 @@
 "syntax-error": "^1.4.0",
 "terminal-image": "^2.0.0",
 "url-regex-safe": "^3.0.0",
-"javascript-obfuscator": "^4.0.0",
 "wa-sticker-formatter": "^4.3.2",
 "yargs": "^17.3.1",
 "yt-search": "^2.10.3",
