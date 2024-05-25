@@ -8,26 +8,20 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
-global.botnumber = ""
-global.confirmCode = ""
-
 global.owner = [ 
-['50558124470', '𝐂𝐫𝐞𝐚𝐝𝐨𝐫 💖', true], 
-['51941987051'], ['51929972576'], 
-['5492613274602'], ['593939005387'],
-['595992809980']]
+['50558124470', '𝐂𝐫𝐞𝐚𝐝𝐨𝐫 💖', true]]
 
 global.suittag = ['50558124470']
-global.prems = ['50558124470']
+global.prems = []
 
 global.lenguajeLB = es //idioma de lobobot
 
-global.packname = '𝐋𝐨𝐛𝐨 𝐁𝐨𝐭 𝐋𝐢𝐭𝐞 🐈🌻';
-global.author = '𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘 🎭';
-global.wm = '𝐋𝐨𝐛𝐨-𝐁𝐨𝐭-𝐋𝐢𝐭𝐞';
-global.titulowm = '𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒';
-global.titulowm2 = `𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘`
-global.igfg = '𝐵𝑦 𝑇𝑎𝑙𝑙𝑦𝑐𝑙𝑒𝑟𝑘'  ;
+global.packname = 'Lobo Bot Lite ☄️🧃';
+global.author = 'By Ender 🎭';
+global.wm = 'Lobo-Bot-Lite';
+global.titulowm = 'Lobo Bot';
+global.titulowm2 = `By Ender`
+global.igfg = 'By Ender'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
 global.vs = 'V2';
 
@@ -56,15 +50,14 @@ global.saludo = "" + hour;
 global.gp1 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.gp2 = 'https://chat.whatsapp.com/KrN4WR14z282sQPpRPdqLu'
 global.channel2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
-global.wm2 = `▸ ${dia} ${fecha}\n▸ L̶o̶b̶o̶`;
-global.gt = '𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒🐈🌻';
-global.Lobo = 'L͎o͎b͎o͎-B͎o͎t͎-L͎i͎t͎e͎🐈🌻';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ Lobo`;
+global.gt = 'Lobo Bot';
+global.Lobo = 'Lobo Bot';
 global.md = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.Lobo = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.waitt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
 global.waittt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
 global.waitttt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
-global.numero = '573012482597';
 global.nomorown = '50576390682';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
