@@ -9,16 +9,16 @@ import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.owner = [ 
-['50558124470', '𝐂𝐫𝐞𝐚𝐝𝐨𝐫 💖', true]]
+['593979133620', '𝐂𝐫𝐞𝐚𝐝𝐨𝐫 💖', true]]
 
-global.suittag = ['50558124470']
+global.suittag = ['593979133620']
 global.prems = []
 
 global.lenguajeLB = es //idioma de lobobot
 
-global.packname = 'Lobo Bot Lite ☄️🧃';
-global.author = 'By Ender 🎭';
-global.wm = 'Lobo-Bot-Lite';
+global.packname = 'spider Bot Lite ☄️🧃';
+global.author = 'By Steven 🎭';
+global.wm = 'spider-Bot-Lite';
 global.titulowm = 'Lobo Bot';
 global.titulowm2 = `By Ender`
 global.igfg = 'By Ender'  ;
@@ -51,14 +51,14 @@ global.gp1 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.gp2 = 'https://chat.whatsapp.com/KrN4WR14z282sQPpRPdqLu'
 global.channel2 = 'https://whatsapp.com/channel/0029VaCtl9r05MUjcuMd9l2W'
 global.wm2 = `▸ ${dia} ${fecha}\n▸ Lobo`;
-global.gt = 'Lobo Bot';
-global.Lobo = 'Lobo Bot';
+global.gt = 'spider Bot';
+global.Lobo = 'spider Bot';
 global.md = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.Lobo = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite';
 global.waitt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
 global.waittt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
 global.waitttt = '[⛔] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...';
-global.nomorown = '50576390682';
+global.nomorown = '593979133620';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
