@@ -62,6 +62,71 @@ global.loadDatabase = async function loadDatabase() {
       }
     }, 1 * 1000));
   }
+
+global.conn = makeWASocket(connectionOptions)
+if (opcion === '2' || methodCode) {
+if (!conn.authState.creds.registered) {  
+if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
+
+let addNumber
+if (!!phoneNumber) {
+addNumber = phoneNumber.replace(/[^0-9]/g, '')
+if (!Object.keys(PHONENUMBER_MCC).some(v => addNumber.startsWith(v))) {
+console.log(chalk.bgBlack(chalk.bold.redBright("Configure el archivo 'config.js' porque su número de WhatsApp no comienza con el código de país, Ejemplo: +593xxxx")))
+process.exit(0)
+}} else {
+while (true) {
+addNumber = await question(chalk.bgBlack(chalk.bold.yellowBright('Escriba su número de WhatsApp.\nEjemplo: +593xxx\n')))
+addNumber = addNumber.replace(/[^0-9]/g, '')
+
+if (addNumber.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => addNumber.startsWith(v))) {
+break 
+} else {
+console.log(chalk.bgBlack(chalk.bold.redBright("Asegúrese de agregar el código de país.")))
+}}
+rl.close()
+}
+
+setTimeout(async () => {
+const codigoEmparejamiento = chalk.black.bgGreen
+const codigoBotResaltado = chalk.bold.white
+
+let codeBot = await conn.requestPairingCode(addNumber)
+codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot
+console.log(codigoEmparejamiento('Código de emparejamiento: '), codigoBotResaltado(codeBot))
+rl.close()
+}, 3000)
+}}
+
+
+conn.isInit = false
+conn.well = false
+//conn.user.connect = true;
+conn.logger.info(`✨️ L I S T O ✨️\n`)
+
+if (!opts['test']) {
+if (global.db) {
+setInterval(async () => {
+if (global.db.data) await global.db.write()
+if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', 'jadibts'], tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])))
+}, 10 * 1000)
+}}
+
+if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
+
+async function clearTmp() {
+  const tmp = [tmpdir(), join(__dirname, './tmp')]
+  const filename = []
+  tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
+
+  return filename.map(file => {
+    const stats = statSync(file)
+    if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 1)) return unlinkSync(file) // 1 minuto
+    return false
+  })
+}
+
+
   if (global.db.data !== null) return;
   global.db.READ = true;
   await global.db.read().catch(console.error);
