@@ -26,7 +26,7 @@ import { mongoDB, mongoDBV2 } from './lib/mongoDB.js'
 import store from './lib/store.js'
 import readline from 'readline'
 import NodeCache from 'node-cache'
-import boxen from 'boxen'
+//import boxen from 'boxen'
 const { DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser, PHONENUMBER_MCC } = await import('@whiskeysockets/baileys')
 const { CONNECTING } = ws
 const { chain } = lodash
@@ -146,19 +146,6 @@ if (!/^[1-2]$/.test(opcion)) {
 console.log(chalk.bold.redBright(`⚠️ NO SE PERMITE NÚMEROS QUE NO SEAN ${chalk.bold.greenBright("1")} O ${chalk.bold.greenBright("2")}, TAMPOCO LETRAS O SÍMBOLOS ESPECIALES.\n${chalk.bold.yellowBright("CONSEJO: COPIE EL NÚMERO DE LA OPCIÓN Y PÉGUELO EN LA CONSOLA.")}`))
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
-
-/*const filterStrings = [
-"Q2xvc2luZyBzdGFsZSBvcGVu", // "Closing stable open"
-"Q2xvc2luZyBvcGVuIHNlc3Npb24=", // "Closing open session"
-"RmFpbGVkIHRvIGRlY3J5cHQ=", // "Failed to decrypt"
-"U2Vzc2lvbiBlcnJvcg==", // "Session error"
-"RXJyb3I6IEJhZCBNQUM=", // "Error: Bad MAC" 
-"RGVjcnlwdGVkIG1lc3NhZ2U=" // "Decrypted message" 
-]
-
-console.info = () => {} 
-console.debug = () => {} 
-['log', 'warn', 'error'].forEach(methodName => redefineConsoleMethod(methodName, filterStrings))*/
 
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
@@ -288,14 +275,32 @@ global.conn = makeWASocket(connectionOptions, {chats: oldChats})
 isInit = true
 }
 if (!isInit) {
-conn.ev.off('messages.upsert', conn.handler)
-conn.ev.off('connection.update', conn.connectionUpdate)
-conn.ev.off('creds.update', conn.credsUpdate)
+conn.ev.off('messages.upsert', conn.handler);
+conn.ev.off('group-participants.update', conn.participantsUpdate);
+conn.ev.off('groups.update', conn.groupsUpdate);
+conn.ev.off('message.delete', conn.onDelete);
+conn.ev.off('call', conn.onCall);
+conn.ev.off('connection.update', conn.connectionUpdate);
+conn.ev.off('creds.update', conn.credsUpdate);
 }
 
-conn.handler = handler.handler.bind(global.conn)
-conn.connectionUpdate = connectionUpdate.bind(global.conn)
-conn.credsUpdate = saveCreds.bind(global.conn, true)
+conn.welcome = '*╔══════════════*\n╟☆ @subject\n*╠══════════════*\n╟☆ @user\n╟ꕥ 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮 \n╟☆ 𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀:\n╟☆ 𝗘𝘅𝗰𝗲𝗹𝗲𝗻𝘁𝗲 𝗲𝘀𝘁𝗮𝗱𝗶𝗮!!\n*╚══════════════*';
+conn.bye = '*╔══════════════*\n╟☆ @user\n╟♲︎︎︎ 𝗔𝗱𝗶𝗼𝘀 𝘆 𝗻𝗼 𝗿𝗲𝗴𝗿𝗲𝘀𝗲𝘀 \n╟☆ 𝗡𝗮𝗱𝗶𝗲 𝗹𝗼 𝗲𝘅𝘁𝗿𝗮𝗻̃𝗮𝗿𝗮 😃 \n*╚══════════════*';
+conn.spromote = '[↪️] @user 𝐏𝐞𝐫𝐟𝐞𝐜𝐭𝐨,𝐀𝐡𝐨𝐫𝐚 𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+conn.sdemote = '[↪️] @user 𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨,𝐘𝐚 𝐧𝐨 𝐞𝐫𝐞𝐬 𝐚𝐝𝐦𝐢𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+conn.sDesc = '[🔧] 𝐒𝐞 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐨 𝐥𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨*\n\n𝐍𝐮𝐞𝐯𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨́𝐧: @desc';
+conn.sSubject = '[🔧] 𝐒𝐞 𝐜𝐚𝐦𝐛𝐢𝐨 𝐞𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐧𝐨𝐦𝐛𝐫𝐞: @subject';
+conn.sIcon = '[🔧] 𝐒𝐞 𝐚 𝐜𝐚𝐦𝐛𝐢𝐚𝐝𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.';
+conn.sRevoke = '[🔗] 𝐒𝐞 𝐚 𝐫𝐞𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐢𝐝𝐨 𝐞𝐥 𝐥𝐢𝐧𝐤 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨\n𝐍𝐮𝐞𝐯𝐨 𝐥𝐢𝐧𝐤: @revoke';
+
+conn.handler = handler.handler.bind(global.conn);
+conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
+conn.groupsUpdate = handler.groupsUpdate.bind(global.conn);
+conn.onDelete = handler.deleteUpdate.bind(global.conn);
+conn.onCall = handler.callUpdate.bind(global.conn);
+conn.connectionUpdate = connectionUpdate.bind(global.conn);
+conn.credsUpdate = saveCreds.bind(global.conn, true);
+
 
 const currentDateTime = new Date()
 const messageDateTime = new Date(conn.ev)
