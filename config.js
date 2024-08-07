@@ -17,10 +17,10 @@ global.prems = []
 
 global.lenguajeLB = es //idioma de lobobot
 
-global.packname = 'Lobo Bot Lite ☄️🧃';
+global.packname = 'Lobo Bot Lite 😍';
 global.author = 'By Ender 🎭';
 global.wm = 'Lobo-Bot-Lite';
-global.titulowm = 'Lobo Bot';
+global.titulowm = 'Lobo-Bot-Lite';
 global.titulowm2 = `By Ender`
 global.igfg = 'By Ender'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
