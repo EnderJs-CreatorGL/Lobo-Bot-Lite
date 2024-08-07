@@ -3,8 +3,6 @@
 • OfcDiego (https://github.com/OfcDiego)
 */
 
-//aun no funciona correctamente.
-
 var handler = async (m, { text,  usedPrefix, command }) => {
 
 // Función para reclamar la waifu
@@ -14,9 +12,9 @@ const roll = Math.floor(Math.random() * 100) + 1
 
 // Si el roll es mayor o igual a 50, ganamos la waifu
 if (roll >= 10) {
-m.reply("😊 ¡Felicidades! Has ganado la waifu 🌟")
+m.reply("🫂 ¡Felicidades! Has ganado la waifu")
 } else {
-m.reply("⭐️ Lo siento, no has ganado la waifu. ¡Inténtalo de nuevo!")}}
+m.reply("🔍 Lo siento, no has ganado la waifu. ¡Inténtalo de nuevo!")}}
 
 // Llamamos a la función para reclamar la waifu
 reclamarWaifu()}
