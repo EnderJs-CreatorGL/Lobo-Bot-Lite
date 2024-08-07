@@ -10,7 +10,8 @@ import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.owner = [ 
 ['50558124470', '𝐂𝐫𝐞𝐚𝐝𝐨𝐫 💖', true],
-['593939005387', '𝑱𝒐𝒔𝒕𝒊𝒏', true]]
+['593939005387'],
+['573012482597']]
 
 global.suittag = ['50558124470']
 global.prems = []
