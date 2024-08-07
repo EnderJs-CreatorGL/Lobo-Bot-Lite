@@ -147,7 +147,7 @@ console.log(chalk.bold.redBright(`⚠️ NO SE PERMITE NÚMEROS QUE NO SEAN ${ch
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
 
-const filterStrings = [
+/*const filterStrings = [
 "Q2xvc2luZyBzdGFsZSBvcGVu", // "Closing stable open"
 "Q2xvc2luZyBvcGVuIHNlc3Npb24=", // "Closing open session"
 "RmFpbGVkIHRvIGRlY3J5cHQ=", // "Failed to decrypt"
@@ -158,7 +158,7 @@ const filterStrings = [
 
 console.info = () => {} 
 console.debug = () => {} 
-['log', 'warn', 'error'].forEach(methodName => redefineConsoleMethod(methodName, filterStrings))
+['log', 'warn', 'error'].forEach(methodName => redefineConsoleMethod(methodName, filterStrings))*/
 
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
