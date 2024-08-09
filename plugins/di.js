@@ -3,7 +3,7 @@
 • OfcDiego (https://github.com/OfcDiego)
 */
 
-let handler = async(m, { conn, text, usedPrefix, command }) => {
+let handler = async(m, { conn }) => {
 
 let user = conn.getName(who)
 
