@@ -31,6 +31,7 @@ function handler(m, {groupMetadata, command, conn, text, usedPrefix}) {
 *10. ${user(j)}*`;
   m.reply(top, null, {mentions: [a, b, c, d, e, f, g, h, i, j]});
   
+};
 handler.help = ['top'];
 handler.command = ['top'];
 handler.tags = ['fun'];
