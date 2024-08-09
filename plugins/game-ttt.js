@@ -1,11 +1,11 @@
 import TicTacToe from '../lib/tictactoe.js';
 const handler = async (m, {conn, usedPrefix, command, text}) => {
   conn.game = conn.game ? conn.game : {};
-  if (Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw '*[❗] 𝙰𝚄𝙽 𝙴𝚂𝚃𝙰𝚂 𝙴𝙽 𝚄𝙽 𝙹𝚄𝙴𝙶𝙾 𝙲𝙾𝙽 𝙰𝙻𝙶𝚄𝙸𝙴𝙽*';
-  if (!text) throw `*[❗] 𝚂𝙴 𝚁𝙴𝚀𝚄𝙸𝙴𝚁𝙴 𝙿𝙾𝙽𝙴𝚁 𝚄𝙽 𝙽𝙾𝙼𝙱𝚁𝙴 𝙰 𝙻𝙰 𝚂𝙰𝙻𝙰 𝙳𝙴 𝙹𝚄𝙴𝙶𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾*\n*◉ ${usedPrefix + command} nueva sala*`;
+  if (Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw '[🌹] 𝙰𝚄𝙽 𝙴𝚂𝚃𝙰𝚂 𝙴𝙽 𝚄𝙽 𝙹𝚄𝙴𝙶𝙾 𝙲𝙾𝙽 𝙰𝙻𝙶𝚄𝙸𝙴𝙽';
+  if (!text) throw `[🌹] 𝚂𝙴 𝚁𝙴𝚀𝚄𝙸𝙴𝚁𝙴 𝙿𝙾𝙽𝙴𝚁 𝚄𝙽 𝙽𝙾𝙼𝙱𝚁𝙴 𝙰 𝙻𝙰 𝚂𝙰𝙻𝙰 𝙳𝙴 𝙹𝚄𝙴𝙶𝙾\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾\n*◉ ${usedPrefix + command} nueva sala*`;
   let room = Object.values(conn.game).find((room) => room.state === 'WAITING' && (text ? room.name === text : true));
   if (room) {
-    await m.reply('*[🕹️] 𝙸𝙽𝙸𝙲𝙸𝙰 𝙴𝙻 𝙹𝚄𝙴𝙶𝙾, 𝚄𝙽 𝙹𝚄𝙶𝙰𝙳𝙾𝚁 𝚂𝙴 𝚄𝙽𝙸𝙾 𝙰 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰*');
+    await m.reply('[👑]*Juego iniciado*');
     room.o = m.chat;
     room.game.playerO = m.sender;
     room.state = 'PLAYING';
