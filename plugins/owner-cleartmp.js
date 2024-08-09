@@ -15,7 +15,7 @@ import {
 
 const handler = async (m, {conn, usedPrefix: _p, __dirname, args}) => {
 
-  conn.reply(m.chat, tradutor.texto1, m);
+  conn.reply(m.chat, 'Exito Todo eliminado', m);
 
   const tmp = [tmpdir(), join(__dirname, '../tmp')];
   const filename = [];
