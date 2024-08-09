@@ -14,7 +14,6 @@ import {
 
 
 const handler = async (m, {conn, usedPrefix: _p, __dirname, args}) => {
-  const tradutor = _translate.plugins.owner_cleartmp
 
   conn.reply(m.chat, tradutor.texto1, m);
 
