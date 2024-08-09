@@ -37,5 +37,5 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
 };
 handler.help = ['verificar'];
 handler.tags = ['xp'];
-handler.command = /^(verify|register|verificar|reg|registrar)$/i;
+handler.command = /^(user|nuevo|verificar|reg|registrar)$/i;
 export default handler;
