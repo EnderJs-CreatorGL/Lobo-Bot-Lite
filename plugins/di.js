@@ -9,7 +9,7 @@ let user = conn.getName(who)
 
 //const img = './media/amorverdadero.js'
 
-let amor = `*${user} Busca Una Pareja Que L@ Mantenga 💞*`
+let amor = `*${user} Busca Una Pareja Que Lo/a Mantenga 💞*`
 
 conn.reply(m.chat, amor, m, fake, )
 
