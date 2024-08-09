@@ -1,3 +1,4 @@
+
 import {tmpdir} from 'os';
 import path, {join} from 'path';
 import {
@@ -8,7 +9,7 @@ import {
   readFileSync,
   watch,
 } from 'fs';
-const handler = async (m, {conn, usedPrefix: _p, __dirname, args}) => {
+let handler = async (m, {conn, usedPrefix: _p, __dirname, args}) => {
   conn.reply(m.chat, '[ ✔ ] 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙲𝙰𝚁𝙿𝙴𝚃𝙰 𝚃𝙼𝙿 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾!!', m);
 
   const tmp = [tmpdir(), join(__dirname, '../tmp')];
