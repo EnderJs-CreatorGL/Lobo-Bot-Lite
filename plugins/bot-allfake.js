@@ -40,8 +40,6 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 global.nombre = conn.getName(m.sender)
 global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 
-global.rcanal = fake
-
 global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363193060502597@newsletter', newsletterName: "Lobo Bot, By: Ender", serverMessageId: -1 }
 }}, { quoted: m }
 }
