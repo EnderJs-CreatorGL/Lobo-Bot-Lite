@@ -1,4 +1,4 @@
-//By:AzamiJs, GataNina-Li
+
 
 /*import fs from 'fs'
 import { parsePhoneNumber } from 'libphonenumber-js'
