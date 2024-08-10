@@ -1,44 +1,24 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let txt = `*\`💫 Te presentamos un nuevo hosting: "Infinity-Wa Host"\`*
+let txt = `🚩 *O L Y M P U S - H O S T* 
 
-*¿Muy lento tu nokia y necesitas tener activo tu bot 24/7?*
-
-> *Te tenemos la mejor opción para mantener activo tu bot 24/7, a precios muy accesibles. Es muy barato y todos pueden comprar.*
-
-*🚩Precios :*
-* 1GB, 100 CPU = 1Dolar
-* 2GB, 120 CPU = 2Dolar
-* 3GB, 140 CPU = 3Dolar
-* 4GB, 175 CPU = 4Dolar
-* 5GB, 200 CPU = 5 Dólar. 
+*¿Quieres un Host de calidad y con bajos precios?*
+Pues te presento a *OlympusHost*, un hosting de calidad con servidores dedicados y precios por debajo de 1USD, estos servidores están destinados a ofrecerte un Uptime 24/7 para que puedas alojar tus proyectos y qué estos funcionen de manera eficaz.
 
 🟢 \`\`\`Información del Host\`\`\`
 
-💻 *Página:*
-https://live.panel-infinitywa.store
+🔮 *Dashboard:* 
+• https://kingsvhost.asifofc.xyz
 
-*🟢 Dashboard:*
-https://dashboard.infinitywa.xyz
+🧃 *Panel:*
+• https://host.asifofc.xyz
 
-*⚙️ Bot de Support: exclusivo para host*
-https://wa.me/message/FETBF7YBO37CG1
+💥 *Canal:*
+• https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J
 
-🧡 *Canal de WhatsApp:*
-https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A
+⚜️ *Contacto (Mateo)*
+https://wa.me/593979133620
 
-💚 *Grupo:*
-https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
-
-🛍️ *Método de pago:*
-*• PayPal :* paypal.me/OfcGB
-*• Mercado pago, alías:* OficialGB
-*• Naranja x, alías:* OficialGL
-*• Yape (Perú) :* +51948705559
-
-*\`💙 Contactanos para más información o alquidir los servicios:\`*
-• https://www.facebook.com/elrebelde21
-• wa.me/527294888993
-• wa.me/5492964650915`
+> *Únete a está comunidad y disfruta de un servicio de calidad :D*` 
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardingScore: 9999999,
@@ -46,14 +26,14 @@ isForwarded: false,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
+title: `🔮 O L Y M P U S 🔮`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
-sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
+thumbnailUrl: 'https://qu.ax/waCu.jpg', 
+sourceUrl: 'https://kingsvhost.asifofc.xyz'}}},
 { quoted: m})
 }
-handler.tags =['info'] 
-handler.help = ['infinity', 'host', 'hosting'] 
-handler.command = /^(infinity|infinityWa|host|hosting)$/i
+handler.tags =['main'] 
+handler.help = ['olympus', 'host', 'hosting'] 
+handler.command = ['host', 'olympus', 'olympushost', 'hosting']
 export default handler
