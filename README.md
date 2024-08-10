@@ -109,6 +109,17 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
+### 🔵 OLYMPUS-HOST 
+<a href="https://kingsvhost.asifofc.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
+### Información del Host
+
+- **Dashboard:** [`Aquí`](https://kingsvhost.asifofc.xyz)
+- **Panel:** [`Aquí`](https://host.asifofc.xyz)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
+- **Correo:** [`Aquí`](olympussupport@gmail.com.com)
+
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - Lobo-Bot**</summary><img src="https://telegra.ph/file/02c956e7e58c7535af88c.jpg"></details>
+
  <a href="https://github.com/EnderJs-CreatorGL/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=  Dudas+sobre+𝐿𝑜𝑏𝑜-𝐵𝑜𝑡-𝐿𝑖𝑡𝑒+🐈🌻+" height="40px"></a> 
 </p>
 
