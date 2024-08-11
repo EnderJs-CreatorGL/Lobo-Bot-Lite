@@ -1,10 +1,8 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
-import cheerio from 'cheerio';
 async function wikipedia(querry) {
   try {
     const link = await axios.get(`https://es.wikipedia.org/wiki/${querry}`);
-    const $ = cheerio.load(link.data);
     const judul = $('#firstHeading').text().trim();
     const thumb = $('#mw-content-text').find('div.mw-parser-output > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > a > img').attr('src') || `//i.ibb.co/nzqPBpC/http-error-404-not-found.png`;
     const isi = [];
