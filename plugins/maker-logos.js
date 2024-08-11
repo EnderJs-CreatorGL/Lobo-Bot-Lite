@@ -822,7 +822,6 @@ async function maker(url, text) {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188"
          }
       })
-      let $ = cheerio.load(a.data)
       let server = $('#build_server').val()
       let serverId = $('#build_server_id').val()
       let token = $('#token').val()
