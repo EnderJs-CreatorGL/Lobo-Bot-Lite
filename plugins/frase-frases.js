@@ -47,7 +47,6 @@ async function cerpen(category) {
           });
           const random = link[Math.floor(Math.random() * link.length)];
           axios.get(random).then((res) => {
-            const $$ = cheerio.load(res.data);
             const hasil = {
               title: $$('#content > article > h1').text(),
               author: $$('#content > article').text().split('Cerpen Karangan: ')[1].split('Kategori: ')[0],
