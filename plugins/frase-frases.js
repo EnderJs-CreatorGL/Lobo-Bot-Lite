@@ -41,7 +41,6 @@ async function cerpen(category) {
     const page = Math.floor(Math.random() * 5);
     axios.get('http://cerpenmu.com/category/cerpen-'+judul+'/page/'+page)
         .then((get) => {
-          const $ = cheerio.load(get.data);
           const link = [];
           $('article.post').each(function(a, b) {
             link.push($(b).find('a').attr('href'));
