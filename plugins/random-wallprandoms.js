@@ -1,5 +1,4 @@
 import axios from 'axios';
-import cheerio from 'cheerio';
 const handler = async (m, {command, conn}) => {
   const apikey = global.keysxxx;
   const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
