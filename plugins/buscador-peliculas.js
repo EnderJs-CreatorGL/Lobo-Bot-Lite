@@ -65,7 +65,6 @@ async function searchP(query, numberPage = 1) {
 
 /* import fetch from 'node-fetch'
 import axios from 'axios'
-import { load } from 'cheerio'
 
 const handler = async (m, { text, usedPrefix, command, conn }) => {
   if (!text) throw '*[❗] Falta el nombre de la película o serie*'
