@@ -23,7 +23,7 @@ global.wm = '🍭 LoboBot By • Ender'
 global.vs = '1.0.3'
 
 //imagen
-global.imagen1 = ''
+global.imagen1 = 'https://telegra.ph/file/b779934250bddcd1cf47a.jpg'
 
 //enlaces
 global.md = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite'
