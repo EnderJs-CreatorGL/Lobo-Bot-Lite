@@ -9,8 +9,8 @@ let media = './Menu2.jpg'
 !allmenu
 _(Para ver el menú completo)_`
 
-await conn.sendFile(m.chat, media, 'Curiosity.jpg', menu, fkontak )} 
- handler.tags = ['main'] 
- handler.command = /^menu$/i 
- handler.exp = 35 
+await conn.sendFile(m.chat, media, 'lobo.jpg', menu, fkontak )} 
+ handler.tags = ['main']
+ handler.command = ['menu']
+ //handler.exp = 35 
  export default handler
