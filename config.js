@@ -27,6 +27,10 @@ global.imagen1 = ''
 
 //enlaces
 global.md = 'https://github.com/EnderJs-CreatorGL/Lobo-Bot-Lite'
+global.grupohost = 'https://chat.whatsapp.com/Jt0Z1ERzXCV5srN7XH7Qws'
+global.channel = 'https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J'
+global.dash = 'https://dash.olympus-host.xyz'
+global.panel = 'https://panel.olympus-host.xyz'
 
 //globales
 global.cheerio = cheerio
