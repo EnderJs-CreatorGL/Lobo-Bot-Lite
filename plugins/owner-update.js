@@ -11,7 +11,7 @@ let messager = stdout.toString()
 if (messager.includes('☘️ Ya estoy actualizado.')) messager = '☘️ Ya estoy actualizado a la última versión.'
 
 if (messager.includes('💫 Actualizando.')) messager = '✨️ Procesando, espere un momento mientras me actualizo.\n\n' + stdout.toString()
-conn.reply(m.chat, messager, m, rcanal,)
+conn.reply(m.chat, messager, m,)
 
 } catch { 
 try {
@@ -26,7 +26,7 @@ return null
 return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
 if (conflictedFiles.length > 0) {
 const errorMessage = `🔰 Null editaron desde el servidor, ahora no se puede actualizar el bot.`
-await conn.reply(m.chat, errorMessage, m, rcanal,)
+await conn.reply(m.chat, errorMessage, m,)
 }
 }
 } catch (error) {
@@ -35,7 +35,7 @@ let errorMessage2 = '⚠️ Ocurrió un error inesperado.'
 if (error.message) {
 errorMessage2 += '\n⚠️ Mensaje de error: ' + error.message;
 }
-await conn.reply(m.chat, errorMessage2, m, rcanal,)
+await conn.reply(m.chat, errorMessage2, m,)
 }
 }
 
