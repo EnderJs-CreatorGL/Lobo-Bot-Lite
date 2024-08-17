@@ -24,7 +24,7 @@ global.titulowm = 'Lobo-Bot-Lite';
 global.titulowm2 = `By Ender`
 global.igfg = 'By Ender'  ;
 global.wait = '[🔮] ᴇᴊᴇᴄᴜᴛᴀɴᴅᴏ ᴇsᴘᴇʀᴇ ...';
-global.vs = 'V2';
+global.vs = '1.0.0';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
