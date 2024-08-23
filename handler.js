@@ -141,8 +141,10 @@ export async function handler(chatUpdate) {
             }, time)
         }
 
-        if (m.isBaileys)
-            return
+                //if (m.isBaileys) return 
+        if (m.isBaileys || isBaileysFail && m?.sender === this?.this?.user?.jid) {
+        return
+        }
         m.exp += Math.ceil(Math.random() * 10)
 
         let usedPrefix
@@ -350,7 +352,7 @@ global.db.data.users[m.sender].spam = new Date * 1
                     if (e) {
                         let text = format(e)
                         for (let key of Object.values(global.APIKeys))
-                            text = text.replace(new RegExp(key, 'g'), '#HIDDEN#')
+                            text = text.replace(new RegExp(key, 'g'), 'Administrador')
                         m.reply(text)
                     }
                 } finally {
@@ -435,7 +437,7 @@ let chat = global.db.data.chats[msg?.chat] || {}
 if (!chat?.delete) return 
 if (!msg) return 
 if (!msg?.isGroup) return 
-const antideleteMessage = `🔰 Mensake Eliminado....`.trim();
+const antideleteMessage = `🔰 Mensaje Eliminado....`.trim();
 await this.sendMessage(msg.chat, {text: antideleteMessage, mentions: [participant]}, {quoted: msg})
 this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
 } catch (e) {
