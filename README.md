@@ -46,4 +46,4 @@ href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" widt
 
 ### 💠 CREADOR
 <a
-href="https://github.com/EnderJs-CreatorGL"><img src="https://github.com/EnderJs-CreatorGL.png" width="130" height="130" alt="EnderJs"/></a>
+href="https://github.com/EnderJs-CreatorGL"><img src="https://github.com/EnderJs-CreatorGL.png" width="250" height="250" alt="EnderJs"/></a>
