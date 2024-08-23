@@ -2,7 +2,7 @@
 
 ![lobo](https://telegra.ph/file/b779934250bddcd1cf47a.jpg)
 
-## 🐺 `Instalación manual por termux`
+## 🐺 Instalación manual por termux
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
@@ -22,7 +22,7 @@ yarn install && npm install
 npm start
 ```
 
-## 🐺 `Eliminar la carpeta LoboSession`
+## 🐺 Eliminar la carpeta LoboSession
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
@@ -32,7 +32,7 @@ npm start
 > npm start
 ```
 
-### 🐺 `Si se desactiva el bot en termux vuelve activar con`
+### 🐺 Si se desactiva el bot en termux vuelve activar con
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
