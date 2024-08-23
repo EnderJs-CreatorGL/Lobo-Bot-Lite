@@ -39,9 +39,9 @@ npm start
 
 ### 💠 COLABORADORES
 <a
-href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego" width="130" height="130" alt="Diego"/></a> <a
-href="https://github.com/Jostin207"><img src="https://github.com/Jostin207" width="130" height="130" alt="Jostin"/></a>
+href="https://github.com/Dev-Diego"><img src="https://github.com/Dev-Diego.png" width="130" height="130" alt="Diego"/></a> <a
+href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="130" height="130" alt="Jostin"/></a>
 
 ### 💠 CREADOR
 <a
-href="https://github.com/EnderJs-CreatorGL"><img src="https://github.com/EnderJs-CreatorGL" width="130" height="130" alt="EnderJs"/></a>
+href="https://github.com/EnderJs-CreatorGL"><img src="https://github.com/EnderJs-CreatorGL.png" width="130" height="130" alt="EnderJs"/></a>
