@@ -17,7 +17,6 @@ global.mods = []
 global.prems = []
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
 global.isBaileysFail = true
-global.BaileysNull = '6.7.7'
 
 //etiquetas name
 global.packname = '🔰 Lobo Bot - Lite 🔰'
