@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
+/*let handler = async (m, { conn, command, usedPrefix }) => {
 let txt = `🚩 *O L Y M P U S - H O S T* 
 
 *¿Quieres un Host de calidad y con bajos precios?*
@@ -39,4 +39,4 @@ sourceUrl: 'https://dash.olympus-host.xyz'}}},
 handler.tags = ['main'] 
 handler.help = ['host', 'hosting'] 
 handler.command = ['host', 'olympus', 'olympushost', 'hosting']
-export default handler
+export default handler*/
