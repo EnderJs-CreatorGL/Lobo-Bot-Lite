@@ -23,7 +23,7 @@ global.packname = '🔰 Lobo Bot - Lite 🔰'
 global.author = 'EnderJs 🐢'
 global.wm = '🍭 LoboBot By • Ender'
 global.vs = '1.0.3'
-global.nameqr = 'Yaemori Bot - MD'
+global.nameqr = 'Lobo Bot - MD'
 global.sessions = 'LoboSession'
 global.jadi = 'LoboJadiBot'
 
