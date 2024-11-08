@@ -29,6 +29,23 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 await conn.sendMini(m.chat, wm, author, reg, imagen1, imagen1, channel, m)
 await m.react('🔥')
 m.reply(`${sn}`)
+let chtxt = `
+👤 *Usuario* » ${m.pushName || 'Anónimo'}
+🌎 *Pais* » ${global.userNationality}
+🗃 *Verificación* » ${user.name}
+🌺 *Edad* » ${user.age}
+📆 *Fecha* » ${moment.tz('America/Bogota').format('DD/MM/YY')}
+`.trim()
+await conn.sendMessage("120363310433406751@newsletter", { text: chtxt, contextInfo: {
+externalAdReply: {
+title: "¡USUARIO NUEVO! 🥳",
+body: '👋 ¡User nuevo!',
+thumbnailUrl: inagen1,
+sourceUrl: `dash.skyultraplus.com`,
+mediaType: 1,
+showAdAttribution: false,
+renderLargerThumbnail: false
+}}}, { quoted: null })
 }
 handler.help = ['reg'].map(v => v + ' *<nombre.edad>*')
 handler.tags = ['rg']
