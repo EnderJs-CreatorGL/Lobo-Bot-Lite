@@ -12,7 +12,7 @@
 
 
 
-## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif"#### 🐺 Instalación manual por termux
+## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="😊 WhatsappBot" width="42" height="42"> Whatsappbot#### 🐺 Instalación manual por termux
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
