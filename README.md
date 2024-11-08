@@ -1,5 +1,9 @@
 # `Lobo Bot Lite` 🐺
 
+<p align="center"> 
+<a href="https://github.com/EnderJS-CreatorGL"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A1F733&width=435&lines=Whatsapp+Bot;Lobo-Bot-Lite.+%E2%9A%A1" height="90px"></a> 
+</p>
+
 ![lobo](https://telegra.ph/file/b779934250bddcd1cf47a.jpg)
 
 <a href="https://github.com/EnderJS-CreatorGL/Lobo-Bot-Lite"><img title="Stars" src="https://img.shields.io/github/stars/EnderJS-CreatorGL/Lobo-Bot-Lite?color=ff4500&style=flat-square" /></a>
