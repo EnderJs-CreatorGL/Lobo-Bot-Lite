@@ -1,4 +1,4 @@
-import cheerio from "cheerio"
+import * as cheerio from 'cheerio';
 import axios from "axios"
 import util from 'util'
 let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
