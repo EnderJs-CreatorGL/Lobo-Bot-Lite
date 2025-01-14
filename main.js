@@ -200,7 +200,7 @@ numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if(numeroTelefono.match(/^\\d+$/) && PHONENUMBER_MCC && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break;
-} else {
+}}else {
 console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479.\n")))
 }}
 rl.close()  
