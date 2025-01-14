@@ -16,8 +16,7 @@ global.isBaileysFail = false
 global.defaultLenguaje = 'es';
 
 global.owner = [
-  ['5219992095479', 'Lobo - Creador',true
-];
+  ['50558124470']]
 
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
