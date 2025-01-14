@@ -16,7 +16,7 @@ global.isBaileysFail = false
 global.defaultLenguaje = 'es';
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador'tre
+  ['5219992095479', '👑 Mystic - Creador'true
 ];
 
 global.suittag = ['5219993404349'];
