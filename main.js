@@ -194,10 +194,6 @@ if (!!phoneNumber) {
     console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Comience con el código de país de su número de WhatsApp, ejemplo: +59178862672
 ")));
     process.exit(0);
-  } else {
-    console.log(chalk.bgGreenBright("✅ Número de WhatsApp válido. Procesando..."));
-    // Aquí puedes agregar la lógica que necesites, como guardar el número en la base de datos
-  }
 } else {
   while (true) {
     numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🟢 Ingresa el número que será bot
