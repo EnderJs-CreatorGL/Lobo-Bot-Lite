@@ -2,7 +2,7 @@
 
 import fetch from 'node-fetch';
 import axios from 'axios';
-import {load} from 'cheerio';
+import *as cheerio from 'cheerio';
 const handler = async (m, {text, usedPrefix, command, conn}) => {
   if (!text) throw '[❗]𝐈𝐧𝐠𝐫𝐞𝐬𝐞 𝐥𝐚 𝐩𝐞𝐥𝐢 𝐚 𝐛𝐮𝐬𝐜𝐚𝐫';
   let aaaa;
