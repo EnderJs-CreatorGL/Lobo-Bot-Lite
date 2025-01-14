@@ -2,7 +2,7 @@ import {sticker, addExif} from '../lib/sticker.js';
 import {Sticker} from 'wa-sticker-formatter';
 import fetch from 'node-fetch';
 import got from 'got';
-import cheerio from 'cheerio';
+import *as cheerio from 'cheerio';
 const handler = async (m, {usedPrefix, conn, args, text, command}) => {
   let [tipe, emoji] = text.includes('|') ? text.split('|') : args;
   const defaultType = 'apple';
