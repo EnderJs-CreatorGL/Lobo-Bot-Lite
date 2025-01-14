@@ -187,21 +187,36 @@ opcion = '2'
 if (!conn.authState.creds.registered) {  
 if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
 
-let numeroTelefono
+let numeroTelefono;
 if (!!phoneNumber) {
-numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
-if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Comience con el código de país de su número de WhatsApp, ejemplo: +59178862672\n")))
-process.exit(0)
-}} else {
-while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🟢 Ingresa el número que sera bot\nPor ejemplo: +59178862672\n')))
-numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
+  numeroTelefono = phoneNumber.replace(/[^0-9]/g, '');
+  if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+    console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Comience con el código de país de su número de WhatsApp, ejemplo: +59178862672
+")));
+    process.exit(0);
+  } else {
+    console.log(chalk.bgGreenBright("✅ Número de WhatsApp válido. Procesando..."));
+    // Aquí puedes agregar la lógica que necesites, como guardar el número en la base de datos
+  }
+} else {
+  while (true) {
+    numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🟢 Ingresa el número que será bot
+Por ejemplo: +59178862672
+')));
+    numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '');
 
-{
-console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479.\n")))
-}}
-rl.close()  
+    if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+      console.log(chalk.bgGreenBright("✅ Número de WhatsApp válido. Procesando..."));
+      // Aquí puedes agregar la lógica que necesites, como guardar el número en la base de datos
+      break; // Salimos del bucle si el número es válido
+    } else {
+      console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.
+Ejemplo: +5219992095479.
+")));
+    }
+  }
+}
+rl.close();
 } 
 
         setTimeout(async () => {
