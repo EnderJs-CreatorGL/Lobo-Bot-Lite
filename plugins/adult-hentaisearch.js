@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import *as cheerio from 'cheerio';
 import axios from 'axios';
 const handler = async (m, {conn, text, __dirname, usedPrefix, command}) => {
   if (!global.db.data.chats[m.chat].modohorny && m.isGroup) throw '[❗] 𝐄𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 +18 𝐞𝐬𝐭𝐚 𝐩𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨, 𝐚𝐜𝐭𝐢𝐯𝐚𝐫𝐥𝐨 𝐮𝐬𝐚𝐧𝐝𝐨 #enable modohorny';
