@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import cheerio from 'cheerio';
+import *as cheerio from 'cheerio';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
   if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '[❗] 𝐄𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐚𝐫𝐚 +18 𝐞𝐬𝐭𝐚𝐧 𝐩𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨𝐬, 𝐚𝐜𝐭𝐢𝐯𝐚𝐥𝐨 𝐮𝐬𝐚𝐧𝐝𝐨 #enable modohorny';
   if (!args[0]) throw `[❗] 𝐈𝐧𝐠𝐫𝐞𝐬𝐚 𝐮𝐧 𝐞𝐧𝐥𝐚𝐜𝐞 𝐯𝐚𝐥𝐢𝐝𝐨 𝐝𝐞 𝐗𝐍𝐗𝐗: ${usedPrefix + command} https://www.xnxx.com/video-14lcwbe8/rubia_novia_follada_en_cuarto_de_bano*`;
