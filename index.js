@@ -73,14 +73,36 @@ p.emit('message', line.trim())
 })
 }
 
-  const opcion = await question(chalk.yellowBright.bold('—◉ㅤSeleccione una opción (solo el numero):\n') + chalk.white.bold('1. Con código QR\n2. Con código de texto de 8 dígitos\n—> '));
+import { createInterface } from 'readline';
+import chalk from 'chalk';
+
+const rl = createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+async function main() {
+  const opcion = await new Promise((resolve) => {
+    rl.question(chalk.yellowBright.bold('—◉ㅤSeleccione una opción (solo el numero):
+') + chalk.white.bold('1. Con código QR
+2. Con código de texto de 8 dígitos
+—> '), resolve);
+  });
 
   let numeroTelefono = '';
   if (opcion === '2') {
-    const phoneNumber = await question(chalk.yellowBright.bold('\n—◉ㅤEscriba su número de WhatsApp:\n') + chalk.white.bold('◉ㅤEjemplo: +5219992095479\n—> '));
+    const phoneNumber = await new Promise((resolve) => {
+      rl.question(chalk.yellowBright.bold('
+—◉ㅤEscriba su número de WhatsApp:
+') + chalk.white.bold('◉ㅤEjemplo: +5219992095479
+—> '), resolve);
+    });
     numeroTelefono = formatearNumeroTelefono(phoneNumber);
     if (!esNumeroValido(numeroTelefono)) {
-      console.log(chalk.bgRed(chalk.white.bold('[ ERROR ] Número inválido. Asegúrese de haber escrito su numero en formato internacional y haber comenzado con el código de país.\n—◉ㅤEjemplo:\n◉ +5219992095479\n')));
+      console.log(chalk.bgRed(chalk.white.bold('[ ERROR ] Número inválido. Asegúrese de haber escrito su numero en formato internacional y haber comenzado con el código de país.
+—◉ㅤEjemplo:
+◉ +5219992095479
+')));
       process.exit(0);
     }
     process.argv.push(numeroTelefono);
@@ -133,4 +155,7 @@ p.emit('message', line.trim())
     }
   }
 
-start('main.js');
+  rl.close(); // Cierra la interfaz al final
+}
+
+main(); // Llama a la función principal
