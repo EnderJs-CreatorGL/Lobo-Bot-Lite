@@ -199,8 +199,7 @@ numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🟢 Ingr
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if(numeroTelefono.match(/^\\d+$/) && PHONENUMBER_MCC && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-  console.log(chalk.bgGreenBright(\"✅ Número de WhatsApp válido. Procesando...\"));
-  // Lógica adicional aquí
+break;
 } else {
 console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479.\n")))
 }}
