@@ -77,6 +77,8 @@ async function main() {
 —> '), resolve);
   });
 
+  console.log(`Opción seleccionada: ${opcion}`); // Log de la opción seleccionada
+
   let numeroTelefono = '';
   if (opcion === '2') {
     const phoneNumber = await new Promise((resolve) => {
@@ -85,6 +87,7 @@ async function main() {
 ') + chalk.white.bold('◉ㅤEjemplo: +5219992095479\
 —> '), resolve);
     });
+    console.log(`Número de WhatsApp ingresado: ${phoneNumber}`); // Log del número ingresado
     numeroTelefono = formatearNumeroTelefono(phoneNumber);
     if (!esNumeroValido(numeroTelefono)) {
       console.log(chalk.bgRed(chalk.white.bold('[ ERROR ] Número inválido. Asegúrese de haber escrito su numero en formato internacional y haber comenzado con el código de país.\
@@ -101,6 +104,8 @@ async function main() {
   } else if (opcion === '2') {
     process.argv.push('code');
   }
+
+  console.log(`Argumentos para el proceso: ${JSON.stringify(process.argv)}`); // Log de los argumentos que se pasarán
 
   start('main.js');
 }
