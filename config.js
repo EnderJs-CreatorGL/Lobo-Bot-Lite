@@ -38,11 +38,13 @@ global.imagen3 = fs.createReadStream('./src/assets/images/menu/languages/fr/menu
 global.imagen4 = fs.createReadStream('./src/assets/images/menu/languages/en/menu.png');
 global.imagen5 = fs.createReadStream('./src/assets/images/menu/languages/ru/menu.png');*/
 
-global.imagen1 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
-global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png');
-global.imagen3 = fs.readFileSync('./src/assets/images/menu/languages/fr/menu.png')
-global.imagen4 = fs.readFileSync('./src/assets/images/menu/languages/en/menu.png')
-global.imagen5 = fs.readFileSync('./src/assets/images/menu/languages/ru/menu.png')
+global.imagen1 = fs.readFileSync('./Menu2.jpg');
+global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
+global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
+global.imagen4 = fs.readFileSync('./Menu.png');
+global.imagen5 = fs.readFileSync('./src/+18.jpg');
+global.imagen6= fs.readFileSync('./Menu3.png');
+global.imagen7= fs.readFileSync('./src/hjbot.jpg');
 
 global.mods = [];
 
