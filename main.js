@@ -200,13 +200,9 @@ numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if(numeroTelefono.match(/^\\d+$/) && PHONENUMBER_MCC && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break;
-} else {
-console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.\nEjemplo: +5219992095479.\n")))
-}}
-rl.close()  
-} 
+}
 
-        setTimeout(async () => {
+       setTimeout(async () => {
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
             //console.log(chalk.yellow('😄 Introduce el código de emparejamiento en WhatsApp.'));
