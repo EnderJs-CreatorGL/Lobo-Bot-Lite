@@ -59,7 +59,7 @@ const readMore = more.repeat(4001);
 
 const randomID = (length) => randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length);
 
-/* import fs from 'fs'
+import fs from 'fs'
 let handler = async (m, { conn, text } ) => {
 let chatsall = Object.entries(conn.chats).filter(([_, chat]) => chat.isChats).map(v => v[0])
 let cc = text ? m : m.quoted ? await m.getQuotedObj() : false || m
